@@ -59,7 +59,7 @@ To be able to gain keycard access to these workspaces and to be able to enter wi
 
 
 ## Additional Helpful Links / Quick Access
-[Stanford SSI Wiki: Satellites](https://ssi-wiki.stanford.edu/Category:Satellites)
- - SSI's official wiki page (notice: sometimes outdated, but there is some pretty useful information about the team and important definitions if you'd like to check it out.)
-
-[SSI Slack Signup](https://ssi-teams.slack.com/signup)
+* [Stanford SSI Wiki: Satellites](https://ssi-wiki.stanford.edu/Category:Satellites)
+    * SSI's official wiki page (notice: sometimes outdated, but there is some pretty useful information about the team and important definitions if you'd like to check it out.)\
+* [SSI Slack Signup](https://ssi-teams.slack.com/signup)
+* [ES3 Access Guide](https://sites.google.com/stanford.edu/ssi/end-station-iii/keycard-access-for-es3)
