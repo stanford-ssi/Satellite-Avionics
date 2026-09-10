@@ -1,0 +1,2 @@
+# Kicad Libraries
+This folder is where you will find the actual files you must include in your KiCad projects in order to easily integrate ICs and other components into your designs without having to endlessly search for a pre-existing footprint. We develop the schematic, footprint, and routing for each of these components ourselves in order to keep standardization across all our work. 
