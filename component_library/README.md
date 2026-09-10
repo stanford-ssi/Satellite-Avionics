@@ -1,7 +1,5 @@
 # Component Library
 
-**Note: THIS IS ONLY OUR COMPONENT LIBRARY, NOT A SELECTION GUIDE, IF YOU NEED HELP DECIDING WHAT COMPONENTS TO SELECT, PLEASE SEE THE OFFICIAL AV [COMPONENT SELECTION](https://gitlab.com/ssi-satellite-avionics/design-guide-and-team-standards/-/tree/main/Design_Standards/Component_Selection?ref_type=heads) GUIDE.**
-
 This repository is your one-stop-shop for all your component library needs. This repository is separated into two distinct foloder:
 
 ### [Datasheets and Docs](./datasheets-and-docs)
