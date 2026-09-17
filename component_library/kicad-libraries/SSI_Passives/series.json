@@ -1,0 +1,166 @@
+{
+  "db_file": "SSI_Passives.sqlite",
+  "dbl_file": "SSI_Passives.kicad_dbl",
+  "dbl_name": "SSI Passives",
+  "footprint_lib": "SSI_Passives",
+
+  "sublibraries": {
+    "r_basic":    {"name": "R Basic - no fee",              "kind": "R", "description": "Pre-Flight resistors that are JLCPCB Basic or Preferred parts: no loading fee."},
+    "r_extended": {"name": "R Extended - 3 USD fee",        "kind": "R", "description": "Pre-Flight resistors that are JLCPCB Extended parts: 3 USD loading fee per distinct part per order."},
+    "c_basic":    {"name": "C Basic - no fee",              "kind": "C", "description": "Pre-Flight capacitors that are JLCPCB Basic or Preferred parts: no loading fee."},
+    "c_extended": {"name": "C Extended - 3 USD fee",        "kind": "C", "description": "Pre-Flight capacitors that are JLCPCB Extended parts: 3 USD loading fee per distinct part per order."},
+    "l_power":    {"name": "L Power - Coilcraft XAL",       "kind": "L", "description": "Pre-Flight power inductors (Coilcraft XAL). All Extended."},
+    "l_rf":       {"name": "L RF - Coilcraft Ceramic Core", "kind": "L", "description": "Pre-Flight RF / filtering chip inductors (Coilcraft ceramic core). All Extended."},
+    "r_flight":   {"name": "R Flight - Vishay TNPW",        "kind": "R", "description": "Flight resistors (Vishay TNPW e3 thin film). All Extended."},
+    "c_flight":   {"name": "C Flight - TDK CGA",            "kind": "C", "description": "Flight capacitors (TDK CGA automotive MLCC). All Extended."}
+  },
+
+  "series": [
+    {
+      "id": "r_uniroyal_thickfilm",
+      "series_name": "Uniroyal Thick Film",
+      "id_tag": "Uniroyal",
+      "sublibrary": {"no_fee": "r_basic", "fee": "r_extended"},
+      "kind": "R",
+      "standard": "Pre-Flight",
+      "use_case": "General Purpose",
+      "manufacturer": "Uniroyal",
+      "product_line": "Thick Film Chip Resistors",
+      "series_datasheet": "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf",
+      "queries": [
+        {"componentBrand": "UNI-ROYAL(Uniroyal Elec)", "secondSortName": "Chip Resistor - Surface Mount"}
+      ],
+      "mpn_regex": "^(0201WM|0402WG|0603WA|0805W8|1206W4|1210W2|201007|25121W)[DFGJ]",
+      "mpn_regex_note": "size + standard power code per Uniroyal datasheet section 2 (WM=1/20W ... 07=3/4W, 1W=1W); excludes the 0805W4/1206W3 low-ohm variants and the HP/CQ series",
+      "description_must_contain": "Thick Film",
+      "packages": ["0201", "0402", "0603", "0805", "1206", "1210", "2010", "2512"],
+      "footprint_rule": "chip",
+      "tolerances": ["1%"],
+      "value_series": ["E24", "E96", "ZERO"],
+      "min_stock": 1000,
+      "exclude_lcsc": []
+    },
+    {
+      "id": "r_vishay_wslp",
+      "series_name": "Vishay WSLP",
+      "id_tag": "Vishay WSLP",
+      "sublibrary": {"no_fee": "r_basic", "fee": "r_extended"},
+      "kind": "R",
+      "standard": "Pre-Flight",
+      "use_case": "Sensing and Measurement",
+      "manufacturer": "Vishay",
+      "product_line": "Power Metal Strip Resistors (WSLP)",
+      "series_datasheet": "https://www.vishay.com/docs/30122/wslp.pdf",
+      "queries": [
+        {"keyword": "WSLP", "componentBrand": "Vishay Intertech"}
+      ],
+      "mpn_regex": "^WSLP\\d{4}",
+      "packages": ["0603", "0805", "1206", "2010", "2512"],
+      "footprint_rule": "wslp",
+      "min_stock": 1,
+      "exclude_lcsc": []
+    },
+    {
+      "id": "c_samsung_cl",
+      "series_name": "Samsung CL",
+      "id_tag": "Samsung",
+      "sublibrary": {"no_fee": "c_basic", "fee": "c_extended"},
+      "kind": "C",
+      "standard": "Pre-Flight",
+      "use_case": "General Purpose",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "product_line": "Multilayer Ceramic Capacitors (CL Series)",
+      "series_datasheet": "https://www.lcsc.com/datasheet/C1705.pdf",
+      "queries": [
+        {"componentBrand": "Samsung Electro-Mechanics", "secondSortName": "Multilayer Ceramic Capacitors MLCC - SMD/SMT"}
+      ],
+      "mpn_regex": "^CL\\d{2}[A-Z]\\d{3}",
+      "packages": ["0201", "0402", "0603", "0805", "1206", "1210"],
+      "footprint_rule": "chip",
+      "value_series": ["E24"],
+      "min_stock": 1000,
+      "exclude_lcsc": []
+    },
+    {
+      "id": "l_coilcraft_xal",
+      "series_name": "Coilcraft XAL",
+      "id_tag": "Coilcraft",
+      "sublibrary": "l_power",
+      "kind": "L",
+      "standard": "Pre-Flight",
+      "use_case": "Power",
+      "manufacturer": "Coilcraft",
+      "product_line": "XAL Family Molded Power Inductors",
+      "series_datasheet": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/",
+      "queries": [
+        {"keyword": "XAL", "componentBrand": "Coilcraft"}
+      ],
+      "mpn_regex": "^XAL\\d{4}-?\\d{3}",
+      "footprint_rule": "xal",
+      "min_stock": 1,
+      "exclude_lcsc": []
+    },
+    {
+      "id": "l_coilcraft_ceramic",
+      "series_name": "Coilcraft Ceramic Core",
+      "id_tag": "Coilcraft",
+      "sublibrary": "l_rf",
+      "kind": "L",
+      "standard": "Pre-Flight",
+      "use_case": "RF/Filtering",
+      "manufacturer": "Coilcraft",
+      "product_line": "Ceramic Core Chip Inductors",
+      "series_datasheet": "https://www.coilcraft.com/en-us/products/rf/ceramic-core-chip-inductors/",
+      "queries": [
+        {"componentBrand": "Coilcraft"}
+      ],
+      "mpn_regex": "^(0402|0603|0805|1008|1206)(CS|CT|DC|HC|HL|HP)-",
+      "packages": ["0402", "0603", "0805", "1008", "1206"],
+      "footprint_rule": "chip",
+      "min_stock": 1,
+      "exclude_lcsc": []
+    },
+    {
+      "id": "r_vishay_tnpw",
+      "series_name": "Vishay TNPW",
+      "id_tag": "Vishay TNPW",
+      "sublibrary": "r_flight",
+      "kind": "R",
+      "standard": "Flight",
+      "use_case": "General Purpose",
+      "manufacturer": "Vishay",
+      "product_line": "High Stability Thin Film Flat Chip Resistors (TNPW e3)",
+      "series_datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "queries": [
+        {"keyword": "TNPW", "componentBrand": "Vishay Intertech"}
+      ],
+      "mpn_regex": "^TNPW\\d{4}",
+      "packages": ["0201", "0402", "0603", "0805", "1206"],
+      "footprint_rule": "chip",
+      "value_series": ["E24", "E96"],
+      "min_stock": 1,
+      "exclude_lcsc": []
+    },
+    {
+      "id": "c_tdk_cga",
+      "series_name": "TDK CGA",
+      "id_tag": "TDK",
+      "sublibrary": "c_flight",
+      "kind": "C",
+      "standard": "Flight",
+      "use_case": "General Purpose",
+      "manufacturer": "TDK",
+      "product_line": "Automotive Grade MLCC (CGA Series)",
+      "series_datasheet": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf",
+      "queries": [
+        {"keyword": "CGA", "componentBrand": "TDK"}
+      ],
+      "mpn_regex": "^CGA\\d",
+      "packages": ["0201", "0402", "0603", "0805", "1206", "1210"],
+      "footprint_rule": "chip",
+      "value_series": ["E24"],
+      "min_stock": 1,
+      "exclude_lcsc": []
+    }
+  ]
+}

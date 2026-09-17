@@ -1,0 +1,11 @@
+# Raw JLCPCB downloads: large, volatile (stock/prices) and regenerable with scripts/fetch_parts.py
+raw/
+fetch.log
+verify.log
+
+__pycache__/
+*.pyc
+
+# A .pretty folder holds only .kicad_mod files; KiCad test projects and lock files do not belong here
+SSI_Passives.pretty/*/
+*.lck
