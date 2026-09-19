@@ -76,10 +76,9 @@ def check(row, detail):
     return problems
 
 
-def fee_class(detail):
-    if detail.get("componentLibraryType") == "base":
-        return "Basic"
-    return "Preferred" if detail.get("preferredComponentFlag") else "Extended"
+def is_basic(detail):
+    """The detail endpoint only reports base/expand; it does not expose JLCPCB's 'Preferred' flag."""
+    return detail.get("componentLibraryType") == "base"
 
 
 def main():
@@ -105,8 +104,8 @@ def main():
         for i, ((table, row), detail) in enumerate(zip(todo, pool.map(lambda tr: fetch_detail(tr[1]["LCSC"]), todo)), 1):
             problems = check(row, detail)
             results[table].append((row, problems))
-            if not problems and fee_class(detail) != row["LCSC_Type"]:
-                class_changes.append((row["LCSC"], row["Part_ID"], row["LCSC_Type"], fee_class(detail)))
+            if not problems and is_basic(detail) != (row["LCSC_Type"] == "Basic"):
+                class_changes.append((row["LCSC"], row["Part_ID"], row["LCSC_Type"], "Basic" if is_basic(detail) else "Extended/Preferred"))
             if problems:
                 print(f"  MISMATCH {row['LCSC']:>10}  {row['Part_ID']:<45} " + "; ".join(problems), flush=True)
             if i % 250 == 0:
@@ -122,7 +121,8 @@ def main():
               f"{len(bad) - len(network):3d} mismatched  {len(network):3d} unverified (network)")
     print(f"  TOTAL mismatches: {total_bad}")
     if class_changes:
-        print(f"\n{len(class_changes)} parts changed JLCPCB fee class since the library was built (not an error; rebuild with --fetch to update):")
+        print(f"\n{len(class_changes)} parts moved into or out of JLCPCB's Basic class since the library was built "
+              "(Preferred vs Extended can't be told apart by this endpoint; not an error - rebuild with --fetch to update):")
         for code, part_id, before, after in class_changes[:40]:
             print(f"  {code:>10}  {part_id:<45} {before} -> {after}")
         print(f"  class changes by kind: {dict(Counter(f'{b}->{a}' for _, _, b, a in class_changes))}")
