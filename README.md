@@ -37,9 +37,8 @@ In order to join our weekly meetings, you'll need to join our slack to figure ou
 
 ## Weekly Meeting Times
 Satellite Avionics has two official meetings each week:
-
 **Weekly Avionics Meeting**
- * **Time:** Thursday, 7:00 PM - 9:00 PM PST
+ * **Time:** Wednesday, 7:00 PM - 9:00 PM PST
  * **Location:** Check The [#Satellite-Avionics](https://ssi-teams.slack.com/archives/C2L29KW8J) channel in the slack for weekly meeting locations!
  * **Purpose:** Avionics meetings are specifically for AV-specific work, training, and discussions. AV member attendance is expected outside of conflicting Midterms or Finals. Fall quarter attendance is **mandatory** outside of class conflicts or personal health reasons.
 
@@ -47,6 +46,12 @@ Satellite Avionics has two official meetings each week:
  * **Time:** Saturday, 12:00 PM - 2:00 PM PST
  * **Location:** Check The [#Satellite-Avionics](https://ssi-teams.slack.com/archives/C2L29KW8J) channel in the slack for weekly meeting locations!
  * **Purpose**: Satsurday meetings are Satellite Avionics Full-Team work days! Every subteam will be meeting at this time. This can sometimes happen collectively and sometimes separately. Fall quarter will mostly be dedicated to AV specific onboarding training and early satellite development. Fall quarter attendance is **mandatory** outside of class conflicts or personal health reasons.
+
+**Systems Meeting**
+ * **Time:** Wednesday, 7:00 PM - 9:00 PM PST
+ * **Location:** Check The [#Satellite-Systems]([https://ssi-teams.slack.com/archives/C2L29KW8J](https://ssi-teams.slack.com/archives/C4UL92684) channel in the slack for weekly meeting locations!
+ * **Purpose:** Systems meetings are where all major decisions about our satellite design occur and system-level planning and cross-team collaboration is planned. You are not obligated to come to these meetings if you are unable to, however, you should come to these meetings if you are available.
+
 
 ## Accessing Our Workspaces!
 We primarily operate out of two buildings, End Station III (Deep Lab / Hepl South), and the Durand Aeronautics & Astronautics building. End Station III is a little difficult to find the first time, so please ask leads in the slack if you get lost!
