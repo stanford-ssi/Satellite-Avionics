@@ -49,7 +49,7 @@ Satellite Avionics has two official meetings each week:
 
 **Systems Meeting**
  * **Time:** Wednesday, 7:00 PM - 9:00 PM PST
- * **Location:** Check The [#Satellite-Systems]([https://ssi-teams.slack.com/archives/C2L29KW8J](https://ssi-teams.slack.com/archives/C4UL92684) channel in the slack for weekly meeting locations!
+ * **Location:** Check The [#Satellite-Systems](https://ssi-teams.slack.com/archives/C4UL92684) channel in the slack for weekly meeting locations!
  * **Purpose:** Systems meetings are where all major decisions about our satellite design occur and system-level planning and cross-team collaboration is planned. You are not obligated to come to these meetings if you are unable to, however, you should come to these meetings if you are available.
 
 
