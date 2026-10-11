@@ -1,0 +1,5 @@
+{
+    "description": "NiceRF LoRa1280F27-TCXO 2.4 GHz LoRa/FLRC module (SX1280 + 27 dBm PA + TCXO) with decoupling, TCXO_EN pull-up (DNP flight), TX monitor LED (DNP flight) and SMA. SAMWISE S-band radio on the RPi interface board.",
+    "keywords": "TT&C, RF, radio, LoRa, 2.4GHz, S-band, SX1280, LoRa1280F27, NiceRF, SAMWISE",
+    "fields": {}
+}

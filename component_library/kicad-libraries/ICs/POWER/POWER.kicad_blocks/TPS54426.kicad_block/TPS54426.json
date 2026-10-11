@@ -1,0 +1,5 @@
+{
+    "description": "TI TPS54426 4 A synchronous buck (D-CAP2, 700 kHz) converting VBATT (4.5-18 V) to ~4.95 V, with ENAB_RPI enable and 330k pull-down, 3.3 nF soft-start, 121k/22.1k feedback and 3.3 uH inductor. SAMWISE Raspberry Pi payload supply (RPi Interface board U1).",
+    "keywords": "POWER, buck, DC-DC, regulator, 5V, TPS54426, D-CAP2, SAMWISE",
+    "fields": {}
+}

@@ -1,0 +1,5 @@
+{
+    "description": "HopeRF RFM96W 433 MHz LoRa transceiver (Adafruit breakout) for the Raspberry Pi ground station, with decoupling and the 2N7002 PA/LNA push-to-talk (PTT) buffer.",
+    "keywords": "TT&C, ground station, RF, radio, LoRa, 433MHz, RFM96W, SX1276, PTT, SAMWISE",
+    "fields": {}
+}

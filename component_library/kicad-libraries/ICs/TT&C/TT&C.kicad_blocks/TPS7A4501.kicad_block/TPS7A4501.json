@@ -1,0 +1,5 @@
+{
+    "description": "TI TPS7A4501 1.5 A low-noise adjustable LDO set to ~4.9 V (10k/3.3k divider) with ENAB_RF shutdown control and 10k pull-down. Dedicated, switchable supply rail for the SAMWISE radios.",
+    "keywords": "TT&C, power, LDO, regulator, radio supply, TPS7A4501, TPS7A45, SAMWISE",
+    "fields": {}
+}

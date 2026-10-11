@@ -1,0 +1,5 @@
+{
+    "description": "ST L298N dual H-bridge module used by the 433 MHz ground station to drive the TX/RX and LoRa/SDR coax relays from Raspberry Pi GPIOs, with 10k pull-downs.",
+    "keywords": "TT&C, ground station, relay driver, H-bridge, L298N, L298, SAMWISE",
+    "fields": {}
+}
