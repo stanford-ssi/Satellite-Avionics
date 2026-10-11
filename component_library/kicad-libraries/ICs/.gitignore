@@ -1,0 +1,6 @@
+# KiCad local history / lock files and macOS metadata
+.history/
+*.lck
+~*.lck
+fp-info-cache
+.DS_Store

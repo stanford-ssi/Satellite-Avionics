@@ -8,3 +8,4 @@ README explaining what the IC does and how the block is wired. Datasheets live i
 | Subsystem | Folder | Contents |
 |-----------|--------|----------|
 | TT&C (Telemetry, Tracking & Command) | [`TT&C/`](TT%26C/) | Radios, radio power, antenna balun and ground-station RF switching, taken from SAMWISE |
+| POWER | [`POWER/`](POWER/) | Power converters taken from SAMWISE (TPS54426 5 V buck) |
