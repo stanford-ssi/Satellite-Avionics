@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SSI_LAN8651") (type "KiCad") (uri "${SSI_ICS}/LAN8651/LAN8651.kicad_sym") (options "") (descr "Microchip LAN8651 10BASE-T1S MAC-PHY"))
+)
