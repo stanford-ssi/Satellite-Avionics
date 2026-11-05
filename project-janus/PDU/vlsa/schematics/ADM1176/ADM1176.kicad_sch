@@ -1890,7 +1890,7 @@
 	)
 	(text "I2C Address Config\nA0/A1: GND=00, 150k to GND=01\nNC=10, 3V3=11\ncurrent:A1=NC, A0=NC -> 7-bit addr 0x4A\nAssign unique address for each subsystem"
 		(exclude_from_sim no)
-		(at 136.144 68.072 0)
+		(at 154.178 72.898 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -2020,14 +2020,6 @@
 		(color 0 0 0 0)
 		(uuid "e59d3b4f-54fd-439d-afef-698a6c04b268")
 	)
-	(no_connect
-		(at 119.38 68.58)
-		(uuid "7edcf23e-ae3d-454a-ad0c-be6217799dbe")
-	)
-	(no_connect
-		(at 119.38 71.12)
-		(uuid "f2b1dd91-9035-403b-999c-ff3a92827a96")
-	)
 	(wire
 		(pts
 			(xy 85.09 93.98) (xy 85.09 90.17)
@@ -2120,6 +2112,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555d0856-c1c4-44e1-b657-3b0f1d0c57c2")
+	)
+	(wire
+		(pts
 			(xy 119.38 66.04) (xy 120.65 66.04)
 		)
 		(stroke
@@ -2197,6 +2199,16 @@
 			(type default)
 		)
 		(uuid "7dd31e8f-bc6f-4ca9-8d40-e1ca1b4ff0b4")
+	)
+	(wire
+		(pts
+			(xy 119.38 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fba5f82-89f7-4820-a794-a2a0f9f7d346")
 	)
 	(wire
 		(pts
@@ -2318,125 +2330,82 @@
 		)
 		(uuid "f91b9be0-3bd7-4af3-8991-c140d2ad5b6f")
 	)
-	(global_label "VBAT_SW"
-		(shape output)
-		(at 135.89 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "352dade7-c1ac-433f-87ed-45c423882a50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.9185 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C_SDA"
+	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 128.27 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "547ada65-e09d-4068-821f-6904c63d477b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.9865 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "19328df0-4449-414c-b601-0256681aa2ed")
 	)
-	(global_label "I2C_SCL"
+	(hierarchical_label "VLSA_A0"
 		(shape input)
-		(at 128.27 76.2 0)
-		(fields_autoplaced yes)
+		(at 128.27 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "57f64315-8a55-4c0a-9fe2-8d23beee25ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.8147 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "27f8ee9f-5a5d-405b-a1bd-5374283db876")
 	)
-	(global_label "VLSA_EN"
+	(hierarchical_label "VLSA_EN"
 		(shape input)
 		(at 64.77 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "77a219fe-cee3-4b18-b658-831e615eb762")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.9229 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "462023c4-cdbf-43a9-8d45-0b11b4451305")
 	)
-	(global_label "VBAT_RAW"
+	(hierarchical_label "VBAT_SW"
+		(shape output)
+		(at 135.89 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bd999d2-790e-492a-8085-97230eed445b")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 128.27 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78eebeb9-436e-4f27-bc06-48a1b2de8c33")
+	)
+	(hierarchical_label "VLSA_A1"
+		(shape input)
+		(at 128.27 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e010ead6-d01d-4f69-b62d-61d3daa50581")
+	)
+	(hierarchical_label "VBAT_RAW"
 		(shape input)
 		(at 64.77 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8d43220d-8fd6-458a-b540-76082b90f42f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.5924 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "f16fadd6-dd29-465d-a9f1-1464e7da8534")
 	)
 	(symbol
 		(lib_id "power:GND")
