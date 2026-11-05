@@ -8,7 +8,7 @@
 		(title "PDU Control System (PCS)")
 		(date "2026-10-31")
 		(rev "S1")
-		(company "SSI")
+		(company "Stanford Student Space Initiative")
 		(comment 2 "Rohan Ramkumar")
 	)
 	(lib_symbols

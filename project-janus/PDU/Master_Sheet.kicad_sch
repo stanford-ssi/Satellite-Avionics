@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "7a2e3c18-a70b-4851-84e5-27e873303553")
 	(paper "A4")
+	(title_block
+		(title "Master Sheet")
+		(date "2026-11-04")
+		(company "Stanford Student Space Initiative")
+	)
 	(lib_symbols)
 	(sheet
 		(at 102.87 66.04)
