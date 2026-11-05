@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f84d0b7f-6c06-4162-afcf-d69ba9eb3a6c")
+	(paper "A4")
+	(title_block
+		(title "PDU Master Sheet")
+		(company "SSI")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
