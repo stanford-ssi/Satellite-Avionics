@@ -2511,6 +2511,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2524,7 +2530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48c96eb7-b632-4e18-ba7f-1adf2477c7b1")
-		(property "Reference" "R2"
+		(property "Reference" "R18"
 			(at 69.088 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,6 +2752,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2759,7 +2771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ab680a5-b010-4531-b754-542e223f85d3")
-		(property "Reference" "C1"
+		(property "Reference" "C22"
 			(at 79.502 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,6 +2982,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2984,7 +3002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9264c6fe-bb8c-4967-8101-65d3838b17cc")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 104.14 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,6 +3178,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3173,7 +3197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1048435-65e8-48b2-8633-b979e0c6057d")
-		(property "Reference" "R1"
+		(property "Reference" "R19"
 			(at 84.328 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3395,6 +3419,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3409,7 +3439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb343f5c-8d3c-4dfa-b9bd-751cf2fb263f")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 118.11 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,12 +3523,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
