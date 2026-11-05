@@ -9536,7 +9536,7 @@
 		)
 		(uuid "330220af-d861-450b-88f3-182c8944a974")
 	)
-	(hierarchical_label "PDU_CANL"
+	(hierarchical_label "CANL"
 		(shape input)
 		(at 82.55 102.87 180)
 		(effects
@@ -9646,7 +9646,7 @@
 		)
 		(uuid "c50c6e4a-9412-48c4-afef-0b43e5a764e7")
 	)
-	(hierarchical_label "PDU_CANH"
+	(hierarchical_label "CANH"
 		(shape input)
 		(at 82.55 97.79 180)
 		(effects
@@ -25404,6 +25404,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
