@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 102.87 66.04)
+		(at 82.55 62.23)
 		(size 80.01 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "66edc327-4ea2-4e41-820d-8c49cd2d541f")
 		(property "Sheetname" "PCS"
-			(at 102.87 65.3284 0)
+			(at 82.55 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "pcs/schematics/PDU_Control_System.kicad_sch"
-			(at 102.87 125.0446 0)
+			(at 82.55 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46,6 +46,176 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO_SADS-EN-1" input
+			(at 162.56 97.79 0)
+			(uuid "ae26492b-270c-4597-809c-3a6085e6287d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_SADS-EN-2" input
+			(at 162.56 92.71 0)
+			(uuid "4d097955-60e5-4474-a506-b4e0acc1770b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_SADS-EN-3" input
+			(at 162.56 88.9 0)
+			(uuid "e6230809-f8d0-4034-acfb-4c7acc592b4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SCL" input
+			(at 162.56 82.55 0)
+			(uuid "a74ce527-09f2-41b0-84ec-293f8e714ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA" input
+			(at 162.56 78.74 0)
+			(uuid "e01bfde2-e5b2-4b82-ad42-50cd85206e3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 162.56 73.66 0)
+			(uuid "6f2d13aa-fe93-47cf-9ebb-bbf5d24a06be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 162.56 69.85 0)
+			(uuid "4af5192a-5631-4b75-864d-6dc6f99837cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PDU_CANH" input
+			(at 152.4 120.65 270)
+			(uuid "fe17849a-57eb-47ca-b933-a765ba1547e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PDU_CANL" input
+			(at 156.21 120.65 270)
+			(uuid "0f3e220c-b309-448c-a4df-1fe40605de96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS-EN" input
+			(at 82.55 109.22 180)
+			(uuid "f3e0b165-3101-4f21-a5d0-ffedad31d0e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS-IN" input
+			(at 82.55 106.68 180)
+			(uuid "04e478b9-3c04-4af3-97f2-ed29117addec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA1-EN" input
+			(at 82.55 95.25 180)
+			(uuid "74b95c98-d549-4453-b3d9-1a9881df7e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA2-EN" input
+			(at 82.55 92.71 180)
+			(uuid "393c098f-2200-4d3a-9843-9c84835d0e7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA3-EN" input
+			(at 82.55 90.17 180)
+			(uuid "baf5058b-5d72-4e50-91e8-1299cf9afe10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA4-EN" input
+			(at 82.55 87.63 180)
+			(uuid "968784e2-e6ee-488b-a461-e0603910d23d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA5-EN" input
+			(at 82.55 85.09 180)
+			(uuid "2e6626f2-a1df-4ec0-89c4-e536bd3f9761")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA6-EN" input
+			(at 82.55 82.55 180)
+			(uuid "64720de1-f554-4dd9-beff-8d9c56a1b315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

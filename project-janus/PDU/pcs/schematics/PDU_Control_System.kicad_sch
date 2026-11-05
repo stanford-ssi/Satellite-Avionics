@@ -9492,413 +9492,192 @@
 		)
 		(uuid "fd9ffe02-5199-4137-ba3d-27687c130508")
 	)
-	(global_label "VLSA3-EN"
-		(shape input)
-		(at 251.46 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00ae27b7-c1ef-4c23-a10c-9da81f5a5170")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1214 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PSMS-EN"
-		(shape input)
-		(at 173.99 199.39 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10002f39-4e91-4812-b6dd-384437167dd8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 211.5675 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VLSA1-EN"
-		(shape input)
-		(at 251.46 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1adc91eb-ccf6-4584-a4c3-9af0d13d78a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1214 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VLSA2-EN"
-		(shape input)
-		(at 251.46 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2266e906-d0a6-491a-838b-cefe60a1b15c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1214 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C0_SCL"
-		(shape input)
-		(at 172.72 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26c7b53f-d98c-494e-8447-bc43d58fa00f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 74.6058 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C1_SDA"
-		(shape input)
-		(at 170.18 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37bc1b42-6d2e-4cf1-897b-7e9846b08b5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 74.5453 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VLSA5-EN"
-		(shape input)
-		(at 251.46 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ddee4a8-2871-483f-8244-305a6cf28c68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1214 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 167.64 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f639bc7-8e00-47c4-9860-f6e9e63f9abd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 74.6058 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PDU_CANH"
-		(shape input)
-		(at 82.55 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5350d81c-2b1a-415c-aeaf-1d46e1f2065c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.7071 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PDU_CANL"
-		(shape input)
-		(at 82.55 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c7f80ec-cc19-40ae-98f7-6b363da4acbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.0095 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PSMS-IN"
-		(shape input)
-		(at 176.53 199.39 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84459e4f-7bb3-4afc-b367-c05c5cd7a0db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 211.0233 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO_SADS-EN-1"
-		(shape input)
-		(at 217.17 204.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91652af3-9e7d-4246-bec0-6c23eb8f4d39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.17 224.5095 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C0_SDA"
-		(shape input)
-		(at 175.26 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6d524a3-12e7-4e4e-9704-2e8e55b11668")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 74.5453 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO_SADS-EN-2"
-		(shape input)
-		(at 219.71 204.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af59f1fb-9649-46b0-9405-635eb6172e0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 224.5095 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO_SADS-EN-3"
-		(shape input)
-		(at 222.25 204.47 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e37da459-7cf2-408e-9d33-f1315080dadc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 224.5095 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VLSA4-EN"
-		(shape input)
-		(at 251.46 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa1cd8f4-77db-4001-b369-3988036cf5ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1214 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VLSA6-EN"
+	(hierarchical_label "VLSA6-EN"
 		(shape input)
 		(at 251.46 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ff30a9bc-907f-4d94-99d3-c2b9978dab7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.1214 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "1d116d57-6512-481d-bf02-51fdf85d9cd6")
+	)
+	(hierarchical_label "VLSA5-EN"
+		(shape input)
+		(at 251.46 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "2a82b563-8bcb-4388-9809-3e16e910526a")
+	)
+	(hierarchical_label "GPIO_SADS-EN-2"
+		(shape input)
+		(at 219.71 204.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2aee8eee-3335-464e-be77-b5fa971dbeac")
+	)
+	(hierarchical_label "VLSA3-EN"
+		(shape input)
+		(at 251.46 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "330220af-d861-450b-88f3-182c8944a974")
+	)
+	(hierarchical_label "PDU_CANL"
+		(shape input)
+		(at 82.55 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59b58cf7-9755-460b-816d-f50f0bedc96d")
+	)
+	(hierarchical_label "VLSA2-EN"
+		(shape input)
+		(at 251.46 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75880e42-30f0-4593-86e5-8974d5911cad")
+	)
+	(hierarchical_label "I2C1_SCL"
+		(shape input)
+		(at 167.64 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78aab428-e9f5-4112-8b44-476403988188")
+	)
+	(hierarchical_label "GPIO_SADS-EN-3"
+		(shape input)
+		(at 222.25 204.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "806fb68c-e348-441a-81ff-5d658be7c42d")
+	)
+	(hierarchical_label "VLSA4-EN"
+		(shape input)
+		(at 251.46 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e28122b-b242-4868-86f8-e8f4cfeb8360")
+	)
+	(hierarchical_label "I2C0_SDA"
+		(shape input)
+		(at 175.26 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96ac6274-536c-43a7-ba54-ea5c41ec86ab")
+	)
+	(hierarchical_label "PSMS-IN"
+		(shape input)
+		(at 176.53 199.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9abc391a-453f-4f71-b5e5-c74eba5dacf7")
+	)
+	(hierarchical_label "I2C0_SCL"
+		(shape input)
+		(at 172.72 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5be234e-591e-47ab-a73e-6a03d1a559e4")
+	)
+	(hierarchical_label "I2C1_SDA"
+		(shape input)
+		(at 170.18 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b912ff03-880e-4abb-85ff-5f6d9bd5b4db")
+	)
+	(hierarchical_label "PSMS-EN"
+		(shape input)
+		(at 173.99 199.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c50c6e4a-9412-48c4-afef-0b43e5a764e7")
+	)
+	(hierarchical_label "PDU_CANH"
+		(shape input)
+		(at 82.55 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e21eb953-de65-4781-9f23-2ae960d7f375")
+	)
+	(hierarchical_label "VLSA1-EN"
+		(shape input)
+		(at 251.46 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2fdaef9-ff5d-4cfe-95c0-41d6b1257f5f")
+	)
+	(hierarchical_label "GPIO_SADS-EN-1"
+		(shape input)
+		(at 217.17 204.47 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f16ab245-d29f-432a-9b3c-87aba053ee93")
 	)
 	(symbol
 		(lib_id "RPI - Power:GND")
@@ -16916,7 +16695,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 171.45 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20313,7 +20092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 179.07 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
