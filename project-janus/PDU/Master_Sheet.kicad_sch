@@ -5,7 +5,7 @@
 	(uuid "7a2e3c18-a70b-4851-84e5-27e873303553")
 	(paper "A4")
 	(title_block
-		(title "Master Sheet")
+		(title "PDU Master Sheet")
 		(date "2026-11-04")
 		(company "Stanford Student Space Initiative")
 	)
@@ -46,36 +46,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GPIO_SADS-EN-1" input
-			(at 162.56 97.79 0)
-			(uuid "ae26492b-270c-4597-809c-3a6085e6287d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_SADS-EN-2" input
-			(at 162.56 92.71 0)
-			(uuid "4d097955-60e5-4474-a506-b4e0acc1770b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_SADS-EN-3" input
-			(at 162.56 88.9 0)
-			(uuid "e6230809-f8d0-4034-acfb-4c7acc592b4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "I2C0_SCL" input
@@ -216,6 +186,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BCDR-CURR-ADC" input
+			(at 120.65 62.23 90)
+			(uuid "e502158a-b231-4d72-9907-ce3cc487588c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BCDR-VOLT-ADC" input
+			(at 123.19 62.23 90)
+			(uuid "ca106e11-0630-4cbe-b291-a5492d37eb3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SADS-EN-1" input
+			(at 162.56 95.25 0)
+			(uuid "4a9dce9f-ee45-4998-9e38-ed67556d37b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SADS-EN-2" input
+			(at 162.56 97.79 0)
+			(uuid "96d616e2-2a47-4c51-973c-c3568f620a7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SADS-EN-3" input
+			(at 162.56 100.33 0)
+			(uuid "58fe3d60-1987-4fe8-8197-2847284a8233")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
