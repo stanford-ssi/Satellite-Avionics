@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "43efdbb9-d3d2-4e98-96b3-6c88faaca9db")
+	(paper "A4")
+	(lib_symbols)
+	(text "Input Sensing and Modulation"
+		(exclude_from_sim no)
+		(at 37.084 17.526 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "2c2a1f84-cb53-47b4-8690-a7768ec89c55")
+	)
+)
