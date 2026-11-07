@@ -2994,7 +2994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP50P490X110-10N"
+		(property "Footprint" "Snapeda:RM_10_ADI-L"
 			(at 115.57 160.96 0)
 			(hide yes)
 			(show_name no)
