@@ -1,0 +1,342 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "eb8d545a-8538-4e84-af84-f006a1f33201")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 59.69)
+		(size 64.77 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "42f7af02-9d36-4207-8b8b-380f1acd4c94")
+		(property "Sheetname" "PCS"
+			(at 101.6 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcs\\schematics\\PDU_Control_System.kicad_sch"
+			(at 101.6 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BCDR-CURR-ADC" input
+			(at 101.6 62.23 180)
+			(uuid "bc01f3be-7d59-4a3a-87c0-e09738bf7176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BCDR-VOLT-ADC" input
+			(at 101.6 64.77 180)
+			(uuid "29e039c9-db57-4469-a6a4-349f87426ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANH" input
+			(at 101.6 67.31 180)
+			(uuid "3468b9b2-f111-4e65-8894-6a9f178b4b42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" input
+			(at 101.6 69.85 180)
+			(uuid "6a7a950c-e2a4-4dcb-bc1b-26c051b48678")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SCL" input
+			(at 101.6 72.39 180)
+			(uuid "19d2ad42-cc88-48ba-9453-320f9cc97291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SDA" input
+			(at 101.6 74.93 180)
+			(uuid "36539610-d9a8-4bf5-bae2-bc5f87b2d137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 101.6 77.47 180)
+			(uuid "5c377bff-a244-498b-a070-e6b358fd24fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 101.6 80.01 180)
+			(uuid "c6c9eda0-d967-4fa1-a747-666beec2c221")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS-EN" input
+			(at 101.6 82.55 180)
+			(uuid "03542996-6722-4c77-a40c-c60e47ed5ac2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS-IN" input
+			(at 101.6 85.09 180)
+			(uuid "373331bd-d728-4b95-8e0d-286a71c9ab04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-1" input
+			(at 101.6 87.63 180)
+			(uuid "b18d78d4-c18a-48a3-90e1-1fc729b27a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-2" input
+			(at 101.6 90.17 180)
+			(uuid "166ca9ef-cc0b-4325-845f-17ddbb78071a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-3" input
+			(at 101.6 92.71 180)
+			(uuid "ff60c0d8-8fec-4c25-82dd-f41470331e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA1-EN" input
+			(at 101.6 95.25 180)
+			(uuid "9a79311a-0a5c-4e6a-a84b-e38e05dedacb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA2-EN" input
+			(at 101.6 97.79 180)
+			(uuid "806d606a-cad6-4879-a12c-113870ab0aed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA3-EN" input
+			(at 101.6 100.33 180)
+			(uuid "a2d180ae-460d-4dc2-8486-8f863f3da916")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA4-EN" input
+			(at 101.6 102.87 180)
+			(uuid "c283804b-ce99-42f8-943d-06eb3d66f14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA5-EN" input
+			(at 101.6 105.41 180)
+			(uuid "b1770d30-0e06-41f2-a19b-01f083338cfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA6-EN" input
+			(at 101.6 107.95 180)
+			(uuid "f3bde18c-2263-4435-92d7-e831ba740af5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 60.96)
+		(size 41.91 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c4a9d71-a178-44c1-869e-e88fcc5f55fc")
+		(property "Sheetname" "VLSA"
+			(at 185.42 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vlsa\\schematics\\ADM1176\\ADM1176.kicad_sch"
+			(at 185.42 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 59.69)
+		(size 39.37 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e961048c-2a5d-43b6-82d4-ff5073dc20b1")
+		(property "Sheetname" "SADC"
+			(at 39.37 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sacd\\ADI LT8491\\ADI LT8491.kicad_sch"
+			(at 39.37 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

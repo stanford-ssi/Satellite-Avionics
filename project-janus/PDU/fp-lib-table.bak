@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Snapeda") (type "KiCad") (uri "${KIPRJMOD}/vlsa/schematics/ADM1176/Snapeda.pretty") (options "") (descr ""))
+)
