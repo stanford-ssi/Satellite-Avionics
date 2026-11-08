@@ -143,6 +143,92 @@
 			)
 		)
 	)
+	(sheet
+		(at 101.6 133.35)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "15c88f0f-6a4f-4561-909a-1d1ad5389b8f")
+		(property "Sheetname" "SADS"
+			(at 101.6 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sads\\schematics\\SADS.kicad_sch"
+			(at 101.6 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SADS-EN-1" input
+			(at 101.6 138.43 180)
+			(uuid "51219ce5-173a-43b4-8df1-7158254d5f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-2" input
+			(at 101.6 140.97 180)
+			(uuid "30c17ac2-903c-4e11-a193-dafcc9c6b874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-3" input
+			(at 101.6 143.51 180)
+			(uuid "16e48aae-3f9c-4633-a420-33603b11b245")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SADS" input
+			(at 101.6 151.13 180)
+			(uuid "d6ba23b2-fc1f-4f10-80eb-bc0cc5a8f1b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
