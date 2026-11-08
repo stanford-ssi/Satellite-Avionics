@@ -2419,7 +2419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001898dc-3921-417f-b83a-865735a0907a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR046"
 			(at 85.09 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2489,6 +2489,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2502,7 +2508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48c96eb7-b632-4e18-ba7f-1adf2477c7b1")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 69.088 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,6 +2733,12 @@
 			(project "Master_Sheet"
 				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2960,6 +2972,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2994,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:RM_10_ADI-L"
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
 			(at 115.57 160.96 0)
 			(hide yes)
 			(show_name no)
@@ -3156,6 +3174,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3169,7 +3193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1048435-65e8-48b2-8633-b979e0c6057d")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 84.328 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,6 +3421,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3431,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:SQSA80ENW-T1_GE3_VIS"
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3497,6 +3527,12 @@
 			)
 			(project "Master_Sheet"
 				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/ea39ac2b-7b59-4a5b-86d2-8d6f14159625"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "Q1")
 					(unit 1)
 				)
