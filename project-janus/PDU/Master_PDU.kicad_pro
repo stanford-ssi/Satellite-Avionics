@@ -665,7 +665,7 @@
         "uuid": "eb8d545a-8538-4e84-af84-f006a1f33201"
       }
     ],
-    "used_designators": "#1-2,#PWR1-55,100nF1,10K1-2,110K1-3,200K1,215K1,53.6K1,68nF1,71.5K1,C1-28,C_IMON_IN1,C_IMON_OUT1,C_S1-2,C_VC1-2,D1,DB1-2,J1,L1-2,M1-4,MPPT1,Q1,R1-26,R_DACI1-2,R_DACO1-2,R_DSA1,R_DSB1,R_FBIN1-2,R_FBOUT1-2,R_IMON_IN1,R_IMON_OUT1,R_IOR1,R_IOW1,R_S1-2,R_SENSE1-3,R_VC1,U1-5,X1",
+    "used_designators": "#1-2,#PWR1-55,100nF1,10K1-2,110K1-3,200K1,215K1,53.6K1,68nF1,71.5K1,C1-33,C_IMON_IN1,C_IMON_OUT1,C_S1-2,C_VC1-2,D1,DB1-2,J1,L1-2,M1-4,MPPT1,Q1-4,Q6-7,R1-41,R_DACI1-2,R_DACO1-2,R_DSA1,R_DSB1,R_FBIN1-2,R_FBOUT1-2,R_IMON_IN1,R_IMON_OUT1,R_IOR1,R_IOW1,R_S1-2,R_SENSE1-3,R_VC1,U1-11,X1",
     "variants": []
   },
   "sheets": [
@@ -688,6 +688,30 @@
     [
       "b5686d2d-52ee-4519-a851-64ccd2cf8d22",
       "Formulas & Calculations"
+    ],
+    [
+      "fef73458-d012-4905-8546-68ece2e501b1",
+      "LOAD_SWITCH_OBC"
+    ],
+    [
+      "2dcf1e2e-b358-4621-97eb-837dde126be7",
+      "LOAD_SWITCH_TTC_1"
+    ],
+    [
+      "f3987d2a-217a-454e-9e6c-923489da79be",
+      "LOAD_SWITCH_TTC_2"
+    ],
+    [
+      "2e1e4d55-0b52-431a-be64-c312fa5cfe03",
+      "LOAD_SWITCH_STAR_TRACKER"
+    ],
+    [
+      "2c8e22d9-9541-4d37-8d11-1233976381f9",
+      "LOAD_SWITCH_SPARE_1"
+    ],
+    [
+      "99ad2191-c5e8-497f-91c8-d67917d5ff95",
+      "LOAD_SWITCH_SPARE_2"
     ]
   ],
   "text_variables": {},
