@@ -415,9 +415,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I2C address: 0x41"
+	(text "I2C address (7-bit): 0x41"
 		(exclude_from_sim no)
-		(at 147.066 65.024 0)
+		(at 152.146 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -425,9 +425,9 @@
 		)
 		(uuid "052b4864-719d-4e5f-be49-f504b4b7a413")
 	)
-	(text "I2C address: 0x42"
+	(text "I2C address (7-bit): 0x42"
 		(exclude_from_sim no)
-		(at 143.256 87.122 0)
+		(at 147.32 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -435,9 +435,9 @@
 		)
 		(uuid "0b0a29d7-3cde-4f78-bb27-80ee6a4a2625")
 	)
-	(text "I2C address: 0x45"
+	(text "I2C address (7-bit): 0x45"
 		(exclude_from_sim no)
-		(at 156.464 136.398 0)
+		(at 156.464 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -445,9 +445,9 @@
 		)
 		(uuid "3e081d42-df86-4aff-87a8-d957340a9670")
 	)
-	(text "I2C address: 0x40"
+	(text "I2C address (7-bit): 0x40"
 		(exclude_from_sim no)
-		(at 140.208 38.608 0)
+		(at 144.526 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -455,9 +455,9 @@
 		)
 		(uuid "7766258d-ff89-4df6-84e3-9a5a8b0213fc")
 	)
-	(text "I2C address: 0x44"
+	(text "I2C address (7-bit): 0x44"
 		(exclude_from_sim no)
-		(at 152.146 111.506 0)
+		(at 154.686 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -465,9 +465,9 @@
 		)
 		(uuid "993d7ea2-1caa-4c3c-8f4f-d710b0b1e75d")
 	)
-	(text "I2C address: 0x46"
+	(text "I2C address (7-bit): 0x46"
 		(exclude_from_sim no)
-		(at 145.288 158.496 0)
+		(at 148.082 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -488,7 +488,7 @@
 		(uuid "142e39b7-f56c-4994-95d9-9c58627d6e22")
 	)
 	(junction
-		(at 53.34 45.72)
+		(at 53.34 44.45)
 		(diameter 0)
 		(color 123 31 162 1)
 		(uuid "3467f487-ab89-4a43-b7c8-5c9eb68b26c2")
@@ -500,13 +500,13 @@
 		(uuid "494d9811-4abf-44f9-ad3b-2dbc0707eb4e")
 	)
 	(junction
-		(at 57.15 113.03)
+		(at 57.15 114.3)
 		(diameter 0)
 		(color 21 101 192 1)
 		(uuid "498acf37-5e16-48e7-b560-d95306ed2f5e")
 	)
 	(junction
-		(at 57.15 137.16)
+		(at 57.15 138.43)
 		(diameter 0)
 		(color 21 101 192 1)
 		(uuid "56ac67b8-f783-40f2-b3b2-6d9fa3f42536")
@@ -524,7 +524,7 @@
 		(uuid "68094f4e-8729-4f19-a78a-ac0f8d5ecf48")
 	)
 	(junction
-		(at 57.15 64.77)
+		(at 57.15 66.04)
 		(diameter 0)
 		(color 21 101 192 1)
 		(uuid "6c27597d-5585-4f62-9afc-977a1fa13a70")
@@ -536,7 +536,7 @@
 		(uuid "6d42424c-d885-4957-b274-6cb0b39aa448")
 	)
 	(junction
-		(at 57.15 40.64)
+		(at 57.15 41.91)
 		(diameter 0)
 		(color 21 101 192 1)
 		(uuid "79877b29-24e8-4778-9636-372857fcc58f")
@@ -560,7 +560,7 @@
 		(uuid "f17b45be-e6df-4189-a6c2-7509d4366f6d")
 	)
 	(junction
-		(at 57.15 88.9)
+		(at 57.15 90.17)
 		(diameter 0)
 		(color 21 101 192 1)
 		(uuid "f4eaf1b0-94a6-4243-aac3-1eae256fea38")
@@ -599,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 57.15 64.77)
+			(xy 90.17 66.04) (xy 57.15 66.04)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +610,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 57.15 64.77)
+			(xy 57.15 41.91) (xy 57.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -653,7 +653,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 53.34 45.72)
+			(xy 50.8 44.45) (xy 53.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -685,17 +685,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 137.16) (xy 57.15 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 21 101 192 1)
-		)
-		(uuid "0fe90719-8aa6-450d-bcbb-eb60b628e0fc")
-	)
-	(wire
-		(pts
 			(xy 60.96 33.02) (xy 60.96 57.15)
 		)
 		(stroke
@@ -707,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 113.03) (xy 90.17 113.03)
+			(xy 57.15 114.3) (xy 90.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 40.64) (xy 57.15 40.64)
+			(xy 50.8 39.37) (xy 57.15 39.37)
 		)
 		(stroke
 			(width 0)
@@ -831,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 40.64) (xy 90.17 40.64)
+			(xy 57.15 41.91) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
@@ -871,17 +860,6 @@
 			(type default)
 		)
 		(uuid "4c94f530-bac0-4e4f-8e9e-7eb0a2c4b9ef")
-	)
-	(wire
-		(pts
-			(xy 53.34 45.72) (xy 53.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 123 31 162 1)
-		)
-		(uuid "4dd2aaf3-bc24-40db-912a-f21c296d6a00")
 	)
 	(wire
 		(pts
@@ -933,17 +911,6 @@
 			(type default)
 		)
 		(uuid "5da096b7-94c9-4c1d-a73e-47ddab74ee7b")
-	)
-	(wire
-		(pts
-			(xy 57.15 113.03) (xy 57.15 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 21 101 192 1)
-		)
-		(uuid "5e3bc5ae-b528-48a6-b7aa-e4736d150a20")
 	)
 	(wire
 		(pts
@@ -1052,6 +1019,17 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 44.45) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 123 31 162 1)
+		)
+		(uuid "84d24516-da21-4d40-8e46-581eb1d215b1")
+	)
+	(wire
+		(pts
 			(xy 87.63 36.83) (xy 90.17 36.83)
 		)
 		(stroke
@@ -1072,17 +1050,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 57.15 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 21 101 192 1)
-		)
-		(uuid "95bdf311-999c-402f-a373-9f4ca38a7bb5")
-	)
-	(wire
-		(pts
 			(xy 60.96 57.15) (xy 90.17 57.15)
 		)
 		(stroke
@@ -1094,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 45.72) (xy 90.17 45.72)
+			(xy 53.34 44.45) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1102,17 +1069,6 @@
 			(color 123 31 162 1)
 		)
 		(uuid "9f035be5-4714-4d99-a45b-becef6b0b2f2")
-	)
-	(wire
-		(pts
-			(xy 57.15 64.77) (xy 57.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 21 101 192 1)
-		)
-		(uuid "a41f712d-6ed2-4b7a-b8d7-ad28f4b39c7d")
 	)
 	(wire
 		(pts
@@ -1176,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 33.02) (xy 90.17 33.02)
+			(xy 50.8 33.02) (xy 90.17 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 137.16) (xy 57.15 137.16)
+			(xy 90.17 138.43) (xy 57.15 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 57.15 88.9)
+			(xy 90.17 90.17) (xy 57.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1288,6 +1244,17 @@
 			(type default)
 		)
 		(uuid "cbe7d692-6f3e-4c6f-9110-0504e44a685c")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 57.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 21 101 192 1)
+		)
+		(uuid "cc3971f4-6b1b-4207-b4e5-7ba5009d8a97")
 	)
 	(wire
 		(pts
@@ -1312,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 161.29) (xy 90.17 161.29)
+			(xy 57.15 162.56) (xy 90.17 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1382,348 +1349,31 @@
 		)
 		(uuid "f7cda885-f066-45ea-9f7f-9812dc7d7027")
 	)
-	(global_label "VLSA_SPARE_2_EN"
-		(shape input)
-		(at 87.63 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b277939-e182-452a-8fbe-09008a4c38ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.6511 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT_SWD_OBC"
-		(shape output)
-		(at 156.21 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "408c54ed-dc8a-4836-89dd-afeaa04f527f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3466 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VLSA_I2C_SCL"
-		(shape input)
-		(at 50.8 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 123 31 162 1)
-			)
-			(justify right)
-		)
-		(uuid "4528518b-9150-492b-89dd-d2fd4a08d825")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.8729 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VLSA_STAR_TRACKER_EN"
-		(shape input)
-		(at 87.63 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50361057-ff4f-47ff-bbe2-29bf83bc3878")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.0268 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VLSA_TTC_1_EN"
-		(shape input)
-		(at 87.63 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f166023-17af-4651-9880-edee7c3b4481")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.433 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT_SWD_TTC_1"
-		(shape output)
-		(at 156.21 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72ab5f9a-777d-4580-82f9-a6ae1e09b5b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8584 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT_SWD_TTC_2"
+	(hierarchical_label "VBAT_SWD_TTC_2"
 		(shape output)
 		(at 156.21 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "73e26174-2ca3-4912-802b-66f439176cf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8584 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "0e236c96-4e56-46e3-8790-46dc03dc2599")
 	)
-	(global_label "VLSA_SPARE_1_EN"
+	(hierarchical_label "VLSA_SPARE_1_EN"
 		(shape input)
 		(at 87.63 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7416ecfb-d52b-4cb6-89b9-9419540bad45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.6511 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "18119071-ebe2-477c-a8cc-77b3aedf0031")
 	)
-	(global_label "VLSA_TTC_2_EN"
-		(shape input)
-		(at 87.63 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83a4747c-f10a-4900-86f7-7d92f3f177fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.433 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT_SWD_SPARE_1"
-		(shape output)
-		(at 156.21 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9591b97f-23ad-42a2-b7a7-aa5992c06bc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.6403 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VLSA_OBC_EN"
-		(shape input)
-		(at 87.63 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96f8ad59-35b4-47aa-a133-933d13b6787f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.9448 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT_SWD_SPARE_2"
-		(shape output)
-		(at 156.21 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2e7cf33-ae7e-4830-9777-5761de3466bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.6403 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBAT_RAW"
-		(shape input)
-		(at 54.61 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 198 40 40 1)
-			)
-			(justify right)
-		)
-		(uuid "cbf497b8-c4a8-4c92-ab38-31fe3157b99d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4324 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT_SWD_STAR_TRACKER"
-		(shape output)
-		(at 156.21 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cee575a6-6f97-4741-8086-1e1a20b86bae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2646 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VLSA_I2C_SDA"
+	(hierarchical_label "VLSA_I2C_SDA"
 		(shape bidirectional)
-		(at 54.61 40.64 180)
-		(fields_autoplaced yes)
+		(at 50.8 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,19 +1381,141 @@
 			)
 			(justify right)
 		)
-		(uuid "f2205959-6b82-416a-a30e-560d2bfa253c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5111 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "1952e8dc-31d5-4451-b924-3bf557899404")
+	)
+	(hierarchical_label "VLSA_I2C_SCL"
+		(shape input)
+		(at 50.8 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 123 31 162 1)
 			)
+			(justify right)
 		)
+		(uuid "1a6f5ead-462e-4062-9f27-1dc139e08d94")
+	)
+	(hierarchical_label "VBAT_SWD_STAR_TRACKER"
+		(shape output)
+		(at 156.21 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fe5f1b2-b3ec-4c24-952d-58db011802b1")
+	)
+	(hierarchical_label "VLSA_TTC_2_EN"
+		(shape input)
+		(at 87.63 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "508fda21-872b-424b-b4e7-9e5602054ba9")
+	)
+	(hierarchical_label "VBAT_SWD_SPARE_1"
+		(shape output)
+		(at 156.21 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf3e52d-7d39-4b5f-9bcb-bd61258abe7b")
+	)
+	(hierarchical_label "VLSA_TTC_1_EN"
+		(shape input)
+		(at 87.63 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6376c54d-dd79-49d8-9867-6e0fe16d99f2")
+	)
+	(hierarchical_label "VBAT_RAW"
+		(shape input)
+		(at 50.8 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 198 40 40 1)
+			)
+			(justify right)
+		)
+		(uuid "6c15048c-3898-4285-b580-841e959f70ab")
+	)
+	(hierarchical_label "VLSA_OBC_EN"
+		(shape input)
+		(at 87.63 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c633dda-8ab9-4bbc-85a2-80dfadb0a22f")
+	)
+	(hierarchical_label "VBAT_SWD_SPARE_2"
+		(shape output)
+		(at 156.21 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9f97953-01ad-46ab-bf46-61a6abbd044c")
+	)
+	(hierarchical_label "VLSA_SPARE_2_EN"
+		(shape input)
+		(at 87.63 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf7744b6-3d55-4d35-9e59-da9c726715e0")
+	)
+	(hierarchical_label "VBAT_SWD_TTC_1"
+		(shape output)
+		(at 156.21 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9364f5e-9e26-4ccb-b5eb-5c136cabdff3")
+	)
+	(hierarchical_label "VLSA_STAR_TRACKER_EN"
+		(shape input)
+		(at 87.63 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0047c74-3aef-4d75-90c3-96f543fc4fa6")
+	)
+	(hierarchical_label "VBAT_SWD_OBC"
+		(shape output)
+		(at 156.21 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9bb8f49-5273-4c84-8711-2ce96866dfab")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1817,6 +1589,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -2057,6 +1835,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2131,6 +1915,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -2366,6 +2156,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R4")
 					(unit 1)
 				)
@@ -2606,6 +2402,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2680,6 +2482,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -2915,6 +2723,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R15")
 					(unit 1)
 				)
@@ -3155,6 +2969,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3229,6 +3049,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -3311,6 +3137,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3389,6 +3221,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet
@@ -3439,7 +3277,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 90.17 137.16 180)
+			(at 90.17 138.43 180)
 			(uuid "938e1f38-5cc4-43cf-a189-2db5b9b7191f")
 			(effects
 				(font
@@ -3504,6 +3342,11 @@
 					(page "6")
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(page "10")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3554,7 +3397,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 90.17 64.77 180)
+			(at 90.17 66.04 180)
 			(uuid "056eb7b1-e37c-4fb0-ba30-73a0b474fbde")
 			(effects
 				(font
@@ -3619,6 +3462,11 @@
 					(page "3")
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(page "7")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3669,7 +3517,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 90.17 113.03 180)
+			(at 90.17 114.3 180)
 			(uuid "0fe95f3f-00e2-4cff-8ec9-b91d4e731570")
 			(effects
 				(font
@@ -3734,6 +3582,11 @@
 					(page "5")
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(page "9")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3784,7 +3637,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 90.17 161.29 180)
+			(at 90.17 162.56 180)
 			(uuid "ab66ce06-c5ff-4b01-91ad-5c457997ec27")
 			(effects
 				(font
@@ -3849,6 +3702,11 @@
 					(page "7")
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(page "11")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3899,7 +3757,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 90.17 88.9 180)
+			(at 90.17 90.17 180)
 			(uuid "8525ac8f-78c9-4d60-9f2c-65d9f31b426a")
 			(effects
 				(font
@@ -3964,6 +3822,11 @@
 					(page "4")
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(page "8")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3992,7 +3855,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
 			(at 90.17 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4004,7 +3867,7 @@
 			)
 		)
 		(pin "I2C_SCL" input
-			(at 90.17 45.72 180)
+			(at 90.17 44.45 180)
 			(uuid "088b5571-d186-4ddb-a819-2bb311134795")
 			(effects
 				(font
@@ -4014,7 +3877,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 90.17 40.64 180)
+			(at 90.17 41.91 180)
 			(uuid "5abd9074-83e3-403d-a0b8-0496937380c2")
 			(effects
 				(font
@@ -4079,6 +3942,11 @@
 					(page "2")
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
+					(page "6")
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -4086,5 +3954,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

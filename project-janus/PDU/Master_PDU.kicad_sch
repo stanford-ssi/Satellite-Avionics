@@ -32,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pcs\\schematics\\PDU_Control_System.kicad_sch"
+		(property "Sheetfile" "pcs/schematics/PDU_Control_System.kicad_sch"
 			(at 101.6 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "vlsa\\schematics\\ADM1176\\ADM1176.kicad_sch"
+		(property "Sheetfile" "vlsa/schematics/VLSA.kicad_sch"
 			(at 185.42 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -124,7 +124,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sacd\\ADI LT8491\\ADI LT8491.kicad_sch"
+		(property "Sheetfile" "sacd/ADI LT8491/ADI LT8491.kicad_sch"
 			(at 39.37 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)

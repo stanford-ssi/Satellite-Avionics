@@ -17318,7 +17318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b798a4b-4293-4093-bc77-48f1c7e22f57")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 243.84 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
