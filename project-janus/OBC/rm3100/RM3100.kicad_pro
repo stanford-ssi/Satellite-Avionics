@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -307,7 +307,7 @@
       },
       {
         "netclass": "SPI",
-        "pattern": "*MAG_*"
+        "pattern": "*MAG1_*"
       }
     ]
   },
@@ -449,13 +449,18 @@
       {
         "filename": "RM3100.kicad_sch",
         "name": "RM3100",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "bfb50d67-0ebc-4e49-a752-8b349d4a6967"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "bfb50d67-0ebc-4e49-a752-8b349d4a6967",
+      "RM3100"
+    ]
+  ],
   "text_variables": {
     "DM_URL": "TBD"
   },
