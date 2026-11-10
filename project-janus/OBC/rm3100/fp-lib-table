@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RM3100_Board") (type "KiCad") (uri "${KIPRJMOD}/RM3100_Board.pretty") (options "") (descr ""))
+)
