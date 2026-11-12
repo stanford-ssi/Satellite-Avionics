@@ -1475,7 +1475,7 @@
 	)
 	(text "20m\n shunt "
 		(exclude_from_sim no)
-		(at 55.118 80.772 0)
+		(at 55.88 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2351,125 +2351,60 @@
 		)
 		(uuid "e5fdc67f-359d-4537-b607-83453b8fff8a")
 	)
-	(global_label "3.3V"
-		(shape bidirectional)
-		(at 63.5 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d80f5d5-130a-4d60-95c2-76b8d25f8084")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.2911 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBAT_RAW"
-		(shape bidirectional)
-		(at 55.88 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ed6d5fc-448f-410a-afd3-bebef51e143f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.5911 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape bidirectional)
-		(at 170.18 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ed575e9-1b5b-4754-8f25-efd969395da4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9711 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape bidirectional)
-		(at 69.85 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a92c2f2-3c91-47db-9eef-1acfa0e34cc5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.6411 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CURR_OUT"
+	(hierarchical_label "PSMS-ADC"
 		(shape bidirectional)
 		(at 113.03 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "eddabcc9-6c95-462a-80bc-3ca2bb23aefb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8632 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "3a2107e7-1193-40d6-a435-b37321eb73b2")
+	)
+	(hierarchical_label "3.3V"
+		(shape bidirectional)
+		(at 63.5 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "3fa29c09-7e6d-428b-8b92-0f401fe5adc0")
+	)
+	(hierarchical_label "VBAT_RAW"
+		(shape bidirectional)
+		(at 55.88 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8547818f-3e24-4b7a-b59f-7a38af0cd33b")
+	)
+	(hierarchical_label "3.3V"
+		(shape bidirectional)
+		(at 170.18 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b46d5fe0-a0e9-4dcf-99e9-9f12f59d96be")
+	)
+	(hierarchical_label "3.3V"
+		(shape bidirectional)
+		(at 69.85 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd9d16e6-177e-41bd-a02e-ffa8dd24847d")
 	)
 	(symbol
 		(lib_id "Device:C")
