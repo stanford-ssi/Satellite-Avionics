@@ -1443,6 +1443,16 @@
 		)
 		(uuid "28f61e8c-2211-41f0-ad52-5ae9f69a2b6f")
 	)
+	(text "10k pull-up for always-on conifg\n"
+		(exclude_from_sim no)
+		(at 176.022 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a56bd70-9107-4d28-98c9-41d7814180e4")
+	)
 	(text "3.3V Buck + Current Sense "
 		(exclude_from_sim no)
 		(at 143.002 50.038 0)
@@ -1463,15 +1473,25 @@
 		)
 		(uuid "b0223dcd-595d-46b8-82fb-af8dc1b27f2b")
 	)
-	(text "20m ohm shunt "
+	(text "20m\n shunt "
 		(exclude_from_sim no)
-		(at 51.562 83.058 0)
+		(at 55.118 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "c78567d6-490b-4c8d-a655-69fc540ca1ff")
+	)
+	(text "input decoupling\n"
+		(exclude_from_sim no)
+		(at 91.948 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dbee7b6d-efff-4e5f-ac2d-f749b6961c37")
 	)
 	(text "3.3v target: V_out = (0.763 + 0.0017 * 3.3) * (1 + R1/R2)\nR1 = 73.2kk, R2 = 22.1k\n"
 		(exclude_from_sim no)
