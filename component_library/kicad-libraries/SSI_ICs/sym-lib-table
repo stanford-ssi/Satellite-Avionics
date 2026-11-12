@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "SSI_LAN8651") (type "KiCad") (uri "${SSI_ICS}/LAN8651/LAN8651.kicad_sym") (options "") (descr "Microchip LAN8651 10BASE-T1S MAC-PHY"))
 	(lib (name "SSI_ABM8G") (type "KiCad") (uri "${SSI_ICS}/ABM8G/ABM8G.kicad_sym") (options "") (descr "Abracon ABM8G 25 MHz crystal"))
+	(lib (name "SSI_SFM-120-02-L-D-TR") (type "KiCad") (uri "${SSI_ICS}/SFM-120-02-L-D-TR/SFM-120-02-L-D-TR.kicad_sym") (options "") (descr "Samtec SFM 2x20 1.27mm SMT socket strip"))
+	(lib (name "SSI_TFM-120-01-L-D-RA") (type "KiCad") (uri "${SSI_ICS}/TFM-120-01-L-D-RA/TFM-120-01-L-D-RA.kicad_sym") (options "") (descr "Samtec TFM 2x20 1.27mm right-angle THT terminal strip"))
 )

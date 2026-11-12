@@ -27298,4 +27298,15 @@
 			)
 		)
 	)
+	(group "SN65HVD233DR"
+		(uuid "94614162-2f49-4c6c-b622-b1ad6bcdf328")
+		(lib_id "MISC:SN65HVD233DR")
+		(members "0eb0448b-c889-413a-a3d7-80dd110fb5b4" "3764c088-864b-417c-80f5-b7533e066321"
+			"59b58cf7-9755-460b-816d-f50f0bedc96d" "609c411a-6dbf-41cd-becb-8cd29ab85478"
+			"61b0e2d7-56a1-4dfc-8072-559f7b90176a" "775b187e-f467-43b1-b408-80f299dd63e2"
+			"862aa14b-9f56-493b-836b-3c79284ab93c" "8cf6cb9a-cd88-448d-9fec-3dc120df211e"
+			"b8086b64-6f33-470f-9047-bdddd112d585" "d25d710a-8a76-4fbd-8e08-9de7e08268b8"
+			"e21eb953-de65-4781-9f23-2ae960d7f375" "fe55d1d9-4c69-4e77-bfdf-ee1adf1cfac3"
+		)
+	)
 )

@@ -520,8 +520,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -665,7 +665,7 @@
         "uuid": "eb8d545a-8538-4e84-af84-f006a1f33201"
       }
     ],
-    "used_designators": "#1-2,#PWR1-55,100nF1,10K1-2,110K1-3,200K1,215K1,53.6K1,68nF1,71.5K1,C1-33,C_IMON_IN1,C_IMON_OUT1,C_S1-2,C_VC1-2,D1,DB1-2,J1,L1-2,M1-4,MPPT1,Q1-4,Q6-7,R1-41,R_DACI1-2,R_DACO1-2,R_DSA1,R_DSB1,R_FBIN1-2,R_FBOUT1-2,R_IMON_IN1,R_IMON_OUT1,R_IOR1,R_IOW1,R_S1-2,R_SENSE1-3,R_VC1,U1-11,X1",
+    "used_designators": "200K1,C_VC1-2,L1-2,R1-41,#PWR1-55,M1-4,R_IOW1,R_SENSE1-3,Q1-4,Q6-7,C_IMON_IN1,DB1-2,#1-2,110K1-3,J1,MPPT1,100nF1,R_DSB1,10K1-2,68nF1,R_VC1,D1,53.6K1,R_IMON_OUT1,215K1,R_DACO1-2,R_FBOUT1-2,R_DACI1-2,R_IMON_IN1,U1-11,X1,C1-33,C_IMON_OUT1,R_DSA1,R_IOR1,71.5K1,C_S1-2,R_FBIN1-2,R_S1-2",
     "variants": []
   },
   "sheets": [

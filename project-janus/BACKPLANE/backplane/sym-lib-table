@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Samacsys") (type "KiCad") (uri "/home/clauer/Documents/satellites-avionics/project-janus/PDU/vlsa/schematics/ADM1176/Samacsys.kicad_sym") (options "") (descr ""))
+	(lib (name "Snapeda") (type "KiCad") (uri "/home/clauer/Documents/satellites-avionics/project-janus/PDU/vlsa/schematics/ADM1176/Snapeda.kicad_sym") (options "") (descr ""))
+)

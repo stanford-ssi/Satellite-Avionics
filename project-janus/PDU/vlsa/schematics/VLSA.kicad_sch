@@ -1349,6 +1349,66 @@
 		)
 		(uuid "f7cda885-f066-45ea-9f7f-9812dc7d7027")
 	)
+	(label "VLSA_4"
+		(at 0.1588 9.7157 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01aa4882-1454-4b12-a482-6bbe0b0bea6a")
+	)
+	(label "VLSA_3"
+		(at 0.1588 7.1757 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b3db2cf-9487-4a9f-a167-66606c12aa56")
+	)
+	(label "VLSA_1"
+		(at 0.1588 2.0957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51fc372d-a754-4214-9c1e-4427fdef9df9")
+	)
+	(label "VLSA_2"
+		(at 0.1588 4.6357 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9173c17-f3bf-4f6e-805c-d0e6423d7ccd")
+	)
+	(label "VLSA_6"
+		(at 0.1588 14.7957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfef0502-216d-46be-ab7f-2848cfebf684")
+	)
+	(label "VLSA_5"
+		(at 0.1588 12.2557 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da7204c8-eee0-4ae8-b265-cd8d250e5501")
+	)
 	(hierarchical_label "VBAT_SWD_TTC_2"
 		(shape output)
 		(at 156.21 81.28 0)
@@ -1593,6 +1653,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR011")
@@ -1613,7 +1679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "345ed340-b3b8-43f8-9c8b-3aa22934d444")
-		(property "Reference" "R3"
+		(property "Reference" "R14"
 			(at 142.24 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,6 +1901,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R3")
@@ -1919,6 +1991,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR07")
@@ -1938,7 +2016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "751195fd-9ae5-4ce0-af72-a981122f42b3")
-		(property "Reference" "R4"
+		(property "Reference" "R12"
 			(at 133.604 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2160,6 +2238,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R4")
@@ -2180,7 +2264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e26860c-2d7a-4302-9dda-16dce3adea73")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 137.16 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2402,6 +2486,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R2")
@@ -2486,6 +2576,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR012")
@@ -2505,7 +2601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2342ccf-7a31-4ca2-99ec-2aa2a4747ec2")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 131.064 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,6 +2823,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R15")
@@ -2747,7 +2849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ce287a-205d-41ff-8a6f-27337f2f629b")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 132.08 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,6 +3071,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "R1")
@@ -3049,6 +3157,12 @@
 		(instances
 			(project "VLSA"
 				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -3137,6 +3251,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR08")
@@ -3221,6 +3341,12 @@
 					(unit 1)
 				)
 			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc"
 					(reference "#PWR010")
@@ -3255,7 +3381,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "../../PDU/vlsa/schematics/ADM1176/ADM1176.kicad_sch"
 			(at 90.17 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,6 +3473,16 @@
 					(page "10")
 				)
 			)
+			(project ""
+				(path "/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "#")
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "8")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3375,7 +3511,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "../../PDU/vlsa/schematics/ADM1176/ADM1176.kicad_sch"
 			(at 90.17 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,6 +3603,16 @@
 					(page "7")
 				)
 			)
+			(project ""
+				(path "/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "#")
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "5")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3495,7 +3641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "../../PDU/vlsa/schematics/ADM1176/ADM1176.kicad_sch"
 			(at 90.17 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,6 +3733,16 @@
 					(page "9")
 				)
 			)
+			(project ""
+				(path "/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "#")
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "7")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3615,7 +3771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "../../PDU/vlsa/schematics/ADM1176/ADM1176.kicad_sch"
 			(at 90.17 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,6 +3863,16 @@
 					(page "11")
 				)
 			)
+			(project ""
+				(path "/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "#")
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "9")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3735,7 +3901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "../../PDU/vlsa/schematics/ADM1176/ADM1176.kicad_sch"
 			(at 90.17 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,6 +3993,16 @@
 					(page "8")
 				)
 			)
+			(project ""
+				(path "/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "#")
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "6")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3855,7 +4031,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "../../PDU/vlsa/schematics/ADM1176/ADM1176.kicad_sch"
 			(at 90.17 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,11 +4123,16 @@
 					(page "6")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+			(project ""
+				(path "/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "#")
+				)
+			)
+			(project "backplane"
+				(path "/d1dedf18-9671-457f-8958-303b8becf667/e0d7db16-3756-4d70-b378-d1409448e0a7/daa888e1-4ffa-4d9b-a2b2-ad398cc88829"
+					(page "10")
+				)
+			)
 		)
 	)
 )
