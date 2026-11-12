@@ -7,4 +7,6 @@ on a small remote board, mounted <= 8 cm from torquers and reaction wheels (loca
 - Connects to: OBC via 8-pin J_MAG harness: SPI mode 0, max 1 MHz, plus DRDY.
 - Measures: 3-axis magnetic field for B-dot detumble and attitude determination. Backup: MMC5983MA on the OBC.
 
+Design Master link: https://docs.google.com/spreadsheets/d/1Magy7Pv5RpWoOE26eidlDhtyJ_tfjOZqjaHxG35c-vI/edit?usp=sharing
+
 Status: schematic in progress. Owner: Marlon Moenius.
