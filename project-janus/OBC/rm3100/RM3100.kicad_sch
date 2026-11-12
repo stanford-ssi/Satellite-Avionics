@@ -14,6 +14,268 @@
 		(comment 3 "${DM_URL}")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31788177-93de-45b2-9212-3e441ab47bae")
+	)
+	(wire
+		(pts
+			(xy 135.89 45.72) (xy 144.78 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fd252c-dfcc-4720-85e6-58d6fa184db4")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2e9914-7615-411c-9b08-5d01cc031832")
+	)
+	(wire
+		(pts
+			(xy 135.89 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11b969d-2dbd-45a9-a17e-158429f3c69b")
+	)
+	(wire
+		(pts
+			(xy 160.02 -135.89) (xy 233.68 -135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26f3a8f-c40c-42cc-a112-095db25bb76d")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44872f9-2a51-4b93-acf7-c904793b3563")
+	)
+	(wire
+		(pts
+			(xy 233.68 -135.89) (xy 233.68 -69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8f02bd-a8c7-410b-a6be-82fe4208fdcf")
+	)
+	(sheet
+		(at 144.78 21.59)
+		(size 128.27 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "551c9eca-44c5-4277-a28a-2fdc0be47350")
+		(property "Sheetname" "RM3100 Sensor"
+			(at 144.78 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 144.78 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MAG1_DRDY" output
+			(at 144.78 53.34 180)
+			(uuid "ff324032-40bc-46be-bd90-ec0f0d655833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG1_SCK" input
+			(at 144.78 45.72 180)
+			(uuid "de7a840a-ed75-459e-82a1-18ef9edd9381")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG1_MOSI" input
+			(at 144.78 38.1 180)
+			(uuid "6e026717-cb63-4430-8584-139e21cbdc7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG1_MISO" output
+			(at 144.78 41.91 180)
+			(uuid "0ead50be-0dbc-4566-b329-be404107334d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG1_CS_N" input
+			(at 144.78 49.53 180)
+			(uuid "150f0aeb-0508-4f8c-a807-253b2d8a9e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RM3100"
+				(path "/bfb50d67-0ebc-4e49-a752-8b349d4a6967"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 21.59)
+		(size 110.49 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "583f3e63-23fa-4fbf-8d84-9a6be46435f1")
+		(property "Sheetname" "Connector & protection"
+			(at 25.4 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 25.4 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MAG1_MOSI" output
+			(at 135.89 38.1 0)
+			(uuid "36afc3e5-9640-476b-bed8-fd3a18237181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG1_MISO" input
+			(at 135.89 41.91 0)
+			(uuid "fec4bd91-e478-4727-ab3d-b310c6020be3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG1_SCK" output
+			(at 135.89 45.72 0)
+			(uuid "5e1164bf-04a4-4e26-83de-81afccf55daa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG1_CS_N" output
+			(at 135.89 49.53 0)
+			(uuid "855f8355-05a0-4eb3-946a-58e092ab08c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG1_DRDY" input
+			(at 135.89 53.34 0)
+			(uuid "36dbaa5c-5c19-425e-8698-31ed57c77f3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "RM3100"
+				(path "/bfb50d67-0ebc-4e49-a752-8b349d4a6967"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

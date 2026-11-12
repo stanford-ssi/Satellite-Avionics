@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d0b3a165-f128-4d7f-8450-715acff910d5")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MAG1_MOSI"
+		(shape input)
+		(at 152.4 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "250c78c6-734e-497e-8e40-3dc489b9b793")
+	)
+	(hierarchical_label "MAG1_SCK"
+		(shape input)
+		(at 152.4 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75607890-e7ee-47d7-93c9-f1b63d7a2488")
+	)
+	(hierarchical_label "MAG1_CS_N"
+		(shape input)
+		(at 152.4 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76acd089-6d72-4406-94d5-ac6137461dff")
+	)
+	(hierarchical_label "MAG1_DRDY"
+		(shape output)
+		(at 152.4 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df4100ca-5b71-4ad6-aab2-81f5fc07fc6b")
+	)
+	(hierarchical_label "MAG1_MISO"
+		(shape output)
+		(at 152.4 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fef95261-7c4a-45f9-b4ce-b964a6e5ff53")
+	)
+)
