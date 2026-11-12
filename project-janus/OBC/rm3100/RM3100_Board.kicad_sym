@@ -753,7 +753,7 @@
 		)
 		(symbol "Sen-XY-f_0_0"
 			(pin passive line
-				(at 0 7.62 270)
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "P"
 					(effects
@@ -771,7 +771,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 90)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "N"
 					(effects
@@ -791,8 +791,8 @@
 		)
 		(symbol "Sen-XY-f_0_1"
 			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -920,7 +920,7 @@
 		)
 		(symbol "Sen-Z-f_0_0"
 			(pin passive line
-				(at 0 7.62 270)
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "P"
 					(effects
@@ -938,7 +938,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 90)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "N"
 					(effects
@@ -958,8 +958,8 @@
 		)
 		(symbol "Sen-Z-f_0_1"
 			(rectangle
-				(start -2.54 5.08)
-				(end 2.54 -5.08)
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
 				(stroke
 					(width 0)
 					(type default)
