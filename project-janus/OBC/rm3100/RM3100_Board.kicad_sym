@@ -820,7 +820,7 @@
 				)
 			)
 		)
-		(property "Value" "Sen-XY-f"
+		(property "Value" "Sen-Z-f"
 			(at -8.382 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
