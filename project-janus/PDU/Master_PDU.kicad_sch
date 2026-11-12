@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 96.52 138.43)
+		(size 59.69 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7e1980f8-5e8d-483e-aa01-06f66f22e78d")
+		(property "Sheetname" "PSMS"
+			(at 96.52 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psms/schematics/psms_sch.kicad_sch"
+			(at 96.52 175.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 39.37 59.69)
 		(size 39.37 59.69)
 		(exclude_from_sim no)

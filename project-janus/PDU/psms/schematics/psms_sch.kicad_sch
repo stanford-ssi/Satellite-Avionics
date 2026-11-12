@@ -2417,7 +2417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eb9e5d7-7702-4db7-8cad-8fdfef33ff35")
-		(property "Reference" "C18"
+		(property "Reference" "C31"
 			(at 86.36 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,6 +2493,12 @@
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2574,6 +2580,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2587,7 +2599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26ba1817-0b59-4344-ba25-fa49564f7ade")
-		(property "Reference" "R13"
+		(property "Reference" "R28"
 			(at 177.8 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,6 +2673,12 @@
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2742,6 +2760,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2755,7 +2779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c5de8ce-a637-4cf0-8f4a-0979c4b7376a")
-		(property "Reference" "C3"
+		(property "Reference" "C33"
 			(at 106.426 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,6 +2845,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2834,7 +2864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39efb97d-ac3c-49a9-bd19-12fd5a6b7bec")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 168.148 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,6 +2943,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2926,7 +2962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d305018-c958-4166-9d26-013f540b9b9d")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 144.4244 82.7786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,6 +3124,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3166,6 +3208,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3179,7 +3227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e192f28-7be6-48a6-aff9-73836bc0afeb")
-		(property "Reference" "R14"
+		(property "Reference" "R29"
 			(at 177.8 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,6 +3304,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3269,7 +3323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c269d4a-c188-446d-a672-c74ec32655c8")
-		(property "Reference" "R15"
+		(property "Reference" "R30"
 			(at 199.898 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,6 +3399,12 @@
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3426,6 +3486,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3440,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "715a85f3-0329-4d1f-a316-398fd133f029")
-		(property "Reference" "R1"
+		(property "Reference" "R23"
 			(at 64.77 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,6 +3572,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3519,7 +3591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7422aee4-6869-406d-bc61-bad09fd399dd")
-		(property "Reference" "C17"
+		(property "Reference" "C29"
 			(at 78.74 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3598,6 +3670,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3612,7 +3690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ce041d-cccc-487e-9907-30afe8883220")
-		(property "Reference" "C4"
+		(property "Reference" "C22"
 			(at 71.12 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,6 +3758,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3694,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9fb673-210c-4dd9-91c2-09bb69335e01")
-		(property "Reference" "C1"
+		(property "Reference" "C32"
 			(at 102.87 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,6 +3846,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3775,7 +3865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8da68dfd-f372-4c80-9b2e-1454cac68712")
-		(property "Reference" "C26"
+		(property "Reference" "C34"
 			(at 190.754 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,6 +3944,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3868,7 +3964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "975fd4b5-f8e6-4220-a9a9-5b885dcad551")
-		(property "Reference" "R29"
+		(property "Reference" "R27"
 			(at 175.3616 72.8218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,6 +4043,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3961,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d43b18-8074-48cc-8988-aa7bcaa3a500")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 90.17 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,6 +4201,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4177,6 +4285,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4190,7 +4304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adc98e25-0cde-4995-97e9-ec0fd55041da")
-		(property "Reference" "C27"
+		(property "Reference" "C35"
 			(at 200.8632 97.5106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,6 +4380,12 @@
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4347,6 +4467,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4361,7 +4487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17ad811-1ce4-4db4-91be-2ea36544697e")
-		(property "Reference" "C2"
+		(property "Reference" "C30"
 			(at 87.63 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,6 +4555,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4442,7 +4574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fad886c4-6478-4785-b11b-0efe4e41cad6")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 95.25 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,12 +4695,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/7e1980f8-5e8d-483e-aa01-06f66f22e78d"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
