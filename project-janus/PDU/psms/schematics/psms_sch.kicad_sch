@@ -931,6 +931,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1550,6 +1689,12 @@
 		(uuid "4af47421-e115-46ee-b41a-77fe656ec2ee")
 	)
 	(junction
+		(at 78.74 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a0c255a-da73-4e0c-b9d8-6cdd3b37b188")
+	)
+	(junction
 		(at 182.88 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1560,12 +1705,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c2e7001-bbcd-4838-b35d-3f1b26259424")
-	)
-	(junction
-		(at 78.74 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "805038e8-34bc-48dc-bd00-2f52e1efbc74")
 	)
 	(junction
 		(at 69.85 88.9)
@@ -1913,6 +2052,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a004a3-21a5-47b0-9e5c-e44b96421f63")
+	)
+	(wire
+		(pts
 			(xy 172.72 91.44) (xy 189.23 91.44)
 		)
 		(stroke
@@ -2053,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 72.39) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8868c3d-e4ef-47b4-9f96-58d39e337482")
+	)
+	(wire
+		(pts
 			(xy 69.85 88.9) (xy 74.93 88.9)
 		)
 		(stroke
@@ -2090,16 +2249,6 @@
 			(type default)
 		)
 		(uuid "bfa43cb4-2c4a-45c2-a5ef-a399ed7dde29")
-	)
-	(wire
-		(pts
-			(xy 69.85 78.74) (xy 78.74 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0d728c4-c7fe-4994-8ee6-d24f41b21ca0")
 	)
 	(wire
 		(pts
@@ -2362,17 +2511,6 @@
 		)
 		(uuid "3a2107e7-1193-40d6-a435-b37321eb73b2")
 	)
-	(hierarchical_label "3.3V"
-		(shape bidirectional)
-		(at 63.5 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3fa29c09-7e6d-428b-8b92-0f401fe5adc0")
-	)
 	(hierarchical_label "VBAT_RAW"
 		(shape bidirectional)
 		(at 55.88 88.9 180)
@@ -2386,18 +2524,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape bidirectional)
-		(at 170.18 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b46d5fe0-a0e9-4dcf-99e9-9f12f59d96be")
-	)
-	(hierarchical_label "3.3V"
-		(shape bidirectional)
-		(at 69.85 78.74 180)
+		(at 58.42 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2417,7 +2544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eb9e5d7-7702-4db7-8cad-8fdfef33ff35")
-		(property "Reference" "C18"
+		(property "Reference" "C26"
 			(at 86.36 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,6 +2617,12 @@
 			(uuid "935a9ac0-1833-46bb-bd92-a7e5bdfcae20")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C18")
@@ -2568,6 +2701,12 @@
 			(uuid "7f289f13-8335-4fe7-9df2-d19d488b1d87")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "#PWR07")
@@ -2587,7 +2726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26ba1817-0b59-4344-ba25-fa49564f7ade")
-		(property "Reference" "R13"
+		(property "Reference" "R24"
 			(at 177.8 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,6 +2797,12 @@
 			(uuid "16592b5b-5e13-44b6-9dfc-24e4ed3a034d")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R13")
@@ -2736,6 +2881,12 @@
 			(uuid "307ad2e4-ba14-41ae-a036-653e03645945")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "#PWR01")
@@ -2755,7 +2906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c5de8ce-a637-4cf0-8f4a-0979c4b7376a")
-		(property "Reference" "C3"
+		(property "Reference" "C28"
 			(at 106.426 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2815,9 +2966,93 @@
 			(uuid "943ddb78-b005-443d-baa7-243114f8af67")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 170.18 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d3ef363-d078-4914-8853-4fc607660264")
+		(property "Reference" "#PWR027"
+			(at 173.99 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 108.966 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3e3b3b6-ebbb-4ffc-869f-1791afb3c989")
+		)
+		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2834,7 +3069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39efb97d-ac3c-49a9-bd19-12fd5a6b7bec")
-		(property "Reference" "D6"
+		(property "Reference" "D1"
 			(at 168.148 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,6 +3142,12 @@
 			(uuid "50230b1b-cd9c-49dc-a307-b32e6b48d4be")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "D6")
@@ -2926,7 +3167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d305018-c958-4166-9d26-013f540b9b9d")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 144.4244 82.7786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,9 +3323,93 @@
 			(uuid "eac7db0c-a133-4ea3-a5dd-e703c955c3f5")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 63.5 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42c660b1-bfc0-4e9e-a854-41072d39a2db")
+		(property "Reference" "#PWR022"
+			(at 67.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.5 128.016 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34f90fd4-4732-4a1b-b10d-90623a9dece1")
+		)
+		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3160,6 +3485,12 @@
 			(uuid "4131ccf0-f209-4fa0-b028-60f469b44730")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "#PWR04")
@@ -3179,7 +3510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e192f28-7be6-48a6-aff9-73836bc0afeb")
-		(property "Reference" "R14"
+		(property "Reference" "R25"
 			(at 177.8 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,6 +3581,12 @@
 			(uuid "b8acce81-1cb9-43fa-8c0a-47540dddc016")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R14")
@@ -3269,7 +3606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c269d4a-c188-446d-a672-c74ec32655c8")
-		(property "Reference" "R15"
+		(property "Reference" "R26"
 			(at 199.898 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,6 +3679,12 @@
 			(uuid "7409aeb6-5e96-4d16-8312-c52c4f428ae8")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R15")
@@ -3420,6 +3763,12 @@
 			(uuid "5753c3a8-d182-4b2e-ada4-0f5b43902fa7")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "#PWR03")
@@ -3440,7 +3789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "715a85f3-0329-4d1f-a316-398fd133f029")
-		(property "Reference" "R1"
+		(property "Reference" "R21"
 			(at 64.77 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3500,6 +3849,12 @@
 			(uuid "c1ccd583-7247-4022-a4ac-51f42153d181")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R1")
@@ -3519,7 +3874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7422aee4-6869-406d-bc61-bad09fd399dd")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 78.74 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,6 +3947,12 @@
 			(uuid "a4bb5822-f848-4721-81ea-fc30708165b6")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C17")
@@ -3612,7 +3973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ce041d-cccc-487e-9907-30afe8883220")
-		(property "Reference" "C4"
+		(property "Reference" "C23"
 			(at 71.12 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,9 +4035,93 @@
 			(uuid "c5843876-f03b-423c-8026-c60798f6b12c")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a8c93b1-8eb8-49d8-b58e-d818d32aedba")
+		(property "Reference" "#PWR015"
+			(at 69.85 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 67.564 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8723094f-30e7-44b4-8cd9-52e816d2b405")
+		)
+		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3694,7 +4139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a9fb673-210c-4dd9-91c2-09bb69335e01")
-		(property "Reference" "C1"
+		(property "Reference" "C27"
 			(at 102.87 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,6 +4201,12 @@
 			(uuid "c0af67c5-8be0-4db6-ac7c-0f23673a3e96")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C27")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C1")
@@ -3775,7 +4226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8da68dfd-f372-4c80-9b2e-1454cac68712")
-		(property "Reference" "C26"
+		(property "Reference" "C29"
 			(at 190.754 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,6 +4299,12 @@
 			(uuid "9cb8c335-7407-4499-87dc-68211013d72b")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C26")
@@ -3868,7 +4325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "975fd4b5-f8e6-4220-a9a9-5b885dcad551")
-		(property "Reference" "R29"
+		(property "Reference" "R23"
 			(at 175.3616 72.8218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,6 +4398,12 @@
 			(uuid "a94b36c2-b58d-4273-9c85-d2ad975c9d9f")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "R29")
@@ -3961,7 +4424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d43b18-8074-48cc-8988-aa7bcaa3a500")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 90.17 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,6 +4556,12 @@
 			(uuid "8dbf515b-775c-4c44-ad54-880f6ea72dc9")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "U1")
@@ -4171,6 +4640,12 @@
 			(uuid "4016a817-6690-4689-a4dc-7a1910de9201")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "#PWR05")
@@ -4190,7 +4665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adc98e25-0cde-4995-97e9-ec0fd55041da")
-		(property "Reference" "C27"
+		(property "Reference" "C30"
 			(at 200.8632 97.5106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4263,9 +4738,93 @@
 			(uuid "624297ff-9d2b-4bbc-a86b-ec342fa636f4")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 58.42 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b349b89d-0240-4955-8fd2-cd8095ce2358")
+		(property "Reference" "#PWR02"
+			(at 54.61 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 58.42 70.104 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 58.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57a29bd9-6ecf-46f2-96df-5168ec3dfbdc")
+		)
+		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4341,6 +4900,12 @@
 			(uuid "a5d63d91-66a5-41a9-84b1-cbb40664717a")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "#PWR06")
@@ -4361,7 +4926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17ad811-1ce4-4db4-91be-2ea36544697e")
-		(property "Reference" "C2"
+		(property "Reference" "C25"
 			(at 87.63 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,6 +4988,12 @@
 			(uuid "e352959a-8791-4be0-bf1b-d6210e655419")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "C2")
@@ -4557,6 +5128,12 @@
 			(uuid "b2867f40-fb3e-4eca-98fb-b638c63c3a62")
 		)
 		(instances
+			(project "PDU_Master_Sheet"
+				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/7536d1ef-90a5-4481-9c24-3a24c5cda9d9"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 			(project "psms_sch"
 				(path "/caa97ed2-a790-42eb-a44c-1d5836d606a8"
 					(reference "L2")
@@ -4565,10 +5142,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
