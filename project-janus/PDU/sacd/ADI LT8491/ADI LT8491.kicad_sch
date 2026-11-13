@@ -11575,7 +11575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sacd/ADI LT8491/untitled.kicad_sch"
+		(property "Sheetfile" "untitled.kicad_sch"
 			(at 302.26 28.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
