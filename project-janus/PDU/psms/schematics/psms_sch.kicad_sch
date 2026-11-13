@@ -2351,7 +2351,7 @@
 		)
 		(uuid "e5fdc67f-359d-4537-b607-83453b8fff8a")
 	)
-	(hierarchical_label "PSMS-ADC"
+	(hierarchical_label "PSMS_ADC"
 		(shape bidirectional)
 		(at 113.03 118.11 0)
 		(effects

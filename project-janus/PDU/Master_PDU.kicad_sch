@@ -44,6 +44,206 @@
 				(justify left top)
 			)
 		)
+		(pin "BCDR_CURR_ADC" input
+			(at 101.6 62.23 180)
+			(uuid "087eb61d-1404-4be3-8baa-ca03c5be72f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BCDR_VOLT_ADC" input
+			(at 101.6 64.77 180)
+			(uuid "7bf2e1fd-464d-4ffa-812d-2189e47010f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANH" input
+			(at 101.6 67.31 180)
+			(uuid "46d88831-58cc-47f5-9b69-42febf2203e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" input
+			(at 101.6 69.85 180)
+			(uuid "82b56b2f-d112-4c03-a771-8eea3bdfcc99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SCL" input
+			(at 101.6 72.39 180)
+			(uuid "5b34f879-3ac5-4e85-adae-fa294e5991f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SDA" input
+			(at 101.6 74.93 180)
+			(uuid "50c537d7-3a60-4cd4-9516-148d5b73c418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 101.6 77.47 180)
+			(uuid "63df5705-36f2-4a68-92a0-5318194abb73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 101.6 80.01 180)
+			(uuid "b61834ea-989e-4be9-a480-4e854b236e0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS_ADC" input
+			(at 101.6 82.55 180)
+			(uuid "1b952461-3ba1-47ce-af88-2a46445ab654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS_EN" input
+			(at 101.6 85.09 180)
+			(uuid "82307f07-6222-443e-acd8-5e44e16814fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS_IN" input
+			(at 101.6 87.63 180)
+			(uuid "2675ab40-92cb-4502-96df-deda003d411c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS_EN_1" input
+			(at 101.6 90.17 180)
+			(uuid "b38e8309-8b35-4ec1-9696-a949d1ad3b0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS_EN_2" input
+			(at 101.6 92.71 180)
+			(uuid "b011bba4-fdef-4db5-9cca-348d491d6a81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS_EN_3" input
+			(at 101.6 95.25 180)
+			(uuid "577d4502-463a-4a6e-9b87-4c9761d9b086")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA1_EN" input
+			(at 101.6 97.79 180)
+			(uuid "773c4e0a-becc-4996-916e-ab3da853096d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA2_EN" input
+			(at 101.6 100.33 180)
+			(uuid "8aa184d3-7ef4-4c52-bc2c-1bd113e7cd81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA3_EN" input
+			(at 101.6 102.87 180)
+			(uuid "c5c881f2-fb67-4419-8bdf-792c8f7fec7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA4_EN" input
+			(at 101.6 105.41 180)
+			(uuid "5e1e876f-0438-4b83-bd1c-2b3b86441644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA5_EN" input
+			(at 101.6 107.95 180)
+			(uuid "1da5fe61-3453-4e19-bcf7-599c2d324552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA6_EN" input
+			(at 101.6 110.49 180)
+			(uuid "daf11571-569c-4064-97ae-7ab9d09bbfa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
