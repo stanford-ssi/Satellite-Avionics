@@ -3241,7 +3241,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 192 203 255 1)
 		)
 		(uuid "2c8e22d9-9541-4d37-8d11-1233976381f9")
 		(property "Sheetname" "LOAD_SWITCH_SPARE_1"
@@ -3255,7 +3255,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
 			(at 90.17 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +3361,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 187 135 1)
 		)
 		(uuid "2dcf1e2e-b358-4621-97eb-837dde126be7")
 		(property "Sheetname" "LOAD_SWITCH_TTC_1"
@@ -3375,7 +3375,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
 			(at 90.17 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3481,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 184 255 178 1)
 		)
 		(uuid "2e1e4d55-0b52-431a-be64-c312fa5cfe03")
 		(property "Sheetname" "LOAD_SWITCH_STAR_TRACKER"
@@ -3495,7 +3495,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
 			(at 90.17 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,7 +3601,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 246 179 255 1)
 		)
 		(uuid "99ad2191-c5e8-497f-91c8-d67917d5ff95")
 		(property "Sheetname" "LOAD_SWITCH_SPARE_2"
@@ -3615,7 +3615,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
 			(at 90.17 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +3721,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 250 154 1)
 		)
 		(uuid "f3987d2a-217a-454e-9e6c-923489da79be")
 		(property "Sheetname" "LOAD_SWITCH_TTC_2"
@@ -3735,7 +3735,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
 			(at 90.17 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +3841,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 167 166 1)
 		)
 		(uuid "fef73458-d012-4905-8546-68ece2e501b1")
 		(property "Sheetname" "LOAD_SWITCH_OBC"
@@ -3855,7 +3855,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADM1176/ADM1176.kicad_sch"
+		(property "Sheetfile" "ADM1176\\ADM1176.kicad_sch"
 			(at 90.17 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)

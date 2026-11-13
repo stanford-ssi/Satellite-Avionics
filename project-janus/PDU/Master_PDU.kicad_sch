@@ -16,9 +16,10 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 5 36 13 1)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 187 255 197 1)
 		)
 		(uuid "42f7af02-9d36-4207-8b8b-380f1acd4c94")
 		(property "Sheetname" "PCS"
@@ -32,7 +33,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pcs/schematics/PDU_Control_System.kicad_sch"
+		(property "Sheetfile" "pcs\\schematics\\PDU_Control_System.kicad_sch"
 			(at 101.6 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64,7 +65,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 187 226 1)
 		)
 		(uuid "6c4a9d71-a178-44c1-869e-e88fcc5f55fc")
 		(property "Sheetname" "VLSA"
@@ -78,7 +79,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "vlsa/schematics/VLSA.kicad_sch"
+		(property "Sheetfile" "vlsa\\schematics\\VLSA.kicad_sch"
 			(at 185.42 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 170 240 255 1)
 		)
 		(uuid "7e1980f8-5e8d-483e-aa01-06f66f22e78d")
 		(property "Sheetname" "PSMS"
@@ -124,7 +125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "psms/schematics/psms_sch.kicad_sch"
+		(property "Sheetfile" "psms\\schematics\\psms_sch.kicad_sch"
 			(at 96.52 175.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -156,7 +157,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 172 45 0.4588235294)
 		)
 		(uuid "e961048c-2a5d-43b6-82d4-ff5073dc20b1")
 		(property "Sheetname" "SADC"
@@ -170,7 +171,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sacd/ADI LT8491/ADI LT8491.kicad_sch"
+		(property "Sheetfile" "sacd\\ADI LT8491\\ADI LT8491.kicad_sch"
 			(at 39.37 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
