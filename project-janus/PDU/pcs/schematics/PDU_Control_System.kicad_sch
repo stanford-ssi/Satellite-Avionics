@@ -5602,6 +5602,244 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SiT8924BA-72-33N-12.000000:SiT8924BA-72-33N-12.000000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "G"
+				(at -7.62 8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SiT8924BA-72-33N-12.000000"
+				(at -7.62 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SiT8924BA-72-33N-12.000000:OSC_SiT8924BA-72-33N-12.000000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/SiT8924BA-72-33N-12000000_SiTime.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "1 to 110 MHz, Wide Temperature AEC-Q100 Oscillator (-55 to +125°C)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SiT8924BA-72-33N-12000000_SiTime.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "SiTime"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "SiT8924BA-72-33N-12.000000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.03"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/SiT8924BA-72-33N-12.000000/SiTime/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SiT8924BA-72-33N-12.000000_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS3435CAIEGDDFR:TPS3435CAIEGDDFR"
 			(pin_names
 				(offset 1.016)
@@ -6683,12 +6921,6 @@
 		(uuid "23a2f5ff-6fa2-4256-aec8-aed178a98a55")
 	)
 	(junction
-		(at 213.36 256.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24504d53-2566-4a09-b58d-68134ba33d52")
-	)
-	(junction
 		(at 252.73 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6857,10 +7089,10 @@
 		(uuid "8ac8be12-9d3f-4911-b7d1-8f8a09d78d4f")
 	)
 	(junction
-		(at 252.73 241.3)
+		(at 342.9 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9267be70-692f-4a57-8b8f-666b7db31add")
+		(uuid "9c44fc41-0d5e-41d8-962e-b996cc81d089")
 	)
 	(junction
 		(at 76.2 97.79)
@@ -7340,16 +7572,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 241.3) (xy 252.73 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d46cd12-1178-44ca-b5e0-8bcabc52d246")
-	)
-	(wire
-		(pts
 			(xy 238.76 24.13) (xy 238.76 25.4)
 		)
 		(stroke
@@ -7460,6 +7682,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 220.98) (xy 346.71 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abca145-8fb6-45db-8964-14eb41d7191b")
+	)
+	(wire
+		(pts
 			(xy 172.72 140.97) (xy 157.48 140.97)
 		)
 		(stroke
@@ -7507,6 +7739,16 @@
 			(type default)
 		)
 		(uuid "31e3eda7-ceb5-4d5f-ab5b-f8196e120614")
+	)
+	(wire
+		(pts
+			(xy 340.36 226.06) (xy 345.44 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fb338f-e188-4bcd-9a30-401f6fe58b7b")
 	)
 	(wire
 		(pts
@@ -7697,16 +7939,6 @@
 			(type default)
 		)
 		(uuid "48402520-21f3-4ee5-aab8-1c84a1ab93d4")
-	)
-	(wire
-		(pts
-			(xy 213.36 262.89) (xy 213.36 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48f03114-5715-4334-9212-5f057b8647e9")
 	)
 	(wire
 		(pts
@@ -8760,6 +8992,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 231.14) (xy 342.9 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b878d67b-da77-4acc-b250-49e1d4c2f718")
+	)
+	(wire
+		(pts
 			(xy 237.49 181.61) (xy 223.52 181.61)
 		)
 		(stroke
@@ -8777,6 +9019,16 @@
 			(type default)
 		)
 		(uuid "bb1d055e-569b-4fe7-bcea-611fe2829a21")
+	)
+	(wire
+		(pts
+			(xy 342.9 231.14) (xy 346.71 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc76faa0-284e-40f6-9b59-14c152812bef")
 	)
 	(wire
 		(pts
@@ -10168,6 +10420,16 @@
 		)
 		(uuid "8f91f4e8-edd2-4572-ab38-154a032580b2")
 	)
+	(label "XOUT"
+		(at 346.71 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92e56c1a-f23e-4fee-a41f-b91688469e21")
+	)
 	(label "GPIO6"
 		(at 157.48 199.39 0)
 		(effects
@@ -10617,6 +10879,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb06535b-06b6-412f-9ac5-aa0f914fd5f4")
+	)
+	(label "XIN"
+		(at 345.44 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc1dc675-ac24-458a-814f-e7fe023eed31")
 	)
 	(label "FLASH_IO3"
 		(at 237.49 168.91 180)
@@ -17130,95 +17402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 252.73 243.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f67026c-4e6d-497e-a3fd-6ef9aa34e4e3")
-		(property "Reference" "#PWR056"
-			(at 252.73 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 247.777 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6575a1a-0f7e-4e73-a29c-277bbf1b31ab")
-		)
-		(instances
-			(project "PDU_Master_Sheet"
-				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/66edc327-4ea2-4e41-820d-8c49cd2d541f"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-			(project "PDU_Control_System"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-			(project "Master_PDU"
-				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 57.15 114.3 0)
 		(unit 1)
@@ -22861,6 +23044,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 342.9 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "933d779c-1205-4bd3-b9cd-a3b36ce25319")
+		(property "Reference" "#PWR056"
+			(at 342.9 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 235.077 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 342.9 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aa4c425-5278-4367-b6ab-eea730d8c3c2")
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 82.55 52.07 90)
 		(unit 1)
@@ -24722,96 +24982,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 213.36 262.89 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6984562-55fb-46af-acfc-6deae716f36a")
-		(property "Reference" "#PWR042"
-			(at 213.36 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 213.36 266.7 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 213.36 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a01b2a2-40c2-40cd-8943-94fe7ab54e55")
-		)
-		(instances
-			(project "PDU_Master_Sheet"
-				(path "/7a2e3c18-a70b-4851-84e5-27e873303553/66edc327-4ea2-4e41-820d-8c49cd2d541f"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-			(project "PDU_Control_System"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-			(project "Master_PDU"
-				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 59.69 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -24894,6 +25064,84 @@
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 346.71 220.98 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c321c8fc-6a51-4172-a241-ea961e9ce175")
+		(property "Reference" "#PWR042"
+			(at 342.9 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 350.52 220.98 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 346.71 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d423440-5af8-4b93-bafc-a262ef6a04b5")
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -27336,6 +27584,179 @@
 			(project "Master_PDU"
 				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiT8924BA-72-33N-12.000000:SiT8924BA-72-33N-12.000000")
+		(at 327.66 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a42b7c-87c5-4943-8226-d77c42e99988")
+		(property "Reference" "G1"
+			(at 327.66 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiT8924BA-72-33N-12.000000"
+			(at 327.66 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiT8924BA-72-33N-12.000000:OSC_SiT8924BA-72-33N-12.000000"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/SiT8924BA-72-33N-12000000_SiTime.pdf"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "1 to 110 MHz, Wide Temperature AEC-Q100 Oscillator (-55 to +125°C)"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SiT8924BA-72-33N-12000000_SiTime.pdf"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "SiTime"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "SiT8924BA-72-33N-12.000000"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.03"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/SiT8924BA-72-33N-12.000000/SiTime/view-part/"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 327.66 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "62e58994-fdde-4588-93fe-91103bfe4b37")
+		)
+		(pin "2"
+			(uuid "c03cf51d-a7b6-4c12-97ab-01ebe18f1a81")
+		)
+		(pin "3"
+			(uuid "3da5b97d-8999-441c-9945-479e95db0243")
+		)
+		(pin "4"
+			(uuid "51a1152b-b93c-4259-a806-2570b07cb751")
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/42f7af02-9d36-4207-8b8b-380f1acd4c94"
+					(reference "G1")
 					(unit 1)
 				)
 			)
