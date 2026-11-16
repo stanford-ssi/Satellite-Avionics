@@ -9,7 +9,7 @@
 		(at 0 -2.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a6bb9400-ddf6-48af-8f63-b8a0ad7f9fab")
+		(uuid "5112775d-edd2-4ed6-832b-f520dfcd3d0a")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 2.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "585727b9-96ca-4ff8-8d2a-61ac492e62c8")
+		(uuid "6f8d534e-4cbf-4fea-8768-657f03d5ecc7")
 		(effects
 			(font
 				(size 1 1)
@@ -29,12 +29,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "${KIPRJMOD}/datasheets/RM3100_1017252_r06.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2dbd16db-1300-4825-b8ff-0772d96e44d2")
+		(uuid "8a530dca-9fe7-42a5-8aab-94a8dfb5b055")
 		(effects
 			(font
 				(size 1 1)
@@ -42,12 +42,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "PNI Sen-Z-f sensor coil (13101). Pads, mask (+0.125 mm) and paste per PNI Doc 1017252 r06 Fig. 3-6 (paste centred; drawing's 0.325 margins don't sum to 1.95 pad). Body per Fig. 3-4. Pad 1 = P (ZDRVP/ZINP), pad 2 = N (ZDRVN/ZINN). Polarity notch on pad 2 / ZDRVN side per Fig. 3-4 + Fig. 4-4. Needs independent second check before fab."
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6a6c8886-f130-47d7-9a8d-c76adce2598e")
+		(uuid "2b509eaf-13e9-4d83-b92e-c7a9390538d8")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1bc7f32f-f82e-463d-9e55-39dc4f838138")
+		(uuid "fc5998f3-6759-4e65-b8c9-817f81f480d8")
 	)
 	(fp_line
 		(start -1.94 1.6)
@@ -75,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7162cffd-aead-429b-9311-f1f5b420b4ca")
+		(uuid "db4054a9-f272-450c-9600-69b61ff7a582")
 	)
 	(fp_line
 		(start 1.55 -1.49)
@@ -85,17 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2c990583-08b1-40b7-be97-d87058856601")
-	)
-	(fp_line
-		(start 1.55 -1.49)
-		(end 1.94 -1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a7cb2fa5-a451-422c-8076-c5b07c6c0852")
+		(uuid "b4c88031-2c29-491f-8bb5-1492719e5140")
 	)
 	(fp_rect
 		(start -1.86 -0.675)
@@ -106,7 +96,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "4f888575-21a3-4bd1-9880-cc235972a602")
+		(uuid "f5111b47-b216-4eb8-9c6d-6f7d21c194d6")
 	)
 	(fp_rect
 		(start 0.2 -0.675)
@@ -117,7 +107,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "a048b295-ec72-4fdd-ad67-5b6bff4eac49")
+		(uuid "e7fab5d6-f263-4eb6-8836-a651415cf70a")
 	)
 	(fp_rect
 		(start -2.85 -1.75)
@@ -128,7 +118,17 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c3966f3e-1a96-443b-bdef-fd71c0d54c92")
+		(uuid "201d7d5d-f0de-4b48-8295-899eb8e70824")
+	)
+	(fp_line
+		(start 1.55 -1.49)
+		(end 1.94 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f57e68e-86b8-4f3c-bfe3-8b16b79c4406")
 	)
 	(fp_rect
 		(start -1.94 -1.49)
@@ -139,13 +139,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "9abb8628-1d3a-4c44-ab7f-13d9a4419d3e")
+		(uuid "c1b32033-2821-4d6a-8194-b8494ed394ba")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.025 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "c423867a-8a30-4dfc-ae0a-7a8f54ccb96a")
+		(uuid "4b164274-dab7-4e41-b381-67f4ed6388ed")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -158,14 +158,14 @@
 		(size 2.4 1.95)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.125)
-		(uuid "6101db8a-528b-4f80-a56f-3f48c0b852bf")
+		(uuid "4300f8d8-487f-4fd1-b82a-4ddae584a141")
 	)
 	(pad "2" smd rect
 		(at 1.4 0)
 		(size 2.4 1.95)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.125)
-		(uuid "fd80a4d1-7492-459b-beff-79aac36d8dea")
+		(uuid "43fb0134-c224-497d-b71f-502d9c238239")
 	)
 	(embedded_fonts no)
 )

@@ -789,16 +789,16 @@
 				)
 			)
 		)
-		(symbol "Sen-XY-f_0_1"
+		(symbol "Sen-XY-f_1_1"
 			(rectangle
 				(start -2.54 2.54)
 				(end 2.54 -2.54)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -852,7 +852,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarity indicator orientation critical (§4.2.1)."
+		(property "Description" "PNI Sen-Z-f sensor coil (Z axis), PNI p/n 13101. Pin 1 (P) = ZDRVP/ZINP end; pin 2 (N) = ZDRVN/ZINN end. Polarity indicator orientation critical (PNI Doc 1017252 r06 §4.2.1): notch is on the ZDRVN terminal side per Fig. 3-4 top view + Fig. 4-4."
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -956,16 +956,16 @@
 				)
 			)
 		)
-		(symbol "Sen-Z-f_0_1"
+		(symbol "Sen-Z-f_1_1"
 			(rectangle
 				(start -2.54 2.54)
 				(end 2.54 -2.54)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)

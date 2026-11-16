@@ -4838,7 +4838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "RM3100_Board:Sen-Z-f"
 			(at 200.66 114.3 0)
 			(hide yes)
 			(show_name no)

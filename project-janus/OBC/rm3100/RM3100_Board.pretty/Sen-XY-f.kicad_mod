@@ -9,7 +9,7 @@
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "81005159-34cd-458b-9a19-42b13ccf3aa4")
+		(uuid "747581a3-bbbe-4339-8e92-26d44911d47e")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "171b35a8-db6f-48a4-a7b1-0fceee731c82")
+		(uuid "a2eba005-441d-407f-8cfd-c2e6378d8d30")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3918876d-4607-4c00-b3fe-bd76daa911c5")
+		(uuid "9c4fe4ed-06c1-4a55-92f7-0b20a76481bb")
 		(effects
 			(font
 				(size 1 1)
@@ -42,12 +42,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "PNI Sen-XY-f sensor coil (13104). Pads, mask (+0.125 mm) and offset paste per PNI Doc 1017252 r06 Fig. 3-3; body per Fig. 3-1. Pad 1 = P (xDRVP/xINP end)."
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ba877fc9-1d41-492c-ba4b-8b77ec80f694")
+		(uuid "17d1e6bb-8975-4ae4-bb00-eac3101b1f70")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bbb4dd30-e23d-426c-9972-e95b249ed356")
+		(uuid "4c76ff4a-31cc-472d-bc31-9dcc2ecb0e2b")
 	)
 	(fp_line
 		(start -2 -1.15)
@@ -75,7 +75,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "484cd8d0-3912-4217-8d15-aabec31215b5")
+		(uuid "1040ed87-3f16-40fe-86b8-726af16198f1")
 	)
 	(fp_line
 		(start -2 1.15)
@@ -85,7 +85,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "e756ee01-33d4-4559-838f-3c40cbb22a20")
+		(uuid "61af5319-bfb6-458e-bc4f-0284b3332703")
 	)
 	(fp_rect
 		(start -2.95 -0.6)
@@ -96,7 +96,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "f6fc0a1f-86e7-4b98-bbc0-396ca92d2645")
+		(uuid "4534f3a1-beea-41f1-9eb2-ab651928b6d9")
 	)
 	(fp_rect
 		(start 2.35 -0.6)
@@ -107,18 +107,18 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "a214c3d4-078e-4aaf-9026-d340690c7471")
+		(uuid "6359be6e-050f-4275-97ce-83e690946b2b")
 	)
 	(fp_rect
 		(start -3.85 -1.3)
-		(end 3.9 1.3)
+		(end 3.85 1.3)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cf09e153-0dc5-479a-8e60-49f494685df2")
+		(uuid "92625105-a1c8-4e34-a9f0-9189deea66c2")
 	)
 	(fp_rect
 		(start -3 -1.05)
@@ -129,13 +129,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "903307c0-f9dc-4867-b965-18fa3849fa59")
+		(uuid "117a01da-b3ec-40e8-969e-d60d72953ecc")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.025 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ea2b5499-759b-4d23-a4e5-6dd5b16cf097")
+		(uuid "8e55c6b5-b83c-4736-b114-dfc22f9ed5a4")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -148,14 +148,14 @@
 		(size 1.4 1.7)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.125)
-		(uuid "91c0640e-b54b-43cb-a0dd-bf2d4f6e33d7")
+		(uuid "2c81bae8-9f8e-4cc1-9731-04d100a6d0e7")
 	)
 	(pad "2" smd rect
 		(at 2.9 0)
 		(size 1.4 1.7)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.125)
-		(uuid "14edbc98-9d05-4755-aa4e-97472044ff4e")
+		(uuid "4af3db88-f8d1-47a7-af4c-70a50f585833")
 	)
 	(embedded_fonts no)
 )
