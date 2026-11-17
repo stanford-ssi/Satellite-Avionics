@@ -1162,7 +1162,7 @@
 				)
 			)
 		)
-		(property "Description" "PLACEHOLDER: J_MAG connector part TBD"
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 130.81 95.25 0)
 			(hide yes)
 			(show_name no)
