@@ -2780,7 +2780,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C_CPO recommended as ~10x capacitance of MOSFET.\nUsing datasheet recommended MOSFET with capacitance 5.5 nF,\nC_CPO = 56nF\n\nC_VCC is required as 0.1uF from datasheet.\n\nC_V_OUT is determined by ΔV ≈ I × t_ON / C_V_OUT (voltage droop)\n& ΔV ≈ I × √(L ÷ C_V_OUT) (Stopping voltage spike from stray inductance)\nDatasheet recommends C_V_OUT = 10uF enough to counter these effects."
+	(text "C_CPO recommended as ~10x capacitance of MOSFET.\nUsing SQS460EN (C_iss 603 pF typ / 755 pF max, NASA GSFC SEE-tested),\nC_CPO = 10nF (about 13x C_iss max)\n\nC_VCC is required as 0.1uF from datasheet.\n\nC_V_OUT is determined by ΔV ≈ I × t_ON / C_V_OUT (voltage droop)\n& ΔV ≈ I × √(L ÷ C_V_OUT) (Stopping voltage spike from stray inductance)\nDatasheet recommends C_V_OUT = 10uF enough to counter these effects."
 		(exclude_from_sim no)
 		(at 245.11 56.896 0)
 		(effects
@@ -2800,7 +2800,7 @@
 		)
 		(uuid "2dbf1d3f-4cf5-40e5-8838-a66c4731a895")
 	)
-	(text "R_NTC at 10k Ohms matches the resistance from the NTC at 25 Celcius\n\nNTC used will have 10 kΩ NTC, β = 3380 K (Murata NCP18XH103F03RB family)"
+	(text "R_NTC at 10k Ohms matches the resistance from the NTC at 25 Celcius\n\nNTC: NASA GSFC S-311-P-18 qualified 10 kΩ thermistor (YSI/TE 44907, β = 3574 K), leaded, bonded to the cells"
 		(exclude_from_sim no)
 		(at 81.788 19.05 0)
 		(effects
@@ -2831,7 +2831,7 @@
 		)
 		(uuid "78a2ac42-fe36-4419-a761-536ef0797b62")
 	)
-	(text "RESISTOR VALUE RATIONALE - NTC SENSE & HEATER THERMOSTAT (identical on channels A and B)\nR_NTC 10 kΩ: equals the NTC's R25, so NTC_x = 3.3 V × R_th / (R_th + 10k) = 1.65 V at 25 °C\n	(mid-rail, steepest slope). Divider draws 165 µA; NTC self-heating ≈ 0.27 mW, negligible measurement error.\n\nH_Thermostat_TOP 150 kΩ / H_Thermostat_BOT 300 kΩ: V+ = 3.3 V × 300k / 450k = 2.20 V, trips at R_th = 20 kΩ \n	(≈ 7.8 °C, β = 3380 K). 2:1 ratio with E24 values; ≥ 150 kΩ keeps divider bias at ≈ 7 µA per channel.\n\nOp-Amp_Feedback 1.0 MΩ: positive feedback from CMP_OUT adds hysteresis so the heater does not chatter at the threshold:\n     heater OFF (output released, V+ = 2.30 V): heater turns ON below ≈ 4.6 °C (R_th > 23.0 kΩ)\n     heater ON (output pulled low, V+ = 2.00 V): heater turns OFF above ≈ 14.1 °C (R_th < 15.4 kΩ)\n\nR_PullUp 10 kΩ: MCP65R46 output is open-drain, so it pulls CMP_OUT / FPF2700 ON to 3.3 V. ON is active-LOW:\n	cold, so NTC_x > V+, so the output sinks and the heater turns on. Sink current 0.33 mA; 10k ≪ 1.0M,\n	so it barely shifts the hysteresis."
+	(text "RESISTOR VALUE RATIONALE - NTC SENSE & HEATER THERMOSTAT (identical on channels A and B)\nR_NTC 10 kΩ: equals the NTC's R25, so NTC_x = 3.3 V × R_th / (R_th + 10k) = 1.65 V at 25 °C\n	(mid-rail, steepest slope). Divider draws 165 µA; NTC self-heating ≈ 0.27 mW, negligible measurement error.\n\nH_Thermostat_TOP 150 kΩ / H_Thermostat_BOT 300 kΩ: V+ = 3.3 V × 300k / 450k = 2.20 V, trips at R_th = 20 kΩ \n	(≈ 8.7 °C, β = 3574 K). 2:1 ratio with E24 values; ≥ 150 kΩ keeps divider bias at ≈ 7 µA per channel.\n\nOp-Amp_Feedback 1.0 MΩ: positive feedback from CMP_OUT adds hysteresis so the heater does not chatter at the threshold:\n     heater OFF (output released, V+ = 2.30 V): heater turns ON below ≈ 5.7 °C (R_th > 23.0 kΩ)\n     heater ON (output pulled low, V+ = 2.00 V): heater turns OFF above ≈ 14.7 °C (R_th < 15.4 kΩ)\n\nR_PullUp 10 kΩ: MCP65R46 output is open-drain, so it pulls CMP_OUT / FPF2700 ON to 3.3 V. ON is active-LOW:\n	cold, so NTC_x > V+, so the output sinks and the heater turns on. Sink current 0.33 mA; 10k ≪ 1.0M,\n	so it barely shifts the hysteresis."
 		(exclude_from_sim no)
 		(at 159.258 132.842 0)
 		(effects
@@ -5605,7 +5605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13d7a893-9b5e-42a3-bd9a-ec93f489a00d")
-		(property "Reference" "56nF2"
+		(property "Reference" "C_CPO1"
 			(at 177.038 73.152 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Value" "C_CPO1"
+		(property "Value" "10nF"
 			(at 177.292 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +5658,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1H563K080AA"
+		(property "MPN" "CGA3E2X7R1H103K080AA"
 			(at 175.26 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5691,7 +5691,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "CL10B563KB8NNNC"
+		(property "MPN_PreFlight" "CL10B103KB8NNNC"
 			(at 175.26 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5722,7 +5722,7 @@
 		(instances
 			(project "Battery Board"
 				(path "/51886b78-25a4-4c63-90e6-3a3cef98917b"
-					(reference "56nF2")
+					(reference "C_CPO1")
 					(unit 1)
 				)
 			)
@@ -5840,7 +5840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 71.12 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5874,7 +5874,7 @@
 				)
 			)
 		)
-		(property "MPN" "1812L200/12DR"
+		(property "MPN" "1206L500/12SLPR"
 			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5896,7 +5896,7 @@
 				)
 			)
 		)
-		(property "LCSC_PreFlight" "C315901"
+		(property "LCSC_PreFlight" "Verify at LCSC"
 			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5907,7 +5907,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "1812L200/12DR"
+		(property "MPN_PreFlight" "1206L500/12SLPR"
 			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6497,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery_Board_Footprints:SOIC-8_3.9x4.9mm_P1.27mm_NMOS_SSSGDDDD"
+		(property "Footprint" "Battery_Board_Footprints:Vishay_PowerPAK_1212-8_Single_NMOS_SSSGD"
 			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6508,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/72642/sqs460en.pdf"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6530,7 +6530,7 @@
 				)
 			)
 		)
-		(property "MPN" "SI4126DY-T1-GE3"
+		(property "MPN" "SQS460EN-T1_GE3"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6552,7 +6552,7 @@
 				)
 			)
 		)
-		(property "LCSC_PreFlight" "Not stocked at LCSC - order from DigiKey/Mouser"
+		(property "LCSC_PreFlight" "Verify at LCSC"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6563,7 +6563,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "SI4126DY-T1-GE3"
+		(property "MPN_PreFlight" "SQS460EN-T1_GE3"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7279,7 +7279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "562257d6-92fc-4470-8b80-d39d5a2611b1")
-		(property "Reference" "56nF1"
+		(property "Reference" "C_CPO2"
 			(at 176.784 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Value" "C_CPO2"
+		(property "Value" "10nF"
 			(at 177.038 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7332,7 +7332,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA3E2X7R1H563K080AA"
+		(property "MPN" "CGA3E2X7R1H103K080AA"
 			(at 175.26 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7365,7 +7365,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "CL10B563KB8NNNC"
+		(property "MPN_PreFlight" "CL10B103KB8NNNC"
 			(at 175.26 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7396,7 +7396,7 @@
 		(instances
 			(project "Battery Board"
 				(path "/51886b78-25a4-4c63-90e6-3a3cef98917b"
-					(reference "56nF1")
+					(reference "C_CPO2")
 					(unit 1)
 				)
 			)
@@ -7903,7 +7903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7914,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://instrumentation.obs.carnegiescience.edu/ccd/parts/YSI44900.pdf"
 			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7925,7 +7925,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+		(property "Description" "NASA-qualified 10k NTC (beta 3574 K), leaded; bond the bead to the string cells, leads solder to these pads"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7936,7 +7936,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCP18XH103F03RB"
+		(property "MPN" "44907 (NASA GSFC S-311-P-18/07S7R6)"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7947,7 +7947,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TE Connectivity / Measurement Specialties (YSI)"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "LCSC_PreFlight" "C13564"
+		(property "LCSC_PreFlight" "N/A - DigiKey/Mouser"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7969,7 +7969,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "NCP18XH103F03RB"
+		(property "MPN_PreFlight" "44907"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7980,7 +7980,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PreFlight" "Murata"
+		(property "Manufacturer_PreFlight" "TE Connectivity / Measurement Specialties (YSI)"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8040,7 +8040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm"
 			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://instrumentation.obs.carnegiescience.edu/ccd/parts/YSI44900.pdf"
 			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8062,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+		(property "Description" "NASA-qualified 10k NTC (beta 3574 K), leaded; bond the bead to the string cells, leads solder to these pads"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8073,7 +8073,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCP18XH103F03RB"
+		(property "MPN" "44907 (NASA GSFC S-311-P-18/07S7R6)"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8084,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TE Connectivity / Measurement Specialties (YSI)"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8095,7 +8095,7 @@
 				)
 			)
 		)
-		(property "LCSC_PreFlight" "C13564"
+		(property "LCSC_PreFlight" "N/A - DigiKey/Mouser"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8106,7 +8106,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "NCP18XH103F03RB"
+		(property "MPN_PreFlight" "44907"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8117,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PreFlight" "Murata"
+		(property "Manufacturer_PreFlight" "TE Connectivity / Measurement Specialties (YSI)"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8839,7 +8839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery_Board_Footprints:SOIC-8_3.9x4.9mm_P1.27mm_NMOS_SSSGDDDD"
+		(property "Footprint" "Battery_Board_Footprints:Vishay_PowerPAK_1212-8_Single_NMOS_SSSGD"
 			(at 170.18 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8850,7 +8850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/72642/sqs460en.pdf"
 			(at 167.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +8872,7 @@
 				)
 			)
 		)
-		(property "MPN" "SI4126DY-T1-GE3"
+		(property "MPN" "SQS460EN-T1_GE3"
 			(at 167.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8894,7 +8894,7 @@
 				)
 			)
 		)
-		(property "LCSC_PreFlight" "Not stocked at LCSC - order from DigiKey/Mouser"
+		(property "LCSC_PreFlight" "Verify at LCSC"
 			(at 167.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8905,7 +8905,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "SI4126DY-T1-GE3"
+		(property "MPN_PreFlight" "SQS460EN-T1_GE3"
 			(at 167.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10771,7 +10771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10805,7 +10805,7 @@
 				)
 			)
 		)
-		(property "MPN" "1812L200/12DR"
+		(property "MPN" "1206L500/12SLPR"
 			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +10827,7 @@
 				)
 			)
 		)
-		(property "LCSC_PreFlight" "C315901"
+		(property "LCSC_PreFlight" "Verify at LCSC"
 			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10838,7 +10838,7 @@
 				)
 			)
 		)
-		(property "MPN_PreFlight" "1812L200/12DR"
+		(property "MPN_PreFlight" "1206L500/12SLPR"
 			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
