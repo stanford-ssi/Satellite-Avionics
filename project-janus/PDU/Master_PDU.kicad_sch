@@ -253,6 +253,52 @@
 		)
 	)
 	(sheet
+		(at 34.29 137.16)
+		(size 52.07 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 182 173 255 1)
+		)
+		(uuid "503846cc-a27a-4242-9816-d33ad12655ca")
+		(property "Sheetname" "BCDR"
+			(at 34.29 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bcdr\\schematics\\SSI_BCDR\\SSI_BCDR.kicad_sch"
+			(at 34.29 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 185.42 60.96)
 		(size 41.91 57.15)
 		(exclude_from_sim no)

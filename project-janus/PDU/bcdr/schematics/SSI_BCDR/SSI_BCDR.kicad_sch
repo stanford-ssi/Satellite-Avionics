@@ -1293,6 +1293,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1374,6 +1380,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1448,6 +1460,12 @@
 		(instances
 			(project "SSI_BCDR"
 				(path "/00dc0db3-67bf-4f8a-9420-0eef3e183a71"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -1534,6 +1552,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1612,6 +1636,12 @@
 		(instances
 			(project "SSI_BCDR"
 				(path "/00dc0db3-67bf-4f8a-9420-0eef3e183a71"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
 					(reference "C3")
 					(unit 1)
 				)
@@ -1698,6 +1728,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1772,6 +1808,12 @@
 		(instances
 			(project "SSI_BCDR"
 				(path "/00dc0db3-67bf-4f8a-9420-0eef3e183a71"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -1854,6 +1896,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1932,6 +1980,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2006,6 +2060,12 @@
 		(instances
 			(project "SSI_BCDR"
 				(path "/00dc0db3-67bf-4f8a-9420-0eef3e183a71"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -2107,6 +2167,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2183,6 +2249,12 @@
 		(instances
 			(project "SSI_BCDR"
 				(path "/00dc0db3-67bf-4f8a-9420-0eef3e183a71"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
 					(reference "R4")
 					(unit 1)
 				)
@@ -2269,6 +2341,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2350,12 +2428,12 @@
 					(unit 1)
 				)
 			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/503846cc-a27a-4242-9816-d33ad12655ca"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
