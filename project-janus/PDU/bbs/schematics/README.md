@@ -56,7 +56,7 @@ The board does three things on its own, with no software:
 - 60 V N-channel, 36 mΩ max @ 10 V (30 mΩ typ), C_iss 603 pF typ / 755 pF max, PowerPAK 1212-8; replaces the Si4126DY for its radiation data
 - **Heritage:** NASA GSFC heavy-ion single-event testing (NSREC 2017) [15]; failures (burnout) only at drain voltages far above our 8.4 V bus. NASA also notes large part-to-part variation, so screen a sample
 - Conduction loss: (2 A)² × 36 mΩ = **0.14 W**; (3 A)² × 36 mΩ = **0.32 W**; at 125 °C R_DS(on) rises to 66 mΩ. Keep each string at about **3 A or less**; the Si4126DY (2.75 mΩ) is the low-loss fallback if the load budget needs more
-- Project footprint Battery_Board_Footprints:Vishay_PowerPAK_1212-8_Single_NMOS_SSSGD (pads 1-3 = S, 4 = G, pins 5-8 + exposed pad = D) matches the Device:Q_NMOS symbol
+- Schematic symbol Transistor_FET:SiS454DN with the stock footprint Package_SO:Vishay_PowerPAK_1212-8_Single: pins 1-3 = S, 4 = G, 5 (pins 5-8 + exposed pad) = D, the same pinout as the SQS460EN
 
 ### Heater switch: FPF2700MX (onsemi)
 
@@ -193,7 +193,7 @@ At 7.4 V each heater draws 2.2 W while on. If it runs about 25 % of the orbit (w
 | --- | --- |
 | `Battery Board.kicad_sch` / `.kicad_pcb` / `.kicad_pro` | KiCad 10 schematic, PCB and project |
 | `Battery_Board_Library.kicad_sym` | Project symbols (LTC4353, FPF2700) |
-| `Battery_Board_Footprints.pretty/` + `fp-lib-table` | Project footprint: SOIC-8 N-MOSFET with S/G/D pads to match `Device:Q_NMOS` |
+| `Battery_Board_Footprints.pretty/` + `fp-lib-table` | Project footprints from earlier revisions (S/G/D-named MOSFET pads); no longer used now that Q1/Q2 use `Transistor_FET:SiS454DN` + the stock PowerPAK footprint |
 | `tools/` | Placement / routing / mirroring scripts |
 | `docs/block_diagram.png` | Block diagram used above and in the Word section |
 | `docs/oresat0_channel.png` | Reference: one OreSat0 pack channel (discharge + charge ideal diodes), redrawn from their flown v3.0 schematic; `docs/build/oresat_diag.js` draws it |

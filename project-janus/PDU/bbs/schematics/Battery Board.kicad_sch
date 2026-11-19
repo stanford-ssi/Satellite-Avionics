@@ -2779,6 +2779,358 @@
 			)
 			(embedded_fonts no)
 		)
+	(symbol "Transistor_FET:SiS454DN"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SiS454DN"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/66707/sis454dn.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SiS454DN_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SiS454DN_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "C_CPO recommended as ~10x capacitance of MOSFET.\nUsing SQS460EN (C_iss 603 pF typ / 755 pF max, NASA GSFC SEE-tested),\nC_CPO = 10nF (about 13x C_iss max)\n\nC_VCC is required as 0.1uF from datasheet.\n\nC_V_OUT is determined by ΔV ≈ I × t_ON / C_V_OUT (voltage droop)\n& ΔV ≈ I × √(L ÷ C_V_OUT) (Stopping voltage spike from stray inductance)\nDatasheet recommends C_V_OUT = 10uF enough to counter these effects."
 		(exclude_from_sim no)
@@ -6467,7 +6819,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:SiS454DN")
 		(at 167.64 73.66 270)
 		(unit 1)
 		(body_style 1)
@@ -6487,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "SQS460EN"
 			(at 167.64 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +6849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery_Board_Footprints:Vishay_PowerPAK_1212-8_Single_NMOS_SSSGD"
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6519,7 +6871,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor"
+		(property "Description" "N-channel MOSFET, PowerPAK 1212-8 Single (pins 1-3 S, 4 G, 5 D). Symbol from Transistor_FET:SiS454DN; part is SQS460EN-T1_GE3"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6585,14 +6937,20 @@
 				)
 			)
 		)
-		(pin "G"
-			(uuid "f57ac6db-4a61-4c8c-a5b7-cc75947981d0")
+		(pin "1"
+			(uuid "e29766d2-46ed-4cc1-8732-dabeefee6674")
 		)
-		(pin "D"
-			(uuid "a350b392-8c71-471e-a7f0-0592623170a9")
+		(pin "2"
+			(uuid "d3e23619-81bb-40aa-b2f0-e67c9ae10b7a")
 		)
-		(pin "S"
-			(uuid "67386600-13bb-45a1-acf1-758ae3b9a6a1")
+		(pin "3"
+			(uuid "e4629fca-4320-4867-bc77-58eb915636b1")
+		)
+		(pin "4"
+			(uuid "fb75770c-43ad-421e-8b73-12f224e7a657")
+		)
+		(pin "5"
+			(uuid "7c83985c-1794-4fbe-94d8-f8fe1b1eadfc")
 		)
 		(instances
 			(project "Battery Board"
@@ -8808,7 +9166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
+		(lib_id "Transistor_FET:SiS454DN")
 		(at 167.64 34.29 270)
 		(mirror x)
 		(unit 1)
@@ -8829,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "SQS460EN"
 			(at 167.64 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8839,7 +9197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery_Board_Footprints:Vishay_PowerPAK_1212-8_Single_NMOS_SSSGD"
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
 			(at 170.18 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8861,7 +9219,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor"
+		(property "Description" "N-channel MOSFET, PowerPAK 1212-8 Single (pins 1-3 S, 4 G, 5 D). Symbol from Transistor_FET:SiS454DN; part is SQS460EN-T1_GE3"
 			(at 167.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8927,14 +9285,20 @@
 				)
 			)
 		)
-		(pin "G"
-			(uuid "1c048ca1-e74a-43c5-afbd-dcca1604df71")
+		(pin "1"
+			(uuid "d45586e7-ffe0-4266-8736-d9bdce3fbaf1")
 		)
-		(pin "D"
-			(uuid "8afe76db-475f-438f-84bd-db327a4fdad3")
+		(pin "2"
+			(uuid "1b3db344-d8ec-495f-aef1-888c09bce043")
 		)
-		(pin "S"
-			(uuid "70c55b8e-ed4e-44ad-b0b1-7f65f613f1f2")
+		(pin "3"
+			(uuid "6932fe8d-823b-4cc2-9b48-d8811704f4fc")
+		)
+		(pin "4"
+			(uuid "a277f082-56b0-4a70-b128-cc07c61ec707")
+		)
+		(pin "5"
+			(uuid "7f252781-7ed3-468c-aed9-a746df8020f4")
 		)
 		(instances
 			(project "Battery Board"
