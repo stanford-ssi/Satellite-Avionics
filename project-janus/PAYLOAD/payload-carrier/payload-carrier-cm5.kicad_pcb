@@ -28,7 +28,7 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user "Camera cutout")
+		(39 "User.1" user "Lower cameras")
 		(41 "User.2" user "Payload allocation")
 		(43 "User.3" user)
 		(45 "User.4" user)
@@ -134,7 +134,7 @@
 	(footprint "Payload:20525-050E-02"
 		(layer "F.Cu")
 		(uuid "08831b9a-8d64-4c83-9cd3-f75151c3d5a4")
-		(at 48.25 27)
+		(at 55.5 32)
 		(descr "FRAMOS MC50, I-PEX CABLINE-CA horizontal receptacle, 50 contacts")
 		(property "Reference" "J6"
 			(at 0 2.2 0)
@@ -937,7 +937,7 @@
 	(footprint "Payload:20525-050E-02"
 		(layer "F.Cu")
 		(uuid "1abd9394-8f82-4adf-828b-fcc482edcd18")
-		(at 26.5 57.5)
+		(at 24.5 55)
 		(descr "FRAMOS MC50, I-PEX CABLINE-CA horizontal receptacle, 50 contacts")
 		(property "Reference" "J7"
 			(at 0 2.2 0)
@@ -1677,7 +1677,7 @@
 	(footprint "Payload:20525-050E-02"
 		(layer "F.Cu")
 		(uuid "20451937-d2ab-4b6f-8c2a-ac7b8bc4e5b1")
-		(at 20.25 27)
+		(at 24.5 32)
 		(descr "FRAMOS MC50, I-PEX CABLINE-CA horizontal receptacle, 50 contacts")
 		(property "Reference" "J5"
 			(at 0 2.2 0)
@@ -3047,7 +3047,7 @@
 	(footprint "Payload:20525-050E-02"
 		(layer "F.Cu")
 		(uuid "515d2951-fd3d-4cf6-80ce-531008890c87")
-		(at 59.5 57.5)
+		(at 55.5 55)
 		(descr "FRAMOS MC50, I-PEX CABLINE-CA horizontal receptacle, 50 contacts")
 		(property "Reference" "J8"
 			(at 0 2.2 0)
@@ -4066,6 +4066,75 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "b94b0f42-b810-448a-97e7-cb6c35103647")
+		)
+		(fp_rect
+			(start -14.975 -8.6125)
+			(end -1.675 -19.2125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "83ff6975-f4be-40aa-ab76-11ea754e35c5")
+		)
+		(fp_rect
+			(start -2.265 12.9875)
+			(end 8.315 -4.0125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "f7ac3733-80a8-465e-8e6d-acafbf5a24b8")
+		)
+		(fp_rect
+			(start 7.575 -14.4625)
+			(end 13.575 -20.4625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "a08744ce-3898-4b29-83c5-4c583dbef4a3")
+		)
+		(fp_text user "RF shield TIM"
+			(at -8.325 -13.9125 0)
+			(layer "B.Fab")
+			(uuid "f6979f33-bbb8-471d-97d0-b85bb6dce477")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "SoC TIM"
+			(at 3.025 4.4875 0)
+			(layer "B.Fab")
+			(uuid "1cd54e7d-7a97-45ba-b406-f65f2c52f34a")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "PMIC TIM"
+			(at 10.575 -17.4625 0)
+			(layer "B.Fab")
+			(uuid "5e206bbf-173d-4dc0-8099-35ba2abfad80")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "1" thru_hole circle
 			(at -16.5 24)
@@ -6397,8 +6466,8 @@
 		(uuid "a8027bea-5e4a-4438-8ee5-9a9771337bdd")
 	)
 	(gr_line
-		(start 58 40.5)
-		(end 58 44.5)
+		(start 57 38)
+		(end 57 42)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6407,9 +6476,9 @@
 		(uuid "d3533060-98b2-48d5-882e-2019d7187f29")
 	)
 	(gr_arc
-		(start 58 40.5)
-		(mid 58.43934 39.43934)
-		(end 59.5 39)
+		(start 57 38)
+		(mid 57.43934 36.93934)
+		(end 58.5 36.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6418,9 +6487,9 @@
 		(uuid "e5114c4d-1122-4485-a371-1bcae0d601b4")
 	)
 	(gr_arc
-		(start 59.5 46)
-		(mid 58.43934 45.56066)
-		(end 58 44.5)
+		(start 58.5 43.5)
+		(mid 57.43934 43.06066)
+		(end 57 42)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6429,8 +6498,8 @@
 		(uuid "ea728f5a-40ef-4bca-b9da-c9021c782bc7")
 	)
 	(gr_line
-		(start 59.5 46)
-		(end 70.5 46)
+		(start 58.5 43.5)
+		(end 69.5 43.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6439,8 +6508,8 @@
 		(uuid "50e98be2-d142-4419-80ed-1f0a433edee3")
 	)
 	(gr_line
-		(start 70.5 39)
-		(end 59.5 39)
+		(start 69.5 36.5)
+		(end 58.5 36.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6449,9 +6518,9 @@
 		(uuid "7dfdf188-b553-4448-940e-c066bf6d7bbc")
 	)
 	(gr_arc
-		(start 70.5 39)
-		(mid 71.56066 39.43934)
-		(end 72 40.5)
+		(start 69.5 36.5)
+		(mid 70.56066 36.93934)
+		(end 71 38)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6460,9 +6529,9 @@
 		(uuid "b2d2d5dc-9915-4b72-b085-b7c08e0d04dc")
 	)
 	(gr_arc
-		(start 72 44.5)
-		(mid 71.56066 45.56066)
-		(end 70.5 46)
+		(start 71 42)
+		(mid 70.56066 43.06066)
+		(end 69.5 43.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6471,8 +6540,8 @@
 		(uuid "9d46244d-f886-47a4-9e44-e93207094fe5")
 	)
 	(gr_line
-		(start 72 44.5)
-		(end 72 40.5)
+		(start 71 42)
+		(end 71 38)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6522,25 +6591,67 @@
 		(layer "Edge.Cuts")
 		(uuid "c01bd2f4-0331-4c74-8435-f0cec2b71b5f")
 	)
-	(gr_line
-		(start 44 0)
-		(end 44 44)
+	(gr_rect
+		(start 47 8.5)
+		(end 73.5 35)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
+		(fill no)
 		(layer "User.1")
-		(uuid "89212aee-238d-4107-8717-c02f145ac0b3")
+		(uuid "f60136be-6d8b-40a4-94fc-7d728929d660")
+	)
+	(gr_rect
+		(start 47 45)
+		(end 73.5 71.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "1fd12c8e-fc26-45f8-ab77-b6f8fe353edf")
 	)
 	(gr_line
-		(start 44 44)
-		(end 80 44)
+		(start 59.15 21.75)
+		(end 61.35 21.75)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
-		(uuid "bd1a747c-c54d-45f1-8a89-b7f8c79915e1")
+		(uuid "25a0e83b-2b5d-4b55-839d-471084cb65d8")
+	)
+	(gr_line
+		(start 59.15 58.25)
+		(end 61.35 58.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "89b4bbeb-30f7-4473-98cf-feb6815619b4")
+	)
+	(gr_line
+		(start 60.25 20.65)
+		(end 60.25 22.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "cb087cb5-0ae9-4d9f-8dd2-9bc08779edc5")
+	)
+	(gr_line
+		(start 60.25 57.15)
+		(end 60.25 59.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "9e21daac-2d9a-4f96-996a-b11757197397")
 	)
 	(gr_rect
 		(start 6 0)
@@ -6564,14 +6675,25 @@
 			)
 		)
 	)
-	(gr_text "CAMERA VOLUME - HEIGHT TBD"
-		(at 62 25 0)
+	(gr_text "Camera B"
+		(at 60.25 24.95 0)
 		(layer "User.1")
-		(uuid "0c4a3999-c9bb-46df-83a1-61790d240465")
+		(uuid "0400fcb2-4ab6-4d43-99ab-cb546029239d")
 		(effects
 			(font
-				(size 0.9 0.9)
-				(thickness 0.14)
+				(size 0.85 0.85)
+				(thickness 0.12)
+			)
+		)
+	)
+	(gr_text "Camera A"
+		(at 60.25 61.45 0)
+		(layer "User.1")
+		(uuid "470106e0-be98-42b1-8c9a-563e54d86d7e")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.12)
 			)
 		)
 	)
