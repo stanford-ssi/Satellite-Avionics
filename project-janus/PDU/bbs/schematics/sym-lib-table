@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Battery_Board_Library")(type "KiCad")(uri "${KIPRJMOD}/Battery_Board_Library.kicad_sym")(options "")(descr "Project symbols"))
+)
