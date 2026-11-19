@@ -7032,8 +7032,8 @@
 		(uuid "9ed51086-4a65-4158-ac48-750f62ec46e3")
 	)
 	(gr_rect
-		(start 53.5 8.5)
-		(end 80 35)
+		(start 47 8.5)
+		(end 73.5 35)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -7043,8 +7043,8 @@
 		(uuid "cb6df80c-3f94-4fee-b51c-104813688312")
 	)
 	(gr_rect
-		(start 53.5 45)
-		(end 80 71.5)
+		(start 47 45)
+		(end 73.5 71.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -7054,8 +7054,8 @@
 		(uuid "e9db8b41-2e6c-46e2-9326-8df70b9c6c8c")
 	)
 	(gr_line
-		(start 65.65 21.75)
-		(end 67.85 21.75)
+		(start 59.15 21.75)
+		(end 61.35 21.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -7064,8 +7064,8 @@
 		(uuid "1e75d862-3522-49b7-8427-15cab6d8748e")
 	)
 	(gr_line
-		(start 65.65 58.25)
-		(end 67.85 58.25)
+		(start 59.15 58.25)
+		(end 61.35 58.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -7074,8 +7074,8 @@
 		(uuid "104d0a6e-347f-48ec-a809-25c3a58c075a")
 	)
 	(gr_line
-		(start 66.75 20.65)
-		(end 66.75 22.85)
+		(start 60.25 20.65)
+		(end 60.25 22.85)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -7084,8 +7084,8 @@
 		(uuid "5becf0f3-edd1-4fd7-a23b-9b40be0fbc34")
 	)
 	(gr_line
-		(start 66.75 57.15)
-		(end 66.75 59.35)
+		(start 60.25 57.15)
+		(end 60.25 59.35)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -7116,7 +7116,7 @@
 		)
 	)
 	(gr_text "Camera B"
-		(at 66.75 24.95 0)
+		(at 60.25 24.95 0)
 		(layer "User.1")
 		(uuid "6758f105-02cc-4f72-a3ab-dc65784dc76a")
 		(effects
@@ -7127,7 +7127,7 @@
 		)
 	)
 	(gr_text "Camera A"
-		(at 66.75 61.45 0)
+		(at 60.25 61.45 0)
 		(layer "User.1")
 		(uuid "94f158f4-415d-4e2a-a91f-8bd3e64fc719")
 		(effects
