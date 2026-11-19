@@ -2039,7 +2039,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 125.73 54.61) (xy 135.89 54.61)
+=======
+			(xy 125.73 54.61) (xy 137.16 54.61)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2366,11 @@
 	)
 	(hierarchical_label "VBAT_SW"
 		(shape output)
+<<<<<<< Updated upstream
 		(at 135.89 54.61 0)
+=======
+		(at 137.16 54.61 0)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,6 +2488,35 @@
 					(unit 1)
 				)
 			)
+<<<<<<< Updated upstream
+=======
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2c8e22d9-9541-4d37-8d11-1233976381f9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2dcf1e2e-b358-4621-97eb-837dde126be7"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2e1e4d55-0b52-431a-be64-c312fa5cfe03"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/99ad2191-c5e8-497f-91c8-d67917d5ff95"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/f3987d2a-217a-454e-9e6c-923489da79be"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/fef73458-d012-4905-8546-68ece2e501b1"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+>>>>>>> Stashed changes
 		)
 	)
 	(symbol
@@ -2709,9 +2746,61 @@
 			(uuid "dac8e2f6-3b40-4cbf-b618-af3816fe6d4d")
 		)
 		(instances
+<<<<<<< Updated upstream
 			(project "ADM1176"
 				(path "/5ba66e94-1d80-48f3-8a33-cc1d8c25a5be"
 					(reference "R2")
+=======
+			(project "VLSA"
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/2c8e22d9-9541-4d37-8d11-1233976381f9"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/2dcf1e2e-b358-4621-97eb-837dde126be7"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/2e1e4d55-0b52-431a-be64-c312fa5cfe03"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/99ad2191-c5e8-497f-91c8-d67917d5ff95"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/f3987d2a-217a-454e-9e6c-923489da79be"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/fef73458-d012-4905-8546-68ece2e501b1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2c8e22d9-9541-4d37-8d11-1233976381f9"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2dcf1e2e-b358-4621-97eb-837dde126be7"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2e1e4d55-0b52-431a-be64-c312fa5cfe03"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/99ad2191-c5e8-497f-91c8-d67917d5ff95"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/f3987d2a-217a-454e-9e6c-923489da79be"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/fef73458-d012-4905-8546-68ece2e501b1"
+					(reference "R9")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -3358,9 +3447,61 @@
 			(uuid "d1d68858-2110-4425-ac5f-b73db10450a3")
 		)
 		(instances
+<<<<<<< Updated upstream
 			(project "ADM1176"
 				(path "/5ba66e94-1d80-48f3-8a33-cc1d8c25a5be"
 					(reference "R1")
+=======
+			(project "VLSA"
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/2c8e22d9-9541-4d37-8d11-1233976381f9"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/2dcf1e2e-b358-4621-97eb-837dde126be7"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/2e1e4d55-0b52-431a-be64-c312fa5cfe03"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/99ad2191-c5e8-497f-91c8-d67917d5ff95"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/f3987d2a-217a-454e-9e6c-923489da79be"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/374ff471-0a33-4a0f-9169-7c8c0c58c3fc/fef73458-d012-4905-8546-68ece2e501b1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2c8e22d9-9541-4d37-8d11-1233976381f9"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2dcf1e2e-b358-4621-97eb-837dde126be7"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/2e1e4d55-0b52-431a-be64-c312fa5cfe03"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/99ad2191-c5e8-497f-91c8-d67917d5ff95"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/f3987d2a-217a-454e-9e6c-923489da79be"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201/6c4a9d71-a178-44c1-869e-e88fcc5f55fc/fef73458-d012-4905-8546-68ece2e501b1"
+					(reference "R10")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
