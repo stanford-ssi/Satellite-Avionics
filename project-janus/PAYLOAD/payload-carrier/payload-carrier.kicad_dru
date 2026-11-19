@@ -1,0 +1,4 @@
+(version 1)
+(rule "Jetson socket hold-down to routed edge"
+  (condition "A.memberOfFootprint('J2') && A.Pad_Number == '261'")
+  (constraint edge_clearance (min 0.30mm)))
