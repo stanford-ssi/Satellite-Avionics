@@ -51,7 +51,4 @@ most parts use their footprints.
 
 Keep field names identical (`MPN`, `Manufacturer`) so BOM exports stay consistent.
 
-## Relationship to SSI_Passives (v1)
-
-SSI_Passives is the JLCPCB-oriented database library. SSI_Passives_v2 is for designs built on our own
-pick-and-place and bought from Mouser/DigiKey. Use SSI_Passives_v2 for new designs; v1 stays for JLCPCB-assembled prototypes.
+## Fade SSI_Passives (v1) - bad parts
