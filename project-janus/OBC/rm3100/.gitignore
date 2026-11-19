@@ -5,3 +5,4 @@ fp-info-cache
 ~*.lck
 .history/
 .DS_Store
+*.bak
