@@ -7,7 +7,7 @@
 	(title_block
 		(title "Payload Ethernet")
 		(date "2026-11-22")
-		(rev "P3")
+		(rev "P4")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols

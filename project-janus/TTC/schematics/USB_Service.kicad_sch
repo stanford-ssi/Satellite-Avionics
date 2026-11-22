@@ -7,7 +7,7 @@
 	(title_block
 		(title "USB-C service")
 		(date "2026-11-22")
-		(rev "P3")
+		(rev "P4")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
