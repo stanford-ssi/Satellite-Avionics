@@ -5,7 +5,10 @@
 	(uuid "5ba66e94-1d80-48f3-8a33-cc1d8c25a5be")
 	(paper "A5")
 	(title_block
+		(title "Individual load Switch")
+		(date "2026-11-22")
 		(company "Stanford Student Space Initiative")
+		(comment 1 "Kyle Van Sant")
 	)
 	(lib_symbols
 		(symbol "SSI_Passives:C Basic - no fee/C 100nF 0402 16V X7R 10% Samsung"
