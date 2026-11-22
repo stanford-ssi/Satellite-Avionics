@@ -1,0 +1,654 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "GRF5526"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "GRF5526"
+			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_RF:GRF5526"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.guerrilla-rf.com/includes/prodFiles/5526/GRF5526DS.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" "Guerrilla RF transmit PA, populated for EVB #180 starting tune"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "GRF5526"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Guerrilla RF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "4.0–5.5 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Supplier" "https://www.rfmw.com/products/detail/grf5526-guerrilla-rf/714016/"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Tuning Reference" "https://www.guerrilla-rf.com/includes/prodFiles/5526/GRF5526%202200-2500MHz.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "GRF5526_1_1"
+			(rectangle
+				(start -24.13 0)
+				(end 24.13 -22.86)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -20.32 3.81 270)
+				(length 3.81)
+				(name "VEN1"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -26.67 90)
+				(length 3.81)
+				(name "VSHDN"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 -8.89 0)
+				(length 3.81)
+				(name "RF_IN"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -27.94 -13.97 0)
+				(length 3.81)
+				(name "RF_IN"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -26.67 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND/NC"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -26.67 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND/NC"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -26.67 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND/NC"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -26.67 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND/NC"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -26.67 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND/NC"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -13.97 180)
+				(length 3.81)
+				(name "RF_OUT"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -8.89 180)
+				(length 3.81)
+				(name "RF_OUT"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 3.81 270)
+				(length 3.81)
+				(name "VCC2"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 3.81 270)
+				(length 3.81)
+				(name "VCC1"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 3.81 270)
+				(length 3.81)
+				(name "VBIAS"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 3.81 270)
+				(length 3.81)
+				(name "VEN3"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 3.81 270)
+				(length 3.81)
+				(name "VEN2"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -26.67 90)
+				(length 3.81)
+				(name "GND_/_EP"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LFCN-2500"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "FL"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "LFCN-2500"
+			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_RF:LFCN-2500"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-2500%2B.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" "Mini-Circuits seven-section LTCC low-pass filter"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "LFCN-2500+"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Mini-Circuits"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 Ω, DC–2.5 GHz, 10 W maximum at 25 °C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/mini-circuits/LFCN-2500/13928018"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "LFCN-2500_1_1"
+			(rectangle
+				(start -10.16 0)
+				(end 10.16 -16.51)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -5) (xy 0 -5) (xy 4 -10)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -13.97 -8.89 0)
+				(length 3.81)
+				(name "IN"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -8.89 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -20.32 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

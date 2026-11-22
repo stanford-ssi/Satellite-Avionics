@@ -1,0 +1,49 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    }
+  },
+  "boards": [],
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Yapling.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [],
+    "meta": {
+      "version": 0
+    }
+  },
+  "pcbnew": {
+    "page_layout_descr_file": ""
+  },
+  "sheets": [
+    [
+      "c775ed50-52c9-4685-9401-a60985a1efcb",
+      "Root"
+    ],
+    [
+      "726e03c2-fa1d-4cc0-898f-0662a4d35cc8",
+      "Power"
+    ],
+    [
+      "fb6b76cf-d1a1-4929-b1b8-dd05a7bb6183",
+      "Housekeeping"
+    ],
+    [
+      "98df6188-2dee-4263-baa9-4042a07391c9",
+      "Downlink"
+    ]
+  ],
+  "text_variables": {}
+}

@@ -1,0 +1,11 @@
+(sym_lib_table
+ (version 7)
+  (lib (name "Yapling_RP")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_RP/Yapling_RP.kicad_sym")(options "")(descr ""))
+  (lib (name "Yapling_ESP")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_ESP/Yapling_ESP.kicad_sym")(options "")(descr ""))
+  (lib (name "CH390D")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/CH390D/CH390D.kicad_sym")(options "")(descr ""))
+  (lib (name "Yapling_Power")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_Power/Yapling_Power.kicad_sym")(options "")(descr ""))
+  (lib (name "Yapling_Passives")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_Passives/Yapling_Passives.kicad_sym")(options "")(descr ""))
+  (lib (name "Yapling_RF")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_RF/Yapling_RF.kicad_sym")(options "")(descr ""))
+  (lib (name "Yapling_Bus")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_Bus/Yapling_Bus.kicad_sym")(options "")(descr ""))
+  (lib (name "SSI_TFM-120-01-L-D-RA")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/TFM-120-01-L-D-RA/TFM-120-01-L-D-RA.kicad_sym")(options "")(descr ""))
+)

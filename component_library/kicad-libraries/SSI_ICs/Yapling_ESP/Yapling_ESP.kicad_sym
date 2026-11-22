@@ -1,0 +1,2483 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "ESP32-S3R8"
+		(pin_names
+			(offset 0.65)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "ESP32-S3R8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_ESP:ESP32S3_QFN56"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESP32-S3R8"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "3.0–3.6 V; −40 to +65 °C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3R8/15822451"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "ESP32-S3R8_1_1"
+			(rectangle
+				(start -27.94 0)
+				(end 27.94 -134.62)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -6.35 180)
+				(length 3.81)
+				(name "LNA_IN"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 -62.23 0)
+				(length 3.81)
+				(name "VDD3P3"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -31.75 -66.04 0)
+				(length 3.81)
+				(name "VDD3P3"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 -92.71 180)
+				(length 3.81)
+				(name "CHIP_PU"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -101.6 180)
+				(length 3.81)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -17.78 0)
+				(length 3.81)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -10.16 0)
+				(length 3.81)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -26.67 -138.43 90)
+				(length 3.81)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -13.97 0)
+				(length 3.81)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -24.13 -138.43 90)
+				(length 3.81)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -21.59 -138.43 90)
+				(length 3.81)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -6.35 0)
+				(length 3.81)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -21.59 0)
+				(length 3.81)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -109.22 180)
+				(length 3.81)
+				(name "GPIO9"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -41.91 0)
+				(length 3.81)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -34.29 0)
+				(length 3.81)
+				(name "GPIO11"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -30.48 0)
+				(length 3.81)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -38.1 0)
+				(length 3.81)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -138.43 90)
+				(length 3.81)
+				(name "GPIO14"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 -77.47 0)
+				(length 3.81)
+				(name "VDD3P3_RTC"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -31.75 -45.72 0)
+				(length 3.81)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -31.75 -49.53 0)
+				(length 3.81)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -138.43 90)
+				(length 3.81)
+				(name "GPIO17"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 -138.43 90)
+				(length 3.81)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -116.84 180)
+				(length 3.81)
+				(name "USB_D−_/_IO19"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -124.46 180)
+				(length 3.81)
+				(name "USB_D+_/_IO20"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 -138.43 90)
+				(length 3.81)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 -138.43 90)
+				(length 3.81)
+				(name "SPICS1"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 31.75 -52.07 180)
+				(length 3.81)
+				(name "VDD_SPI"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -44.45 180)
+				(length 3.81)
+				(name "SPIHD"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -39.37 180)
+				(length 3.81)
+				(name "SPIWP"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -19.05 180)
+				(length 3.81)
+				(name "SPICS0"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -24.13 180)
+				(length 3.81)
+				(name "SPICLK"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -34.29 180)
+				(length 3.81)
+				(name "SPIQ"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -29.21 180)
+				(length 3.81)
+				(name "SPID"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -138.43 90)
+				(length 3.81)
+				(name "SPICLK_N"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -138.43 90)
+				(length 3.81)
+				(name "SPICLK_P"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -1.27 -138.43 90)
+				(length 3.81)
+				(name "GPIO33"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -138.43 90)
+				(length 3.81)
+				(name "GPIO34"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -138.43 90)
+				(length 3.81)
+				(name "GPIO35"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -138.43 90)
+				(length 3.81)
+				(name "GPIO36"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -138.43 90)
+				(length 3.81)
+				(name "GPIO37"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -138.43 90)
+				(length 3.81)
+				(name "GPIO38"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -138.43 90)
+				(length 3.81)
+				(name "MTCK"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -138.43 90)
+				(length 3.81)
+				(name "MTDO"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 -81.28 0)
+				(length 3.81)
+				(name "VDD3P3_CPU"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -138.43 90)
+				(length 3.81)
+				(name "MTDI"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21.59 -138.43 90)
+				(length 3.81)
+				(name "MTMS"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -114.3 0)
+				(length 3.81)
+				(name "U0TXD"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -31.75 -119.38 0)
+				(length 3.81)
+				(name "U0RXD"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -138.43 90)
+				(length 3.81)
+				(name "GPIO45"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -138.43 90)
+				(length 3.81)
+				(name "GPIO46"
+					(effects
+						(font
+							(size 0.81 0.81)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 0.76 0.76)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 31.75 -81.28 180)
+				(length 3.81)
+				(name "XTAL_N"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 31.75 -63.5 180)
+				(length 3.81)
+				(name "XTAL_P"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 -85.09 0)
+				(length 3.81)
+				(name "VDDA"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -31.75 -88.9 0)
+				(length 3.81)
+				(name "VDDA"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -31.75 -99.06 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Murata_XRCGB"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Y"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Murata_XRCGB"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_ESP:Murata_XRCGB_2016"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=XRCGB40M000F1S1CR0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "XRCGB40M000F1S1CR0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "40 MHz; 10 pF; ±10 ppm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/XRCGB40M000F1S1CR0/12173966"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "ki_keywords" "quartz ceramic resonator oscillator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Crystal*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Murata_XRCGB_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -1.905 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -1.27) (xy 1.905 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Murata_XRCGB_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -1.27 0 90)
+				(length 0)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 1.27 0 90)
+				(length 0)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS3435-Q1"
+		(pin_names
+			(offset 0.65)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "TPS3435-Q1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_ESP:TPS3435_DDF"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3435-q1.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS3435CAKAGDDFRQ1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "1.04–6 V; open-drain watchdog"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS3435CAKAGDDFRQ1/21298845"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "TPS3435-Q1_1_1"
+			(rectangle
+				(start -13.97 0)
+				(end 13.97 -35.56)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 -10.16 0)
+				(length 3.81)
+				(name "SET0"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -20.32 0)
+				(length 3.81)
+				(name "~{MR}"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -15.24 180)
+				(length 3.81)
+				(name "WDI"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -29.21 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -15.24 0)
+				(length 3.81)
+				(name "SET1"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -6.35 180)
+				(length 3.81)
+				(name "WD_EN"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 17.78 -24.13 180)
+				(length 3.81)
+				(name "~{WDO}"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -5.08 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS3700"
+		(pin_names
+			(offset 0.65)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "TPS3700"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_ESP:TI_DDC0006A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3700.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS3700DDCR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "1.8–18 V; 400 mV threshold"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS3700DDCR/3137548"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "TPS3700_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -27.94)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 -13.97 180)
+				(length 3.81)
+				(name "OUTA"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -20.32 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -13.97 0)
+				(length 3.81)
+				(name "INA+"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -6.35 0)
+				(length 3.81)
+				(name "INB−"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -20.32 180)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 -6.35 180)
+				(length 3.81)
+				(name "OUTB"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TS3USB221A"
+		(pin_names
+			(offset 0.65)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "TS3USB221A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_ESP:TI_RSE0010A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS3USB221ARSER"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "2.3–3.6 V; USB 2.0 high-speed switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/TS3USB221ARSER/1985512"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "TS3USB221A_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 8.89 -39.37)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -13.97 180)
+				(length 3.81)
+				(name "1D+"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -6.35 180)
+				(length 3.81)
+				(name "1D−"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -26.67 180)
+				(length 3.81)
+				(name "2D+"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -21.59 180)
+				(length 3.81)
+				(name "2D−"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -34.29 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -21.59 0)
+				(length 3.81)
+				(name "~{OE}"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -6.35 0)
+				(length 3.81)
+				(name "D−"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -13.97 0)
+				(length 3.81)
+				(name "D+"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -34.29 180)
+				(length 3.81)
+				(name "S"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -27.94 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "W25Q128JVSIQ"
+		(pin_names
+			(offset 0.65)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "W25Q128JVSIQ"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_RP:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?partNo=W25Q128JV"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "W25Q128JVSIQ"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Winbond"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "2.7–3.6 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "W25Q128JVSIQ_1_1"
+			(rectangle
+				(start -13.97 0)
+				(end 13.97 -44.45)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 3.81)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -20.32 0)
+				(length 3.81)
+				(name "DO_/_IO1"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -25.4 0)
+				(length 3.81)
+				(name "~{WP}_/_IO2"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -38.1 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -15.24 0)
+				(length 3.81)
+				(name "DI_/_IO0"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -10.16 0)
+				(length 3.81)
+				(name "CLK"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -30.48 0)
+				(length 3.81)
+				(name "~{HOLD}_/_IO3"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -38.1 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.98 0.98)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

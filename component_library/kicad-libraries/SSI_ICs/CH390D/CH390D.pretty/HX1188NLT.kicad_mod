@@ -1,0 +1,214 @@
+(footprint "HX1188NLT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Pulse HX1188NL rev H p.3 suggested land pattern. STEP from Pulse HX1188NL_3D.zip. Tape suffix T uses the same body.")
+	(property "Reference" "REF**"
+		(at 0 -6.4 0)
+		(layer "F.SilkS")
+		(uuid "9f92b58d-81b8-4a40-b315-55315b231c06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HX1188NLT"
+		(at 0 6.4 0)
+		(layer "F.Fab")
+		(uuid "4c4b7993-6697-497a-91cd-4adaf3a6e179")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f44140e-6b1a-4513-9830-7d3ffd1abdd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8747409b-011d-4a6b-8d62-0320a882c911")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.48 -3.58)
+		(end -6.48 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbff9814-29c5-4b0c-8724-0bbeb84b03c7")
+	)
+	(fp_line
+		(start 6.48 -3.58)
+		(end 6.48 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a56c8e1-5df1-413b-b142-55fb06be71d4")
+	)
+	(fp_circle
+		(center -5.55 3.78)
+		(end -5.43 3.78)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3fa02acd-ca92-48c7-a79b-5f86cf7a1c74")
+	)
+	(fp_rect
+		(start -6.65 -5.4)
+		(end 6.65 5.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bdc6b976-f2ca-4984-9b91-ebb3c1cb8d84")
+	)
+	(fp_rect
+		(start -6.35 -3.556)
+		(end 6.35 3.556)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0587c0a6-1d8d-43c1-8b12-bd280f5a2df5")
+	)
+	(pad "1" smd rect
+		(at -4.445 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0d1ebd4-2646-46d2-8a34-56250dacefe4")
+	)
+	(pad "2" smd rect
+		(at -3.175 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20be4f1e-b9a3-4e14-bb01-7866607129fd")
+	)
+	(pad "3" smd rect
+		(at -1.905 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e25cd5a0-bbc9-4b1e-a5c8-bf2fb5824022")
+	)
+	(pad "4" smd rect
+		(at -0.635 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "adab3ba0-6528-4ab2-8e1f-8fb4f1197e22")
+	)
+	(pad "5" smd rect
+		(at 0.635 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f56164c7-38c7-403c-b42a-f3a6488b2ac0")
+	)
+	(pad "6" smd rect
+		(at 1.905 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "898f2f79-7b7c-4e02-a264-ff984f5cabfb")
+	)
+	(pad "7" smd rect
+		(at 3.175 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8185e8e0-b8bc-4798-b9e3-e286982ee99c")
+	)
+	(pad "8" smd rect
+		(at 4.445 4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5894fa3e-4100-4a85-b0ad-b5bbf2f550e0")
+	)
+	(pad "9" smd rect
+		(at 4.445 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8edc7090-170b-4482-920a-01e9ecd41bf1")
+	)
+	(pad "10" smd rect
+		(at 3.175 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4db1f5cc-dbb6-48fb-8a2d-5b2127476b58")
+	)
+	(pad "11" smd rect
+		(at 1.905 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "002ebf1f-dc84-408c-9716-1dcba8bbf9ce")
+	)
+	(pad "12" smd rect
+		(at 0.635 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4b3e8a3-8373-4e84-8496-d7e7ceef7b86")
+	)
+	(pad "13" smd rect
+		(at -0.635 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d288bf3e-2b24-4dc1-8d3e-5a1ea63788b2")
+	)
+	(pad "14" smd rect
+		(at -1.905 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d34769d9-f338-4f4a-8b0f-7eaafb1d6866")
+	)
+	(pad "15" smd rect
+		(at -3.175 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e0ae2b0e-be25-4528-ab29-73fabc729331")
+	)
+	(pad "16" smd rect
+		(at -4.445 -4.2545)
+		(size 0.762 1.651)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d60144c2-efb1-4d80-9302-635c795da4c6")
+	)
+	(embedded_fonts no)
+	(model "${SSI_ICS}/CH390D/CH390D.3dshapes/HX1188NLT.step"
+		(offset
+			(xyz 0 0 1.397)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
