@@ -7,7 +7,7 @@
 	(title_block
 		(title "Payload Ethernet")
 		(date "2026-11-22")
-		(rev "P4")
+		(rev "P5")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -2621,16 +2621,16 @@
 		(uuid "03343854-1171-4dc6-aefa-e432434e999d")
 	)
 	(junction
-		(at 214.63 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b6955d5-d8a7-4c38-bea1-8c3f3b6eca6b")
-	)
-	(junction
 		(at 99.06 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2212de15-d4eb-429e-8742-78569096b364")
+	)
+	(junction
+		(at 184.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af3c84d-07c5-4d06-bda2-e025e567d602")
 	)
 	(junction
 		(at 113.03 130.81)
@@ -2694,6 +2694,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 83.82) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f404634-be4e-4df6-be8a-a8c62569ad99")
+	)
+	(wire
+		(pts
 			(xy 199.39 52.07) (xy 212.09 52.07)
 		)
 		(stroke
@@ -2714,13 +2724,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 101.6) (xy 214.63 101.6)
+			(xy 187.96 96.52) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "154a3403-0d43-4775-9342-cefa00559a2c")
+		(uuid "1c017f06-0b06-428e-8e46-e8fe94cce2b4")
 	)
 	(wire
 		(pts
@@ -2754,6 +2764,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 93.98) (xy 179.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248a2c58-a033-4192-896f-a6fdca7bbf81")
+	)
+	(wire
+		(pts
 			(xy 66.04 130.81) (xy 82.55 130.81)
 		)
 		(stroke
@@ -2784,13 +2804,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 157.48 86.36)
+			(xy 166.37 83.82) (xy 166.37 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ccf4b1a-5474-4dea-be3b-cea252b44980")
+		(uuid "3d6955e0-0f9c-4a44-80dc-abe7bfb99a49")
 	)
 	(wire
 		(pts
@@ -2804,13 +2824,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 191.77 90.17)
+			(xy 184.15 104.14) (xy 184.15 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a916e6b-aade-4292-be31-55aef8b9d6c7")
+		(uuid "4cc54392-f9c4-4fbf-bbc7-1b92dc43ec08")
 	)
 	(wire
 		(pts
@@ -2834,16 +2854,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.79) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f819dff-a1ec-4926-aead-71a12ce685a4")
-	)
-	(wire
-		(pts
 			(xy 68.58 90.17) (xy 59.69 90.17)
 		)
 		(stroke
@@ -2864,23 +2874,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 87.63) (xy 191.77 87.63)
+			(xy 166.37 93.98) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59f1399b-a0d0-4396-a6ef-19eb55aee474")
-	)
-	(wire
-		(pts
-			(xy 140.97 99.06) (xy 140.97 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3938d7-6006-443d-88df-7fb497939145")
+		(uuid "5cedfa4e-6e15-4ef3-9030-9993b2cf8116")
 	)
 	(wire
 		(pts
@@ -2894,13 +2894,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 166.37 86.36)
+			(xy 157.48 93.98) (xy 157.48 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67ae5835-1872-40ad-a4c1-836aa6aa4b9c")
+		(uuid "6703064b-dc13-4ede-ae22-37950e5511e8")
+	)
+	(wire
+		(pts
+			(xy 184.15 96.52) (xy 187.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720091fd-495c-4b6a-a44b-140b9df72a2f")
 	)
 	(wire
 		(pts
@@ -2954,16 +2964,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 86.36) (xy 140.97 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "829ae431-2ae5-4cd6-af25-a65b9dc72d58")
-	)
-	(wire
-		(pts
 			(xy 58.42 52.07) (xy 68.58 52.07)
 		)
 		(stroke
@@ -2994,26 +2994,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 83.82) (xy 187.96 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96cc353e-e9ad-4937-ba9b-54b4eed99676")
-	)
-	(wire
-		(pts
-			(xy 238.76 101.6) (xy 247.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97608203-3085-4800-89a4-13bd7dcaffce")
-	)
-	(wire
-		(pts
 			(xy 58.42 45.72) (xy 68.58 45.72)
 		)
 		(stroke
@@ -3024,13 +3004,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 83.82) (xy 166.37 86.36)
+			(xy 157.48 83.82) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc28f06-d342-4fce-9ac1-0332ad92c58c")
+		(uuid "a0855de3-c2e4-4965-aa90-e3fc98ff38d4")
 	)
 	(wire
 		(pts
@@ -3074,26 +3054,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 85.09) (xy 214.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8641ae8-88f4-4f36-b11b-fe2150a8b1ee")
-	)
-	(wire
-		(pts
-			(xy 214.63 101.6) (xy 231.14 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac5661f-50a8-44d4-84e4-8ac43dc30a15")
-	)
-	(wire
-		(pts
 			(xy 113.03 125.73) (xy 113.03 130.81)
 		)
 		(stroke
@@ -3104,6 +3064,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 83.82) (xy 179.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2eabe6c-77d6-44b4-a95c-0d582ab8ace7")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b483f01b-15c3-4475-b649-6c95f42c2066")
+	)
+	(wire
+		(pts
 			(xy 66.04 125.73) (xy 66.04 130.81)
 		)
 		(stroke
@@ -3111,16 +3091,6 @@
 			(type default)
 		)
 		(uuid "b54ed2ff-69b4-4d70-91c3-e63ae30c0852")
-	)
-	(wire
-		(pts
-			(xy 162.56 86.36) (xy 162.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc51286-154c-41bf-93fd-c27eb6d8abfc")
 	)
 	(wire
 		(pts
@@ -3154,36 +3124,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 162.56 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5b3c2c2-491c-4d5f-8fc1-0ae7988464b9")
-	)
-	(wire
-		(pts
-			(xy 179.07 83.82) (xy 179.07 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daaee63e-79f4-406a-8cc1-297d2829f062")
-	)
-	(wire
-		(pts
-			(xy 157.48 83.82) (xy 157.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea843071-6dcf-4ca8-822d-37a98972aed7")
-	)
-	(wire
-		(pts
 			(xy 129.54 109.22) (xy 129.54 130.81)
 		)
 		(stroke
@@ -3211,26 +3151,6 @@
 			(type default)
 		)
 		(uuid "f0fd3ec5-1efc-4c24-8bd7-3ddbebd8cfb7")
-	)
-	(wire
-		(pts
-			(xy 214.63 85.09) (xy 214.63 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2df9c58-11b5-4f6a-a8b0-3205a8d1c57f")
-	)
-	(wire
-		(pts
-			(xy 191.77 97.79) (xy 191.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3bec218-a1db-4808-9056-a14db615edb8")
 	)
 	(wire
 		(pts
@@ -3628,7 +3548,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060375R0BEEA")
-		(at 214.63 93.98 0)
+		(at 187.96 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3638,7 +3558,7 @@
 		(dnp no)
 		(uuid "24b67f2c-b6f2-4a1a-b856-026c7f8cd65f")
 		(property "Reference" "R302"
-			(at 216.8801 93.98 0)
+			(at 190.2101 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3649,7 +3569,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 214.63 93.98 90)
+			(at 187.96 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3659,7 +3579,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3590,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3691,7 +3611,7 @@
 			)
 		)
 		(property "MPN" "TNPW060375R0BEEA"
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3622,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3713,7 +3633,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,7 +3644,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060375R0BEEA/1857090"
-			(at 214.63 93.98 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +3671,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:CGA3E3X7R1H105K080AB")
-		(at 140.97 95.25 0)
+		(at 157.48 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3761,7 +3681,7 @@
 		(dnp no)
 		(uuid "2f7b9b63-cc9f-49a3-9681-f79b2d78fea2")
 		(property "Reference" "C305"
-			(at 143.62 93.8 0)
+			(at 160.13 88.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3772,7 +3692,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 143.62 95.25 0)
+			(at 160.13 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3783,7 +3703,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0603_1608Metric"
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3714,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E3X7R1H105K080AB"
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3815,7 +3735,7 @@
 			)
 		)
 		(property "MPN" "CGA3E3X7R1H105K080AB"
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3826,7 +3746,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,7 +3757,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +3768,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/CGA3E3X7R1H105K080AB/25982704"
-			(at 140.97 95.25 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +3779,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 143.62 96.7301 0)
+			(at 160.13 91.6501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3887,7 +3807,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060375R0BEEA")
-		(at 191.77 93.98 0)
+		(at 179.07 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3897,7 +3817,7 @@
 		(dnp no)
 		(uuid "39e54d59-5942-4eab-ace0-5adcd91da7c7")
 		(property "Reference" "R301"
-			(at 194.0201 93.98 0)
+			(at 181.3201 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3908,7 +3828,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 191.77 93.98 90)
+			(at 179.07 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3918,7 +3838,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +3849,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3940,7 +3860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +3870,7 @@
 			)
 		)
 		(property "MPN" "TNPW060375R0BEEA"
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +3881,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3892,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,7 +3903,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060375R0BEEA/1857090"
-			(at 191.77 93.98 0)
+			(at 179.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 101.6 0)
+		(at 166.37 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4156,7 +4076,7 @@
 		(dnp no)
 		(uuid "4626530b-5f23-4d15-868e-2b3a5d9df173")
 		(property "Reference" "#PWR3474"
-			(at 162.56 101.6 0)
+			(at 166.37 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +4087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 106.68 0)
+			(at 166.37 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4177,7 +4097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 101.6 0)
+			(at 166.37 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4187,7 +4107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 101.6 0)
+			(at 166.37 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4197,7 +4117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 101.6 0)
+			(at 166.37 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4220,7 +4140,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:CGA3E3X7R1H105K080AB")
-		(at 162.56 95.25 0)
+		(at 166.37 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4230,7 +4150,7 @@
 		(dnp no)
 		(uuid "4c77de0d-bb3e-45fb-8ca4-9c99ad733d92")
 		(property "Reference" "C306"
-			(at 165.21 93.8 0)
+			(at 169.02 88.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4241,7 +4161,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 165.21 95.25 0)
+			(at 169.02 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4252,7 +4172,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0603_1608Metric"
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4263,7 +4183,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA3E3X7R1H105K080AB"
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4274,7 +4194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4284,7 +4204,7 @@
 			)
 		)
 		(property "MPN" "CGA3E3X7R1H105K080AB"
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4295,7 +4215,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4226,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +4237,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/CGA3E3X7R1H105K080AB/25982704"
-			(at 162.56 95.25 0)
+			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4328,7 +4248,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 165.21 96.7301 0)
+			(at 169.02 91.6501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +4770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 101.6 0)
+		(at 184.15 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4860,7 +4780,7 @@
 		(dnp no)
 		(uuid "9c2da4c9-92b7-4b11-b65b-f0559a64597e")
 		(property "Reference" "#PWR3478"
-			(at 247.65 101.6 0)
+			(at 184.15 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +4791,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 106.68 0)
+			(at 184.15 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4881,7 +4801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 101.6 0)
+			(at 184.15 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4891,7 +4811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 101.6 0)
+			(at 184.15 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4901,7 +4821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 101.6 0)
+			(at 184.15 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5134,7 +5054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 101.6 0)
+		(at 157.48 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5144,7 +5064,7 @@
 		(dnp no)
 		(uuid "bd244a4f-e960-4341-b25d-1be9a4d01ce3")
 		(property "Reference" "#PWR3472"
-			(at 140.97 101.6 0)
+			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,7 +5075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 106.68 0)
+			(at 157.48 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5165,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 101.6 0)
+			(at 157.48 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5175,7 +5095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 101.6 0)
+			(at 157.48 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5185,7 +5105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 101.6 0)
+			(at 157.48 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5282,7 +5202,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:C4520X7R3D102K130KA")
-		(at 234.95 101.6 90)
+		(at 184.15 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5292,27 +5212,29 @@
 		(dnp no)
 		(uuid "d269b6fc-749a-4d34-beea-80399b5707f3")
 		(property "Reference" "C307"
-			(at 234.95 96.3499 90)
+			(at 186.8 98.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.86 0.86)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1n"
-			(at 234.95 97.67 90)
+			(at 186.8 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.88 0.88)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_1808_4520Metric"
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5245,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C4520X7R3D102K130KA"
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5334,7 +5256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5344,7 +5266,7 @@
 			)
 		)
 		(property "MPN" "C4520X7R3D102K130KA"
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5277,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5366,7 +5288,7 @@
 			)
 		)
 		(property "Rating" "2 kV DC"
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,7 +5299,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/C4520X7R3D102K130KA/789780"
-			(at 234.95 101.6 0)
+			(at 184.15 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +5310,7 @@
 			)
 		)
 		(property "Voltage" "2 kV"
-			(at 234.95 98.99 90)
+			(at 186.8 101.8101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5396,6 +5318,7 @@
 					(size 0.8 0.8)
 					(color 13 111 120 1)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"

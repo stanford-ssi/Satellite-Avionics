@@ -7,7 +7,7 @@
 	(title_block
 		(title "S-band PA load switch")
 		(date "2026-11-22")
-		(rev "P4")
+		(rev "P5")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -741,6 +741,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Yapling_Power:5V_PA_SW"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5V_PA_SW"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"5V_PA_SW\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5V_PA_SW_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5V_PA_SW_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "5V_PA_SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Yapling_Power:5V_RF"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5V_RF"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"5V_RF\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5V_RF_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5V_RF_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "5V_RF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Yapling_Power:TPS22965-Q1"
 			(pin_names
 				(offset 0.65)
@@ -1183,6 +1461,12 @@
 		(uuid "583f5de0-2236-4970-8757-157fd2b9f7d4")
 	)
 	(junction
+		(at 92.71 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c170651c-6c03-400c-b281-cd67f424bc98")
+	)
+	(junction
 		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1250,16 +1534,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 92.71 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46394f16-5952-44e8-acbd-fc3036a26647")
-	)
-	(wire
-		(pts
 			(xy 153.67 110.49) (xy 153.67 113.03)
 		)
 		(stroke
@@ -1280,13 +1554,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 85.09) (xy 175.26 85.09)
+			(xy 165.1 81.28) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a3fc311-4c58-4fba-b8e5-4138502e382e")
+		(uuid "6bd1b645-4338-4178-b766-90683b32e14c")
 	)
 	(wire
 		(pts
@@ -1307,6 +1581,26 @@
 			(type default)
 		)
 		(uuid "83665f55-1ebd-44f0-9d0f-bd4ebc132689")
+	)
+	(wire
+		(pts
+			(xy 88.9 100.33) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8df91d-d9b1-4926-86b8-780ecd780044")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9031d8c9-9ccf-4982-be3a-bae72dc11999")
 	)
 	(wire
 		(pts
@@ -1400,16 +1694,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 110.49 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2a81523-cb9c-4ee1-9c30-3e20a6c2ff1a")
-	)
-	(wire
-		(pts
 			(xy 110.49 115.57) (xy 110.49 116.84)
 		)
 		(stroke
@@ -1420,13 +1704,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 186.69 85.09)
+			(xy 92.71 85.09) (xy 110.49 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d366246f-7a07-448f-af0b-eb0c451d148e")
+		(uuid "d8343b26-5e21-4571-9ab6-0c96fd81f6fa")
 	)
 	(wire
 		(pts
@@ -1448,30 +1732,9 @@
 		)
 		(uuid "dd90dcc8-eb28-40b9-824b-edb6d7f84d64")
 	)
-	(wire
-		(pts
-			(xy 92.71 85.09) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e31f126e-b384-4525-8b9f-fc971580147c")
-	)
-	(hierarchical_label "5V_RF"
-		(shape input)
-		(at 90.17 85.09 180)
-		(effects
-			(font
-				(size 1.15 1.15)
-			)
-			(justify right)
-		)
-		(uuid "044b67fe-d204-4057-abc1-9099c9f665ed")
-	)
 	(hierarchical_label "S_PA_EN"
 		(shape input)
-		(at 104.14 100.33 180)
+		(at 88.9 100.33 180)
 		(effects
 			(font
 				(size 1.1 1.1)
@@ -1479,17 +1742,6 @@
 			(justify right)
 		)
 		(uuid "36f94025-378e-494f-ba5a-57a0cf20c0f9")
-	)
-	(hierarchical_label "5V_PA_SW"
-		(shape output)
-		(at 186.69 85.09 0)
-		(effects
-			(font
-				(size 1.15 1.15)
-			)
-			(justify left)
-		)
-		(uuid "80957f00-576c-42fe-bc80-266c034a4ae1")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2197,6 +2449,154 @@
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/7012b14c-1234-46c7-93ca-a32cabe861df/a6d6f9c1-bac1-574b-ab1e-d99b08f0c7a0"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yapling_Power:5V_RF")
+		(at 92.71 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdb9b8fc-71e3-4d88-83fb-4e50309f5f26")
+		(property "Reference" "#PWR12530"
+			(at 92.71 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+			)
+		)
+		(property "Value" "5V_RF"
+			(at 92.71 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6c06c77-7509-4a71-9bd8-f9ce6a69adfd")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/7012b14c-1234-46c7-93ca-a32cabe861df/a6d6f9c1-bac1-574b-ab1e-d99b08f0c7a0"
+					(reference "#PWR12530")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yapling_Power:5V_PA_SW")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db330977-f895-44e7-aaff-2ed5ef7eb4ff")
+		(property "Reference" "#PWR12531"
+			(at 165.1 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+			)
+		)
+		(property "Value" "5V_PA_SW"
+			(at 165.1 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2e303b0-72ea-45f7-b60f-2f5f60331b12")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/7012b14c-1234-46c7-93ca-a32cabe861df/a6d6f9c1-bac1-574b-ab1e-d99b08f0c7a0"
+					(reference "#PWR12531")
 					(unit 1)
 				)
 			)

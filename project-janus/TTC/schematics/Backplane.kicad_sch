@@ -7,7 +7,7 @@
 	(title_block
 		(title "Yapling | Backplane")
 		(date "2026-11-22")
-		(rev "P4")
+		(rev "P5")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -1654,145 +1654,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Yapling_Power:VBAT_PROT"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBAT_PROT"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBAT_PROT\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBAT_PROT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBAT_PROT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "VBAT_PROT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2108,16 +1969,6 @@
 	(no_connect
 		(at 212.09 135.89)
 		(uuid "f0fa63ef-7ab5-413c-8693-e32d803b4aa9")
-	)
-	(wire
-		(pts
-			(xy 147.32 121.92) (xy 147.32 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021990bd-f382-4953-a18c-3a044e87bb20")
 	)
 	(wire
 		(pts
@@ -2461,6 +2312,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 127) (xy 147.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97d7d90-2ecc-46d7-8252-ba7ba758c66e")
+	)
+	(wire
+		(pts
 			(xy 161.29 81.28) (xy 161.29 86.36)
 		)
 		(stroke
@@ -2603,6 +2464,17 @@
 			(justify right)
 		)
 		(uuid "1ab8b823-e022-4c40-a3c1-8e400101f9c0")
+	)
+	(hierarchical_label "VBAT_PROT"
+		(shape output)
+		(at 137.16 127 180)
+		(effects
+			(font
+				(size 1.22 1.22)
+			)
+			(justify right)
+		)
+		(uuid "27768b21-5066-412d-9c6b-bcda95e6c33f")
 	)
 	(hierarchical_label "ETH_TX_N"
 		(shape bidirectional)
@@ -3170,80 +3042,6 @@
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/1e7e4a99-b89b-4215-80d8-b268c002adf7"
 					(reference "#PWR8501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Yapling_Power:VBAT_PROT")
-		(at 147.32 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5204668f-96bc-4119-b4a7-8f4f9231de9d")
-		(property "Reference" "#PWR8503"
-			(at 147.32 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.05 1.05)
-				)
-			)
-		)
-		(property "Value" "VBAT_PROT"
-			(at 147.32 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.05 1.05)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a527db05-77b7-48d0-bd03-c7662eccb9b4")
-		)
-		(instances
-			(project "Yapling"
-				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/1e7e4a99-b89b-4215-80d8-b268c002adf7"
-					(reference "#PWR8503")
 					(unit 1)
 				)
 			)

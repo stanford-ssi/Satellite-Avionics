@@ -7,7 +7,7 @@
 	(title_block
 		(title "Housekeeping processor")
 		(date "2026-11-22")
-		(rev "P4")
+		(rev "P5")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -1679,6 +1679,258 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Yapling_Passives:PTS636_SK25_SMTR_LFS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PTS636 SK25 SMTR LFS"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:CK_PTS636_SK25_SMTR_LFS_GullWing_SMD"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts636-series-datasheet?assetguid=8a16fd39-1f87-4545-ab06-9e057a0fe304"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Momentary SPST-NO tactile switch, 250 gf, gull-wing SMT, 6.1 × 3.7 × 2.5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PTS636 SK25 SMTR LFS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "C&K / Littelfuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2689642"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/littelfuse-c-k/PTS636SK25SMTR-LFS/10071735"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Part #" "CKN12322-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C2689642"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C2689642"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "12 VDC, 50 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTS636_SK25_SMTR_LFS_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5455,8 +5707,8 @@
 		(uuid "1cfba6e7-b701-41dc-9a49-686c0133e7e4")
 	)
 	(rectangle
-		(start 20.32 189.23)
-		(end 119.38 243.84)
+		(start 20.32 185.42)
+		(end 119.38 240.03)
 		(stroke
 			(width 0.26)
 			(type solid)
@@ -5469,7 +5721,7 @@
 	)
 	(rectangle
 		(start 20.32 149.86)
-		(end 119.38 182.88)
+		(end 119.38 179.07)
 		(stroke
 			(width 0.26)
 			(type solid)
@@ -5507,7 +5759,7 @@
 	)
 	(text "1.6 s timeout · bridge JP100 to disable"
 		(exclude_from_sim no)
-		(at 24.13 239.649 0)
+		(at 24.13 235.839 0)
 		(effects
 			(font
 				(size 1.04 1.04)
@@ -5610,9 +5862,9 @@
 		)
 		(uuid "93b19f9c-5abd-4e87-8251-71c694526809")
 	)
-	(text "Watchdog"
+	(text "Watchdog and reset"
 		(exclude_from_sim no)
-		(at 24.13 194.31 0)
+		(at 24.13 190.5 0)
 		(effects
 			(font
 				(size 1.55 1.55)
@@ -5676,7 +5928,7 @@
 		(uuid "2651f4bc-627d-4ef9-b238-66141daa9ec1")
 	)
 	(junction
-		(at 41.91 213.36)
+		(at 41.91 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b7b36e9-bb8d-4778-855f-6bec3c6adb42")
@@ -5790,7 +6042,7 @@
 		(uuid "84552700-b293-42d0-a21a-aaececb84f05")
 	)
 	(junction
-		(at 45.72 228.6)
+		(at 45.72 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a6c9d15-9f87-4e51-8f12-e4746af6c9f0")
@@ -5844,7 +6096,7 @@
 		(uuid "a7944fbe-7a11-448c-9a99-8f620d629368")
 	)
 	(junction
-		(at 41.91 217.17)
+		(at 41.91 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adac4d1e-016b-48e8-8ee6-d0f64d097723")
@@ -5898,7 +6150,7 @@
 		(uuid "c29e4574-cf90-4e04-98ae-ab933a93b605")
 	)
 	(junction
-		(at 80.01 228.6)
+		(at 80.01 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4018735-e70e-4c98-91bc-ecd6fe0eeba1")
@@ -5940,7 +6192,7 @@
 		(uuid "dbb57f50-69d6-4438-b3dd-efc170fae2dd")
 	)
 	(junction
-		(at 83.82 213.36)
+		(at 83.82 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd009935-bd09-452f-af3b-f41b79ba3d99")
@@ -6137,7 +6389,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 228.6) (xy 80.01 234.95)
+			(xy 80.01 224.79) (xy 80.01 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6327,13 +6579,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 234.95) (xy 97.79 234.95)
+			(xy 53.34 168.91) (xy 57.15 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e086f6e-f972-4fbb-a2ee-d0236faef71a")
+		(uuid "1d67cb58-37e5-49d5-8692-9e9ee1c967af")
 	)
 	(wire
 		(pts
@@ -6387,7 +6639,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 228.6) (xy 80.01 228.6)
+			(xy 96.52 171.45) (xy 109.22 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236ca18d-5026-433f-835e-72c518f5f54f")
+	)
+	(wire
+		(pts
+			(xy 72.39 224.79) (xy 80.01 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6427,6 +6689,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 171.45) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29168f2d-b45e-4172-a8ce-73c1de4028da")
+	)
+	(wire
+		(pts
 			(xy 269.24 144.78) (xy 284.48 144.78)
 		)
 		(stroke
@@ -6437,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 213.36) (xy 41.91 217.17)
+			(xy 41.91 209.55) (xy 41.91 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6454,6 +6726,26 @@
 			(type default)
 		)
 		(uuid "352b8b83-3e7b-4e49-b2ea-b572b8a0dc96")
+	)
+	(wire
+		(pts
+			(xy 31.75 165.1) (xy 31.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36296131-05b4-45f4-ad3a-7efa9701bf3d")
+	)
+	(wire
+		(pts
+			(xy 96.52 165.1) (xy 96.52 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365f62f8-c954-4a24-b77f-cba4b00e30ab")
 	)
 	(wire
 		(pts
@@ -6537,7 +6829,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 234.95) (xy 82.55 234.95)
+			(xy 80.01 231.14) (xy 82.55 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6547,7 +6839,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 213.36) (xy 83.82 213.36)
+			(xy 72.39 209.55) (xy 83.82 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6567,7 +6859,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 220.98) (xy 49.53 220.98)
+			(xy 41.91 217.17) (xy 49.53 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6587,7 +6879,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 224.79) (xy 45.72 228.6)
+			(xy 104.14 224.79) (xy 110.49 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b11bfa-cc6f-496c-b202-f6a586cfa993")
+	)
+	(wire
+		(pts
+			(xy 45.72 220.98) (xy 45.72 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6604,6 +6906,16 @@
 			(type default)
 		)
 		(uuid "43eaa4cd-6f72-4aa2-931d-1f0934212d70")
+	)
+	(wire
+		(pts
+			(xy 53.34 165.1) (xy 53.34 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4494efec-4131-4daf-88e0-8cd6ac09b41a")
 	)
 	(wire
 		(pts
@@ -6674,6 +6986,16 @@
 			(type default)
 		)
 		(uuid "49bf61e7-86d4-4abc-95a8-6b68a57a38f5")
+	)
+	(wire
+		(pts
+			(xy 81.28 224.79) (xy 93.98 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af02f6e-2000-45bb-98c3-61d62df7eba5")
 	)
 	(wire
 		(pts
@@ -6787,7 +7109,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 217.17) (xy 49.53 217.17)
+			(xy 41.91 213.36) (xy 49.53 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6807,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 209.55) (xy 83.82 213.36)
+			(xy 83.82 205.74) (xy 83.82 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6827,17 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 170.18) (xy 109.22 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8e3ad3-c912-4c90-a317-aba125e2a893")
-	)
-	(wire
-		(pts
-			(xy 101.6 213.36) (xy 105.41 213.36)
+			(xy 101.6 209.55) (xy 105.41 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6847,7 +7159,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 220.98) (xy 81.28 220.98)
+			(xy 72.39 217.17) (xy 81.28 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7007,7 +7319,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 228.6) (xy 81.28 228.6)
+			(xy 80.01 224.79) (xy 81.28 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7067,7 +7379,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 228.6) (xy 49.53 228.6)
+			(xy 45.72 224.79) (xy 49.53 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7077,7 +7389,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 220.98) (xy 31.75 223.52)
+			(xy 31.75 217.17) (xy 31.75 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7147,7 +7459,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 217.17) (xy 41.91 220.98)
+			(xy 41.91 213.36) (xy 41.91 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7247,16 +7559,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 170.18) (xy 109.22 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92acf766-930d-4f8a-90dd-caa1491d5e32")
-	)
-	(wire
-		(pts
 			(xy 72.39 104.14) (xy 72.39 106.68)
 		)
 		(stroke
@@ -7297,16 +7599,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 234.95) (xy 97.79 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7cbf9a-4dc6-437e-b9d2-cb3f86f1d978")
-	)
-	(wire
-		(pts
 			(xy 209.55 114.3) (xy 210.82 114.3)
 		)
 		(stroke
@@ -7317,7 +7609,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 199.39) (xy 83.82 201.93)
+			(xy 83.82 195.58) (xy 83.82 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7407,7 +7699,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 213.36) (xy 105.41 215.9)
+			(xy 105.41 209.55) (xy 105.41 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7487,13 +7779,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 170.18) (xy 34.29 173.99)
+			(xy 74.93 165.1) (xy 74.93 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a92a4610-ece2-4796-9cc6-453568adec89")
+		(uuid "ac754e50-5b23-4593-b487-3912a84bba81")
 	)
 	(wire
 		(pts
@@ -7537,7 +7829,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 204.47) (xy 41.91 213.36)
+			(xy 41.91 200.66) (xy 41.91 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7627,23 +7919,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 213.36) (xy 41.91 213.36)
+			(xy 31.75 209.55) (xy 41.91 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bbe40de0-4142-410e-8cd3-d3550a54cb92")
-	)
-	(wire
-		(pts
-			(xy 55.88 170.18) (xy 55.88 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c080cc97-e857-4456-a59e-19a611485aa5")
 	)
 	(wire
 		(pts
@@ -7747,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 213.36) (xy 49.53 213.36)
+			(xy 41.91 209.55) (xy 49.53 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7907,7 +8189,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 213.36) (xy 91.44 213.36)
+			(xy 83.82 209.55) (xy 91.44 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8047,16 +8329,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 170.18) (xy 77.47 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3cce335-5bff-4755-b6f2-3b381a5d29da")
-	)
-	(wire
-		(pts
 			(xy 31.75 123.19) (xy 41.91 123.19)
 		)
 		(stroke
@@ -8077,7 +8349,27 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 224.79) (xy 45.72 224.79)
+			(xy 90.17 231.14) (xy 93.98 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e718ffa1-930c-4bd4-a99b-7e31d9b634f2")
+	)
+	(wire
+		(pts
+			(xy 110.49 224.79) (xy 110.49 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea905c22-a508-4170-8c4e-d5bb719e59b7")
+	)
+	(wire
+		(pts
+			(xy 49.53 220.98) (xy 45.72 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8127,13 +8419,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 228.6) (xy 45.72 232.41)
+			(xy 45.72 224.79) (xy 45.72 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4ee494e-dfec-4f46-b73f-14a2d4147370")
+	)
+	(wire
+		(pts
+			(xy 31.75 168.91) (xy 35.56 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63d9976-100b-4c61-a149-0051c4a83d7a")
 	)
 	(wire
 		(pts
@@ -8246,7 +8548,7 @@
 		(uuid "116c12cc-d0f5-4b74-af9a-33c7193867bf")
 	)
 	(label "SWDIO"
-		(at 55.88 173.99 0)
+		(at 57.15 168.91 0)
 		(effects
 			(font
 				(size 1.16 1.16)
@@ -8266,7 +8568,7 @@
 		(uuid "204454fa-2dbe-4a1d-8c65-7e6a276bf8b0")
 	)
 	(label "SWCLK"
-		(at 34.29 173.99 0)
+		(at 35.56 168.91 0)
 		(effects
 			(font
 				(size 1.16 1.16)
@@ -8276,7 +8578,7 @@
 		(uuid "419d027c-cbad-4b1b-9a25-654f8505c722")
 	)
 	(label "RP_RUN"
-		(at 81.28 228.6 0)
+		(at 81.28 224.79 0)
 		(effects
 			(font
 				(size 1.16 1.16)
@@ -8336,7 +8638,7 @@
 		(uuid "d31c7c83-5e5b-4b90-8133-d4e714d83b03")
 	)
 	(label "RP_WDI"
-		(at 81.28 220.98 0)
+		(at 81.28 217.17 0)
 		(effects
 			(font
 				(size 1.16 1.16)
@@ -8555,7 +8857,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 170.18 0)
+		(at 74.93 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8565,7 +8867,7 @@
 		(dnp no)
 		(uuid "035f2b89-517d-4863-b6e6-da7b495e1267")
 		(property "Reference" "TP105"
-			(at 80.01 165.862 0)
+			(at 77.47 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8576,7 +8878,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 168.529 0)
+			(at 77.47 163.449 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8587,7 +8890,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
-			(at 77.47 170.18 0)
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +8901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 170.18 0)
+			(at 74.93 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8608,7 +8911,7 @@
 			)
 		)
 		(property "Description" "Bare copper test pad"
-			(at 77.47 170.18 0)
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,6 +8928,80 @@
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/a747e2ce-a50c-4882-b7b6-9e2c1098eef5"
 					(reference "TP105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0671b780-a059-48a5-a204-74f1d42a19b7")
+		(property "Reference" "#PWR12501"
+			(at 110.49 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.05 1.05)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ddfc871-a763-4c69-8a32-2100c72fbf50")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/a747e2ce-a50c-4882-b7b6-9e2c1098eef5"
+					(reference "#PWR12501")
 					(unit 1)
 				)
 			)
@@ -9988,7 +10365,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:3V3_MAIN")
-		(at 109.22 166.37 0)
+		(at 109.22 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9998,7 +10375,7 @@
 		(dnp no)
 		(uuid "29b688f9-713e-40a1-9545-15e7814f8b44")
 		(property "Reference" "#PWR11815"
-			(at 109.22 166.37 0)
+			(at 109.22 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +10386,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 109.22 162.56 0)
+			(at 109.22 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10019,7 +10396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 166.37 0)
+			(at 109.22 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10029,7 +10406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 166.37 0)
+			(at 109.22 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10039,7 +10416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 166.37 0)
+			(at 109.22 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10062,7 +10439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 223.52 0)
+		(at 31.75 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10072,7 +10449,7 @@
 		(dnp no)
 		(uuid "2dea03b9-bae3-4730-ac1b-890fe0927674")
 		(property "Reference" "#PWR11809"
-			(at 31.75 223.52 0)
+			(at 31.75 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10083,7 +10460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 227.33 0)
+			(at 31.75 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10093,7 +10470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 223.52 0)
+			(at 31.75 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10103,7 +10480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 223.52 0)
+			(at 31.75 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10113,7 +10490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 223.52 0)
+			(at 31.75 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10651,7 +11028,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 215.9 0)
+		(at 105.41 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10661,7 +11038,7 @@
 		(dnp no)
 		(uuid "3639ed81-dbbb-4114-b5c7-57b69cbff768")
 		(property "Reference" "#PWR11812"
-			(at 105.41 215.9 0)
+			(at 105.41 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10672,7 +11049,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 219.71 0)
+			(at 105.41 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10682,7 +11059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 215.9 0)
+			(at 105.41 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10692,7 +11069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 215.9 0)
+			(at 105.41 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10702,7 +11079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 215.9 0)
+			(at 105.41 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11298,7 +11675,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:3V3_MAIN")
-		(at 83.82 199.39 0)
+		(at 83.82 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11308,7 +11685,7 @@
 		(dnp no)
 		(uuid "47916aff-fd09-463d-b4a2-3e4e0c6df33b")
 		(property "Reference" "#PWR11811"
-			(at 83.82 199.39 0)
+			(at 83.82 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +11696,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 83.82 195.58 0)
+			(at 83.82 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11329,7 +11706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 199.39 0)
+			(at 83.82 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11339,7 +11716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 199.39 0)
+			(at 83.82 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11349,7 +11726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 199.39 0)
+			(at 83.82 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11656,7 +12033,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 31.75 217.17 0)
+		(at 31.75 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11666,7 +12043,7 @@
 		(dnp no)
 		(uuid "4ea68183-9040-4ac7-8dd6-952e2b0cb758")
 		(property "Reference" "C105"
-			(at 34.4 215.72 0)
+			(at 34.4 211.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11677,7 +12054,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 34.4 217.17 0)
+			(at 34.4 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11688,7 +12065,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11699,7 +12076,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11710,7 +12087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11720,7 +12097,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11731,7 +12108,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11742,7 +12119,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11753,7 +12130,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 31.75 217.17 0)
+			(at 31.75 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11764,7 +12141,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 34.4 218.6501 0)
+			(at 34.4 214.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12470,7 +12847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 173.99 0)
+		(at 74.93 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12480,7 +12857,7 @@
 		(dnp no)
 		(uuid "67b1884d-972e-4459-9c72-82e2644a21b4")
 		(property "Reference" "#PWR11814"
-			(at 77.47 173.99 0)
+			(at 74.93 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12491,7 +12868,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 177.8 0)
+			(at 74.93 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12501,7 +12878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 173.99 0)
+			(at 74.93 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12511,7 +12888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 173.99 0)
+			(at 74.93 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12521,7 +12898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 173.99 0)
+			(at 74.93 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13884,7 +14261,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
-		(at 83.82 205.74 0)
+		(at 83.82 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13894,7 +14271,7 @@
 		(dnp no)
 		(uuid "8f66762a-0916-4ec1-9aa8-1a0923412f87")
 		(property "Reference" "R107"
-			(at 86.233 205.74 0)
+			(at 86.233 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13905,7 +14282,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 83.82 205.74 90)
+			(at 83.82 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13915,7 +14292,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13926,7 +14303,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13937,7 +14314,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13947,7 +14324,7 @@
 			)
 		)
 		(property "MPN" "TNPW060310K0BEEA"
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13958,7 +14335,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13969,7 +14346,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13980,7 +14357,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 83.82 205.74 0)
+			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14007,7 +14384,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:3V3_MAIN")
-		(at 41.91 204.47 0)
+		(at 41.91 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14017,7 +14394,7 @@
 		(dnp no)
 		(uuid "90ae13e6-68fc-4c00-a000-9380b017716e")
 		(property "Reference" "#PWR11808"
-			(at 41.91 204.47 0)
+			(at 41.91 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14028,7 +14405,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 41.91 200.66 0)
+			(at 41.91 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14038,7 +14415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 204.47 0)
+			(at 41.91 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14048,7 +14425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 204.47 0)
+			(at 41.91 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14058,7 +14435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 204.47 0)
+			(at 41.91 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14148,6 +14525,173 @@
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/a747e2ce-a50c-4882-b7b6-9e2c1098eef5"
 					(reference "#PWR11831")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Yapling_Passives:PTS636_SK25_SMTR_LFS")
+		(at 99.06 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a6277b3-bbeb-4024-a1e5-8bc7a6debce0")
+		(property "Reference" "SW100"
+			(at 99.06 217.551 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "Value" "RP reset"
+			(at 99.06 219.6465 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_Packages:CK_PTS636_SK25_SMTR_LFS_GullWing_SMD"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-ck-tactile-pts636-series-datasheet?assetguid=8a16fd39-1f87-4545-ab06-9e057a0fe304"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "Description" "Momentary SPST-NO tactile switch, 250 gf, gull-wing SMT, 6.1 × 3.7 × 2.5 mm"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "MPN" "PTS636 SK25 SMTR LFS"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K / Littelfuse"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "LCSC" "C2689642"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/littelfuse-c-k/PTS636SK25SMTR-LFS/10071735"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "DigiKey Part #" "CKN12322-1-ND"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2689642"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2689642"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(property "Rating" "12 VDC, 50 mA"
+			(at 99.06 219.6465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.08 1.08)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b83b22bc-ba63-4786-9fff-764b662dbd5b")
+		)
+		(pin "2"
+			(uuid "fabb30bf-e143-4730-98e4-a3bb8612396f")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/a747e2ce-a50c-4882-b7b6-9e2c1098eef5"
+					(reference "SW100")
 					(unit 1)
 				)
 			)
@@ -14488,7 +15032,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Bus:Watchdog_Disable")
-		(at 96.52 213.36 0)
+		(at 96.52 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14498,7 +15042,7 @@
 		(dnp no)
 		(uuid "aa1a2dcc-27bf-4e44-88ed-63c8f301e275")
 		(property "Reference" "JP100"
-			(at 96.52 207.899 0)
+			(at 96.52 204.089 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14508,7 +15052,7 @@
 			)
 		)
 		(property "Value" "WD DISABLE"
-			(at 96.52 210.82 0)
+			(at 96.52 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14518,7 +15062,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Bus:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 96.52 213.36 0)
+			(at 96.52 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14529,7 +15073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 213.36 0)
+			(at 96.52 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14540,7 +15084,7 @@
 			)
 		)
 		(property "Description" "Normally open watchdog disable solder bridge, two exposed PCB lands"
-			(at 96.52 213.36 0)
+			(at 96.52 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14974,7 +15518,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 34.29 170.18 0)
+		(at 31.75 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14984,7 +15528,7 @@
 		(dnp no)
 		(uuid "b2ae5f87-3acf-488f-9f2b-d6f7771fe9f4")
 		(property "Reference" "TP101"
-			(at 36.83 165.862 0)
+			(at 34.29 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14995,7 +15539,7 @@
 			)
 		)
 		(property "Value" "SWCLK"
-			(at 36.83 168.529 0)
+			(at 34.29 163.449 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15007,7 +15551,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
-			(at 34.29 170.18 0)
+			(at 31.75 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15018,7 +15562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 170.18 0)
+			(at 31.75 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15028,7 +15572,7 @@
 			)
 		)
 		(property "Description" "Bare copper test pad"
-			(at 34.29 170.18 0)
+			(at 31.75 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +15596,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 99.06 170.18 0)
+		(at 96.52 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15062,29 +15606,29 @@
 		(dnp no)
 		(uuid "b8dc6995-32b6-4cc2-8dcd-bc3cc1fcb63e")
 		(property "Reference" "TP106"
-			(at 101.6 165.862 0)
+			(at 99.06 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.13 1.13)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "VTREF"
-			(at 101.6 168.529 0)
+			(at 99.06 163.449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.13 1.13)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
-			(at 99.06 170.18 0)
+			(at 96.52 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15095,7 +15639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 170.18 0)
+			(at 96.52 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15105,7 +15649,7 @@
 			)
 		)
 		(property "Description" "Bare copper test pad"
-			(at 99.06 170.18 0)
+			(at 96.52 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15488,7 +16032,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
-		(at 86.36 234.95 90)
+		(at 86.36 231.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15498,7 +16042,7 @@
 		(dnp no)
 		(uuid "c9dfda37-a7c6-4d26-9041-e7a1e41837a4")
 		(property "Reference" "R108"
-			(at 86.36 232.537 90)
+			(at 86.36 228.727 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15508,7 +16052,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 86.36 234.95 90)
+			(at 86.36 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15518,7 +16062,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15529,7 +16073,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15540,7 +16084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15550,7 +16094,7 @@
 			)
 		)
 		(property "MPN" "TNPW060310K0BEEA"
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15561,7 +16105,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15572,7 +16116,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15583,7 +16127,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 86.36 234.95 0)
+			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15956,7 +16500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 232.41 0)
+		(at 45.72 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15966,7 +16510,7 @@
 		(dnp no)
 		(uuid "d25e3ba9-9aca-4e5b-8b75-3a8fe4eb65b2")
 		(property "Reference" "#PWR11810"
-			(at 45.72 232.41 0)
+			(at 45.72 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15977,7 +16521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 236.22 0)
+			(at 45.72 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15987,7 +16531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 232.41 0)
+			(at 45.72 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15997,7 +16541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 232.41 0)
+			(at 45.72 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16007,7 +16551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 232.41 0)
+			(at 45.72 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16030,7 +16574,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 55.88 170.18 0)
+		(at 53.34 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16040,7 +16584,7 @@
 		(dnp no)
 		(uuid "e1c3935a-daf9-4989-ab7c-a02dc374d7ba")
 		(property "Reference" "TP102"
-			(at 58.42 165.862 0)
+			(at 55.88 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16051,7 +16595,7 @@
 			)
 		)
 		(property "Value" "SWDIO"
-			(at 58.42 168.529 0)
+			(at 55.88 163.449 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,7 +16607,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
-			(at 55.88 170.18 0)
+			(at 53.34 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 170.18 0)
+			(at 53.34 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16084,7 +16628,7 @@
 			)
 		)
 		(property "Description" "Bare copper test pad"
-			(at 55.88 170.18 0)
+			(at 53.34 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17411,7 +17955,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_ESP:TPS3435-Q1")
-		(at 60.96 210.82 0)
+		(at 60.96 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17421,7 +17965,7 @@
 		(dnp no)
 		(uuid "fdd9afe5-d478-4638-8a5b-c1131c121a64")
 		(property "Reference" "U102"
-			(at 52.07 205.359 0)
+			(at 52.07 201.549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17432,7 +17976,7 @@
 			)
 		)
 		(property "Value" "TPS3435-Q1"
-			(at 52.07 208.026 0)
+			(at 52.07 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17443,7 +17987,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_ESP:TPS3435_DDF"
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17454,7 +17998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3435-q1.pdf"
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17465,7 +18009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17475,7 +18019,7 @@
 			)
 		)
 		(property "MPN" "TPS3435CAKAGDDFRQ1"
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17486,7 +18030,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17497,7 +18041,7 @@
 			)
 		)
 		(property "Rating" "1.04–6 V; open-drain watchdog"
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17508,7 +18052,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS3435CAKAGDDFRQ1/21298845"
-			(at 60.96 210.82 0)
+			(at 60.96 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17689,7 +18233,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:3V3_MAIN")
-		(at 97.79 232.41 0)
+		(at 93.98 231.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17699,7 +18243,7 @@
 		(dnp no)
 		(uuid "fff14dea-b781-4c72-ba6a-efb12aac38ff")
 		(property "Reference" "#PWR11813"
-			(at 97.79 232.41 0)
+			(at 93.98 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17710,7 +18254,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 97.79 228.6 0)
+			(at 93.98 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17720,7 +18264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 232.41 0)
+			(at 93.98 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17730,7 +18274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 232.41 0)
+			(at 93.98 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17740,7 +18284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 232.41 0)
+			(at 93.98 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
