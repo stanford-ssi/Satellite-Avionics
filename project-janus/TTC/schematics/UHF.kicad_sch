@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "4926d0a0-95eb-4a8c-9591-9c84281e74c8")
-	(paper "A5")
+	(paper "A")
 	(title_block
 		(title "UHF housekeeping radio")
 		(date "2026-11-22")
-		(rev "P2")
+		(rev "P3")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -1368,7 +1368,7 @@
 	)
 	(text "433 MHz housekeeping radio"
 		(exclude_from_sim no)
-		(at 57.15 17.78 0)
+		(at 25.4 20.32 0)
 		(effects
 			(font
 				(size 2.1 2.1)
@@ -1380,7 +1380,7 @@
 	)
 	(text "SX1262, PA and antenna switch are on the module."
 		(exclude_from_sim no)
-		(at 57.15 22.86 0)
+		(at 25.4 27.94 0)
 		(effects
 			(font
 				(size 1.15 1.15)
@@ -1390,68 +1390,68 @@
 		(uuid "f9705859-6fbb-42ac-9e9c-a1e9a6098a14")
 	)
 	(junction
-		(at 116.84 31.75)
+		(at 142.24 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0412183c-d25c-4eb8-baa6-a3dab91ae496")
 	)
 	(junction
-		(at 80.01 59.69)
+		(at 105.41 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b49b927-3a8f-406c-a139-c183da8c8c71")
 	)
 	(junction
-		(at 107.95 99.06)
+		(at 133.35 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3304d446-f935-4049-9882-6c2b6ecf5b5c")
 	)
 	(junction
-		(at 69.85 41.91)
+		(at 95.25 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36b1169e-4af8-4659-a39c-c9f923055137")
 	)
 	(junction
-		(at 127 31.75)
+		(at 152.4 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59132d36-6b8a-4ef0-b206-cf73e29f8707")
 	)
 	(junction
-		(at 138.43 43.18)
+		(at 163.83 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75cf7453-c08a-4d5c-9100-4b1f57657e72")
 	)
 	(junction
-		(at 69.85 55.88)
+		(at 95.25 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ceecac-d497-47eb-9b4e-6a8c5b6bd65c")
 	)
 	(junction
-		(at 101.6 31.75)
+		(at 127 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c62f14f1-5c22-47d3-a252-65ab74f19d56")
 	)
 	(no_connect
-		(at 128.27 82.55)
+		(at 153.67 113.03)
 		(uuid "60826070-83e0-4554-a3da-72e6a37dbdbe")
 	)
 	(no_connect
-		(at 128.27 77.47)
+		(at 153.67 107.95)
 		(uuid "a4e21cbf-741f-426c-9f4a-6b5bc2cc8aa9")
 	)
 	(no_connect
-		(at 128.27 86.36)
+		(at 153.67 116.84)
 		(uuid "eab24092-d4a6-442a-8a19-98bb941a0575")
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 87.63 80.01)
+			(xy 87.63 110.49) (xy 113.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 80.01 43.18)
+			(xy 105.41 72.39) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 95.25) (xy 107.95 99.06)
+			(xy 133.35 125.73) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 93.98 43.18)
+			(xy 119.38 72.39) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1491,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 87.63 83.82)
+			(xy 87.63 114.3) (xy 113.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 99.06 99.06)
+			(xy 124.46 125.73) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 69.85 55.88)
+			(xy 95.25 81.28) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1521,7 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 69.85 43.18)
+			(xy 95.25 72.39) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 116.84 99.06)
+			(xy 133.35 129.54) (xy 142.24 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 31.75) (xy 101.6 46.99)
+			(xy 127 62.23) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 87.63 66.04)
+			(xy 87.63 96.52) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +1561,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 31.75) (xy 138.43 34.29)
+			(xy 163.83 62.23) (xy 163.83 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 152.4 69.85)
+			(xy 153.67 100.33) (xy 177.8 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 31.75) (xy 116.84 46.99)
+			(xy 142.24 62.23) (xy 142.24 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 69.85) (xy 87.63 69.85)
+			(xy 87.63 100.33) (xy 113.03 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 138.43 43.18)
+			(xy 152.4 73.66) (xy 163.83 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +1611,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 31.75) (xy 93.98 34.29)
+			(xy 119.38 62.23) (xy 119.38 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 31.75) (xy 127 34.29)
+			(xy 152.4 62.23) (xy 152.4 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 59.69) (xy 80.01 59.69)
+			(xy 87.63 90.17) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1641,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 80.01 41.91)
+			(xy 95.25 72.39) (xy 105.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 107.95 99.06)
+			(xy 124.46 129.54) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 55.88) (xy 69.85 55.88)
+			(xy 87.63 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1671,7 +1671,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 31.75) (xy 127 31.75)
+			(xy 142.24 62.23) (xy 152.4 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 127 43.18)
+			(xy 152.4 72.39) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 87.63 73.66)
+			(xy 87.63 104.14) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 31.75) (xy 101.6 31.75)
+			(xy 119.38 62.23) (xy 127 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 59.69)
+			(xy 105.41 81.28) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 87.63 59.69)
+			(xy 105.41 90.17) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.88) (xy 87.63 55.88)
+			(xy 95.25 86.36) (xy 113.03 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 41.91) (xy 138.43 43.18)
+			(xy 163.83 72.39) (xy 163.83 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 116.84 99.06)
+			(xy 142.24 125.73) (xy 142.24 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 31.75) (xy 138.43 31.75)
+			(xy 152.4 62.23) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1771,7 @@
 	)
 	(hierarchical_label "UHF_ANT"
 		(shape bidirectional)
-		(at 152.4 69.85 0)
+		(at 177.8 100.33 0)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1782,7 +1782,7 @@
 	)
 	(hierarchical_label "UHF_MOSI"
 		(shape input)
-		(at 62.23 69.85 180)
+		(at 87.63 100.33 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1793,7 +1793,7 @@
 	)
 	(hierarchical_label "UHF_MISO"
 		(shape output)
-		(at 62.23 73.66 180)
+		(at 87.63 104.14 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1804,7 +1804,7 @@
 	)
 	(hierarchical_label "UHF_CS_N"
 		(shape input)
-		(at 62.23 55.88 180)
+		(at 87.63 86.36 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1815,7 +1815,7 @@
 	)
 	(hierarchical_label "UHF_RESET_N"
 		(shape input)
-		(at 62.23 59.69 180)
+		(at 87.63 90.17 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1826,7 +1826,7 @@
 	)
 	(hierarchical_label "UHF_BUSY"
 		(shape output)
-		(at 62.23 80.01 180)
+		(at 87.63 110.49 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1837,7 +1837,7 @@
 	)
 	(hierarchical_label "UHF_SCK"
 		(shape input)
-		(at 62.23 66.04 180)
+		(at 87.63 96.52 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1848,7 +1848,7 @@
 	)
 	(hierarchical_label "UHF_IRQ"
 		(shape output)
-		(at 62.23 83.82 180)
+		(at 87.63 114.3 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1859,7 +1859,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 99.06 0)
+		(at 133.35 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1869,7 +1869,7 @@
 		(dnp no)
 		(uuid "03e15a0b-d366-4331-99ff-c6a4895d7e37")
 		(property "Reference" "#PWR17101"
-			(at 107.95 99.06 0)
+			(at 133.35 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,7 +1880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 102.87 0)
+			(at 133.35 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1890,7 +1890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 99.06 0)
+			(at 133.35 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1900,7 +1900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 99.06 0)
+			(at 133.35 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1910,7 +1910,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 99.06 0)
+			(at 133.35 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1933,7 +1933,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:C2012X7S1E106K125AE")
-		(at 138.43 38.1 0)
+		(at 163.83 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1943,7 +1943,7 @@
 		(dnp no)
 		(uuid "24544ef0-a31c-4a80-87c1-2620c06bf079")
 		(property "Reference" "C702"
-			(at 141.08 36.65 0)
+			(at 166.48 67.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 141.08 38.1 0)
+			(at 166.48 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1976,7 +1976,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7S1E106K125AE"
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +1987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1997,7 +1997,7 @@
 			)
 		)
 		(property "MPN" "C2012X7S1E106K125AE"
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,7 +2008,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,7 +2019,7 @@
 			)
 		)
 		(property "Rating" "25 V"
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7S1E106K125AE/10413498"
-			(at 138.43 38.1 0)
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2041,7 +2041,7 @@
 			)
 		)
 		(property "Voltage" "25 V"
-			(at 141.08 39.5801 0)
+			(at 166.48 70.0601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2069,7 +2069,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 93.98 38.1 0)
+		(at 119.38 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2079,7 +2079,7 @@
 		(dnp no)
 		(uuid "3ef06b77-86d0-485e-a01c-e0c2409918b3")
 		(property "Reference" "C700"
-			(at 96.63 36.65 0)
+			(at 122.03 67.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 96.63 38.1 0)
+			(at 122.03 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2101,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2112,7 +2112,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2123,7 +2123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2155,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2166,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 93.98 38.1 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 96.63 39.5801 0)
+			(at 122.03 70.0601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2205,7 +2205,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
-		(at 80.01 46.99 0)
+		(at 105.41 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2215,7 +2215,7 @@
 		(dnp no)
 		(uuid "4ada6c72-faeb-49fc-a814-4f28a18d464c")
 		(property "Reference" "R701"
-			(at 82.2601 46.99 0)
+			(at 107.6601 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 80.01 46.99 90)
+			(at 105.41 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2236,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2268,7 +2268,7 @@
 			)
 		)
 		(property "MPN" "TNPW060310K0BEEA"
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2279,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,7 +2301,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 80.01 46.99 0)
+			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2328,7 +2328,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 127 38.1 0)
+		(at 152.4 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2338,7 +2338,7 @@
 		(dnp no)
 		(uuid "4fdc5094-af7d-4723-887a-e21efefd9fc0")
 		(property "Reference" "C701"
-			(at 129.65 36.65 0)
+			(at 155.05 67.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2349,7 +2349,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 129.65 38.1 0)
+			(at 155.05 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2360,7 +2360,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,7 +2371,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2382,7 +2382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2392,7 +2392,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2403,7 +2403,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2414,7 +2414,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 127 38.1 0)
+			(at 152.4 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2436,7 +2436,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 129.65 39.5801 0)
+			(at 155.05 70.0601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2464,7 +2464,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_UHF:1262MiniF27-433")
-		(at 107.95 72.39 0)
+		(at 133.35 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2474,7 +2474,7 @@
 		(dnp no)
 		(uuid "511705ef-2115-4e44-802c-f90e1b8e1ff7")
 		(property "Reference" "U700"
-			(at 130.81 49.911 0)
+			(at 156.21 80.391 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2485,7 +2485,7 @@
 			)
 		)
 		(property "Value" "1262MiniF27-433"
-			(at 130.81 52.959 0)
+			(at 156.21 83.439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2496,7 +2496,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_UHF:NiceRF_1262MiniF27"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2507,7 +2507,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nicerf.com/pdf/minif27-800mw-lora-wireless-transceiver-module-v1.2.pdf"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2518,7 +2518,7 @@
 			)
 		)
 		(property "Description" "433 MHz SX1262 LoRa / GFSK transceiver with onboard PA, antenna switch, matching and ESD."
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2529,7 +2529,7 @@
 			)
 		)
 		(property "MPN" "1262MiniF27-433"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2540,7 @@
 			)
 		)
 		(property "Manufacturer" "NiceRF"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2551,7 +2551,7 @@
 			)
 		)
 		(property "Rating" "1.8–3.6 V logic, 3.3–5.0 V PA"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,7 +2562,7 @@
 			)
 		)
 		(property "Supplier" "NiceRF"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +2573,7 @@
 			)
 		)
 		(property "Supplier Link" "https://www.nicerf.com/lora-module/minif27.html"
-			(at 107.95 72.39 0)
+			(at 133.35 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
-		(at 69.85 46.99 0)
+		(at 95.25 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2652,7 +2652,7 @@
 		(dnp no)
 		(uuid "6975b337-b47e-4b13-9c44-7d2c9e3f8212")
 		(property "Reference" "R700"
-			(at 72.1001 46.99 0)
+			(at 97.5001 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2663,7 +2663,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 69.85 46.99 90)
+			(at 95.25 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2705,7 +2705,7 @@
 			)
 		)
 		(property "MPN" "TNPW060310K0BEEA"
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2716,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +2727,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 69.85 46.99 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2765,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 43.18 0)
+		(at 119.38 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2775,7 +2775,7 @@
 		(dnp no)
 		(uuid "94f3ed04-63a7-41f5-9196-273aa3e36cff")
 		(property "Reference" "#PWR17103"
-			(at 93.98 43.18 0)
+			(at 119.38 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,7 +2786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 46.99 0)
+			(at 119.38 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 43.18 0)
+			(at 119.38 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2806,7 +2806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 43.18 0)
+			(at 119.38 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 43.18 0)
+			(at 119.38 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2839,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:3V3_MAIN")
-		(at 101.6 31.75 0)
+		(at 127 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2849,7 +2849,7 @@
 		(dnp no)
 		(uuid "9ea928e6-9a71-4395-8dc4-f95f5b3e39b0")
 		(property "Reference" "#PWR17102"
-			(at 101.6 31.75 0)
+			(at 127 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +2860,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 101.6 27.94 0)
+			(at 127 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2870,7 +2870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 31.75 0)
+			(at 127 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 31.75 0)
+			(at 127 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2890,7 +2890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 31.75 0)
+			(at 127 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2913,7 +2913,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:3V3_MAIN")
-		(at 69.85 41.91 0)
+		(at 95.25 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2923,7 +2923,7 @@
 		(dnp no)
 		(uuid "d0043994-6428-4726-930d-ef441f948594")
 		(property "Reference" "#PWR17100"
-			(at 69.85 41.91 0)
+			(at 95.25 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2934,7 +2934,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 69.85 38.1 0)
+			(at 95.25 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2944,7 +2944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 41.91 0)
+			(at 95.25 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2954,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 41.91 0)
+			(at 95.25 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +2964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 41.91 0)
+			(at 95.25 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2987,7 +2987,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 43.18 0)
+		(at 163.83 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2997,7 +2997,7 @@
 		(dnp no)
 		(uuid "dcd066b8-4a80-42bd-817f-39987f1495bd")
 		(property "Reference" "#PWR17105"
-			(at 138.43 43.18 0)
+			(at 163.83 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 46.99 0)
+			(at 163.83 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3018,7 +3018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 43.18 0)
+			(at 163.83 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 43.18 0)
+			(at 163.83 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3038,7 +3038,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 43.18 0)
+			(at 163.83 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3061,7 +3061,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:5V_RF")
-		(at 116.84 31.75 0)
+		(at 142.24 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3071,7 +3071,7 @@
 		(dnp no)
 		(uuid "f2c7ebad-647a-4ed0-b0d5-4feb3270ce8c")
 		(property "Reference" "#PWR17104"
-			(at 116.84 31.75 0)
+			(at 142.24 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3082,7 @@
 			)
 		)
 		(property "Value" "5V_RF"
-			(at 116.84 27.94 0)
+			(at 142.24 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 31.75 0)
+			(at 142.24 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3102,7 +3102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 31.75 0)
+			(at 142.24 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3112,7 +3112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 31.75 0)
+			(at 142.24 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

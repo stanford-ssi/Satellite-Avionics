@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "ba3d9cd6-f8a6-5be2-918a-b9c8021fb25f")
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(title "Dual buck regulator")
 		(date "2026-11-22")
-		(rev "P2")
+		(rev "P3")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -2143,7 +2143,7 @@
 	)
 	(text "4.890 V  ·  1.87 mV p-p  ·  25.9 µF"
 		(exclude_from_sim no)
-		(at 179.07 122.555 0)
+		(at 179.07 127.635 0)
 		(effects
 			(font
 				(size 1.06 1.06)
@@ -2154,7 +2154,7 @@
 	)
 	(text "Ripple at 8.2 V input, 2 MHz, continuous conduction. Output capacitance includes DC bias."
 		(exclude_from_sim no)
-		(at 127 133.35 0)
+		(at 127 138.43 0)
 		(effects
 			(font
 				(size 1.02 1.02)
@@ -2165,7 +2165,7 @@
 	)
 	(text "Dual buck regulator"
 		(exclude_from_sim no)
-		(at 49.53 22.86 0)
+		(at 49.53 27.94 0)
 		(effects
 			(font
 				(size 3.05 3.05)
@@ -2177,7 +2177,7 @@
 	)
 	(text "3.318 V  ·  1.73 mV p-p  ·  29.7 µF"
 		(exclude_from_sim no)
-		(at 179.07 89.535 0)
+		(at 179.07 94.615 0)
 		(effects
 			(font
 				(size 1.06 1.06)
@@ -2187,184 +2187,184 @@
 		(uuid "b4ddb0a3-dc03-45dc-831e-edf1876be193")
 	)
 	(junction
-		(at 168.91 109.22)
+		(at 168.91 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1576258f-0dd7-4416-ba23-0a585eddf45a")
 	)
 	(junction
-		(at 161.29 97.79)
+		(at 161.29 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a34e42f-dbaf-4c99-9da6-7a86e5b6a847")
 	)
 	(junction
-		(at 200.66 97.79)
+		(at 200.66 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e01103a-26bd-403c-ac2c-d64b08884dc4")
 	)
 	(junction
-		(at 209.55 64.77)
+		(at 209.55 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a8d1a2c-34e0-4ca4-8782-80d1e806f82d")
 	)
 	(junction
-		(at 83.82 78.74)
+		(at 83.82 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d4abbf0-ac49-498e-8399-1f9283342216")
 	)
 	(junction
-		(at 130.81 64.77)
+		(at 130.81 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dd6a535-874e-44d8-b98d-292592b6559b")
 	)
 	(junction
-		(at 83.82 66.04)
+		(at 83.82 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "525b5576-812b-47aa-bab0-322bf7c659ae")
 	)
 	(junction
-		(at 116.84 121.92)
+		(at 116.84 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53cf4b08-73af-4098-b52c-6911973522af")
 	)
 	(junction
-		(at 168.91 97.79)
+		(at 168.91 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54e44cba-d2c9-403b-b02d-5acad22bd134")
 	)
 	(junction
-		(at 83.82 88.9)
+		(at 83.82 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57ab26a7-efa3-4dd4-a682-fd566680fb1b")
 	)
 	(junction
-		(at 168.91 76.2)
+		(at 168.91 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8758ecc8-dc4e-49fd-bd2b-0160ff75ce32")
 	)
 	(junction
-		(at 200.66 64.77)
+		(at 200.66 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c71761b-a831-42b0-b74e-65c0e0f0ea10")
 	)
 	(junction
-		(at 130.81 97.79)
+		(at 130.81 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a449ed6f-d516-4ce6-b954-d0e3f46084a2")
 	)
 	(junction
-		(at 83.82 81.28)
+		(at 83.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4a69047-40c3-4faf-a12f-e0dadd588440")
 	)
 	(junction
-		(at 83.82 86.36)
+		(at 83.82 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a65e8635-f46c-4270-a932-6ad764b2079a")
 	)
 	(junction
-		(at 137.16 97.79)
+		(at 137.16 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a966233b-3f21-45ea-837e-b7713db74a9e")
 	)
 	(junction
-		(at 209.55 97.79)
+		(at 209.55 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ade9ddb4-92cc-4d15-8afa-a99532acaa28")
 	)
 	(junction
-		(at 83.82 58.42)
+		(at 83.82 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1bb2bd2-a6f9-4d89-ad9f-0a0fecb829eb")
 	)
 	(junction
-		(at 185.42 97.79)
+		(at 185.42 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7240a18-45ba-4593-aa2d-6fb1423fe5b5")
 	)
 	(junction
-		(at 83.82 63.5)
+		(at 83.82 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcd78e8b-3551-473c-ad24-55702b962528")
 	)
 	(junction
-		(at 161.29 64.77)
+		(at 161.29 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf865a11-7eb3-41dc-826b-71c2a7427309")
 	)
 	(junction
-		(at 83.82 76.2)
+		(at 83.82 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3c526a5-452d-4aac-8b37-d0d9f43da49b")
 	)
 	(junction
-		(at 168.91 64.77)
+		(at 168.91 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c44d04f5-dbce-41aa-91b3-ac8da693958f")
 	)
 	(junction
-		(at 83.82 83.82)
+		(at 83.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca2cd6f0-7003-4714-a002-1d179935202d")
 	)
 	(junction
-		(at 83.82 55.88)
+		(at 83.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc65eb85-4686-484f-82eb-0655bb69e323")
 	)
 	(junction
-		(at 83.82 60.96)
+		(at 83.82 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b32f1b-ff33-417a-80d2-84c6e2421ee4")
 	)
 	(junction
-		(at 137.16 64.77)
+		(at 137.16 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f62ef6c0-81bf-4664-8944-8109c1917f33")
 	)
 	(junction
-		(at 185.42 64.77)
+		(at 185.42 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8e3eee5-3844-4181-a705-a3d5c8c0cc14")
 	)
 	(no_connect
-		(at 87.63 100.33)
+		(at 87.63 105.41)
 		(uuid "76e040d4-d0f5-478a-a09c-1f7ac82da399")
 	)
 	(no_connect
-		(at 87.63 105.41)
+		(at 87.63 110.49)
 		(uuid "820e10de-7d36-4feb-9ffa-b4c5c871bcf1")
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 168.91 76.2)
+			(xy 125.73 81.28) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2374,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 109.22) (xy 168.91 109.22)
+			(xy 125.73 114.3) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 87.63 88.9)
+			(xy 83.82 93.98) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2394,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 87.63 58.42)
+			(xy 83.82 63.5) (xy 87.63 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2404,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 87.63 86.36)
+			(xy 83.82 91.44) (xy 87.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2414,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 161.29 64.77)
+			(xy 157.48 69.85) (xy 161.29 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 97.79) (xy 220.98 97.79)
+			(xy 209.55 102.87) (xy 220.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 130.81 64.77)
+			(xy 125.73 69.85) (xy 130.81 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 137.16 97.79)
+			(xy 130.81 102.87) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 87.63 81.28)
+			(xy 83.82 86.36) (xy 87.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2464,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 76.2) (xy 83.82 76.2)
+			(xy 73.66 81.28) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 64.77) (xy 220.98 64.77)
+			(xy 209.55 69.85) (xy 220.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 168.91 99.06)
+			(xy 168.91 102.87) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2494,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 109.22) (xy 200.66 111.76)
+			(xy 200.66 114.3) (xy 200.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 83.82 81.28)
+			(xy 83.82 83.82) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 168.91 97.79)
+			(xy 161.29 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 64.77) (xy 209.55 64.77)
+			(xy 200.66 69.85) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 83.82 68.58)
+			(xy 83.82 71.12) (xy 83.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 118.11) (xy 105.41 121.92)
+			(xy 105.41 123.19) (xy 105.41 127)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 87.63 91.44)
+			(xy 83.82 96.52) (xy 87.63 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 168.91 118.11)
+			(xy 168.91 121.92) (xy 168.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 97.79) (xy 232.41 97.79)
+			(xy 220.98 102.87) (xy 232.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2584,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 130.81 97.79)
+			(xy 125.73 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2594,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 64.77) (xy 161.29 69.85)
+			(xy 161.29 69.85) (xy 161.29 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2604,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 83.82 63.5)
+			(xy 83.82 66.04) (xy 83.82 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2614,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 137.16 64.77)
+			(xy 130.81 69.85) (xy 137.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2624,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 64.77) (xy 185.42 64.77)
+			(xy 168.91 69.85) (xy 185.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 168.91 85.09)
+			(xy 168.91 88.9) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 64.77) (xy 185.42 68.58)
+			(xy 185.42 69.85) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2654,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 137.16 88.9)
+			(xy 125.73 93.98) (xy 137.16 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2664,7 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 129.54) (xy 91.44 132.08)
+			(xy 91.44 134.62) (xy 91.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 64.77) (xy 200.66 68.58)
+			(xy 200.66 69.85) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2684,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 121.92) (xy 116.84 124.46)
+			(xy 116.84 127) (xy 116.84 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2694,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 121.92) (xy 116.84 121.92)
+			(xy 111.76 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -2704,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 83.82 88.9)
+			(xy 83.82 91.44) (xy 83.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 106.68) (xy 168.91 109.22)
+			(xy 168.91 111.76) (xy 168.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2724,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 102.87) (xy 161.29 102.87)
+			(xy 125.73 107.95) (xy 161.29 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2734,7 +2734,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 97.79) (xy 200.66 101.6)
+			(xy 200.66 102.87) (xy 200.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 76.2) (xy 87.63 76.2)
+			(xy 83.82 81.28) (xy 87.63 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2754,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 96.52 119.38)
+			(xy 91.44 124.46) (xy 96.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 73.66 88.9)
+			(xy 73.66 91.44) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2774,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 69.85) (xy 161.29 69.85)
+			(xy 125.73 74.93) (xy 161.29 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 200.66 97.79)
+			(xy 185.42 102.87) (xy 200.66 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2794,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 64.77) (xy 200.66 64.77)
+			(xy 185.42 69.85) (xy 200.66 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 64.77) (xy 168.91 66.04)
+			(xy 168.91 69.85) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2814,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 130.81 100.33)
+			(xy 130.81 102.87) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 83.82 66.04)
+			(xy 83.82 68.58) (xy 83.82 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 87.63 66.04)
+			(xy 83.82 71.12) (xy 87.63 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 83.82 91.44)
+			(xy 83.82 93.98) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2854,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 149.86 97.79)
+			(xy 137.16 102.87) (xy 149.86 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 97.79) (xy 185.42 97.79)
+			(xy 168.91 102.87) (xy 185.42 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 118.11) (xy 111.76 121.92)
+			(xy 111.76 123.19) (xy 111.76 127)
 		)
 		(stroke
 			(width 0)
@@ -2884,7 +2884,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 96.52 119.38)
+			(xy 96.52 123.19) (xy 96.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 185.42 101.6)
+			(xy 185.42 102.87) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 119.38) (xy 91.44 121.92)
+			(xy 91.44 124.46) (xy 91.44 127)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 200.66 78.74)
+			(xy 200.66 81.28) (xy 200.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 116.84 121.92)
+			(xy 116.84 123.19) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -2934,7 +2934,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 83.82 55.88)
+			(xy 43.18 60.96) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 129.54) (xy 105.41 132.08)
+			(xy 105.41 134.62) (xy 105.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 161.29 97.79)
+			(xy 157.48 102.87) (xy 161.29 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 55.88) (xy 137.16 55.88)
+			(xy 125.73 60.96) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 63.5) (xy 137.16 64.77)
+			(xy 137.16 68.58) (xy 137.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2984,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 97.79) (xy 209.55 97.79)
+			(xy 200.66 102.87) (xy 209.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2994,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 87.63 83.82)
+			(xy 83.82 88.9) (xy 87.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 109.22) (xy 185.42 111.76)
+			(xy 185.42 114.3) (xy 185.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 76.2) (xy 73.66 78.74)
+			(xy 73.66 81.28) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3024,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 55.88) (xy 87.63 55.88)
+			(xy 83.82 60.96) (xy 87.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3034,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 161.29 102.87)
+			(xy 161.29 102.87) (xy 161.29 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 130.81 67.31)
+			(xy 130.81 69.85) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3054,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 87.63 68.58)
+			(xy 83.82 73.66) (xy 87.63 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 137.16 97.79)
+			(xy 137.16 101.6) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3074,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 83.82 60.96)
+			(xy 83.82 63.5) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 130.81 67.31)
+			(xy 125.73 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 185.42 78.74)
+			(xy 185.42 81.28) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 76.2) (xy 83.82 78.74)
+			(xy 83.82 81.28) (xy 83.82 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 55.88) (xy 83.82 58.42)
+			(xy 83.82 60.96) (xy 83.82 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3124,7 +3124,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 232.41 64.77)
+			(xy 220.98 69.85) (xy 232.41 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 83.82 86.36)
+			(xy 83.82 88.9) (xy 83.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 149.86 64.77)
+			(xy 137.16 69.85) (xy 149.86 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 87.63 78.74)
+			(xy 83.82 83.82) (xy 87.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 168.91 76.2)
+			(xy 168.91 78.74) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 64.77) (xy 168.91 64.77)
+			(xy 161.29 69.85) (xy 168.91 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 87.63 60.96)
+			(xy 83.82 66.04) (xy 87.63 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3194,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 63.5) (xy 87.63 63.5)
+			(xy 83.82 68.58) (xy 87.63 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 100.33) (xy 130.81 100.33)
+			(xy 125.73 105.41) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 83.82)
+			(xy 83.82 86.36) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3224,7 @@
 	)
 	(hierarchical_label "5V_RF"
 		(shape output)
-		(at 232.41 97.79 0)
+		(at 232.41 102.87 0)
 		(effects
 			(font
 				(size 1.15 1.15)
@@ -3235,7 +3235,7 @@
 	)
 	(hierarchical_label "3V3_MAIN"
 		(shape output)
-		(at 232.41 64.77 0)
+		(at 232.41 69.85 0)
 		(effects
 			(font
 				(size 1.15 1.15)
@@ -3246,7 +3246,7 @@
 	)
 	(hierarchical_label "VBAT_FILTERED"
 		(shape input)
-		(at 43.18 55.88 180)
+		(at 43.18 60.96 180)
 		(effects
 			(font
 				(size 1.15 1.15)
@@ -3257,7 +3257,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
-		(at 168.91 113.03 0)
+		(at 168.91 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3267,7 +3267,7 @@
 		(dnp no)
 		(uuid "0213af1f-b3d3-4993-a9d9-0fcb246baa41")
 		(property "Reference" "R4"
-			(at 171.1601 113.03 0)
+			(at 171.1601 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3278,7 +3278,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 168.91 113.03 90)
+			(at 168.91 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3288,7 +3288,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3299,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3320,7 +3320,7 @@
 			)
 		)
 		(property "MPN" "TNPW060310K0BEEA"
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 168.91 113.03 0)
+			(at 168.91 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +3380,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 137.16 59.69 0)
+		(at 137.16 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3390,7 +3390,7 @@
 		(dnp no)
 		(uuid "03676b04-9a86-4cb4-ad04-7a34af1b60cc")
 		(property "Reference" "C7"
-			(at 139.81 58.24 0)
+			(at 139.81 63.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3401,7 +3401,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 139.81 59.69 0)
+			(at 139.81 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3412,7 +3412,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3444,7 +3444,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3455,7 +3455,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,7 +3466,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,7 +3477,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 137.16 59.69 0)
+			(at 137.16 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3488,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 139.81 61.1701 0)
+			(at 139.81 66.2501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3516,7 +3516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 111.76 0)
+		(at 185.42 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3526,7 +3526,7 @@
 		(dnp no)
 		(uuid "191b1204-9b2c-4f04-ac70-8888b7cecefb")
 		(property "Reference" "#PWR7219"
-			(at 185.42 111.76 0)
+			(at 185.42 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 116.84 0)
+			(at 185.42 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3547,7 +3547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 111.76 0)
+			(at 185.42 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 111.76 0)
+			(at 185.42 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3567,7 +3567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 111.76 0)
+			(at 185.42 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3590,7 +3590,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM31CC71E226ME15L")
-		(at 185.42 105.41 0)
+		(at 185.42 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3600,7 +3600,7 @@
 		(dnp no)
 		(uuid "1f50d0de-b9a4-444a-97a9-fe20571cf06e")
 		(property "Reference" "C12"
-			(at 188.07 103.96 0)
+			(at 188.07 109.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3611,7 +3611,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 188.07 105.41 0)
+			(at 188.07 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3622,7 +3622,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_1206_3216Metric"
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM31CC71E226ME15L"
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3644,7 +3644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3654,7 +3654,7 @@
 			)
 		)
 		(property "MPN" "GRM31CC71E226ME15L"
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3665,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +3676,7 @@
 			)
 		)
 		(property "Rating" "25 V"
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CC71E226ME15L/16719188"
-			(at 185.42 105.41 0)
+			(at 185.42 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 			)
 		)
 		(property "Voltage" "25 V"
-			(at 188.07 106.8901 0)
+			(at 188.07 111.9701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3726,7 +3726,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM31CC71E226ME15L")
-		(at 185.42 72.39 0)
+		(at 185.42 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3736,7 +3736,7 @@
 		(dnp no)
 		(uuid "246826cb-4c4a-4e61-a795-a991f7e9796d")
 		(property "Reference" "C8"
-			(at 188.07 70.94 0)
+			(at 188.07 76.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3747,7 +3747,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 188.07 72.39 0)
+			(at 188.07 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3758,7 +3758,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_1206_3216Metric"
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +3769,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM31CC71E226ME15L"
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3790,7 +3790,7 @@
 			)
 		)
 		(property "MPN" "GRM31CC71E226ME15L"
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3801,7 +3801,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,7 +3812,7 @@
 			)
 		)
 		(property "Rating" "25 V"
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,7 +3823,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CC71E226ME15L/16719188"
-			(at 185.42 72.39 0)
+			(at 185.42 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,7 +3834,7 @@
 			)
 		)
 		(property "Voltage" "25 V"
-			(at 188.07 73.8701 0)
+			(at 188.07 78.9501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3862,7 +3862,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060371K5BEEA")
-		(at 168.91 102.87 0)
+		(at 168.91 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3872,7 +3872,7 @@
 		(dnp no)
 		(uuid "25eed603-bfc8-418d-ba0a-b47e5bbbbc1e")
 		(property "Reference" "R3"
-			(at 171.1601 102.87 0)
+			(at 171.1601 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3883,7 +3883,7 @@
 			)
 		)
 		(property "Value" "71.5k"
-			(at 168.91 102.87 90)
+			(at 168.91 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3893,7 +3893,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3904,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,7 +3915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3925,7 +3925,7 @@
 			)
 		)
 		(property "MPN" "TNPW060371K5BEEA"
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3936,7 +3936,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +3947,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3958,7 +3958,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060371K5BEEA/1606979"
-			(at 168.91 102.87 0)
+			(at 168.91 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +3985,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 91.44 125.73 0)
+		(at 91.44 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3995,7 +3995,7 @@
 		(dnp no)
 		(uuid "2a7cdb9f-64c2-4df5-b89e-998751ec2f3f")
 		(property "Reference" "C6"
-			(at 94.09 124.28 0)
+			(at 94.09 129.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4006,7 +4006,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 94.09 125.73 0)
+			(at 94.09 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4017,7 +4017,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4039,7 +4039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4049,7 +4049,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4060,7 +4060,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4071,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 91.44 125.73 0)
+			(at 91.44 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4093,7 +4093,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 94.09 127.2101 0)
+			(at 94.09 132.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4121,7 +4121,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 209.55 64.77 0)
+		(at 209.55 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4131,7 +4131,7 @@
 		(dnp no)
 		(uuid "2b0b4682-fd3e-4cab-81bf-64a83633786b")
 		(property "Reference" "#FLG7216"
-			(at 209.55 59.69 0)
+			(at 209.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4142,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 209.55 60.96 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 64.77 0)
+			(at 209.55 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4163,7 +4163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 64.77 0)
+			(at 209.55 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4173,7 +4173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 64.77 0)
+			(at 209.55 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4196,7 +4196,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 88.9 0)
+		(at 73.66 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4206,7 +4206,7 @@
 		(dnp no)
 		(uuid "37df02ea-9d67-4655-9deb-b2fc737c7fa2")
 		(property "Reference" "#PWR7209"
-			(at 73.66 88.9 0)
+			(at 73.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,7 +4217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 93.98 0)
+			(at 73.66 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4227,7 +4227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 88.9 0)
+			(at 73.66 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4237,7 +4237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 88.9 0)
+			(at 73.66 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4247,7 +4247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 88.9 0)
+			(at 73.66 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4270,7 +4270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 85.09 0)
+		(at 168.91 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4280,7 +4280,7 @@
 		(dnp no)
 		(uuid "4b62786a-6901-4812-ac00-57197467b1bd")
 		(property "Reference" "#PWR7213"
-			(at 168.91 85.09 0)
+			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 90.17 0)
+			(at 168.91 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 85.09 0)
+			(at 168.91 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4311,7 +4311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 85.09 0)
+			(at 168.91 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4321,7 +4321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 85.09 0)
+			(at 168.91 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4344,7 +4344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 111.76 0)
+		(at 200.66 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4354,7 +4354,7 @@
 		(dnp no)
 		(uuid "544c99cd-ee4e-45a3-9279-5e73f4181931")
 		(property "Reference" "#PWR7220"
-			(at 200.66 111.76 0)
+			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4365,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 116.84 0)
+			(at 200.66 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4375,7 +4375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 111.76 0)
+			(at 200.66 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4385,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 111.76 0)
+			(at 200.66 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4395,7 +4395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 111.76 0)
+			(at 200.66 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4418,7 +4418,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:XAL5030-222MEC")
-		(at 153.67 64.77 90)
+		(at 153.67 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4428,7 +4428,7 @@
 		(dnp no)
 		(uuid "55b8ff6c-4370-4364-bf2d-31439b51d29d")
 		(property "Reference" "L1"
-			(at 153.67 60.97 90)
+			(at 153.67 66.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4438,7 +4438,7 @@
 			)
 		)
 		(property "Value" "2.2uH"
-			(at 153.67 62.47 90)
+			(at 153.67 67.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,7 +4448,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:L_Coilcraft_XAL5030-XXX"
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal50xx/xal5030-222/"
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4470,7 +4470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4480,7 +4480,7 @@
 			)
 		)
 		(property "MPN" "XAL5030-222MEC"
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +4491,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft"
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +4502,7 @@
 			)
 		)
 		(property "Rating" "2.2 µH, 20%"
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4513,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=XAL5030-222MEC"
-			(at 153.67 64.77 0)
+			(at 153.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4540,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM31CC71E226ME15L")
-		(at 200.66 72.39 0)
+		(at 200.66 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4550,7 +4550,7 @@
 		(dnp no)
 		(uuid "56f0fbe4-a28d-43de-b3fc-25177abc36c8")
 		(property "Reference" "C9"
-			(at 203.31 70.94 0)
+			(at 203.31 76.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4561,7 +4561,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 203.31 72.39 0)
+			(at 203.31 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4572,7 +4572,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_1206_3216Metric"
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4583,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM31CC71E226ME15L"
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4604,7 +4604,7 @@
 			)
 		)
 		(property "MPN" "GRM31CC71E226ME15L"
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +4615,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4626,7 @@
 			)
 		)
 		(property "Rating" "25 V"
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4637,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CC71E226ME15L/16719188"
-			(at 200.66 72.39 0)
+			(at 200.66 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4648,7 @@
 			)
 		)
 		(property "Voltage" "25 V"
-			(at 203.31 73.8701 0)
+			(at 203.31 78.9501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4676,7 +4676,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 118.11 0)
+		(at 168.91 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4686,7 +4686,7 @@
 		(dnp no)
 		(uuid "5fef92b4-196e-4fc7-9c49-d7490ef20c7b")
 		(property "Reference" "#PWR7218"
-			(at 168.91 118.11 0)
+			(at 168.91 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,7 +4697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 123.19 0)
+			(at 168.91 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 118.11 0)
+			(at 168.91 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4717,7 +4717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 118.11 0)
+			(at 168.91 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4727,7 +4727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 118.11 0)
+			(at 168.91 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4750,7 +4750,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 209.55 97.79 0)
+		(at 209.55 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4760,7 +4760,7 @@
 		(dnp no)
 		(uuid "63f93f72-908f-4c5b-b648-5f3b98ed8e07")
 		(property "Reference" "#FLG7221"
-			(at 209.55 92.71 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4771,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 209.55 93.98 0)
+			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4782,7 +4782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 97.79 0)
+			(at 209.55 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4792,7 +4792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 97.79 0)
+			(at 209.55 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4802,7 +4802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 97.79 0)
+			(at 209.55 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4825,7 +4825,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:C2012X7R1H475K125AC")
-		(at 73.66 82.55 0)
+		(at 73.66 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4835,7 +4835,7 @@
 		(dnp no)
 		(uuid "8560dcab-2f8a-49a0-8f46-ffc08147d5ea")
 		(property "Reference" "C1"
-			(at 76.31 81.1 0)
+			(at 76.31 86.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4846,7 +4846,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 76.31 82.55 0)
+			(at 76.31 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4857,7 +4857,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4868,7 +4868,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H475K125AC"
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4879,7 +4879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4889,7 +4889,7 @@
 			)
 		)
 		(property "MPN" "C2012X7R1H475K125AC"
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4900,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,7 +4911,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,7 +4922,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/C2012X7R1H475K125AC/10413507"
-			(at 73.66 82.55 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4933,7 +4933,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 76.31 84.0301 0)
+			(at 76.31 89.1101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4961,7 +4961,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:LTC3633A")
-		(at 106.68 50.8 0)
+		(at 106.68 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4971,7 +4971,7 @@
 		(dnp no)
 		(uuid "8dd725aa-92a5-4643-83c2-9dd093d30bb4")
 		(property "Reference" "U1"
-			(at 106.68 44.45 0)
+			(at 106.68 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4981,7 +4981,7 @@
 			)
 		)
 		(property "Value" "LTC3633A"
-			(at 106.68 47.371 0)
+			(at 106.68 52.451 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4991,7 +4991,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm"
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5002,7 +5002,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3633a1fb.pdf"
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +5013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "MPN" "LTC3633AIUFD#PBF"
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,7 +5034,7 @@
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5045,7 +5045,7 @@
 			)
 		)
 		(property "Rating" "3.6–20 V input"
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5056,7 +5056,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/analog-devices-inc/LTC3633AIUFD-PBF/3672232"
-			(at 106.68 50.8 0)
+			(at 106.68 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5164,7 +5164,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
-		(at 168.91 80.01 0)
+		(at 168.91 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5174,7 +5174,7 @@
 		(dnp no)
 		(uuid "9b213583-5434-4410-90c9-ea96c99ab947")
 		(property "Reference" "R2"
-			(at 171.1601 80.01 0)
+			(at 171.1601 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5185,7 +5185,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 168.91 80.01 90)
+			(at 168.91 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5195,7 +5195,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +5206,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +5217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5227,7 +5227,7 @@
 			)
 		)
 		(property "MPN" "TNPW060310K0BEEA"
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5238,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5260,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
-			(at 168.91 80.01 0)
+			(at 168.91 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,7 +5287,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 105.41 125.73 0)
+		(at 105.41 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5297,7 +5297,7 @@
 		(dnp no)
 		(uuid "a34119dc-d85a-4040-80b4-542bb609568b")
 		(property "Reference" "C10"
-			(at 108.06 124.28 0)
+			(at 108.06 129.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5308,7 +5308,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 108.06 125.73 0)
+			(at 108.06 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5319,7 +5319,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,7 +5330,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5351,7 +5351,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,7 +5373,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +5384,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 105.41 125.73 0)
+			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5395,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 108.06 127.2101 0)
+			(at 108.06 132.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5423,7 +5423,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 137.16 92.71 0)
+		(at 137.16 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5433,7 +5433,7 @@
 		(dnp no)
 		(uuid "b5756e27-c687-40a2-8f56-5f64ff4f227d")
 		(property "Reference" "C11"
-			(at 139.81 91.26 0)
+			(at 139.81 96.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5444,7 +5444,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 139.81 92.71 0)
+			(at 139.81 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5455,7 +5455,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,7 +5466,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5477,7 +5477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5487,7 +5487,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,7 +5498,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,7 +5509,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5520,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 137.16 92.71 0)
+			(at 137.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +5531,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 139.81 94.1901 0)
+			(at 139.81 99.2701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5559,7 +5559,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 78.74 0)
+		(at 185.42 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5569,7 +5569,7 @@
 		(dnp no)
 		(uuid "cc215aa3-0308-4020-9e2d-cb2a93abd4ed")
 		(property "Reference" "#PWR7214"
-			(at 185.42 78.74 0)
+			(at 185.42 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5580,7 +5580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 83.82 0)
+			(at 185.42 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5590,7 +5590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 78.74 0)
+			(at 185.42 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5600,7 +5600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 78.74 0)
+			(at 185.42 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5610,7 +5610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 78.74 0)
+			(at 185.42 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5633,7 +5633,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 132.08 0)
+		(at 105.41 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5643,7 +5643,7 @@
 		(dnp no)
 		(uuid "d2221746-d7f7-47ee-83cc-6d7d0af79373")
 		(property "Reference" "#PWR7211"
-			(at 105.41 132.08 0)
+			(at 105.41 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5654,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 137.16 0)
+			(at 105.41 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5664,7 +5664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 132.08 0)
+			(at 105.41 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5674,7 +5674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 132.08 0)
+			(at 105.41 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5684,7 +5684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 132.08 0)
+			(at 105.41 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5707,7 +5707,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM31CC71E226ME15L")
-		(at 200.66 105.41 0)
+		(at 200.66 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5717,7 +5717,7 @@
 		(dnp no)
 		(uuid "d7c1cb91-6afb-4297-9181-0736092c07a1")
 		(property "Reference" "C13"
-			(at 203.31 103.96 0)
+			(at 203.31 109.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5728,7 +5728,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 203.31 105.41 0)
+			(at 203.31 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5739,7 +5739,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_1206_3216Metric"
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5750,7 +5750,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM31CC71E226ME15L"
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,7 +5761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5771,7 +5771,7 @@
 			)
 		)
 		(property "MPN" "GRM31CC71E226ME15L"
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,7 +5782,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +5793,7 @@
 			)
 		)
 		(property "Rating" "25 V"
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,7 +5804,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31CC71E226ME15L/16719188"
-			(at 200.66 105.41 0)
+			(at 200.66 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,7 +5815,7 @@
 			)
 		)
 		(property "Voltage" "25 V"
-			(at 203.31 106.8901 0)
+			(at 203.31 111.9701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5843,7 +5843,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW060345K3BEEA")
-		(at 168.91 69.85 0)
+		(at 168.91 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5853,7 +5853,7 @@
 		(dnp no)
 		(uuid "ded176b2-c902-4635-bff5-0055851d92bb")
 		(property "Reference" "R1"
-			(at 171.1601 69.85 0)
+			(at 171.1601 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5864,7 +5864,7 @@
 			)
 		)
 		(property "Value" "45.3k"
-			(at 168.91 69.85 90)
+			(at 168.91 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5874,7 +5874,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5885,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5896,7 +5896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5906,7 +5906,7 @@
 			)
 		)
 		(property "MPN" "TNPW060345K3BEEA"
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5917,7 +5917,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +5928,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060345K3BEEA/7355037"
-			(at 168.91 69.85 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5966,7 +5966,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:XAL5030-222MEC")
-		(at 153.67 97.79 90)
+		(at 153.67 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5976,7 +5976,7 @@
 		(dnp no)
 		(uuid "e066d3ca-ed03-42c1-9ece-1e9afa172185")
 		(property "Reference" "L2"
-			(at 153.67 93.99 90)
+			(at 153.67 99.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5986,7 +5986,7 @@
 			)
 		)
 		(property "Value" "2.2uH"
-			(at 153.67 95.49 90)
+			(at 153.67 100.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5996,7 +5996,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:L_Coilcraft_XAL5030-XXX"
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,7 +6007,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal50xx/xal5030-222/"
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6028,7 +6028,7 @@
 			)
 		)
 		(property "MPN" "XAL5030-222MEC"
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6039,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft"
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6050,7 @@
 			)
 		)
 		(property "Rating" "2.2 µH, 20%"
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6061,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=XAL5030-222MEC"
-			(at 153.67 97.79 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6088,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 78.74 0)
+		(at 200.66 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6098,7 +6098,7 @@
 		(dnp no)
 		(uuid "e3515efe-6a01-43cc-b8b9-56b9c1589f78")
 		(property "Reference" "#PWR7215"
-			(at 200.66 78.74 0)
+			(at 200.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6109,7 +6109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 83.82 0)
+			(at 200.66 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 78.74 0)
+			(at 200.66 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6129,7 +6129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 78.74 0)
+			(at 200.66 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6139,7 +6139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 78.74 0)
+			(at 200.66 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6162,7 +6162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 132.08 0)
+		(at 91.44 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6172,7 +6172,7 @@
 		(dnp no)
 		(uuid "ee3a52c4-3342-403f-829b-fecea0357205")
 		(property "Reference" "#PWR7210"
-			(at 91.44 132.08 0)
+			(at 91.44 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +6183,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 137.16 0)
+			(at 91.44 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6193,7 +6193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 132.08 0)
+			(at 91.44 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6203,7 +6203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 132.08 0)
+			(at 91.44 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +6213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 132.08 0)
+			(at 91.44 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6236,7 +6236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 124.46 0)
+		(at 116.84 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6246,7 +6246,7 @@
 		(dnp no)
 		(uuid "ef83af9e-e860-42ce-a95f-388376eca4d1")
 		(property "Reference" "#PWR7212"
-			(at 116.84 124.46 0)
+			(at 116.84 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +6257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 129.54 0)
+			(at 116.84 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6267,7 +6267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 124.46 0)
+			(at 116.84 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6277,7 +6277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 124.46 0)
+			(at 116.84 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6287,7 +6287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 124.46 0)
+			(at 116.84 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
