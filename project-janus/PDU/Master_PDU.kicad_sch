@@ -18,7 +18,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 185 185 1)
 		)
 		(uuid "15c88f0f-6a4f-4561-909a-1d1ad5389b8f")
 		(property "Sheetname" "SADS"
@@ -32,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sads/schematics/SADS.kicad_sch"
+		(property "Sheetfile" "sads\\schematics\\SADS.kicad_sch"
 			(at 181.61 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -420,6 +420,196 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBAT_RAW" input
+			(at 185.42 63.5 180)
+			(uuid "1c8326cb-f85d-45f1-a885-de706d3a0789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_ADC_CS_N" input
+			(at 185.42 102.87 180)
+			(uuid "5bebb138-4e1f-4a3d-8c31-874bcabade34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_ADC_MOSI" input
+			(at 185.42 105.41 180)
+			(uuid "72c93645-d84f-4115-8e97-dd05ba8e5131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_ADC_SCLK" input
+			(at 185.42 107.95 180)
+			(uuid "55f3d15a-7492-401a-a252-021693321a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_I2C_SCL" input
+			(at 185.42 99.06 180)
+			(uuid "c91407a2-5518-4037-904d-5c617d26fc11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_I2C_SDA" bidirectional
+			(at 185.42 96.52 180)
+			(uuid "4f4dbbbb-3041-46fd-ac4e-8761de9cd8cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_OBC_EN" input
+			(at 185.42 71.12 180)
+			(uuid "da210c7c-539a-4c7e-9712-6241895852be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_SPARE_1_EN" input
+			(at 185.42 73.66 180)
+			(uuid "43139c4b-b4c2-42b5-8d23-9490014ee650")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_SPARE_2_EN" input
+			(at 185.42 76.2 180)
+			(uuid "ea48bcf9-d58a-45f6-b4ee-9dc4ccc5dfb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_STAR_TRACKER_EN" input
+			(at 185.42 78.74 180)
+			(uuid "1b7534e8-f1ff-4082-8d2d-9225a7c225dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_TTC_1_EN" input
+			(at 185.42 81.28 180)
+			(uuid "ed4de288-a8fd-4047-ab76-e84c09f3d376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_TTC_2_EN" input
+			(at 185.42 83.82 180)
+			(uuid "684b6b3e-83b7-42d5-b9d7-b81c9c57736c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SWD_OBC" output
+			(at 227.33 83.82 0)
+			(uuid "19418c72-ac48-4b9e-b773-c7dcfa766cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_SPARE_1" output
+			(at 227.33 86.36 0)
+			(uuid "d943dcd5-8f3f-48bf-b315-b345a52a70a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_SPARE_2" output
+			(at 227.33 88.9 0)
+			(uuid "90433459-9e50-4f7c-8f34-1b7a1c023b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_STAR_TRACKER" output
+			(at 227.33 91.44 0)
+			(uuid "5bb07144-cf29-49d9-b449-e552525bff80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_TTC_1" output
+			(at 227.33 93.98 0)
+			(uuid "08e94cf0-9a31-481f-b40d-ed9b69278d19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_TTC_2" output
+			(at 227.33 96.52 0)
+			(uuid "a5f33865-bb32-48ad-ba39-845320c2684f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VLSA_ADC_MISO" output
+			(at 185.42 110.49 180)
+			(uuid "f56bd6ca-2d30-41bc-83dc-3032ad9557e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
