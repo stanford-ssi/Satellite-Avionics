@@ -1793,8 +1793,8 @@
 		)
 		(symbol "TPS3700_1_1"
 			(rectangle
-				(start -8.89 0)
-				(end 8.89 -27.94)
+				(start -10.16 0)
+				(end 10.16 -17.78)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -1804,8 +1804,8 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 -13.97 180)
-				(length 3.81)
+				(at 12.7 -12.7 180)
+				(length 2.54)
 				(name "OUTA"
 					(effects
 						(font
@@ -1822,8 +1822,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -20.32 0)
-				(length 3.81)
+				(at 0 -20.32 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -1840,8 +1840,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -13.97 0)
-				(length 3.81)
+				(at -12.7 -12.7 0)
+				(length 2.54)
 				(name "INA+"
 					(effects
 						(font
@@ -1859,7 +1859,7 @@
 			)
 			(pin input line
 				(at -12.7 -6.35 0)
-				(length 3.81)
+				(length 2.54)
 				(name "INB−"
 					(effects
 						(font
@@ -1876,8 +1876,8 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -20.32 180)
-				(length 3.81)
+				(at 0 2.54 270)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -1895,7 +1895,7 @@
 			)
 			(pin open_collector line
 				(at 12.7 -6.35 180)
-				(length 3.81)
+				(length 2.54)
 				(name "OUTB"
 					(effects
 						(font
@@ -2022,8 +2022,8 @@
 		)
 		(symbol "TS3USB221A_1_1"
 			(rectangle
-				(start -8.89 0)
-				(end 8.89 -39.37)
+				(start -11.43 0)
+				(end 11.43 -29.21)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -2033,8 +2033,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -13.97 180)
-				(length 3.81)
+				(at 13.97 -5.08 180)
+				(length 2.54)
 				(name "1D+"
 					(effects
 						(font
@@ -2051,8 +2051,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -6.35 180)
-				(length 3.81)
+				(at 13.97 -8.89 180)
+				(length 2.54)
 				(name "1D−"
 					(effects
 						(font
@@ -2069,8 +2069,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -26.67 180)
-				(length 3.81)
+				(at 13.97 -16.51 180)
+				(length 2.54)
 				(name "2D+"
 					(effects
 						(font
@@ -2087,8 +2087,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -21.59 180)
-				(length 3.81)
+				(at 13.97 -20.32 180)
+				(length 2.54)
 				(name "2D−"
 					(effects
 						(font
@@ -2105,8 +2105,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -34.29 0)
-				(length 3.81)
+				(at 0 -31.75 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -2123,8 +2123,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -21.59 0)
-				(length 3.81)
+				(at -13.97 -17.78 0)
+				(length 2.54)
 				(name "~{OE}"
 					(effects
 						(font
@@ -2141,8 +2141,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -6.35 0)
-				(length 3.81)
+				(at -13.97 -8.89 0)
+				(length 2.54)
 				(name "D−"
 					(effects
 						(font
@@ -2159,8 +2159,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -13.97 0)
-				(length 3.81)
+				(at -13.97 -5.08 0)
+				(length 2.54)
 				(name "D+"
 					(effects
 						(font
@@ -2177,8 +2177,8 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -34.29 180)
-				(length 3.81)
+				(at -13.97 -24.13 0)
+				(length 2.54)
 				(name "S"
 					(effects
 						(font
@@ -2195,8 +2195,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -27.94 0)
-				(length 3.81)
+				(at 0 2.54 270)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font

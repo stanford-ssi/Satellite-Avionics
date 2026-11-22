@@ -33,16 +33,36 @@
       "Root"
     ],
     [
-      "726e03c2-fa1d-4cc0-898f-0662a4d35cc8",
-      "Power"
+      "7012b14c-1234-46c7-93ca-a32cabe861df",
+      "Radio power"
     ],
     [
-      "fb6b76cf-d1a1-4929-b1b8-dd05a7bb6183",
-      "Housekeeping"
+      "a747e2ce-a50c-4882-b7b6-9e2c1098eef5",
+      "RP2350B housekeeping"
     ],
     [
-      "98df6188-2dee-4263-baa9-4042a07391c9",
-      "Downlink"
+      "3afd9695-e2ab-4d5c-9f52-cb6a38736a6f",
+      "UHF housekeeping radio"
+    ],
+    [
+      "74bb9c08-6648-4179-a2b1-839933f4b8f5",
+      "ESP32-S3 downlink"
+    ],
+    [
+      "1e91d055-8e27-5202-9577-4072d523df8a",
+      "Payload Ethernet"
+    ],
+    [
+      "2d3ecbcd-091a-57b1-bc49-3fc3c66d3786",
+      "S-band front end"
+    ],
+    [
+      "1e7e4a99-b89b-4215-80d8-b268c002adf7",
+      "Backplane connector"
+    ],
+    [
+      "a8f6a8be-3a26-4aa9-a822-dab715084380",
+      "USB-C programming"
     ]
   ],
   "text_variables": {}

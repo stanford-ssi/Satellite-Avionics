@@ -1317,4 +1317,880 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TFM-120-01-L-D-RA_TTC"
+		(pin_names
+			(offset 0.9)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 1.27 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TFM-120-01-L-D-RA"
+			(at 1.27 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSI_TFM-120-01-L-D-RA:TFM-120-01-L-D-RA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/tfm-1xx-xx-xxx-x-xxx.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shared backplane connector, proposed TT&C pin allocation. The mating backplane supplies battery and ground."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Model Source" "https://www.samtec.com/products/tfm-120-01-l-d-ra"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samtec-inc/TFM-120-01-L-D-RA/6678882"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "250 V AC; −55 to +125 °C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TFM-120-01-L-D-RA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Samtec TFM Tiger Eye header connector 2x20 1.27mm right angle"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TFM-120-01-L-D-RA*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TFM-120-01-L-D-RA_TTC_0_1"
+			(rectangle
+				(start -13.97 5.08)
+				(end 13.97 -85.09)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TFM-120-01-L-D-RA_TTC_1_1"
+			(pin passive line
+				(at 19.05 -5.08 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -7.62 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -10.16 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -12.7 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -15.24 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -17.78 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -20.32 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -22.86 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -25.4 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -27.94 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -30.48 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -33.02 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -35.56 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -38.1 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -40.64 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -43.18 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -45.72 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -48.26 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -50.8 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -53.34 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -55.88 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -58.42 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -60.96 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -63.5 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -66.04 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -68.58 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -71.12 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 -73.66 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -19.05 -81.28 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -72.39 0)
+				(length 5.08)
+				(name "VBAT_PROT"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -67.31 0)
+				(length 5.08)
+				(name "VBAT_PROT"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -19.05 -62.23 0)
+				(length 5.08)
+				(name "VBAT_PROT"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -50.8 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -45.72 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -36.83 0)
+				(length 5.08)
+				(name "T1S_N"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -30.48 0)
+				(length 5.08)
+				(name "T1S_P"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -21.59 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -16.51 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -6.35 0)
+				(length 5.08)
+				(name "CAN_L"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 0 0)
+				(length 5.08)
+				(name "CAN_H"
+					(effects
+						(font
+							(size 1.18 1.18)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.08 1.08)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

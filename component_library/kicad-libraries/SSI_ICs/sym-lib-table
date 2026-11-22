@@ -10,4 +10,5 @@
   (lib (name "Yapling_RF")(type "KiCad")(uri "${SSI_ICS}/Yapling_RF/Yapling_RF.kicad_sym")(options "")(descr ""))
   (lib (name "Yapling_Bus")(type "KiCad")(uri "${SSI_ICS}/Yapling_Bus/Yapling_Bus.kicad_sym")(options "")(descr ""))
   (lib (name "SSI_TFM-120-01-L-D-RA")(type "KiCad")(uri "${SSI_ICS}/TFM-120-01-L-D-RA/TFM-120-01-L-D-RA.kicad_sym")(options "")(descr ""))
+  (lib (name "Yapling_UHF")(type "KiCad")(uri "${SSI_ICS}/Yapling_UHF/Yapling_UHF.kicad_sym")(options "")(descr ""))
 )

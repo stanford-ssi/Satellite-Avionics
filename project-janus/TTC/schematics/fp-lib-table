@@ -7,4 +7,5 @@
   (lib (name "Yapling_RF")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_RF/Yapling_RF.pretty")(options "")(descr ""))
   (lib (name "Yapling_Bus")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_Bus/Yapling_Bus.pretty")(options "")(descr ""))
   (lib (name "SSI_TFM-120-01-L-D-RA")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/TFM-120-01-L-D-RA/TFM-120-01-L-D-RA.pretty")(options "")(descr ""))
+  (lib (name "Yapling_UHF")(type "KiCad")(uri "${KIPRJMOD}/../../../component_library/kicad-libraries/SSI_ICs/Yapling_UHF/Yapling_UHF.pretty")(options "")(descr ""))
 )
