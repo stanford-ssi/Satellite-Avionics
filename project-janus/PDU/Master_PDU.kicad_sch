@@ -1,0 +1,721 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "eb8d545a-8538-4e84-af84-f006a1f33201")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 181.61 129.54)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 185 185 1)
+		)
+		(uuid "15c88f0f-6a4f-4561-909a-1d1ad5389b8f")
+		(property "Sheetname" "SADS"
+			(at 181.61 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sads\\schematics\\SADS.kicad_sch"
+			(at 181.61 155.5246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SADS-EN-1" input
+			(at 181.61 134.62 180)
+			(uuid "51219ce5-173a-43b4-8df1-7158254d5f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-2" input
+			(at 181.61 137.16 180)
+			(uuid "30c17ac2-903c-4e11-a193-dafcc9c6b874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS-EN-3" input
+			(at 181.61 139.7 180)
+			(uuid "16e48aae-3f9c-4633-a420-33603b11b245")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SADS" input
+			(at 181.61 147.32 180)
+			(uuid "d6ba23b2-fc1f-4f10-80eb-bc0cc5a8f1b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 59.69)
+		(size 64.77 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 5 36 13 1)
+		)
+		(fill
+			(color 187 255 197 1)
+		)
+		(uuid "42f7af02-9d36-4207-8b8b-380f1acd4c94")
+		(property "Sheetname" "PCS"
+			(at 101.6 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcs/schematics/PDU_Control_System.kicad_sch"
+			(at 101.6 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BCDR_CURR_ADC" input
+			(at 101.6 62.23 180)
+			(uuid "087eb61d-1404-4be3-8baa-ca03c5be72f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BCDR_VOLT_ADC" input
+			(at 101.6 64.77 180)
+			(uuid "7bf2e1fd-464d-4ffa-812d-2189e47010f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANH" input
+			(at 101.6 67.31 180)
+			(uuid "46d88831-58cc-47f5-9b69-42febf2203e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CANL" input
+			(at 101.6 69.85 180)
+			(uuid "82b56b2f-d112-4c03-a771-8eea3bdfcc99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SCL" input
+			(at 101.6 72.39 180)
+			(uuid "5b34f879-3ac5-4e85-adae-fa294e5991f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0_SDA" input
+			(at 101.6 74.93 180)
+			(uuid "50c537d7-3a60-4cd4-9516-148d5b73c418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 101.6 77.47 180)
+			(uuid "63df5705-36f2-4a68-92a0-5318194abb73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 101.6 80.01 180)
+			(uuid "b61834ea-989e-4be9-a480-4e854b236e0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS_ADC" input
+			(at 101.6 82.55 180)
+			(uuid "1b952461-3ba1-47ce-af88-2a46445ab654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS_EN" input
+			(at 101.6 85.09 180)
+			(uuid "82307f07-6222-443e-acd8-5e44e16814fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSMS_IN" input
+			(at 101.6 87.63 180)
+			(uuid "2675ab40-92cb-4502-96df-deda003d411c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS_EN_1" input
+			(at 101.6 90.17 180)
+			(uuid "b38e8309-8b35-4ec1-9696-a949d1ad3b0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS_EN_2" input
+			(at 101.6 92.71 180)
+			(uuid "b011bba4-fdef-4db5-9cca-348d491d6a81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SADS_EN_3" input
+			(at 101.6 95.25 180)
+			(uuid "577d4502-463a-4a6e-9b87-4c9761d9b086")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA1_EN" input
+			(at 101.6 97.79 180)
+			(uuid "773c4e0a-becc-4996-916e-ab3da853096d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA2_EN" input
+			(at 101.6 100.33 180)
+			(uuid "8aa184d3-7ef4-4c52-bc2c-1bd113e7cd81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA3_EN" input
+			(at 101.6 102.87 180)
+			(uuid "c5c881f2-fb67-4419-8bdf-792c8f7fec7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA4_EN" input
+			(at 101.6 105.41 180)
+			(uuid "5e1e876f-0438-4b83-bd1c-2b3b86441644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA5_EN" input
+			(at 101.6 107.95 180)
+			(uuid "1da5fe61-3453-4e19-bcf7-599c2d324552")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA6_EN" input
+			(at 101.6 110.49 180)
+			(uuid "daf11571-569c-4064-97ae-7ab9d09bbfa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 137.16)
+		(size 52.07 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 182 173 255 1)
+		)
+		(uuid "503846cc-a27a-4242-9816-d33ad12655ca")
+		(property "Sheetname" "BCDR"
+			(at 34.29 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bcdr/schematics/SSI_BCDR/SSI_BCDR.kicad_sch"
+			(at 34.29 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 60.96)
+		(size 41.91 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 187 226 1)
+		)
+		(uuid "6c4a9d71-a178-44c1-869e-e88fcc5f55fc")
+		(property "Sheetname" "VLSA"
+			(at 185.42 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vlsa/schematics/VLSA.kicad_sch"
+			(at 185.42 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBAT_RAW" input
+			(at 185.42 63.5 180)
+			(uuid "1c8326cb-f85d-45f1-a885-de706d3a0789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_ADC_CS_N" input
+			(at 185.42 102.87 180)
+			(uuid "5bebb138-4e1f-4a3d-8c31-874bcabade34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_ADC_MOSI" input
+			(at 185.42 105.41 180)
+			(uuid "72c93645-d84f-4115-8e97-dd05ba8e5131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_ADC_SCLK" input
+			(at 185.42 107.95 180)
+			(uuid "55f3d15a-7492-401a-a252-021693321a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_I2C_SCL" input
+			(at 185.42 99.06 180)
+			(uuid "c91407a2-5518-4037-904d-5c617d26fc11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_I2C_SDA" bidirectional
+			(at 185.42 96.52 180)
+			(uuid "4f4dbbbb-3041-46fd-ac4e-8761de9cd8cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_OBC_EN" input
+			(at 185.42 71.12 180)
+			(uuid "da210c7c-539a-4c7e-9712-6241895852be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_SPARE_1_EN" input
+			(at 185.42 73.66 180)
+			(uuid "43139c4b-b4c2-42b5-8d23-9490014ee650")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_SPARE_2_EN" input
+			(at 185.42 76.2 180)
+			(uuid "ea48bcf9-d58a-45f6-b4ee-9dc4ccc5dfb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_STAR_TRACKER_EN" input
+			(at 185.42 78.74 180)
+			(uuid "1b7534e8-f1ff-4082-8d2d-9225a7c225dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_TTC_1_EN" input
+			(at 185.42 81.28 180)
+			(uuid "ed4de288-a8fd-4047-ab76-e84c09f3d376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VLSA_TTC_2_EN" input
+			(at 185.42 83.82 180)
+			(uuid "684b6b3e-83b7-42d5-b9d7-b81c9c57736c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SWD_OBC" output
+			(at 227.33 83.82 0)
+			(uuid "19418c72-ac48-4b9e-b773-c7dcfa766cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_SPARE_1" output
+			(at 227.33 86.36 0)
+			(uuid "d943dcd5-8f3f-48bf-b315-b345a52a70a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_SPARE_2" output
+			(at 227.33 88.9 0)
+			(uuid "90433459-9e50-4f7c-8f34-1b7a1c023b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_STAR_TRACKER" output
+			(at 227.33 91.44 0)
+			(uuid "5bb07144-cf29-49d9-b449-e552525bff80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_TTC_1" output
+			(at 227.33 93.98 0)
+			(uuid "08e94cf0-9a31-481f-b40d-ed9b69278d19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SWD_TTC_2" output
+			(at 227.33 96.52 0)
+			(uuid "a5f33865-bb32-48ad-ba39-845320c2684f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VLSA_ADC_MISO" output
+			(at 185.42 110.49 180)
+			(uuid "f56bd6ca-2d30-41bc-83dc-3032ad9557e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 138.43)
+		(size 59.69 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 170 240 255 1)
+		)
+		(uuid "7e1980f8-5e8d-483e-aa01-06f66f22e78d")
+		(property "Sheetname" "PSMS"
+			(at 96.52 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psms/schematics/psms_sch.kicad_sch"
+			(at 96.52 175.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 59.69)
+		(size 39.37 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 172 45 0.4588235294)
+		)
+		(uuid "e961048c-2a5d-43b6-82d4-ff5073dc20b1")
+		(property "Sheetname" "SADC"
+			(at 39.37 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sacd/ADI LT8491/ADI LT8491.kicad_sch"
+			(at 39.37 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Master_PDU"
+				(path "/eb8d545a-8538-4e84-af84-f006a1f33201"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
