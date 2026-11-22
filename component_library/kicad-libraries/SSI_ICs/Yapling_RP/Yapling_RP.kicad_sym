@@ -1156,7 +1156,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 270)
+				(at -16.51 3.81 270)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -1174,7 +1174,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 3.81 270)
+				(at -13.97 3.81 270)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -1300,7 +1300,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 3.81 270)
+				(at -11.43 3.81 270)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -1318,7 +1318,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 3.81 270)
+				(at -8.89 3.81 270)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -1336,7 +1336,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 3.81 270)
+				(at -6.35 3.81 270)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -1354,7 +1354,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 3.81 270)
+				(at -3.81 3.81 270)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -1481,7 +1481,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 3.81 270)
+				(at -1.27 3.81 270)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -1517,7 +1517,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 3.81 270)
+				(at 1.27 3.81 270)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -1554,7 +1554,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 3.81 270)
+				(at 3.81 3.81 270)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -1572,7 +1572,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 5.08 3.81 270)
+				(at 6.35 3.81 270)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -1754,7 +1754,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 3.81 270)
+				(at 8.89 3.81 270)
 				(length 3.81)
 				(name "GPIO28"
 					(effects
@@ -1772,7 +1772,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 3.81 270)
+				(at 11.43 3.81 270)
 				(length 3.81)
 				(name "GPIO29"
 					(effects
@@ -1790,7 +1790,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 3.81 270)
+				(at 13.97 3.81 270)
 				(length 3.81)
 				(name "GPIO30"
 					(effects
@@ -1808,7 +1808,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 3.81 270)
+				(at 16.51 3.81 270)
 				(length 3.81)
 				(name "GPIO31"
 					(effects
@@ -1826,7 +1826,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 3.81 270)
+				(at -16.51 -200.66 90)
 				(length 3.81)
 				(name "GPIO32"
 					(effects
@@ -1863,7 +1863,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -200.66 90)
+				(at -13.97 -200.66 90)
 				(length 3.81)
 				(name "GPIO33"
 					(effects
@@ -1881,7 +1881,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -200.66 90)
+				(at -11.43 -200.66 90)
 				(length 3.81)
 				(name "GPIO34"
 					(effects
@@ -1899,7 +1899,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -200.66 90)
+				(at -8.89 -200.66 90)
 				(length 3.81)
 				(name "GPIO35"
 					(effects
@@ -1917,7 +1917,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -200.66 90)
+				(at -6.35 -200.66 90)
 				(length 3.81)
 				(name "GPIO36"
 					(effects
@@ -1935,7 +1935,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 -200.66 90)
+				(at -3.81 -200.66 90)
 				(length 3.81)
 				(name "GPIO37"
 					(effects
@@ -1953,7 +1953,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 -200.66 90)
+				(at -1.27 -200.66 90)
 				(length 3.81)
 				(name "GPIO38"
 					(effects
@@ -1971,7 +1971,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 -200.66 90)
+				(at 1.27 -200.66 90)
 				(length 3.81)
 				(name "GPIO39"
 					(effects
@@ -1989,7 +1989,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -200.66 90)
+				(at 3.81 -200.66 90)
 				(length 3.81)
 				(name "GPIO40_ADC0"
 					(effects
@@ -2045,7 +2045,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -200.66 90)
+				(at 6.35 -200.66 90)
 				(length 3.81)
 				(name "GPIO41_ADC1"
 					(effects
@@ -2063,7 +2063,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -200.66 90)
+				(at 8.89 -200.66 90)
 				(length 3.81)
 				(name "GPIO42_ADC2"
 					(effects
@@ -2081,7 +2081,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -200.66 90)
+				(at 11.43 -200.66 90)
 				(length 3.81)
 				(name "GPIO43_ADC3"
 					(effects
@@ -2099,7 +2099,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -200.66 90)
+				(at 13.97 -200.66 90)
 				(length 3.81)
 				(name "GPIO44_ADC4"
 					(effects
@@ -2117,7 +2117,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -200.66 90)
+				(at 16.51 -200.66 90)
 				(length 3.81)
 				(name "GPIO45_ADC5"
 					(effects
@@ -2135,19 +2135,19 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 -200.66 90)
+				(at 22.86 -105.41 180)
 				(length 3.81)
 				(name "GPIO46"
 					(effects
 						(font
-							(size 0.85 0.85)
+							(size 0.98 0.98)
 						)
 					)
 				)
 				(number "57"
 					(effects
 						(font
-							(size 0.8 0.8)
+							(size 0.85 0.85)
 						)
 					)
 				)
@@ -2370,7 +2370,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -49.53 180)
+				(at 22.86 -36.83 180)
 				(length 3.81)
 				(name "QSPI_SD3"
 					(effects
@@ -2388,7 +2388,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -19.05 180)
+				(at 22.86 -16.51 180)
 				(length 3.81)
 				(name "QSPI_SCLK"
 					(effects
@@ -2406,7 +2406,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -26.67 180)
+				(at 22.86 -21.59 180)
 				(length 3.81)
 				(name "QSPI_SD0"
 					(effects
@@ -2424,7 +2424,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -41.91 180)
+				(at 22.86 -31.75 180)
 				(length 3.81)
 				(name "QSPI_SD2"
 					(effects
@@ -2442,7 +2442,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -34.29 180)
+				(at 22.86 -26.67 180)
 				(length 3.81)
 				(name "QSPI_SD1"
 					(effects
@@ -3926,7 +3926,7 @@
 		(symbol "W25Q128JVSIQ_1_1"
 			(rectangle
 				(start -15.24 0)
-				(end 15.24 -54.61)
+				(end 15.24 -39.37)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -3954,7 +3954,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -33.02 0)
+				(at -19.05 -25.4 0)
 				(length 3.81)
 				(name "DO_/_IO1"
 					(effects
@@ -3972,7 +3972,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -40.64 0)
+				(at -19.05 -30.48 0)
 				(length 3.81)
 				(name "~{WP}_/_IO2"
 					(effects
@@ -3990,7 +3990,7 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -48.26 180)
+				(at 19.05 -35.56 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -4008,7 +4008,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -25.4 0)
+				(at -19.05 -20.32 0)
 				(length 3.81)
 				(name "DI_/_IO0"
 					(effects
@@ -4026,7 +4026,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -17.78 0)
+				(at -19.05 -15.24 0)
 				(length 3.81)
 				(name "CLK"
 					(effects
@@ -4044,7 +4044,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -48.26 0)
+				(at -19.05 -35.56 0)
 				(length 3.81)
 				(name "~{HOLD}_/_IO3"
 					(effects

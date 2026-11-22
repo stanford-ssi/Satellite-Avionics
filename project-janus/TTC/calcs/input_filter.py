@@ -59,7 +59,8 @@ def main():
             ax.text(0.25, 2.65, 'Converter input estimate', fontsize=7)
         else:
             typical, envelope = 20*np.log10(typical), 20*np.log10(envelope)
-            ax.set(xlim=(1, 5000), ylim=(-100, 9), ylabel='Current transfer (dB)')
+            ax.set(xlim=(1, 5000), ylim=(-145, 9), ylabel='Current transfer (dB)')
+            ax.set_yticks([-140, -105, -70, -35, 0])
             ax.axvline(2000, color='#914021', linestyle=':', lw=1)
             ax.text(1180, -9, '2 MHz', fontsize=7)
         ax.set_xscale('log')

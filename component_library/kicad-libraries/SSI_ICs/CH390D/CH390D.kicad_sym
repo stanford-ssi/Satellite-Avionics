@@ -121,8 +121,8 @@
 		)
 		(symbol "CH390D_1_1"
 			(rectangle
-				(start -15.24 0)
-				(end 15.24 -110.49)
+				(start -30.48 0)
+				(end 30.48 -66.04)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -132,8 +132,8 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -104.14 0)
-				(length 5.08)
+				(at 26.67 -69.85 90)
+				(length 3.81)
 				(name "GND_/_EP"
 					(effects
 						(font
@@ -150,8 +150,8 @@
 				)
 			)
 			(pin power_out line
-				(at -20.32 -91.44 0)
-				(length 5.08)
+				(at 10.16 -69.85 90)
+				(length 3.81)
 				(name "VDDK"
 					(effects
 						(font
@@ -168,8 +168,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -25.4 180)
-				(length 2.54)
+				(at 34.29 -25.4 180)
+				(length 3.81)
 				(name "MDIRP"
 					(effects
 						(font
@@ -186,8 +186,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -31.75 180)
-				(length 2.54)
+				(at 34.29 -31.75 180)
+				(length 3.81)
 				(name "MDIRN"
 					(effects
 						(font
@@ -204,8 +204,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -6.35 180)
-				(length 2.54)
+				(at 34.29 -6.35 180)
+				(length 3.81)
 				(name "MDITP"
 					(effects
 						(font
@@ -222,8 +222,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
-				(length 2.54)
+				(at 34.29 -12.7 180)
+				(length 3.81)
 				(name "MDITN"
 					(effects
 						(font
@@ -240,8 +240,8 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -74.93 0)
-				(length 5.08)
+				(at -20.32 -69.85 90)
+				(length 3.81)
 				(name "AVDD33_/_VDDIO"
 					(effects
 						(font
@@ -258,8 +258,8 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -90.17 180)
-				(length 5.08)
+				(at 34.29 -40.64 180)
+				(length 3.81)
 				(name "WOL"
 					(effects
 						(font
@@ -276,8 +276,8 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -96.52 0)
-				(length 5.08)
+				(at 19.05 -69.85 90)
+				(length 3.81)
 				(name "RSVD"
 					(effects
 						(font
@@ -294,8 +294,8 @@
 				)
 			)
 			(pin tri_state line
-				(at -17.78 -19.05 0)
-				(length 2.54)
+				(at -34.29 -19.05 0)
+				(length 3.81)
 				(name "SDO"
 					(effects
 						(font
@@ -312,8 +312,8 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -80.01 0)
-				(length 5.08)
+				(at -3.81 -69.85 90)
+				(length 3.81)
 				(name "AVDD33"
 					(effects
 						(font
@@ -330,8 +330,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -25.4 0)
-				(length 2.54)
+				(at -34.29 -25.4 0)
+				(length 3.81)
 				(name "~{SCS}"
 					(effects
 						(font
@@ -348,8 +348,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -6.35 0)
-				(length 2.54)
+				(at -34.29 -6.35 0)
+				(length 3.81)
 				(name "SCK"
 					(effects
 						(font
@@ -366,8 +366,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -12.7 0)
-				(length 2.54)
+				(at -34.29 -12.7 0)
+				(length 3.81)
 				(name "SDI"
 					(effects
 						(font
@@ -384,8 +384,8 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -31.75 0)
-				(length 2.54)
+				(at -34.29 -31.75 0)
+				(length 3.81)
 				(name "INT"
 					(effects
 						(font
@@ -402,8 +402,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -93.98 180)
-				(length 5.08)
+				(at 34.29 -44.45 180)
+				(length 3.81)
 				(name "GPIO3"
 					(effects
 						(font
@@ -420,8 +420,8 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -99.06 180)
-				(length 5.08)
+				(at 34.29 -48.26 180)
+				(length 3.81)
 				(name "LED2ACT"
 					(effects
 						(font
@@ -438,8 +438,8 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -104.14 180)
-				(length 5.08)
+				(at 34.29 -52.07 180)
+				(length 3.81)
 				(name "LED1SPD"
 					(effects
 						(font
@@ -456,8 +456,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -38.1 0)
-				(length 2.54)
+				(at -34.29 -38.1 0)
+				(length 3.81)
 				(name "~{RSTB}"
 					(effects
 						(font
@@ -474,8 +474,8 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -74.93 180)
-				(length 5.08)
+				(at -34.29 -50.8 0)
+				(length 3.81)
 				(name "XI"
 					(effects
 						(font
@@ -492,8 +492,8 @@
 				)
 			)
 			(pin output line
-				(at 20.32 -81.28 180)
-				(length 5.08)
+				(at -34.29 -58.42 0)
+				(length 3.81)
 				(name "XO"
 					(effects
 						(font

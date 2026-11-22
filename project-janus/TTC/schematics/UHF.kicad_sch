@@ -7,7 +7,7 @@
 	(title_block
 		(title "UHF housekeeping radio")
 		(date "2026-11-22")
-		(rev "P1")
+		(rev "P2")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols

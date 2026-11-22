@@ -7,7 +7,7 @@
 	(title_block
 		(title "S-band front end")
 		(date "2026-11-22")
-		(rev "P1")
+		(rev "P2")
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
@@ -3136,9 +3136,21 @@
 		)
 		(uuid "0cd636ed-231a-4292-bee5-ea78f8b11678")
 	)
-	(text "GRF5526  •  2.2–2.5 GHz evaluation match"
+	(text "FL401 harmonic filter transmission"
 		(exclude_from_sim no)
-		(at 53.34 119.38 0)
+		(at 54.61 124.46 0)
+		(effects
+			(font
+				(size 1.55 1.55)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "36bc393b-f343-46c2-ae73-e5075b93bf85")
+	)
+	(text "2.2–2.5 GHz evaluation-board match"
+		(exclude_from_sim no)
+		(at 49.53 104.14 0)
 		(effects
 			(font
 				(size 1.1 1.1)

@@ -37,6 +37,18 @@
       "Radio power"
     ],
     [
+      "82b8d0c3-e91a-5677-8841-89f11f704580",
+      "Input filter"
+    ],
+    [
+      "ee48b5b8-8128-5630-b388-767262310ec5",
+      "Dual buck"
+    ],
+    [
+      "a6d6f9c1-bac1-574b-ab1e-d99b08f0c7a0",
+      "S-band PA switch"
+    ],
+    [
       "a747e2ce-a50c-4882-b7b6-9e2c1098eef5",
       "RP2350B housekeeping"
     ],
@@ -62,7 +74,7 @@
     ],
     [
       "a8f6a8be-3a26-4aa9-a822-dab715084380",
-      "USB-C programming"
+      "USB-C service ports"
     ]
   ],
   "text_variables": {}
