@@ -2045,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 170.18 54.61)
+			(xy 125.73 54.61) (xy 137.16 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2368,7 @@
 	)
 	(hierarchical_label "VBAT_SW"
 		(shape output)
-		(at 170.18 54.61 0)
+		(at 137.16 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
