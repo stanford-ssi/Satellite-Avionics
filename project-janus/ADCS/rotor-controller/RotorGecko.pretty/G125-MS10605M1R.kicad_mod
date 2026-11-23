@@ -1,0 +1,373 @@
+(footprint "G125-MS10605M1R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Harwin Gecko-SL vertical 3+3 male SMT connector with female M2 screw-locks. Land pattern from G125-MS1XX05M1R issue 2, sheet 3. Numbering per C12515 A1.2. Top-side cable locking, no board-mount studs.")
+	(tags "Harwin Gecko G125-MS10605M1R 6 pin M2 screw-lock vertical surface mount")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "46c220a0-feae-43a2-887f-a50b6bf6feae")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "G125-MS10605M1R"
+		(at 0 4.25 0)
+		(layer "F.Fab")
+		(uuid "39502791-500b-41be-9db2-b59696c7f755")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6691d161-d343-4c71-b6e1-12ab29305c03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68dfeec7-ade1-4097-a10e-7a83dbb115c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.15 -2.55)
+		(end -1.94 -2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "201ee086-c2de-49c7-8bab-ccbc60747610")
+	)
+	(fp_line
+		(start -5.15 2.55)
+		(end -1.94 2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "951e1772-4042-411d-8511-205ab618defa")
+	)
+	(fp_line
+		(start 5.15 -2.55)
+		(end 1.94 -2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "763384bf-bc21-4601-bd95-08a67dfaa83c")
+	)
+	(fp_line
+		(start 5.15 2.55)
+		(end 4.65 2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3df401c9-a184-4d13-b1b6-b639d65b0b95")
+	)
+	(fp_arc
+		(start -5.15 2.55)
+		(mid -7.7 0)
+		(end -5.15 -2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "055b5917-4c48-43fa-949e-b943b4e5b52d")
+	)
+	(fp_arc
+		(start 5.15 -2.55)
+		(mid 7.7 0)
+		(end 5.15 2.55)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9919996c-a83a-4537-88d7-773a81b95d10")
+	)
+	(fp_poly
+		(pts
+			(xy -1.9 3.05) (xy -2.32 2.85) (xy -2.32 3.25)
+		)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d869d0cb-7a74-4d7d-9a88-47ca70c105e9")
+	)
+	(fp_line
+		(start -5.15 -2.7)
+		(end -2.1 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5674e47e-7a87-4ecc-93ca-1d23379ea03e")
+	)
+	(fp_line
+		(start -5.15 2.7)
+		(end -2.1 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd8e5277-c225-4749-b170-2bfc2a52240c")
+	)
+	(fp_line
+		(start -2.1 -3.6)
+		(end 2.1 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f34add4-5244-4d8d-8ddf-afb3a2538095")
+	)
+	(fp_line
+		(start -2.1 -2.7)
+		(end -2.1 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f847484a-787a-4b67-a922-35a8c6673dd1")
+	)
+	(fp_line
+		(start -2.1 2.7)
+		(end -2.1 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1584dfbc-d3bd-45d7-8259-d1ead697bfad")
+	)
+	(fp_line
+		(start -2.1 3.6)
+		(end 2.1 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f148f7e5-0d6d-4d2b-aba8-8fd452319105")
+	)
+	(fp_line
+		(start 2.1 -2.7)
+		(end 2.1 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "86cce7da-8780-4832-a0b9-77ed93196f95")
+	)
+	(fp_line
+		(start 2.1 2.7)
+		(end 2.1 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6d7f4fa-20a3-483f-ac09-574e471e8a13")
+	)
+	(fp_line
+		(start 5.15 -2.7)
+		(end 2.1 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6233ce5f-6927-4478-af42-87ee788a6209")
+	)
+	(fp_line
+		(start 5.15 2.7)
+		(end 2.1 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "81f36a0a-ec36-4b91-a05a-8ec740502484")
+	)
+	(fp_arc
+		(start -5.15 2.7)
+		(mid -7.85 0)
+		(end -5.15 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9079736-244f-4b68-af00-0c2380938dae")
+	)
+	(fp_arc
+		(start 5.15 -2.7)
+		(mid 7.85 0)
+		(end 5.15 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "69b447a1-f9cf-4ae7-b37c-e0773df4ea12")
+	)
+	(fp_line
+		(start -5.15 -2.45)
+		(end 5.15 -2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b06cf91d-ecb2-44b4-9b57-2951c16a1005")
+	)
+	(fp_line
+		(start -5.15 2.45)
+		(end 5.15 2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "80116a1c-8446-404e-bfb8-d2d56cc623ec")
+	)
+	(fp_arc
+		(start -5.15 2.45)
+		(mid -7.6 0)
+		(end -5.15 -2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cbe59809-c6bf-491d-b596-6d4cda6a39a5")
+	)
+	(fp_arc
+		(start 5.15 -2.45)
+		(mid 7.6 0)
+		(end 5.15 2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3605ed82-4dce-4bcd-a57a-7bd27548bca9")
+	)
+	(fp_circle
+		(center -5.15 0)
+		(end -3.65 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2bf28d09-0182-46fb-8fe4-855b184bc1c9")
+	)
+	(fp_circle
+		(center 5.15 0)
+		(end 6.65 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6791287f-a959-47d1-b2fc-e76892981386")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "88c09a29-36d5-484e-acf6-f474caa0619e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 1.85)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c07fa47b-c64a-40c1-9a82-b33e37b296b8")
+	)
+	(pad "2" smd rect
+		(at 0 1.85)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a04f591-b07d-4dc4-901d-f1e1dab8ec10")
+	)
+	(pad "3" smd rect
+		(at 1.25 1.85)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5bbd286a-8b1e-4ed0-bc42-ceb7e9cec5b4")
+	)
+	(pad "4" smd rect
+		(at -1.25 -1.85)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8568f108-eab3-4973-8a89-d118d978f079")
+	)
+	(pad "5" smd rect
+		(at 0 -1.85)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49aee72a-2f3f-4fe8-8743-42961747a9d9")
+	)
+	(pad "6" smd rect
+		(at 1.25 -1.85)
+		(size 0.7 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b9de69c-c0d7-4002-958d-362a026829f9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/RotorGecko.3dshapes/G125-MS10605M1R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

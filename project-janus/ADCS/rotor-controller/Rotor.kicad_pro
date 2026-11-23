@@ -9,13 +9,18 @@
         "min_through_hole_diameter": 0.2,
         "min_via_annular_width": 0.1,
         "min_hole_to_hole": 0.25,
-        "min_silk_clearance": 0.11,
-        "min_text_height": 0.65,
-        "min_text_thickness": 0.1
+        "min_silk_clearance": 0.15,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "solder_mask_to_copper_clearance": 0.09
       },
       "drc_exclusions": [],
       "meta": {
         "version": 2
+      },
+      "defaults": {
+        "silk_line_width": 0.15,
+        "silk_text_thickness": 0.15
       }
     }
   },
@@ -48,8 +53,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -67,8 +72,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -86,8 +91,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.23,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -101,12 +106,12 @@
         "pattern": "*PHASE_?"
       },
       {
-        "netclass": "Supply",
-        "pattern": "+3V3"
+        "netclass": "Motor power",
+        "pattern": "*PHASE_?_SW"
       },
       {
         "netclass": "Supply",
-        "pattern": "+5V"
+        "pattern": "+3V3"
       },
       {
         "netclass": "Supply",

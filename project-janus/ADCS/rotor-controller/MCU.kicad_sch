@@ -7,8 +7,9 @@
 	(title_block
 		(title "Rotor controller logic and boot memory")
 		(date "2026-11-22")
-		(rev "P1")
+		(rev "P2")
 		(company "Stanford Student Space Initiative")
+		(comment 1 "Bleps spacecraft | ADCS")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3311,7 +3312,7 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.15 1.15)) (justify left))
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RotorPackages:C_0402_1005Metric_NoSilk"
 			(at 218.44 231.14 0)
 			(hide yes)
 			(show_name no)

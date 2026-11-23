@@ -250,8 +250,8 @@ L 493.092971 28.304468
 " clip-path="url(#p93c5718dac)" style="fill: none; stroke: #214e73; stroke-width: 2.4; stroke-linecap: square"/>
    </g>
    <g id="line2d_20">
-    <path d="M 39.889303 180.298245
-L 508.19976 180.298245
+    <path d="M 39.889303 178.122916
+L 508.19976 178.122916
 " clip-path="url(#p93c5718dac)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #a25c16; stroke-width: 1.5"/>
    </g>
    <g id="patch_3">
@@ -266,11 +266,11 @@ L 508.19976 184.579135
    </g>
    <g id="patch_5">
     <path d="M 328.493934 168.463487
-Q 308.525669 174.108907 288.557404 179.754326
+Q 308.525669 173.021243 288.557404 177.578997
 " style="fill: none; stroke: #a25c16; stroke-linecap: round"/>
    </g>
    <g id="text_15">
-    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #80480d" x="278.576568" y="163.796356" transform="rotate(-0 278.576568 163.796356)">22 µF alone, 8.4 → 17 V  |  2.4 mJ</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #80480d" x="278.576568" y="163.796356" transform="rotate(-0 278.576568 163.796356)">22 µF alone, 8.4 → 20 V  |  3.62 mJ</text>
    </g>
    <g id="PathCollection_1">
     <defs>

@@ -7,8 +7,9 @@
 	(title_block
 		(title "Classical CAN, temperature and watchdog")
 		(date "2026-11-22")
-		(rev "P1")
+		(rev "P2")
 		(company "Stanford Student Space Initiative")
+		(comment 1 "Bleps spacecraft | ADCS")
 	)
 	(lib_symbols
 		(symbol "RotorBus:SN65HVD233DR"

@@ -5,12 +5,169 @@
 	(uuid "9f0db85e-0421-488c-a01b-9a143a5d11eb")
 	(paper "B")
 	(title_block
-		(title "Bleps Rotor Controller")
+		(title "Reaction Wheel Controller")
 		(date "2026-11-22")
-		(rev "P1")
+		(rev "P2")
 		(company "Stanford Student Space Initiative")
+		(comment 1 "Bleps spacecraft | ADCS")
 	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorParts:Motor_Ribbon_8"
 			(pin_names
 				(offset 0.9)
@@ -160,7 +317,7 @@
 				(pin passive line
 					(at -3.81 -10.16 0)
 					(length 3.81)
-					(name "Hall_+5V"
+					(name "Hall_VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,7 +389,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RotorGecko:G125-MS10605L3R"
+		(symbol "RotorGecko:G125-MS10605M1R"
 			(pin_names
 				(offset 0.8)
 			)
@@ -242,7 +399,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 11.43 0)
+				(at 0 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -251,8 +408,8 @@
 					)
 				)
 			)
-			(property "Value" "G125-MS10605L3R"
-				(at 0 9.525 0)
+			(property "Value" "G125-MS10605M1R"
+				(at 0 14.605 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -261,7 +418,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RotorGecko:G125-MS10605L3R"
+			(property "Footprint" "RotorGecko:G125-MS10605M1R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -272,7 +429,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.harwin.com/products/G125-MS10605L3R"
+			(property "Datasheet" "https://www.harwin.com/products/G125-MS10605M1R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -283,7 +440,7 @@
 					)
 				)
 			)
-			(property "Description" "Harwin Gecko Latch six-contact vertical SMT plug for the spacecraft power and CAN harness"
+			(property "Description" "Harwin Gecko-SL M2 screw-lock six-contact vertical SMT plug for the spacecraft power and CAN harness"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -294,7 +451,7 @@
 					)
 				)
 			)
-			(property "MPN" "G125-MS10605L3R"
+			(property "MPN" "G125-MS10605M1R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -316,9 +473,9 @@
 					)
 				)
 			)
-			(symbol "G125-MS10605L3R_0_1"
+			(symbol "G125-MS10605M1R_0_1"
 				(rectangle
-					(start -7.62 8.255)
+					(start -7.62 13.335)
 					(end 7.62 -8.255)
 					(stroke
 						(width 0.254)
@@ -329,11 +486,11 @@
 					)
 				)
 			)
-			(symbol "G125-MS10605L3R_1_1"
+			(symbol "G125-MS10605M1R_1_1"
 				(pin power_out line
-					(at 10.16 6.35 180)
+					(at 10.16 11.43 180)
 					(length 2.54)
-					(name "VBAT"
+					(name "VBATT"
 						(effects
 							(font
 								(size 1.15 1.15)
@@ -349,7 +506,7 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 1.27 180)
+					(at 10.16 6.35 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -359,6 +516,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.05 1.05)
@@ -384,42 +559,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.15 1.15)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.05 1.05)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.15 1.15)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.05 1.05)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 10.16 -6.35 180)
 					(length 2.54)
@@ -431,6 +570,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.05 1.05)
@@ -580,145 +737,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -835,7 +853,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Mount on 2.5 mm spacers for motor-side component clearance."
+	(text "Use 2.5 mm standoffs between the board and the motor shaft face."
 		(exclude_from_sim no)
 		(at 31.75 217.17 0)
 		(effects
@@ -846,7 +864,7 @@
 		)
 		(uuid "292f02b4-df0c-5456-9281-71b9cdac4556")
 	)
-	(text "Bleps Rotor Controller"
+	(text "Reaction Wheel Controller"
 		(exclude_from_sim no)
 		(at 215.9 29.21 0)
 		(effects
@@ -867,9 +885,9 @@
 		)
 		(uuid "4b1cb7ba-1918-528f-b1b4-a30eacbcca54")
 	)
-	(text "and Classical CAN"
+	(text "3.3 V and Classical CAN"
 		(exclude_from_sim no)
-		(at 22.86 110.49 0)
+		(at 22.86 91.44 0)
 		(effects
 			(font
 				(size 1.25 1.25)
@@ -878,9 +896,9 @@
 		)
 		(uuid "799bafcb-4a92-5a9c-85d9-bcd233ed26ab")
 	)
-	(text "Protected 2S battery"
+	(text "Switched 2S VBATT"
 		(exclude_from_sim no)
-		(at 22.86 106.68 0)
+		(at 22.86 87.63 0)
 		(effects
 			(font
 				(size 1.25 1.25)
@@ -902,7 +920,7 @@
 	)
 	(text "Vehicle harness"
 		(exclude_from_sim no)
-		(at 22.86 100.33 0)
+		(at 22.86 81.28 0)
 		(effects
 			(font
 				(size 2.05 2.05)
@@ -970,32 +988,16 @@
 		(uuid "f722a0f8-8bb5-553e-9dcf-738e0a563d17")
 	)
 	(junction
-		(at 48.26 128.27)
+		(at 59.69 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06c7e52b-94f6-545f-8bc8-36a467b554d3")
+		(uuid "94b48cef-231a-51d1-a563-a8f182d3d476")
 	)
 	(junction
-		(at 53.34 120.65)
+		(at 46.99 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0706d28c-d1f5-5b4f-b021-4c9ab6f30ddd")
-	)
-	(junction
-		(at 53.34 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0edbc571-83b4-5316-9551-2017a934f363")
-	)
-	(wire
-		(pts
-			(xy 158.75 85.09) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0229ad1c-0a0e-5aa0-80c8-24ff7d225da6")
+		(uuid "d206110f-cc28-5b78-b010-15db8430c23f")
 	)
 	(wire
 		(pts
@@ -1006,16 +1008,6 @@
 			(type default)
 		)
 		(uuid "029191c0-1e8d-5a7b-8283-7e497bcf50f1")
-	)
-	(wire
-		(pts
-			(xy 43.18 120.65) (xy 53.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0336172c-8af7-5bd3-9d80-e3775c7669e7")
 	)
 	(wire
 		(pts
@@ -1059,16 +1051,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 120.65) (xy 53.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a1e378-dc42-54af-ad44-f67a9d93878f")
-	)
-	(wire
-		(pts
 			(xy 242.57 120.65) (xy 266.7 120.65)
 		)
 		(stroke
@@ -1086,16 +1068,6 @@
 			(type default)
 		)
 		(uuid "1e21d585-dea0-5c63-bc71-9f814f9f1a75")
-	)
-	(wire
-		(pts
-			(xy 53.34 77.47) (xy 73.66 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26830b9c-ebb2-5e84-9efe-0f43a730674b")
 	)
 	(wire
 		(pts
@@ -1139,13 +1111,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 125.73) (xy 48.26 125.73)
+			(xy 80.01 90.17) (xy 80.01 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a3712c0-c460-5778-b023-e549db9565d7")
+		(uuid "332e65c2-d142-57a6-ad91-623361dbd933")
 	)
 	(wire
 		(pts
@@ -1169,16 +1141,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 128.27) (xy 50.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c89f81-db4f-534e-859c-cbd4469ad9d3")
-	)
-	(wire
-		(pts
 			(xy 328.93 139.7) (xy 381 139.7)
 		)
 		(stroke
@@ -1189,13 +1151,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 77.47) (xy 53.34 57.15)
+			(xy 46.99 120.65) (xy 50.8 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a1faa01-22e3-5ce5-8500-9810f007223a")
+		(uuid "692959ec-f920-5777-aace-a8b3e934d7e1")
 	)
 	(wire
 		(pts
@@ -1206,6 +1168,16 @@
 			(type default)
 		)
 		(uuid "70b1daa1-edb1-5c63-921c-e8234cdfa0e3")
+	)
+	(wire
+		(pts
+			(xy 59.69 125.73) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f8a7a7-5c33-5490-ae4f-22e7b6298dfc")
 	)
 	(wire
 		(pts
@@ -1229,13 +1201,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 128.27) (xy 48.26 128.27)
+			(xy 59.69 80.01) (xy 80.01 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76eab0a9-d69d-5833-aa72-58a6e1f92914")
+		(uuid "774cfcb6-8740-52d9-aa8e-229c1731bf72")
 	)
 	(wire
 		(pts
@@ -1289,16 +1261,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 148.59 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d516819-e420-588d-9ae5-efc989809b26")
-	)
-	(wire
-		(pts
 			(xy 242.57 170.18) (xy 266.7 170.18)
 		)
 		(stroke
@@ -1306,26 +1268,6 @@
 			(type default)
 		)
 		(uuid "9db474cd-94d6-5b02-81e7-abb2df99e976")
-	)
-	(wire
-		(pts
-			(xy 43.18 123.19) (xy 53.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1396b43-49b2-550a-9e0f-f84f660132c1")
-	)
-	(wire
-		(pts
-			(xy 134.62 85.09) (xy 158.75 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a33a7abb-e266-55b7-adf4-fa080803714a")
 	)
 	(wire
 		(pts
@@ -1339,6 +1281,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 123.19) (xy 46.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7b2ec4-6bb7-52af-a8c2-c1d58a53dcb1")
+	)
+	(wire
+		(pts
 			(xy 256.54 57.15) (xy 256.54 107.95)
 		)
 		(stroke
@@ -1349,23 +1301,33 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 125.73) (xy 48.26 128.27)
+			(xy 59.69 80.01) (xy 59.69 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b036cf8c-cdc3-5116-9903-47808a0c7f43")
+		(uuid "b965a8a0-a182-5088-8dbc-3e8508de949a")
 	)
 	(wire
 		(pts
-			(xy 53.34 123.19) (xy 53.34 120.65)
+			(xy 43.18 120.65) (xy 46.99 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be4b2487-26ad-5200-8e8e-5304fa1f4d83")
+		(uuid "c5f99c9e-d7b6-5277-9629-7fb6c14debd7")
+	)
+	(wire
+		(pts
+			(xy 43.18 123.19) (xy 46.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c888c609-771c-51d1-8ad4-caa6358ff025")
 	)
 	(wire
 		(pts
@@ -1376,6 +1338,36 @@
 			(type default)
 		)
 		(uuid "ca320962-6a2e-5ead-abe7-df2f3183ea16")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8d39a2-0242-50f3-9033-102e2f07a4b7")
+	)
+	(wire
+		(pts
+			(xy 43.18 125.73) (xy 59.69 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc768b0a-cdd6-55b2-9316-f1281a33db83")
+	)
+	(wire
+		(pts
+			(xy 53.34 115.57) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1feda69-88c6-5128-9010-fda5666033a0")
 	)
 	(wire
 		(pts
@@ -1409,16 +1401,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 148.59 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3245c68-236d-5ffa-8618-474125b728ad")
-	)
-	(wire
-		(pts
 			(xy 381 132.08) (xy 368.3 132.08)
 		)
 		(stroke
@@ -1426,6 +1408,16 @@
 			(type default)
 		)
 		(uuid "f77c4643-254b-5082-803b-cef4937d5c6f")
+	)
+	(wire
+		(pts
+			(xy 43.18 115.57) (xy 53.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8877912-1fae-5d6b-b434-73c802276f08")
 	)
 	(wire
 		(pts
@@ -1458,7 +1450,7 @@
 		(uuid "aeac2d91-96b8-57d6-a29a-ca95646d488e")
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3V3")
 		(at 358.14 134.62 90)
 		(unit 1)
 		(body_style 1)
@@ -1479,7 +1471,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 351.79 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,8 +1524,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 78.74 0)
+		(lib_id "Device:C_Small")
+		(at 80.01 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1541,73 +1533,113 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1e10fe4f-e998-5a7d-baab-1f03ccba1a08")
-		(property "Reference" "#PWR02"
-			(at 158.75 71.247 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 158.75 74.295 0)
+		(uuid "49ae1883-db25-5035-9359-90da6c2d5817")
+		(property "Reference" "C212"
+			(at 82.55 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2 1.2)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 78.74 0)
+		(property "Value" "22 µF"
+			(at 82.55 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 80.01 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.15 1.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 158.75 78.74 0)
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM21BR61A226ME44L"
+			(at 80.01 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 78.74 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Voltage" "10 V"
+			(at 90.4875 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+					(color 112 89 120 1)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "GRM21BR61A226ME44L"
+			(at 80.01 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 80.01 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "6554e9ce-15b3-49bf-ade4-90067d759075")
+			(uuid "81ba656b-bb00-5b19-b07d-636a4fded9b1")
+		)
+		(pin "2"
+			(uuid "fef77c6c-cee7-5a4e-aea0-4efd6511beff")
 		)
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
-					(reference "#PWR02")
+					(reference "C212")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RotorGecko:G125-MS10605L3R")
+		(lib_id "RotorGecko:G125-MS10605M1R")
 		(at 33.02 127 0)
 		(unit 1)
 		(body_style 1)
@@ -1618,7 +1650,7 @@
 		(dnp no)
 		(uuid "4dd80045-4393-5c41-a7c9-a07cb64af105")
 		(property "Reference" "J201"
-			(at 33.02 113.792 0)
+			(at 33.02 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1627,8 +1659,8 @@
 				)
 			)
 		)
-		(property "Value" "G125-MS10605L3R"
-			(at 33.02 116.84 0)
+		(property "Value" "G125-MS10605M1R"
+			(at 33.02 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1637,7 +1669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RotorGecko:G125-MS10605L3R"
+		(property "Footprint" "RotorGecko:G125-MS10605M1R"
 			(at 33.02 127 0)
 			(hide yes)
 			(show_name no)
@@ -1648,7 +1680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.harwin.com/products/G125-MS10605L3R"
+		(property "Datasheet" "https://www.harwin.com/products/G125-MS10605M1R"
 			(at 33.02 127 0)
 			(hide yes)
 			(show_name no)
@@ -1680,7 +1712,7 @@
 				)
 			)
 		)
-		(property "MPN" "G125-MS10605L3R"
+		(property "MPN" "G125-MS10605M1R"
 			(at 33.02 127 0)
 			(hide yes)
 			(show_name no)
@@ -1697,17 +1729,17 @@
 		(pin "2"
 			(uuid "c3493664-63c8-4376-a809-3d716ee7eec1")
 		)
-		(pin "3"
+		(pin "4"
 			(uuid "a5e1f9da-bb34-437a-81a1-c6657105acc5")
 		)
-		(pin "4"
+		(pin "3"
 			(uuid "0a98e343-aaeb-4590-b37c-94343b7fa272")
 		)
-		(pin "5"
+		(pin "6"
 			(uuid "eb7d50f9-e28f-4579-bab1-8b99525fc315")
 		)
-		(pin "6"
-			(uuid "abbc116c-fbe0-4553-9ce9-a28d7de4789f")
+		(pin "5"
+			(uuid "e351fbb5-6f02-57b6-b3a3-beeb33cbeaed")
 		)
 		(instances
 			(project "Rotor"
@@ -1794,7 +1826,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 128.27 90)
+		(at 80.01 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0a90a46-1ca1-59d1-b8df-5748c980c747")
+		(property "Reference" "#PWR06"
+			(at 80.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a1087db-24da-57f1-8593-15692cfb6b50")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1804,7 +1913,7 @@
 		(dnp no)
 		(uuid "d484e4f5-9910-55c5-ae92-4ea65da5b124")
 		(property "Reference" "#PWR03"
-			(at 50.8 128.27 90)
+			(at 50.8 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 128.27 90)
+			(at 57.15 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1825,7 +1934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 128.27 0)
+			(at 50.8 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1835,7 +1944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 128.27 0)
+			(at 50.8 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1845,7 +1954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 128.27 0)
+			(at 50.8 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1963,7 +2072,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 68.58 0)
+		(at 59.69 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1973,7 +2082,7 @@
 		(dnp no)
 		(uuid "edef4651-dbe2-5e23-b2c3-ba6b5015540f")
 		(property "Reference" "#PWR01"
-			(at 148.59 61.087 0)
+			(at 59.69 68.707 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1984,7 +2093,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 64.135 0)
+			(at 59.69 71.755 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1994,7 +2103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 68.58 0)
+			(at 59.69 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +2114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 68.58 0)
+			(at 59.69 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2015,7 +2124,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 68.58 0)
+			(at 59.69 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2406,83 +2515,6 @@
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 66.04)
-		(size 60.96 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.3)
-			(type solid)
-			(color 62 125 128 1)
-		)
-		(fill
-			(color 237 247 244 0.35)
-		)
-		(uuid "5725698a-1dcb-4959-a772-b0c3251a74fa")
-		(property "Sheetname" "Logic and Hall supplies"
-			(at 73.66 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2 2)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 73.66 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "MOTOR_VM" input
-			(at 73.66 77.47 180)
-			(uuid "108b812d-2f3f-5ded-acd4-373b0c37c6f2")
-			(effects
-				(font
-					(size 1.18 1.18)
-				)
-				(justify left)
-			)
-		)
-		(pin "LOGIC_3V3" output
-			(at 134.62 74.93 0)
-			(uuid "96c8a039-82cf-541e-bd6e-74fda0d657d9")
-			(effects
-				(font
-					(size 1.18 1.18)
-				)
-				(justify right)
-			)
-		)
-		(pin "HALL_5V" output
-			(at 134.62 85.09 0)
-			(uuid "569e8be0-d978-5e4f-9e44-6ac595cb4116")
-			(effects
-				(font
-					(size 1.18 1.18)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Rotor"
-				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
-					(page "5")
 				)
 			)
 		)

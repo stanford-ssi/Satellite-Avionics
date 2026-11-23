@@ -1,0 +1,4 @@
+Harwin G125-MS10605M1R studless Gecko-SL vertical SMT plug. Board-side mechanical envelope modeled from Harwin drawing G125-MS1XX05M1R, 6 contacts. The model includes the two M2 screw-receiver positions and solder tails. The unmated body measures 15.20 × 5.80 × 4.98 mm. The threaded bores are represented as smooth clearance envelopes. The mating cable and screwdriver are outside the STEP model.
+
+https://www.harwin.com/products/G125-MS10605M1R
+https://www.harwin.com/products/G125-2240696F1
