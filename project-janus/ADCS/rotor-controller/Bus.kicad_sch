@@ -7,7 +7,7 @@
 	(title_block
 		(title "Classical CAN, temperature and watchdog")
 		(date "2026-11-22")
-		(rev "P2")
+		(rev "Mk 1.0")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Bleps spacecraft | ADCS")
 	)

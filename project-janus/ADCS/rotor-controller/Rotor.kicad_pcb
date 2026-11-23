@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Finertia | Reaction wheel controller")
-		(rev "P2")
+		(rev "Mk 1.0")
 		(company "Stanford Student Space Initiative")
 		(comment 1 "Bleps spacecraft | ADCS")
 	)
@@ -16380,7 +16380,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "BLEPS / P2"
+	(gr_text "Mk 1.0"
 		(at 92.7 107.25 0)
 		(layer "B.SilkS")
 		(uuid "bc76115e-2761-5659-98e8-4c9950d4e426")
