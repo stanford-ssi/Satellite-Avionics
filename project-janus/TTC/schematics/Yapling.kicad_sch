@@ -774,19 +774,21 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "A little yap from orbit."
+	(text "Yappin from orbit"
 		(exclude_from_sim no)
-		(at 214.63 43.815 0)
+		(at 214.376 38.1 0)
 		(effects
 			(font
 				(size 1.95 1.95)
+				(thickness 0.39)
+				(bold yes)
 			)
 		)
 		(uuid "6a6d4e9d-a07d-4de6-a8b0-cf8e063c07d3")
 	)
-	(text "Hyperion   /   Telemetry, Tracking & Command"
+	(text "\nTelemetry, Tracking & Command"
 		(exclude_from_sim no)
-		(at 214.63 52.07 0)
+		(at 214.376 41.529 0)
 		(effects
 			(font
 				(size 1.42 1.42)
@@ -829,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 172.72) (xy 179.07 195.58)
+			(xy 179.07 157.48) (xy 179.07 195.58)
 		)
 		(stroke
 			(width 0)
@@ -909,23 +911,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 142.24) (xy 139.7 142.24)
+			(xy 110.49 142.24) (xy 130.175 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23e56af6-4f14-42e9-8f3e-773204ea88a8")
-	)
-	(wire
-		(pts
-			(xy 187.96 157.48) (xy 187.96 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331d01e3-c399-45d0-82ff-950e55a2ff74")
 	)
 	(wire
 		(pts
@@ -939,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 129.54) (xy 139.7 129.54)
+			(xy 110.49 129.54) (xy 130.175 129.54)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 146.05 86.36)
+			(xy 146.05 80.01) (xy 146.05 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 116.84) (xy 139.7 116.84)
+			(xy 110.49 116.84) (xy 130.175 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 139.7 123.19)
+			(xy 110.49 123.19) (xy 130.175 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 139.7 110.49)
+			(xy 110.49 110.49) (xy 130.175 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1116,16 +1108,6 @@
 			(type default)
 		)
 		(uuid "895ed16c-52ac-4c2f-ba5f-a9e02b0aea4d")
-	)
-	(wire
-		(pts
-			(xy 187.96 172.72) (xy 179.07 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "932bec71-4712-4591-9701-72b857f8b9b4")
 	)
 	(wire
 		(pts
@@ -1199,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 135.89) (xy 139.7 135.89)
+			(xy 110.49 135.89) (xy 130.175 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1216,16 +1198,6 @@
 			(type default)
 		)
 		(uuid "cd3e8c7c-5090-4003-ab05-80fa548195f1")
-	)
-	(wire
-		(pts
-			(xy 146.05 86.36) (xy 176.53 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03c83da-c6b1-4252-9fad-2adefc3945bd")
 	)
 	(wire
 		(pts
@@ -1249,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 139.7 104.14)
+			(xy 110.49 104.14) (xy 130.175 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1296,16 +1268,6 @@
 			(type default)
 		)
 		(uuid "f5ba91ac-2f79-4885-bff2-45addc14246b")
-	)
-	(wire
-		(pts
-			(xy 176.53 86.36) (xy 176.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f827d56a-4704-417b-b514-805877b5f26b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2520,8 +2482,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 97.79)
-		(size 62.23 59.69)
+		(at 130.175 97.79)
+		(size 71.755 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2536,7 +2498,7 @@
 		)
 		(uuid "a747e2ce-a50c-4882-b7b6-9e2c1098eef5")
 		(property "Sheetname" "RP2350B housekeeping"
-			(at 139.7 96.012 0)
+			(at 151.892 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2548,7 +2510,7 @@
 			)
 		)
 		(property "Sheetfile" "Housekeeping.kicad_sch"
-			(at 139.7 158.75 0)
+			(at 130.175 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2522,7 @@
 			)
 		)
 		(pin "UHF_SCK" output
-			(at 139.7 104.14 180)
+			(at 130.175 104.14 180)
 			(uuid "ecf2a20a-5f98-42f5-8cc1-82b3be585900")
 			(effects
 				(font
@@ -2570,7 +2532,7 @@
 			)
 		)
 		(pin "UHF_MOSI" output
-			(at 139.7 110.49 180)
+			(at 130.175 110.49 180)
 			(uuid "84b10e17-46c0-41df-a2e7-21db6ea6c824")
 			(effects
 				(font
@@ -2580,7 +2542,7 @@
 			)
 		)
 		(pin "UHF_MISO" input
-			(at 139.7 116.84 180)
+			(at 130.175 116.84 180)
 			(uuid "b61c6713-e3f4-44c1-bc0c-fbe6f248eae1")
 			(effects
 				(font
@@ -2590,7 +2552,7 @@
 			)
 		)
 		(pin "UHF_CS_N" output
-			(at 139.7 123.19 180)
+			(at 130.175 123.19 180)
 			(uuid "c8f09a66-215f-48e9-a396-bc70daeaf068")
 			(effects
 				(font
@@ -2600,7 +2562,7 @@
 			)
 		)
 		(pin "UHF_RESET_N" output
-			(at 139.7 129.54 180)
+			(at 130.175 129.54 180)
 			(uuid "e7bd35ee-2b1f-4abd-bcc1-aa9c20d3ac2d")
 			(effects
 				(font
@@ -2610,7 +2572,7 @@
 			)
 		)
 		(pin "UHF_BUSY" input
-			(at 139.7 135.89 180)
+			(at 130.175 135.89 180)
 			(uuid "bc4ce301-0c15-49df-a7dd-ad2b324a53fd")
 			(effects
 				(font
@@ -2620,7 +2582,7 @@
 			)
 		)
 		(pin "UHF_IRQ" input
-			(at 139.7 142.24 180)
+			(at 130.175 142.24 180)
 			(uuid "d9fdb546-da95-4e54-b85a-13b0991cddcd")
 			(effects
 				(font
@@ -2680,7 +2642,7 @@
 			)
 		)
 		(pin "S_PA_EN" output
-			(at 176.53 97.79 90)
+			(at 146.05 97.79 90)
 			(uuid "e6fdf4d7-9a69-4b6e-a0f0-7fb229368d9b")
 			(effects
 				(font
@@ -2730,7 +2692,7 @@
 			)
 		)
 		(pin "USB_RP_DP" bidirectional
-			(at 187.96 157.48 270)
+			(at 179.07 157.48 270)
 			(uuid "0b1b752c-2008-481c-bfc8-c4de60722db1")
 			(effects
 				(font

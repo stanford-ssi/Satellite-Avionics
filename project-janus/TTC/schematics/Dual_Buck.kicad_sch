@@ -2571,7 +2571,7 @@
 	)
 	(text "4.890 V  ·  1.87 mV p-p  ·  25.9 µF"
 		(exclude_from_sim no)
-		(at 173.99 125.095 0)
+		(at 197.358 99.822 0)
 		(effects
 			(font
 				(size 1.06 1.06)
@@ -2579,17 +2579,6 @@
 			(justify left)
 		)
 		(uuid "681b5f61-cb6c-4ee2-a730-5ae84d50671a")
-	)
-	(text "Ripple at 8.2 V input, 2 MHz, continuous conduction. Output capacitance includes DC bias."
-		(exclude_from_sim no)
-		(at 127 138.43 0)
-		(effects
-			(font
-				(size 1.02 1.02)
-			)
-			(justify left)
-		)
-		(uuid "784136b2-6557-46d4-ba65-25c3bae878da")
 	)
 	(text "Dual buck regulator"
 		(exclude_from_sim no)
@@ -2605,7 +2594,7 @@
 	)
 	(text "3.318 V  ·  1.73 mV p-p  ·  29.7 µF"
 		(exclude_from_sim no)
-		(at 173.99 92.075 0)
+		(at 198.628 67.564 0)
 		(effects
 			(font
 				(size 1.06 1.06)
@@ -3064,16 +3053,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 134.62) (xy 91.44 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "543166ba-0dcb-40be-b478-e0c5ffa69980")
-	)
-	(wire
-		(pts
 			(xy 73.66 73.66) (xy 73.66 76.2)
 		)
 		(stroke
@@ -3181,16 +3160,6 @@
 			(type default)
 		)
 		(uuid "696430fc-76c0-4456-a747-79f994822a00")
-	)
-	(wire
-		(pts
-			(xy 91.44 124.46) (xy 96.52 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2f9bc4-e40f-4e7f-8b74-1ba82a484589")
 	)
 	(wire
 		(pts
@@ -3324,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 123.19) (xy 96.52 124.46)
+			(xy 96.52 123.19) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -3341,16 +3310,6 @@
 			(type default)
 		)
 		(uuid "8d60bad6-62e2-4401-b87c-21a949ac0a34")
-	)
-	(wire
-		(pts
-			(xy 91.44 124.46) (xy 91.44 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919995ed-57c9-4df6-af8f-a01fdcb300c7")
 	)
 	(wire
 		(pts
@@ -3651,6 +3610,16 @@
 			(type default)
 		)
 		(uuid "f51bc348-796d-4266-83e7-18369cf04969")
+	)
+	(wire
+		(pts
+			(xy 96.52 134.62) (xy 96.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f631b99a-c3b5-47b7-b881-d6de9d1fe8eb")
 	)
 	(wire
 		(pts
@@ -4486,7 +4455,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 91.44 130.81 0)
+		(at 96.52 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4496,7 +4465,7 @@
 		(dnp no)
 		(uuid "2a7cdb9f-64c2-4df5-b89e-998751ec2f3f")
 		(property "Reference" "C6"
-			(at 94.09 129.36 0)
+			(at 89.662 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4507,7 +4476,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 94.09 130.81 0)
+			(at 89.662 130.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4518,7 +4487,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,7 +4498,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4509,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4550,7 +4519,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +4530,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +4541,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4552,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 91.44 130.81 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4563,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 94.09 132.2901 0)
+			(at 89.662 132.2161 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6513,7 +6482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 142.24 0)
+			(at 105.41 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7231,7 +7200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 137.16 0)
+		(at 96.52 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7241,7 +7210,7 @@
 		(dnp no)
 		(uuid "ee3a52c4-3342-403f-829b-fecea0357205")
 		(property "Reference" "#PWR7210"
-			(at 91.44 137.16 0)
+			(at 96.52 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,7 +7221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 142.24 0)
+			(at 96.52 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7262,7 +7231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 137.16 0)
+			(at 96.52 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7272,7 +7241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 137.16 0)
+			(at 96.52 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7282,7 +7251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 137.16 0)
+			(at 96.52 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7326,7 +7295,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 134.62 0)
+			(at 116.84 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

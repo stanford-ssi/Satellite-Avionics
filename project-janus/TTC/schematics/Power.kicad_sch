@@ -753,6 +753,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 27.94 132.715)
+		(end 127 187.325)
+		(stroke
+			(width 0.26)
+			(type solid)
+			(color 55 121 161 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "04a7dcc7-844f-4c45-9591-fddc00c14c5f")
+	)
 	(text "VBAT_PROT → VBAT_FILTERED"
 		(exclude_from_sim no)
 		(at 36.83 53.975 0)
@@ -764,9 +777,9 @@
 		)
 		(uuid "0f596826-fe0e-4f3c-a296-c6cae31c1cb7")
 	)
-	(text "Board input and output rails"
+	(text "Board input \n"
 		(exclude_from_sim no)
-		(at 33.02 99.06 0)
+		(at 36.576 99.822 0)
 		(effects
 			(font
 				(size 1.95 1.95)
@@ -775,6 +788,36 @@
 			(justify left)
 		)
 		(uuid "6e10271a-e221-4629-92af-5048aeb3b634")
+	)
+	(text "1.26 mA"
+		(exclude_from_sim no)
+		(at 34.544 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80c64cf8-1fcc-4aa1-99d2-dba99c96cb6b")
+	)
+	(text "0.55 mA"
+		(exclude_from_sim no)
+		(at 86.106 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a383cb34-f398-4b10-81d9-d403627c7678")
+	)
+	(text "1.26 mA"
+		(exclude_from_sim no)
+		(at 61.468 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a96013b8-82e3-4a8d-9007-11122cde0f32")
 	)
 	(text "Power"
 		(exclude_from_sim no)
@@ -787,6 +830,18 @@
 			(justify left)
 		)
 		(uuid "a9fd285d-2534-4df8-bfff-cf0b3f45d2c0")
+	)
+	(text "Power Indicators"
+		(exclude_from_sim no)
+		(at 63.246 136.906 0)
+		(effects
+			(font
+				(size 1.95 1.95)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bd7dcea1-2bc7-40da-937c-5249d716f5e1")
 	)
 	(text "VBAT_FILTERED → 3V3_MAIN, 5V_RF"
 		(exclude_from_sim no)
@@ -811,32 +866,32 @@
 		(uuid "e349f29a-b48e-45cf-bbfa-8e958a583a63")
 	)
 	(junction
-		(at 139.7 127)
+		(at 41.91 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02497fd6-d962-42ce-8ece-903520b94890")
+		(uuid "2c1ee622-5ddb-47ce-a204-852d38824af9")
 	)
 	(junction
-		(at 182.88 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41d70b25-4de5-4270-a790-9a0ac2a4d86d")
-	)
-	(junction
-		(at 43.18 127)
+		(at 48.26 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6908c7f0-501f-4781-a2ce-d3c7747eb196")
 	)
 	(junction
-		(at 96.52 127)
+		(at 68.58 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82b72222-94d4-4296-9d19-5492a3ba6b1b")
+		(uuid "7b6a25e6-881f-4575-b276-bca6bee27d99")
+	)
+	(junction
+		(at 93.98 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b4b848-c912-4db8-a671-879df6cd4033")
 	)
 	(wire
 		(pts
-			(xy 30.48 127) (xy 43.18 127)
+			(xy 35.56 115.57) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +901,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 172.72 129.54)
+			(xy 93.98 152.4) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +911,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 139.7 123.19)
+			(xy 68.58 152.4) (xy 68.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 127) (xy 53.34 123.19)
+			(xy 58.42 115.57) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 86.36 129.54)
+			(xy 41.91 152.4) (xy 41.91 154.94)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 224.79 132.08)
+			(xy 115.57 162.56) (xy 115.57 163.83)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 147.32) (xy 129.54 149.86)
+			(xy 68.58 172.72) (xy 68.58 175.26)
 		)
 		(stroke
 			(width 0)
@@ -906,17 +961,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 146.05 127)
+			(xy 41.91 152.4) (xy 44.45 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f1eb3e7-70d0-460f-a80f-9b9490f99422")
+		(uuid "2d493907-c783-41fc-957e-026d8443fc27")
 	)
 	(wire
 		(pts
-			(xy 43.18 127) (xy 53.34 127)
+			(xy 48.26 115.57) (xy 58.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +981,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 129.54 129.54)
+			(xy 68.58 152.4) (xy 68.58 154.94)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 120.65) (xy 43.18 127)
+			(xy 48.26 109.22) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 137.16) (xy 129.54 139.7)
+			(xy 68.58 162.56) (xy 68.58 165.1)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 182.88 127)
+			(xy 93.98 152.4) (xy 96.52 152.4)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 74.93) (xy 229.87 66.04)
+			(xy 229.87 69.85) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -976,27 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 127) (xy 189.23 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aae600a-a707-44ba-bb4b-fb79b222019d")
-	)
-	(wire
-		(pts
-			(xy 86.36 127) (xy 96.52 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f4ede3-2366-475e-8b3e-73fc6d4d4270")
-	)
-	(wire
-		(pts
-			(xy 182.88 127) (xy 182.88 123.19)
+			(xy 93.98 152.4) (xy 93.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 139.7 127)
+			(xy 68.58 152.4) (xy 71.12 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 127) (xy 96.52 123.19)
+			(xy 41.91 152.4) (xy 41.91 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.16) (xy 172.72 139.7)
+			(xy 93.98 162.56) (xy 93.98 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 74.93) (xy 229.87 74.93)
+			(xy 226.06 69.85) (xy 229.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 147.32) (xy 172.72 149.86)
+			(xy 93.98 172.72) (xy 93.98 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 147.32) (xy 86.36 149.86)
+			(xy 41.91 172.72) (xy 41.91 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1066,17 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 127) (xy 102.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64f8f16-421c-4abb-a2c8-c9e6975fbb0b")
-	)
-	(wire
-		(pts
-			(xy 86.36 137.16) (xy 86.36 139.7)
+			(xy 41.91 162.56) (xy 41.91 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1111,7 @@
 	)
 	(hierarchical_label "5V_RF"
 		(shape output)
-		(at 146.05 127 0)
+		(at 71.12 152.4 0)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1097,7 +1122,7 @@
 	)
 	(hierarchical_label "VBAT_PROT"
 		(shape input)
-		(at 30.48 127 180)
+		(at 35.56 115.57 180)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1108,7 +1133,7 @@
 	)
 	(hierarchical_label "5V_PA_SW"
 		(shape output)
-		(at 189.23 127 0)
+		(at 96.52 152.4 0)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1119,7 +1144,7 @@
 	)
 	(hierarchical_label "S_PA_EN"
 		(shape input)
-		(at 209.55 74.93 180)
+		(at 226.06 69.85 180)
 		(effects
 			(font
 				(size 1.15 1.15)
@@ -1130,7 +1155,7 @@
 	)
 	(hierarchical_label "3V3_MAIN"
 		(shape output)
-		(at 102.87 127 0)
+		(at 44.45 152.4 0)
 		(effects
 			(font
 				(size 1.22 1.22)
@@ -1141,7 +1166,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW06032K21BEEA")
-		(at 129.54 133.35 0)
+		(at 68.58 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1151,7 +1176,7 @@
 		(dnp no)
 		(uuid "05b6d378-aac8-4897-ba5b-76b8cb0be2ef")
 		(property "Reference" "R11"
-			(at 131.7901 133.35 0)
+			(at 70.8301 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1162,7 +1187,7 @@
 			)
 		)
 		(property "Value" "2.21k"
-			(at 129.54 133.35 90)
+			(at 68.58 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1172,7 +1197,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1183,7 +1208,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1194,7 +1219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1204,7 +1229,7 @@
 			)
 		)
 		(property "MPN" "TNPW06032K21BEEA"
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1215,7 +1240,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1226,7 +1251,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1237,7 +1262,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW06032K21BEEA/1606804"
-			(at 129.54 133.35 0)
+			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1264,7 +1289,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 96.52 123.19 0)
+		(at 41.91 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1274,7 +1299,7 @@
 		(dnp no)
 		(uuid "0a403922-8c91-4852-8745-7b41551ba663")
 		(property "Reference" "TP3"
-			(at 99.06 118.11 0)
+			(at 40.386 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1285,7 +1310,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 99.06 120.65 0)
+			(at 44.45 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1297,7 +1322,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1308,7 +1333,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,7 +1344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1329,7 +1354,7 @@
 			)
 		)
 		(property "MPN" "5019"
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1340,7 +1365,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1351,7 +1376,7 @@
 			)
 		)
 		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1362,7 +1387,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 96.52 123.19 0)
+			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1386,7 +1411,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 172.72 143.51 90)
+		(at 93.98 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1396,7 +1421,7 @@
 		(dnp no)
 		(uuid "0c070a58-7e52-4231-839a-0fa7d9525ec3")
 		(property "Reference" "D5"
-			(at 176.276 143.51 90)
+			(at 97.536 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1407,7 +1432,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 176.53 144.78 90)
+			(at 97.79 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1419,7 +1444,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:LED_0603_1608Metric"
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1430,7 +1455,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C190KGKT.pdf"
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,7 +1466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1451,7 +1476,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190KGKT"
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1462,7 +1487,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1473,7 +1498,7 @@
 			)
 		)
 		(property "Rating" "2.1 V typ at 20 mA"
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1484,7 +1509,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KGKT/386815"
-			(at 172.72 143.51 0)
+			(at 93.98 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1511,7 +1536,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 139.7 123.19 0)
+		(at 68.58 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1521,7 +1546,7 @@
 		(dnp no)
 		(uuid "305f19b9-f7d5-405d-ac7d-6dd469e2f7c3")
 		(property "Reference" "TP5"
-			(at 142.24 118.11 0)
+			(at 67.056 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1532,7 +1557,7 @@
 			)
 		)
 		(property "Value" "5V_RF"
-			(at 142.24 120.65 0)
+			(at 71.12 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1544,7 +1569,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1555,7 +1580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1566,7 +1591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1576,7 +1601,7 @@
 			)
 		)
 		(property "MPN" "5019"
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1587,7 +1612,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1623,7 @@
 			)
 		)
 		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,7 +1634,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 139.7 123.19 0)
+			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1633,7 +1658,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Power:VBAT_PROT")
-		(at 43.18 120.65 0)
+		(at 48.26 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1643,7 +1668,7 @@
 		(dnp no)
 		(uuid "5a470a29-fe53-4533-b81f-21a78cd6b305")
 		(property "Reference" "#PWR9000"
-			(at 43.18 120.65 0)
+			(at 48.26 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,7 +1679,7 @@
 			)
 		)
 		(property "Value" "VBAT_PROT"
-			(at 43.18 116.84 0)
+			(at 48.26 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1664,7 +1689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 120.65 0)
+			(at 48.26 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1674,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 120.65 0)
+			(at 48.26 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1684,7 +1709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 120.65 0)
+			(at 48.26 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1707,7 +1732,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 129.54 143.51 90)
+		(at 68.58 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1717,7 +1742,7 @@
 		(dnp no)
 		(uuid "7c65f38c-0aa9-4b14-8b09-e2a42b0d66f2")
 		(property "Reference" "D4"
-			(at 133.096 143.51 90)
+			(at 72.136 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1728,7 +1753,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 133.35 144.78 90)
+			(at 72.39 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1740,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:LED_0603_1608Metric"
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1751,7 +1776,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C190KGKT.pdf"
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,7 +1787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1772,7 +1797,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190KGKT"
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1783,7 +1808,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1794,7 +1819,7 @@
 			)
 		)
 		(property "Rating" "2.1 V typ at 20 mA"
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +1830,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KGKT/386815"
-			(at 129.54 143.51 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1832,7 +1857,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 132.08 0)
+		(at 115.57 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1842,7 +1867,7 @@
 		(dnp no)
 		(uuid "7e590a76-a0f8-4b0a-a9d3-159cb450d8e4")
 		(property "Reference" "#PWR9011"
-			(at 224.79 132.08 0)
+			(at 115.57 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1853,7 +1878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 135.89 0)
+			(at 115.57 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1863,7 +1888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 132.08 0)
+			(at 115.57 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1873,7 +1898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 132.08 0)
+			(at 115.57 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1883,7 +1908,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 132.08 0)
+			(at 115.57 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1906,7 +1931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 149.86 0)
+		(at 68.58 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1916,7 +1941,7 @@
 		(dnp no)
 		(uuid "8480d7bd-2575-439f-96bd-4bbcca992611")
 		(property "Reference" "#PWR9008"
-			(at 129.54 149.86 0)
+			(at 68.58 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1927,7 +1952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 153.67 0)
+			(at 68.58 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1937,7 +1962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 149.86 0)
+			(at 68.58 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1947,7 +1972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 149.86 0)
+			(at 68.58 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1957,7 +1982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 149.86 0)
+			(at 68.58 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1980,7 +2005,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 224.79 123.19 0)
+		(at 115.57 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1990,7 +2015,7 @@
 		(dnp no)
 		(uuid "ad8077a9-28bf-4f88-bcde-cd2866fa7d04")
 		(property "Reference" "TP7"
-			(at 227.33 118.11 0)
+			(at 114.3 157.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2001,7 +2026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 120.65 0)
+			(at 118.11 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2013,7 +2038,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2024,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,7 +2060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2045,7 +2070,7 @@
 			)
 		)
 		(property "MPN" "5019"
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2056,7 +2081,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2067,7 +2092,7 @@
 			)
 		)
 		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2078,7 +2103,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 224.79 123.19 0)
+			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2127,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 53.34 123.19 0)
+		(at 58.42 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2112,7 +2137,7 @@
 		(dnp no)
 		(uuid "bb136470-6487-4bc8-b269-5b8a004572ff")
 		(property "Reference" "TP1"
-			(at 55.88 118.11 0)
+			(at 60.96 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2123,7 +2148,7 @@
 			)
 		)
 		(property "Value" "VBAT_PROT"
-			(at 55.88 120.65 0)
+			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,7 +2160,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2171,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +2182,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2167,7 +2192,7 @@
 			)
 		)
 		(property "MPN" "5019"
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2178,7 +2203,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2189,7 +2214,7 @@
 			)
 		)
 		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2225,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 53.34 123.19 0)
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2249,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 182.88 123.19 0)
+		(at 93.98 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2234,7 +2259,7 @@
 		(dnp no)
 		(uuid "bb9a8694-139b-4d4e-b0a1-39d83b4f0f70")
 		(property "Reference" "TP6"
-			(at 185.42 118.11 0)
+			(at 88.646 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2245,7 +2270,7 @@
 			)
 		)
 		(property "Value" "5V_PA_SW"
-			(at 185.42 120.65 0)
+			(at 96.52 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2257,7 +2282,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2268,7 +2293,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2289,7 +2314,7 @@
 			)
 		)
 		(property "MPN" "5019"
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +2325,7 @@
 			)
 		)
 		(property "Manufacturer" "Keystone Electronics"
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2336,7 @@
 			)
 		)
 		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,7 +2347,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 182.88 123.19 0)
+			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,7 +2371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 149.86 0)
+		(at 41.91 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2356,7 +2381,7 @@
 		(dnp no)
 		(uuid "cf7ddd7b-be63-40fe-8a52-1fbae7207e3e")
 		(property "Reference" "#PWR9006"
-			(at 86.36 149.86 0)
+			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 153.67 0)
+			(at 41.91 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2377,7 +2402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 149.86 0)
+			(at 41.91 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2387,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 149.86 0)
+			(at 41.91 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2397,7 +2422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 149.86 0)
+			(at 41.91 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2420,7 +2445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 149.86 0)
+		(at 93.98 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2430,7 +2455,7 @@
 		(dnp no)
 		(uuid "dae17e66-15ab-4dcd-a898-4a63b3bcdc93")
 		(property "Reference" "#PWR9010"
-			(at 172.72 149.86 0)
+			(at 93.98 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2441,7 +2466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 153.67 0)
+			(at 93.98 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2451,7 +2476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 149.86 0)
+			(at 93.98 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2461,7 +2486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 149.86 0)
+			(at 93.98 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2471,7 +2496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 149.86 0)
+			(at 93.98 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2494,7 +2519,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 86.36 143.51 90)
+		(at 41.91 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2504,7 +2529,7 @@
 		(dnp no)
 		(uuid "e259ad66-473b-4677-9e2c-8b481fcba7ad")
 		(property "Reference" "D2"
-			(at 89.916 143.51 90)
+			(at 45.466 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2515,7 +2540,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 90.17 144.78 90)
+			(at 45.72 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:LED_0603_1608Metric"
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2563,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C190KGKT.pdf"
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +2574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2559,7 +2584,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190KGKT"
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2595,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2581,7 +2606,7 @@
 			)
 		)
 		(property "Rating" "2.1 V typ at 20 mA"
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +2617,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KGKT/386815"
-			(at 86.36 143.51 0)
+			(at 41.91 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2619,7 +2644,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW06032K21BEEA")
-		(at 86.36 133.35 0)
+		(at 41.91 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2629,7 +2654,7 @@
 		(dnp no)
 		(uuid "f53d75a1-ef3a-4dca-a539-f0201f9e1e9b")
 		(property "Reference" "R9"
-			(at 88.6101 133.35 0)
+			(at 44.1601 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2640,7 +2665,7 @@
 			)
 		)
 		(property "Value" "2.21k"
-			(at 86.36 133.35 90)
+			(at 41.91 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,7 +2675,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2686,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2697,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2682,7 +2707,7 @@
 			)
 		)
 		(property "MPN" "TNPW06032K21BEEA"
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2693,7 +2718,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +2729,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,7 +2740,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW06032K21BEEA/1606804"
-			(at 86.36 133.35 0)
+			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +2767,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:TNPW06032K21BEEA")
-		(at 172.72 133.35 0)
+		(at 93.98 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2752,7 +2777,7 @@
 		(dnp no)
 		(uuid "f5c073a0-264b-4d20-b988-282403326f39")
 		(property "Reference" "R12"
-			(at 174.9701 133.35 0)
+			(at 96.2301 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2763,7 +2788,7 @@
 			)
 		)
 		(property "Value" "2.21k"
-			(at 172.72 133.35 90)
+			(at 93.98 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2773,7 +2798,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +2809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2805,7 +2830,7 @@
 			)
 		)
 		(property "MPN" "TNPW06032K21BEEA"
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +2841,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2827,7 +2852,7 @@
 			)
 		)
 		(property "Rating" "75 V"
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +2863,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW06032K21BEEA/1606804"
-			(at 172.72 133.35 0)
+			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

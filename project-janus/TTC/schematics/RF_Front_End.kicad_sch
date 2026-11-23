@@ -3114,7 +3114,7 @@
 	)
 	(text "Input match"
 		(exclude_from_sim no)
-		(at 45.72 68.58 0)
+		(at 67.31 72.898 0)
 		(effects
 			(font
 				(size 1.55 1.55)
@@ -3150,7 +3150,7 @@
 	)
 	(text "2.2–2.5 GHz evaluation-board match"
 		(exclude_from_sim no)
-		(at 45.72 101.6 0)
+		(at 64.516 104.14 0)
 		(effects
 			(font
 				(size 1.1 1.1)
@@ -3173,7 +3173,7 @@
 	)
 	(text "Harmonic filter"
 		(exclude_from_sim no)
-		(at 189.23 58.42 0)
+		(at 198.12 58.674 0)
 		(effects
 			(font
 				(size 1.55 1.55)
@@ -3184,22 +3184,34 @@
 		(uuid "ef497cbe-d077-46ff-8128-760e8b6fce9d")
 	)
 	(junction
+		(at 63.5 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01b4d3ae-802e-45c5-bbe6-cf6438297599")
+	)
+	(junction
 		(at 139.7 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d43dbb2-3424-400e-a4ce-c3e1558c32d7")
 	)
 	(junction
+		(at 105.41 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16dec029-bd56-47ae-b3b0-9bc2fdd8a5f8")
+	)
+	(junction
 		(at 116.84 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2de86e1f-b108-46be-afb3-6a2d1aa820af")
+		(uuid "1e7204e0-005f-4fde-8139-b7937de4078d")
 	)
 	(junction
-		(at 68.58 44.45)
+		(at 91.44 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3fde250e-c31c-45aa-b522-268f5858fa58")
+		(uuid "1f535246-8552-477d-b3c2-a9672fc59743")
 	)
 	(junction
 		(at 132.08 44.45)
@@ -3214,22 +3226,10 @@
 		(uuid "4d141586-cee3-48ce-b700-484ef067256f")
 	)
 	(junction
-		(at 54.61 44.45)
+		(at 71.12 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f64af13-9457-49b1-b105-7c90e0bdf42b")
-	)
-	(junction
-		(at 82.55 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72633f89-c8f9-4c21-95fd-c1a7a3a8bef5")
-	)
-	(junction
-		(at 127 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76629cf9-b8e0-4ef2-8f92-41c53c1654c2")
+		(uuid "6f97068f-1244-4afe-ace3-b6d9a32eaef9")
 	)
 	(junction
 		(at 168.91 77.47)
@@ -3238,22 +3238,28 @@
 		(uuid "7a1aa794-de46-4647-b247-49128052d0e2")
 	)
 	(junction
+		(at 63.5 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef9549a-540f-412b-8992-63797efff1b3")
+	)
+	(junction
+		(at 77.47 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d33e874-dcec-4816-9d8d-4da4f880f793")
+	)
+	(junction
 		(at 85.09 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8daeaa74-5924-4eaa-b76f-b93e46e5a7ae")
 	)
 	(junction
-		(at 71.12 77.47)
+		(at 91.44 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d4ada37-e16a-4d26-acc3-6b269c5450b5")
-	)
-	(junction
-		(at 173.99 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad67287f-617c-4160-9feb-06f3ad54d555")
+		(uuid "c54b6cd3-a2be-4ae8-8a16-099b3dec2883")
 	)
 	(junction
 		(at 147.32 44.45)
@@ -3262,16 +3268,22 @@
 		(uuid "ca49f381-4c2f-44a6-b669-e843eca38091")
 	)
 	(junction
-		(at 96.52 44.45)
+		(at 77.47 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6c41700-221e-4066-8061-a4fedd7e5e00")
+		(uuid "ca97e5ea-a635-446f-8e1d-7b78f8bd6838")
 	)
 	(junction
 		(at 105.41 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e89cec7f-6b0e-4cae-b282-405f764f7453")
+	)
+	(junction
+		(at 173.99 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6345a0-9c31-49ce-831f-286c9c32216e")
 	)
 	(wire
 		(pts
@@ -3285,7 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 44.45) (xy 54.61 48.26)
+			(xy 63.5 44.45) (xy 63.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 77.47) (xy 181.61 77.47)
+			(xy 173.99 77.47) (xy 179.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 44.45) (xy 82.55 44.45)
+			(xy 77.47 44.45) (xy 91.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3367,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 77.47) (xy 232.41 77.47)
+			(xy 219.71 77.47) (xy 227.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3385,13 +3397,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 77.47) (xy 71.12 77.47)
+			(xy 64.77 77.47) (xy 71.12 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "30548c33-b55c-4028-9980-a5405372efa9")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377df9b8-f386-4f93-8dd8-6cc7188d0c80")
 	)
 	(wire
 		(pts
@@ -3405,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 44.45) (xy 82.55 48.26)
+			(xy 91.44 44.45) (xy 91.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3437,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 44.45) (xy 68.58 48.26)
+			(xy 77.47 44.45) (xy 77.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3425,7 +3447,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 55.88) (xy 96.52 58.42)
+			(xy 105.41 53.34) (xy 105.41 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 82.55 58.42)
+			(xy 91.44 53.34) (xy 91.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3475,7 +3497,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 54.61 58.42)
+			(xy 63.5 53.34) (xy 63.5 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3495,7 +3517,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 55.88) (xy 68.58 58.42)
+			(xy 63.5 54.61) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b866751-196f-4d72-a44d-3b970c71d090")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 77.47 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3595,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 77.47) (xy 196.85 77.47)
+			(xy 186.69 77.47) (xy 191.77 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3605,13 +3637,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 88.9) (xy 210.82 92.71)
+			(xy 205.74 88.9) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c7b7ea3-167c-435b-8c53-568437a04197")
+	)
+	(wire
+		(pts
+			(xy 91.44 54.61) (xy 105.41 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f88101-04f1-461b-bbd2-1210850564bb")
 	)
 	(wire
 		(pts
@@ -3655,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 44.45) (xy 116.84 44.45)
+			(xy 105.41 44.45) (xy 116.84 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3665,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 44.45) (xy 96.52 44.45)
+			(xy 91.44 44.45) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3675,7 +3717,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 44.45) (xy 96.52 48.26)
+			(xy 105.41 44.45) (xy 105.41 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3715,16 +3757,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 44.45) (xy 54.61 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d50ac1b3-9598-4d43-a50d-323bcf015027")
-	)
-	(wire
-		(pts
 			(xy 147.32 59.69) (xy 147.32 64.77)
 		)
 		(stroke
@@ -3745,7 +3777,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 44.45) (xy 68.58 44.45)
+			(xy 63.5 44.45) (xy 77.47 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3785,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 54.61) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb739558-ae2b-460f-9517-82412c419fd4")
+	)
+	(wire
+		(pts
 			(xy 165.1 82.55) (xy 168.91 82.55)
 		)
 		(stroke
@@ -3795,7 +3837,6 @@
 	)
 	(image
 		(at 138.43 143.51)
-		(scale 1)
 		(uuid "bcde0cc3-ef0b-4ad5-87de-253f078eece4")
 		(data "iVBORw0KGgoAAAANSUhEUgAABvYAAAHJCAYAAABe/A5HAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90"
 			"bGliIHZlcnNpb24zLjExLjIsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvgI3uAAAAAAlwSFlzAAAh"
@@ -5183,7 +5224,7 @@
 	)
 	(hierarchical_label "S_ANT"
 		(shape output)
-		(at 232.41 77.47 0)
+		(at 227.33 77.47 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -5194,7 +5235,7 @@
 	)
 	(hierarchical_label "RF_IN"
 		(shape input)
-		(at 38.1 77.47 180)
+		(at 64.77 77.47 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -5710,82 +5751,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e78a3a7-9619-4fb2-9df8-3165fad7aa45")
-		(property "Reference" "#PWR3376"
-			(at 96.52 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2969484-11ce-49fa-a19c-5bca64344a5d")
-		)
-		(instances
-			(project "Yapling"
-				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/2d3ecbcd-091a-57b1-bc49-3fc3c66d3786"
-					(reference "#PWR3376")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Yapling_Power:5V_PA_SW")
-		(at 44.45 44.45 0)
+		(at 63.5 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5795,7 +5762,7 @@
 		(dnp no)
 		(uuid "1ef74b55-9fc9-4c72-b8b4-b089bae5bf61")
 		(property "Reference" "#PWR31001"
-			(at 44.45 44.45 0)
+			(at 63.5 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5773,7 @@
 			)
 		)
 		(property "Value" "5V_PA_SW"
-			(at 44.45 39.37 0)
+			(at 63.5 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5816,7 +5783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 44.45 0)
+			(at 63.5 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5826,7 +5793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 44.45 0)
+			(at 63.5 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5836,7 +5803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 44.45 0)
+			(at 63.5 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5933,80 +5900,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "530314b8-082d-44ef-ab96-cbf1ca7c5714")
-		(property "Reference" "#PWR3372"
-			(at 68.58 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1e36e1f-4ea3-46c8-a6c8-6c8c0b2ed9f7")
-		)
-		(instances
-			(project "Yapling"
-				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/2d3ecbcd-091a-57b1-bc49-3fc3c66d3786"
-					(reference "#PWR3372")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 85.09 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -6081,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_RF:LFCN-2500")
-		(at 210.82 68.58 0)
+		(at 205.74 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6091,7 +5984,7 @@
 		(dnp no)
 		(uuid "5d8e31b0-d1a9-4adf-9e49-e055758da0ad")
 		(property "Reference" "FL401"
-			(at 200.66 62.23 0)
+			(at 195.58 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6102,7 +5995,7 @@
 			)
 		)
 		(property "Value" "LFCN-2500+"
-			(at 200.66 65.405 0)
+			(at 195.58 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6113,7 +6006,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_RF:LFCN-2500"
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6017,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-2500%2B.pdf"
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6145,7 +6038,7 @@
 			)
 		)
 		(property "MPN" "LFCN-2500+"
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6049,7 @@
 			)
 		)
 		(property "Manufacturer" "Mini-Circuits"
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6060,7 @@
 			)
 		)
 		(property "Rating" "50 Ω, DC–2.5 GHz, 10 W maximum at 25 °C"
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6178,7 +6071,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/mini-circuits/LFCN-2500/13928018"
-			(at 210.82 68.58 0)
+			(at 205.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,7 +6104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 58.42 0)
+		(at 63.5 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6221,7 +6114,7 @@
 		(dnp no)
 		(uuid "5deb5cb8-e91f-4a97-be44-338a61c09f79")
 		(property "Reference" "#PWR3370"
-			(at 54.61 58.42 0)
+			(at 63.5 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 63.5 0)
+			(at 63.5 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6242,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 58.42 0)
+			(at 63.5 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6252,7 +6145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 58.42 0)
+			(at 63.5 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6262,7 +6155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 58.42 0)
+			(at 63.5 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6285,7 +6178,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GJM1555C1H100JB01D")
-		(at 185.42 77.47 90)
+		(at 182.88 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6295,7 +6188,7 @@
 		(dnp no)
 		(uuid "6f0657b6-72ed-4a70-8158-9d19bea67d47")
 		(property "Reference" "C405"
-			(at 185.42 72.2199 90)
+			(at 182.88 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6305,7 +6198,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 185.42 73.54 90)
+			(at 182.88 72.9481 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6315,7 +6208,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,7 +6219,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GJM1555C1H100JB01D"
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +6230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6347,7 +6240,7 @@
 			)
 		)
 		(property "MPN" "GJM1555C1H100JB01D"
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +6251,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6262,7 @@
 			)
 		)
 		(property "Rating" "50 V, C0G"
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,7 +6273,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H100JB01D/702306"
-			(at 185.42 77.47 0)
+			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6284,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 185.42 74.86 90)
+			(at 182.88 74.2681 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6542,7 +6435,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM155R61A475MEAAJ")
-		(at 68.58 52.07 0)
+		(at 77.47 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6552,7 +6445,7 @@
 		(dnp no)
 		(uuid "77e3ebf2-ec5b-4457-acf3-30d10cd8a4af")
 		(property "Reference" "C407"
-			(at 71.23 50.62 0)
+			(at 80.12 48.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6563,7 +6456,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 71.23 52.07 0)
+			(at 80.12 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6574,7 +6467,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,7 +6478,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R61A475MEAAJ"
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6606,7 +6499,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A475MEAAJ"
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6617,7 +6510,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6628,7 +6521,7 @@
 			)
 		)
 		(property "Rating" "10 V, X5R"
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6639,7 +6532,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A475MEAAJ/10696665"
-			(at 68.58 52.07 0)
+			(at 77.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6650,7 +6543,7 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 71.23 53.5501 0)
+			(at 80.12 51.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6678,7 +6571,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM1555C1H101JA01D")
-		(at 96.52 52.07 0)
+		(at 105.41 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6688,7 +6581,7 @@
 		(dnp no)
 		(uuid "81e66f21-5225-41af-b903-417e389122aa")
 		(property "Reference" "C409"
-			(at 99.17 50.62 0)
+			(at 108.06 48.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6699,7 +6592,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 99.17 52.07 0)
+			(at 108.06 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6710,7 +6603,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6614,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM1555C1H101JA01D"
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +6625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6742,7 +6635,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1H101JA01D"
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +6646,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,7 +6657,7 @@
 			)
 		)
 		(property "Rating" "50 V, C0G"
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6668,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829"
-			(at 96.52 52.07 0)
+			(at 105.41 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6786,7 +6679,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 99.17 53.5501 0)
+			(at 108.06 51.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6824,7 +6717,7 @@
 		(dnp no)
 		(uuid "84952365-59db-48b5-ac24-eb1635c6504c")
 		(property "Reference" "C403"
-			(at 99.06 72.2199 90)
+			(at 99.06 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6834,7 +6727,7 @@
 			)
 		)
 		(property "Value" "1.7p"
-			(at 99.06 73.54 90)
+			(at 99.06 72.9481 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6920,7 +6813,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 99.06 74.86 90)
+			(at 99.06 74.2681 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7125,7 +7018,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM155R61A475MEAAJ")
-		(at 82.55 52.07 0)
+		(at 91.44 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7135,7 +7028,7 @@
 		(dnp no)
 		(uuid "8e4e3a48-5532-412b-ab84-1e52fe4de09c")
 		(property "Reference" "C408"
-			(at 85.2 50.62 0)
+			(at 94.09 48.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7146,7 +7039,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 85.2 52.07 0)
+			(at 94.09 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7157,7 +7050,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7168,7 +7061,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R61A475MEAAJ"
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,7 +7072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7189,7 +7082,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A475MEAAJ"
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7200,7 +7093,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,7 +7104,7 @@
 			)
 		)
 		(property "Rating" "10 V, X5R"
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +7115,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A475MEAAJ/10696665"
-			(at 82.55 52.07 0)
+			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,7 +7126,7 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 85.2 53.5501 0)
+			(at 94.09 51.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7385,7 +7278,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 92.71 0)
+		(at 205.74 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7395,7 +7288,7 @@
 		(dnp no)
 		(uuid "a2c4a46d-3de9-401b-9a59-2d5033802d84")
 		(property "Reference" "#PWR3363"
-			(at 210.82 92.71 0)
+			(at 205.74 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,7 +7299,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 97.79 0)
+			(at 205.74 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7416,7 +7309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 92.71 0)
+			(at 205.74 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7426,7 +7319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 92.71 0)
+			(at 205.74 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7436,7 +7329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 92.71 0)
+			(at 205.74 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7607,7 +7500,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GRM155R61A475MEAAJ")
-		(at 54.61 52.07 0)
+		(at 63.5 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7617,7 +7510,7 @@
 		(dnp no)
 		(uuid "d3848bad-0692-43ff-86b0-70932f0b0467")
 		(property "Reference" "C406"
-			(at 57.26 50.62 0)
+			(at 66.15 48.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7628,7 +7521,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 57.26 52.07 0)
+			(at 66.15 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7639,7 +7532,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7650,7 +7543,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R61A475MEAAJ"
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7661,7 +7554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7671,7 +7564,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61A475MEAAJ"
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +7575,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7693,7 +7586,7 @@
 			)
 		)
 		(property "Rating" "10 V, X5R"
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7597,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A475MEAAJ/10696665"
-			(at 54.61 52.07 0)
+			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,7 +7608,7 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 57.26 53.5501 0)
+			(at 66.15 51.0101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7859,80 +7752,6 @@
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/2d3ecbcd-091a-57b1-bc49-3fc3c66d3786"
 					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e314aac8-ec29-45bd-9a5b-d579fb3275b8")
-		(property "Reference" "#PWR3374"
-			(at 82.55 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "695a8dad-c891-410c-8ec4-fc154410ae8c")
-		)
-		(instances
-			(project "Yapling"
-				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/2d3ecbcd-091a-57b1-bc49-3fc3c66d3786"
-					(reference "#PWR3374")
 					(unit 1)
 				)
 			)
