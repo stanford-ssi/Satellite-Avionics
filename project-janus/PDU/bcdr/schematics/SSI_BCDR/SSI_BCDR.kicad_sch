@@ -743,7 +743,7 @@
 		)
 		(uuid "8be6e300-56f1-4aed-98d1-42795bb86b41")
 	)
-	(text "Outputs C_SENSE, V_SENSE, and VREF go into MCU analog pins"
+	(text "Outputs C_SENSE and V_SENSE go into MCU analog pins"
 		(exclude_from_sim no)
 		(at 54.356 40.894 0)
 		(effects
