@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4fe10e42-a047-4b43-be2f-e60fc7ace6c4")
+	(paper "A4")
+	(title_block
+		(title "Janus sun sensor dev board")
+		(date "2026-11-23")
+		(rev "0.1")
+		(company "SSI")
+		(comment 1 "Designer: Marlon Moenius")
+	)
+	(lib_symbols)
+)

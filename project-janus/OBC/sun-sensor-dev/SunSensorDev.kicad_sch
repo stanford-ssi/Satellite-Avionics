@@ -2,8 +2,13 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid c2be1971-d3f7-49ec-8d2b-cda572a2b973)
+	(uuid "c2be1971-d3f7-49ec-8d2b-cda572a2b973")
 	(paper "A4")
+	(title_block
+		(rev "0.1")
+		(company "SSI")
+		(comment 1 "Marlon Moenius")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
