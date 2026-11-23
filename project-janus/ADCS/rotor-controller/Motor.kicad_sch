@@ -4924,7 +4924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "3.3k"
 			(at 147.32 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +4966,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW040210K0FKED"
+		(property "MPN" "CRCW04023K30FKED"
 			(at 147.32 151.13 0)
 			(hide yes)
 			(show_name no)
