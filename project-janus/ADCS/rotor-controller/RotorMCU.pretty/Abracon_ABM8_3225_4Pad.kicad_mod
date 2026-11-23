@@ -63,7 +63,7 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.06 -1.71)
+		(start -2.06 0.65)
 		(end -2.06 1.71)
 		(stroke
 			(width 0.12)
@@ -74,7 +74,7 @@
 	)
 	(fp_line
 		(start -2.06 1.71)
-		(end 2.06 1.71)
+		(end -0.1 1.71)
 		(stroke
 			(width 0.12)
 			(type solid)

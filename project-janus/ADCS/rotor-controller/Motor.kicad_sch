@@ -4420,7 +4420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RotorPackages:R_0402_1005Metric_NoSilk"
 			(at 181.61 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -6037,7 +6037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RotorPackages:R_0402_1005Metric_NoSilk"
 			(at 215.9 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -7827,7 +7827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RotorPackages:R_0402_1005Metric_NoSilk"
 			(at 215.9 215.9 0)
 			(hide yes)
 			(show_name no)

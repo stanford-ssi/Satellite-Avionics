@@ -5,7 +5,7 @@
 	(uuid "9f0db85e-0421-488c-a01b-9a143a5d11eb")
 	(paper "B")
 	(title_block
-		(title "Reaction Wheel Controller")
+		(title "Finertia | Reaction wheel controller")
 		(date "2026-11-22")
 		(rev "P2")
 		(company "Stanford Student Space Initiative")
@@ -864,7 +864,7 @@
 		)
 		(uuid "292f02b4-df0c-5456-9281-71b9cdac4556")
 	)
-	(text "Reaction Wheel Controller"
+	(text "Finertia"
 		(exclude_from_sim no)
 		(at 215.9 29.21 0)
 		(effects

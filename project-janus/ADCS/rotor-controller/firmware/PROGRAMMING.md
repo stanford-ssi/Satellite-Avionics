@@ -15,7 +15,7 @@ This produces `build/bleps_wheel.bin`, `build/bleps_wheel.elf` and `build/mram_p
 
 ## First programming and recovery
 
-1. Leave J201.1 motor VBATT disconnected. Supply regulated 3.3 V to J201.4 with return to J201.2 or J201.5. With logic power off and the motor detached, solder-bridge the normally open rear JP201 (WD PROG) to inhibit the external watchdog. Seat a TC2030-CTX-NL cable on J101 on the rear of the bare board. Use the normal Cortex orientation from the cable drawing. The fixture contacts are numbered as follows. [Tag-Connect cable drawing](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf)
+1. Leave J201.1 motor VBATT disconnected. Supply regulated 3.3 V to J201.4 with return to J201.2 or J201.5. With logic power off and the motor detached, solder-bridge the normally open rear JP201 (marked WD) to inhibit the external watchdog. Seat a TC2030-CTX-NL cable on J101 on the rear of the bare board. Use the normal Cortex orientation from the cable drawing. The fixture contacts are numbered as follows. [Tag-Connect cable drawing](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf)
 
    | J101 pin | Signal |
    | --- | --- |

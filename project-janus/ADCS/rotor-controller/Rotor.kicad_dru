@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "Tag-Connect contact keepout clearance"
+    (layer "B.Cu")
+    (condition "A.Type == 'Pad' && A.memberOfFootprint('J101') && (B.Type == 'Track' || B.Type == 'Via' || B.Type == 'Zone')")
+    (constraint clearance (min 0.508mm)))
+
+(rule "Tag-Connect contact field"
+    (layer "B.Cu")
+    (condition "A.intersectsArea('Tag-Connect contact keepout')")
+    (constraint disallow track via))
