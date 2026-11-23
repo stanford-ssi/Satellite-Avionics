@@ -4,7 +4,7 @@ This KiCad 10 controller for the Bleps spacecraft fits the shaft face of one Fau
 
 [Schematic PDF](review/Reaction-Wheel-Controller-schematic.pdf) · [Assembly STEP](review/Reaction-Wheel-Controller-assembly.step) · [Mounted assembly](review/Reaction-Wheel-Controller-assembly.png) · [Mounting profile](review/Reaction-Wheel-Controller-mounting-profile.png) · [Shaft-facing PCB](review/Reaction-Wheel-Controller-shaft-face.png) · [Motor-facing PCB](review/Reaction-Wheel-Controller-motor-face.png)
 
-[Waterline — Earth](review/art-concepts/Anableps-Waterline-Earth.png) uses the shaft opening as Earth’s night side, with a lit coastline beside the aqueduct. The [original Waterline](review/art-concepts/Anableps-Waterline.png) and [Countercurrent](review/art-concepts/Anableps-Countercurrent.png) prints are earlier rear-art concepts featuring the four-eyed fish *Anableps anableps*. Their apertures are illustrative. Final artwork needs the native board’s keepouts, pogo pads, rear sensing parts and registration.
+[Waterline Eclipse](review/art-concepts/Anableps-Waterline-Eclipse.png) places the enlarged sunlit Earth beside the original aqueduct. Its [1:1 rear artwork proof](review/art-concepts/Anableps-Waterline-Eclipse.svg) uses the 26 × 26 mm outline, Ø6.40 mm shaft opening and four Ø2.20 mm mounting holes from the PCB. The proof covers mechanical registration. The rear pads, parts and legend still need silkscreen clearances before import. Earlier concepts include [Waterline — Earth](review/art-concepts/Anableps-Waterline-Earth.png), [Waterline](review/art-concepts/Anableps-Waterline.png) and [Countercurrent](review/art-concepts/Anableps-Countercurrent.png).
 
 ## Mechanical and harness interface
 
