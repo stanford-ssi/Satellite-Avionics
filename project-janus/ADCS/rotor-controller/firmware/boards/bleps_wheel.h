@@ -1,0 +1,18 @@
+#ifndef BLEPS_WHEEL_BOARD_H
+#define BLEPS_WHEEL_BOARD_H
+
+pico_board_cmake_set(PICO_PLATFORM, rp2350)
+#define PICO_RP2350A 1
+
+pico_board_cmake_set_default(PICO_FLASH_SIZE_BYTES, 524288)
+#define PICO_FLASH_SIZE_BYTES 524288
+
+pico_board_cmake_set_default(PICO_RP2350_A2_SUPPORTED, 1)
+#define PICO_RP2350_A2_SUPPORTED 1
+
+#define PICO_XOSC_FREQ_HZ 12000000
+#define PICO_DEFAULT_I2C 0
+#define PICO_DEFAULT_I2C_SDA_PIN 4
+#define PICO_DEFAULT_I2C_SCL_PIN 5
+
+#endif
