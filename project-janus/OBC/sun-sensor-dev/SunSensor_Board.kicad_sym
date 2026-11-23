@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at -15.24 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "ADC128S102CIMT"
-			(at 0 0 0)
+			(at 0 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW0016A-IPC_A"
+		(property "Footprint" "SunSensor_Board:PW0016A-MFG"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66,16 +66,6 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "ADC128S102CIMT"
 			(at 0 0 0)
 			(show_name no)
@@ -101,7 +91,7 @@
 		(symbol "ADC128S102CIMT_0_1"
 			(polyline
 				(pts
-					(xy 5.08 5.08) (xy 5.08 -43.18)
+					(xy -13.97 24.13) (xy -13.97 -24.13)
 				)
 				(stroke
 					(width 0.2032)
@@ -113,7 +103,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -43.18) (xy 33.02 -43.18)
+					(xy -13.97 -24.13) (xy 13.97 -24.13)
 				)
 				(stroke
 					(width 0.2032)
@@ -125,7 +115,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 5.08) (xy 5.08 5.08)
+					(xy 13.97 24.13) (xy -13.97 24.13)
 				)
 				(stroke
 					(width 0.2032)
@@ -137,7 +127,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -43.18) (xy 33.02 5.08)
+					(xy 13.97 -24.13) (xy 13.97 24.13)
 				)
 				(stroke
 					(width 0.2032)
@@ -148,7 +138,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -40.64 0)
+				(at -19.05 -21.59 0)
 				(length 5.08)
 				(name "CS_N"
 					(effects
@@ -166,7 +156,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at -19.05 19.05 0)
 				(length 5.08)
 				(name "VA"
 					(effects
@@ -184,7 +174,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -38.1 180)
+				(at 19.05 -19.05 180)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -201,8 +191,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -15.24 0)
+			(pin input line
+				(at -19.05 3.81 0)
 				(length 5.08)
 				(name "IN0"
 					(effects
@@ -219,8 +209,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -17.78 0)
+			(pin input line
+				(at -19.05 1.27 0)
 				(length 5.08)
 				(name "IN1"
 					(effects
@@ -237,8 +227,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -20.32 0)
+			(pin input line
+				(at -19.05 -1.27 0)
 				(length 5.08)
 				(name "IN2"
 					(effects
@@ -255,8 +245,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -22.86 0)
+			(pin input line
+				(at -19.05 -3.81 0)
 				(length 5.08)
 				(name "IN3"
 					(effects
@@ -273,8 +263,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -25.4 0)
+			(pin input line
+				(at -19.05 -6.35 0)
 				(length 5.08)
 				(name "IN4"
 					(effects
@@ -291,8 +281,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -27.94 0)
+			(pin input line
+				(at -19.05 -8.89 0)
 				(length 5.08)
 				(name "IN5"
 					(effects
@@ -309,8 +299,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -30.48 0)
+			(pin input line
+				(at -19.05 -11.43 0)
 				(length 5.08)
 				(name "IN6"
 					(effects
@@ -327,8 +317,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -33.02 0)
+			(pin input line
+				(at -19.05 -13.97 0)
 				(length 5.08)
 				(name "IN7"
 					(effects
@@ -346,7 +336,7 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 -40.64 180)
+				(at 19.05 -21.59 180)
 				(length 5.08)
 				(name "DGND"
 					(effects
@@ -364,7 +354,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 0)
+				(at -19.05 13.97 0)
 				(length 5.08)
 				(name "VD"
 					(effects
@@ -382,7 +372,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -19.05 8.89 0)
 				(length 5.08)
 				(name "DIN"
 					(effects
@@ -399,8 +389,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 38.1 -10.16 180)
+			(pin tri_state line
+				(at 19.05 8.89 180)
 				(length 5.08)
 				(name "DOUT"
 					(effects
@@ -418,7 +408,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -38.1 0)
+				(at -19.05 -19.05 0)
 				(length 5.08)
 				(name "SCLK"
 					(effects
@@ -440,7 +430,7 @@
 	)
 	(symbol "OPA4991IDYYR"
 		(pin_names
-			(offset 0.254)
+			(offset 0.127)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -448,50 +438,50 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "OPA4991IDYYR"
-			(at 20.32 7.62 0)
+			(at 0 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SOT23_DYY_TEX"
-			(at 0 0 0)
+		(property "Footprint" "SunSensor_Board:SOT23_DYY_TEX"
+			(at -1.27 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa4991"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa4991.pdf"
+			(at 1.27 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad RRIO 40 V op-amp, 4.5 MHz. Flight: OPA4H199-SEP (same DYY pinout, verified)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -512,7 +502,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "OPA4991IDYYR"
+		(property "ki_keywords" "quad opamp"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -523,7 +513,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "SOT23_DYY_TEX SOT23_DYY_TEX-M SOT23_DYY_TEX-L"
+		(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -534,59 +524,23 @@
 				)
 			)
 		)
-		(symbol "OPA4991IDYYR_0_1"
+		(symbol "OPA4991IDYYR_1_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -20.32)
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -20.32) (xy 33.02 -20.32)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -20.32) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
-				(at 0 0 0)
-				(length 7.62)
-				(name "OUT1"
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -602,9 +556,9 @@
 				)
 			)
 			(pin input line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "IN1-"
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -620,9 +574,9 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "IN1+"
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -637,28 +591,24 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "OPA4991IDYYR_2_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
-				(length 7.62)
-				(name "IN2+"
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -674,9 +624,9 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 0)
-				(length 7.62)
-				(name "IN2-"
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -692,9 +642,9 @@
 				)
 			)
 			(pin output line
-				(at 0 -15.24 0)
-				(length 7.62)
-				(name "OUT2"
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -709,10 +659,24 @@
 					)
 				)
 			)
+		)
+		(symbol "OPA4991IDYYR_3_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin output line
-				(at 40.64 -15.24 180)
-				(length 7.62)
-				(name "OUT3"
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -728,9 +692,9 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -12.7 180)
-				(length 7.62)
-				(name "IN3-"
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -746,9 +710,9 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -10.16 180)
-				(length 7.62)
-				(name "IN3+"
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -763,28 +727,24 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 40.64 -7.62 180)
-				(length 7.62)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "OPA4991IDYYR_4_1"
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 			(pin input line
-				(at 40.64 -5.08 180)
-				(length 7.62)
-				(name "IN4+"
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -800,9 +760,9 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -2.54 180)
-				(length 7.62)
-				(name "IN4-"
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -818,9 +778,9 @@
 				)
 			)
 			(pin output line
-				(at 40.64 0 180)
-				(length 7.62)
-				(name "OUT4"
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -828,6 +788,44 @@
 					)
 				)
 				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "OPA4991IDYYR_5_1"
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 90)
+				(length 3.81)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
