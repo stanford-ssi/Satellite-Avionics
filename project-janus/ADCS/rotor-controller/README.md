@@ -4,7 +4,7 @@ This KiCad 10 controller for the Bleps spacecraft fits the shaft face of one Fau
 
 [Schematic PDF](review/Reaction-Wheel-Controller-schematic.pdf) · [Assembly STEP](review/Reaction-Wheel-Controller-assembly.step) · [Mounted assembly](review/Reaction-Wheel-Controller-assembly.png) · [Mounting profile](review/Reaction-Wheel-Controller-mounting-profile.png) · [Shaft-facing PCB](review/Reaction-Wheel-Controller-shaft-face.png) · [Motor-facing PCB](review/Reaction-Wheel-Controller-motor-face.png)
 
-The [Waterline](review/art-concepts/Anableps-Waterline.png) and [Countercurrent](review/art-concepts/Anableps-Countercurrent.png) prints of the four-eyed fish *Anableps anableps* are rear-art concepts for review. Their apertures are illustrative. Final artwork needs the native board’s keepouts, pogo pads, rear sensing parts and registration.
+[Waterline — Earth](review/art-concepts/Anableps-Waterline-Earth.png) uses the shaft opening as Earth’s night side, with a lit coastline beside the aqueduct. The [original Waterline](review/art-concepts/Anableps-Waterline.png) and [Countercurrent](review/art-concepts/Anableps-Countercurrent.png) prints are earlier rear-art concepts featuring the four-eyed fish *Anableps anableps*. Their apertures are illustrative. Final artwork needs the native board’s keepouts, pogo pads, rear sensing parts and registration.
 
 ## Mechanical and harness interface
 
