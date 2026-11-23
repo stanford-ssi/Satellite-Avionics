@@ -1,0 +1,3217 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "ABM8-272-T3"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Y"
+			(at 3.175 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ABM8-272-T3"
+			(at 3.175 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RotorMCU:Abracon_ABM8_3225_4Pad"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 0 -12.7 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 0 -15.24 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ABM8-272-T3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Abracon"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "12 MHz, 10 pF load, ±30 ppm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ABM8-272-T3/22472366"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Model Source" "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/02485e56ba8d4732a26526d2983fc729"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "ki_keywords" "quartz ceramic resonator oscillator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Crystal*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ABM8-272-T3_0_1"
+			(polyline
+				(pts
+					(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -2.032 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -1.27) (xy -2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.143 2.54)
+				(end 1.143 -2.54)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 0 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -1.27) (xy 2.032 1.27)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ABM8-272-T3_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 1.27)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 1.27)
+				(hide yes)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AOTA-B201610S3R3-101-T"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Value" "3.3µH"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" "RotorMCU:Abracon_AOTA_B201610S3R3_101_T"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/AOTA-B201610S3R3-101-T/25621527"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "3.3 µH; 2.1 A; 2.4 A saturation"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Abracon"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "AOTA-B201610S3R3-101-T"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "AOTA-B201610S3R3-101-T_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AOTA-B201610S3R3-101-T_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GCM1555C1H150FA16D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.65 1.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15p"
+			(at 2.65 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM1555C1H150FA16D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM1555C1H150FA16D/6606811"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V C0G, ±1%"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H150FA16D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Voltage" "50 V"
+			(at 2.65 -1.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.82 0.82)
+					(color 13 111 120 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "GCM1555C1H150FA16D_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GCM1555C1H150FA16D_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GCM155R71H104KE02D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.65 1.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.65 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H104KE02D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Voltage" "50 V"
+			(at 2.65 -1.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.82 0.82)
+					(color 13 111 120 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "GCM155R71H104KE02D_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GCM155R71H104KE02D_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "GRM155R60J475ME47D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 2.65 1.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7µ"
+			(at 2.65 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R60J475ME47D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J475ME47D/3719860"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "6.3 V X5R"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "GRM155R60J475ME47D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Voltage" "6.3 V"
+			(at 2.65 -1.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.82 0.82)
+					(color 13 111 120 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "GRM155R60J475ME47D_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GRM155R60J475ME47D_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MR25H40MDF"
+		(pin_names
+			(offset 0.8)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "MR25H40MDF"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "RotorMCU:MR25H40MDF"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.everspin.com/supportdocs/MR25H40MDF"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MR25H40MDF"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Everspin Technologies"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(symbol "MR25H40MDF_1_1"
+			(rectangle
+				(start 0 3.81)
+				(end 25.4 -22.86)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 29.21 0 180)
+				(length 3.81)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at 29.21 -11.43 180)
+				(length 3.81)
+				(name "SO"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -3.81 0)
+				(length 3.81)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.21 -7.62 180)
+				(length 3.81)
+				(name "SI"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 29.21 -3.81 180)
+				(length 3.81)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 0 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -19.05 0)
+				(length 3.81)
+				(name "EP"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RP2350A"
+		(pin_names
+			(offset 0.8)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "RP2350A"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SC1509-A4"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Raspberry Pi"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(symbol "RP2350A_1_1"
+			(rectangle
+				(start 0 0)
+				(end 50.8 -153.67)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -130.81 0)
+				(length 3.81)
+				(name "IOVDD_×6"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -157.48 90)
+				(length 3.81)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -157.48 90)
+				(length 3.81)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -11.43 0)
+				(length 3.81)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 54.61 -127 180)
+				(length 3.81)
+				(name "DVDD_×3"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -24.13 0)
+				(length 3.81)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -35.56 0)
+				(length 3.81)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -157.48 90)
+				(length 3.81)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -130.81 0)
+				(length 3.81)
+				(hide yes)
+				(name "IOVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -157.48 90)
+				(length 3.81)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -157.48 90)
+				(length 3.81)
+				(name "GPIO9"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -44.45 180)
+				(length 3.81)
+				(name "GPIO10"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -48.26 180)
+				(length 3.81)
+				(name "GPIO11"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -52.07 180)
+				(length 3.81)
+				(name "GPIO12"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -157.48 90)
+				(length 3.81)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 21.59 -157.48 90)
+				(length 3.81)
+				(name "GPIO14"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 24.13 -157.48 90)
+				(length 3.81)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -130.81 0)
+				(length 3.81)
+				(hide yes)
+				(name "IOVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -101.6 0)
+				(length 3.81)
+				(name "XIN"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -116.84 0)
+				(length 3.81)
+				(name "XOUT"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 54.61 -127 180)
+				(length 3.81)
+				(hide yes)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -55.88 0)
+				(length 3.81)
+				(name "SWCLK"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -60.96 0)
+				(length 3.81)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -44.45 0)
+				(length 3.81)
+				(name "RUN"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -11.43 180)
+				(length 3.81)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -15.24 180)
+				(length 3.81)
+				(name "GPIO17"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -19.05 180)
+				(length 3.81)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -130.81 0)
+				(length 3.81)
+				(hide yes)
+				(name "IOVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -22.86 180)
+				(length 3.81)
+				(name "GPIO19"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -27.94 180)
+				(length 3.81)
+				(name "GPIO20"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -31.75 180)
+				(length 3.81)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -35.56 180)
+				(length 3.81)
+				(name "GPIO22"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 26.67 -157.48 90)
+				(length 3.81)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 29.21 -157.48 90)
+				(length 3.81)
+				(name "GPIO24"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 31.75 -157.48 90)
+				(length 3.81)
+				(name "GPIO25"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -130.81 0)
+				(length 3.81)
+				(hide yes)
+				(name "IOVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 54.61 -127 180)
+				(length 3.81)
+				(hide yes)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -60.96 180)
+				(length 3.81)
+				(name "GPIO26/ADC0"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -64.77 180)
+				(length 3.81)
+				(name "GPIO27/ADC1"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 54.61 -68.58 180)
+				(length 3.81)
+				(name "GPIO28/ADC2"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 34.29 -157.48 90)
+				(length 3.81)
+				(name "GPIO29/ADC3"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -134.62 0)
+				(length 3.81)
+				(name "ADC_AVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -130.81 0)
+				(length 3.81)
+				(hide yes)
+				(name "IOVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 54.61 -99.06 180)
+				(length 3.81)
+				(name "VREG_AVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 54.61 -137.16 180)
+				(length 3.81)
+				(name "VREG_PGND"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 54.61 -113.03 180)
+				(length 3.81)
+				(name "VREG_LX"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 54.61 -85.09 180)
+				(length 3.81)
+				(name "VREG_VIN"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 54.61 -120.65 180)
+				(length 3.81)
+				(name "VREG_FB"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 36.83 -157.48 90)
+				(length 3.81)
+				(name "USB_DM"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 39.37 -157.48 90)
+				(length 3.81)
+				(name "USB_DP"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -138.43 0)
+				(length 3.81)
+				(name "USB_OTP_VDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -142.24 0)
+				(length 3.81)
+				(name "QSPI_IOVDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 41.91 -157.48 90)
+				(length 3.81)
+				(name "QSPI_SD3"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -77.47 0)
+				(length 3.81)
+				(name "QSPI_SCLK"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -81.28 0)
+				(length 3.81)
+				(name "QSPI_SD0"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 44.45 -157.48 90)
+				(length 3.81)
+				(name "QSPI_SD2"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -85.09 0)
+				(length 3.81)
+				(name "QSPI_SD1"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -73.66 0)
+				(length 3.81)
+				(name "~{QSPI_SS}"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 54.61 -140.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TLV803EA30DCKR"
+		(pin_names
+			(offset 0.8)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "TLV803EA30DCKR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv803e.pdf"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV803EA30DCKR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(symbol "TLV803EA30DCKR_1_1"
+			(rectangle
+				(start 0 5.08)
+				(end 19.05 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -3.81 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 22.86 -1.27 180)
+				(length 3.81)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.05 1.05)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.92 0.92)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TNPW04021K00BEED"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.25 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW04021K00BEED/1606310"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V, ±0.1%"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "TNPW04021K00BEED"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "TNPW04021K00BEED_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TNPW04021K00BEED_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TNPW040233R0DEED"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.25 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW040233R0DEED/7659950"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V, ±0.5%"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "TNPW040233R0DEED"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "TNPW040233R0DEED_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TNPW040233R0DEED_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TNPW060310K0BEEA"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.25 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.85 0.85)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "75 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "MPN" "TNPW060310K0BEEA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(symbol "TNPW060310K0BEEA_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TNPW060310K0BEEA_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

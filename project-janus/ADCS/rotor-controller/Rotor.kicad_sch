@@ -1,0 +1,2733 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9f0db85e-0421-488c-a01b-9a143a5d11eb")
+	(paper "B")
+	(title_block
+		(title "Bleps Rotor Controller")
+		(date "2026-11-22")
+		(rev "P1")
+		(company "Stanford Student Space Initiative")
+	)
+	(lib_symbols
+		(symbol "MotorParts:Motor_Ribbon_8"
+			(pin_names
+				(offset 0.9)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "Motor_Ribbon_8"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "MotorParts:Faulhaber_2610_Ribbon_1x08_P1.00mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://eshop.faulhaber.com/media/0a/d7/d4/1775629787/EN_2610_B_DFF.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Description" "Tinned 2610T012B ribbon, cable conductor numbers, component side"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(symbol "Motor_Ribbon_8_1_1"
+				(rectangle
+					(start 0 2.54)
+					(end 12.7 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 3.81)
+					(name "Phase_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -2.54 0)
+					(length 3.81)
+					(name "Phase_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -5.08 0)
+					(length 3.81)
+					(name "Phase_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -7.62 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -10.16 0)
+					(length 3.81)
+					(name "Hall_+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -12.7 0)
+					(length 3.81)
+					(name "Hall_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -15.24 0)
+					(length 3.81)
+					(name "Hall_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -17.78 0)
+					(length 3.81)
+					(name "Hall_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RotorGecko:G125-MS10605L3R"
+			(pin_names
+				(offset 0.8)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "G125-MS10605L3R"
+				(at 0 9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "RotorGecko:G125-MS10605L3R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.harwin.com/products/G125-MS10605L3R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Description" "Harwin Gecko Latch six-contact vertical SMT plug for the spacecraft power and CAN harness"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "MPN" "G125-MS10605L3R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Manufacturer" "Harwin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(symbol "G125-MS10605L3R_0_1"
+				(rectangle
+					(start -7.62 8.255)
+					(end 7.62 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "G125-MS10605L3R_1_1"
+				(pin power_out line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Mount on 2.5 mm spacers for motor-side component clearance."
+		(exclude_from_sim no)
+		(at 31.75 217.17 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+			)
+			(justify left)
+		)
+		(uuid "292f02b4-df0c-5456-9281-71b9cdac4556")
+	)
+	(text "Bleps Rotor Controller"
+		(exclude_from_sim no)
+		(at 215.9 29.21 0)
+		(effects
+			(font
+				(size 5.7 5.7)
+				(bold yes)
+			)
+		)
+		(uuid "430a2a18-75d6-5761-a149-ff27e410bc0c")
+	)
+	(text "Hall-sensed field-oriented drive for the Faulhaber 2610T012B"
+		(exclude_from_sim no)
+		(at 215.9 41.91 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "4b1cb7ba-1918-528f-b1b4-a30eacbcca54")
+	)
+	(text "and Classical CAN"
+		(exclude_from_sim no)
+		(at 22.86 110.49 0)
+		(effects
+			(font
+				(size 1.25 1.25)
+			)
+			(justify left)
+		)
+		(uuid "799bafcb-4a92-5a9c-85d9-bcd233ed26ab")
+	)
+	(text "Protected 2S battery"
+		(exclude_from_sim no)
+		(at 22.86 106.68 0)
+		(effects
+			(font
+				(size 1.25 1.25)
+			)
+			(justify left)
+		)
+		(uuid "82bde354-e62d-52a8-b6dc-c3004bd52c28")
+	)
+	(text "DRV8311P-Q1"
+		(exclude_from_sim no)
+		(at 269.24 182.88 0)
+		(effects
+			(font
+				(size 1.45 1.45)
+			)
+			(justify left)
+		)
+		(uuid "a1583255-5ec7-5070-9e6d-0c4dae6f522e")
+	)
+	(text "Vehicle harness"
+		(exclude_from_sim no)
+		(at 22.86 100.33 0)
+		(effects
+			(font
+				(size 2.05 2.05)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c3de4b80-ff7d-50b9-b536-1b29f16fec4c")
+	)
+	(text "Shaft-face mount"
+		(exclude_from_sim no)
+		(at 31.75 203.2 0)
+		(effects
+			(font
+				(size 2.1 2.1)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e78e52f7-abd6-510c-9aa5-7c4d02b720cb")
+	)
+	(text "RP2350A  /  512 KiB MRAM"
+		(exclude_from_sim no)
+		(at 175.26 182.88 0)
+		(effects
+			(font
+				(size 1.45 1.45)
+			)
+			(justify left)
+		)
+		(uuid "e8442b60-fb0c-5222-a894-72d0ec495e68")
+	)
+	(text "8-wire motor ribbon"
+		(exclude_from_sim no)
+		(at 365.76 106.68 0)
+		(effects
+			(font
+				(size 1.28 1.28)
+			)
+			(justify left)
+		)
+		(uuid "e84c90cf-f0b2-5fcd-8a36-761349423768")
+	)
+	(text "2610T012B"
+		(exclude_from_sim no)
+		(at 365.76 100.33 0)
+		(effects
+			(font
+				(size 2.05 2.05)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f67f0716-5310-5346-abaf-e467e1e4e09b")
+	)
+	(text "26 × 26 mm flange  •  Ø6.4 mm pilot clearance  •  4 × Ø2.2 mm on Ø30 mm"
+		(exclude_from_sim no)
+		(at 31.75 210.82 0)
+		(effects
+			(font
+				(size 1.45 1.45)
+			)
+			(justify left)
+		)
+		(uuid "f722a0f8-8bb5-553e-9dcf-738e0a563d17")
+	)
+	(junction
+		(at 48.26 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c7e52b-94f6-545f-8bc8-36a467b554d3")
+	)
+	(junction
+		(at 53.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0706d28c-d1f5-5b4f-b021-4c9ab6f30ddd")
+	)
+	(junction
+		(at 53.34 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0edbc571-83b4-5316-9551-2017a934f363")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0229ad1c-0a0e-5aa0-80c8-24ff7d225da6")
+	)
+	(wire
+		(pts
+			(xy 242.57 139.7) (xy 266.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029191c0-1e8d-5a7b-8283-7e497bcf50f1")
+	)
+	(wire
+		(pts
+			(xy 43.18 120.65) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336172c-8af7-5bd3-9d80-e3775c7669e7")
+	)
+	(wire
+		(pts
+			(xy 256.54 107.95) (xy 266.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034728c8-df2e-58fe-8fe3-51e55ba93080")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 256.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fab1c8-24ca-5732-88db-ab34c2828bf4")
+	)
+	(wire
+		(pts
+			(xy 242.57 162.56) (xy 266.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d5245d-a525-58d9-9f86-3099c90ee9e2")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 166.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fefb86-f9ea-5d36-8fdc-4e277d9d210e")
+	)
+	(wire
+		(pts
+			(xy 53.34 120.65) (xy 53.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a1e378-dc42-54af-ad44-f67a9d93878f")
+	)
+	(wire
+		(pts
+			(xy 242.57 120.65) (xy 266.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d71e20f-7eed-519d-ad59-13450e86f4e8")
+	)
+	(wire
+		(pts
+			(xy 328.93 129.54) (xy 381 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e21d585-dea0-5c63-bc71-9f814f9f1a75")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 73.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26830b9c-ebb2-5e84-9efe-0f43a730674b")
+	)
+	(wire
+		(pts
+			(xy 242.57 135.89) (xy 266.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2992ed18-439b-5bc4-9ce3-56a68e957bfd")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.92) (xy 166.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1d5d6e-d8c8-5baa-bce1-dd3baa78a956")
+	)
+	(wire
+		(pts
+			(xy 242.57 132.08) (xy 266.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de07c1a-4a0a-5ae9-b35d-af86cbacb5ff")
+	)
+	(wire
+		(pts
+			(xy 328.93 127) (xy 381 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328f1bd6-4c33-5897-9f23-4dad035e243f")
+	)
+	(wire
+		(pts
+			(xy 43.18 125.73) (xy 48.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3712c0-c460-5778-b023-e549db9565d7")
+	)
+	(wire
+		(pts
+			(xy 43.18 133.35) (xy 73.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423429ab-1410-5afc-8f7a-8e72e64be110")
+	)
+	(wire
+		(pts
+			(xy 242.57 154.94) (xy 266.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521ae95e-773f-594a-82be-aa2dbdcaf8c5")
+	)
+	(wire
+		(pts
+			(xy 48.26 128.27) (xy 50.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c89f81-db4f-534e-859c-cbd4469ad9d3")
+	)
+	(wire
+		(pts
+			(xy 328.93 139.7) (xy 381 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f8f1f1-8e5a-5808-a009-a1360254dcea")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1faa01-22e3-5ce5-8500-9810f007223a")
+	)
+	(wire
+		(pts
+			(xy 242.57 166.37) (xy 266.7 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b1daa1-edb1-5c63-921c-e8234cdfa0e3")
+	)
+	(wire
+		(pts
+			(xy 134.62 148.59) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ed9022-4a1c-5a63-91a6-75632a73ce6b")
+	)
+	(wire
+		(pts
+			(xy 134.62 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752d98cd-0ba3-5b5e-9ca3-29ca398fce5e")
+	)
+	(wire
+		(pts
+			(xy 43.18 128.27) (xy 48.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76eab0a9-d69d-5833-aa72-58a6e1f92914")
+	)
+	(wire
+		(pts
+			(xy 242.57 151.13) (xy 266.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821818ce-f2af-501c-95e0-011b4fa113dd")
+	)
+	(wire
+		(pts
+			(xy 134.62 144.78) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c3a9c8-f146-5abb-a160-6b56f6f275db")
+	)
+	(wire
+		(pts
+			(xy 242.57 113.03) (xy 266.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870e82ec-8977-5b46-9c8b-642f3a9a3cf1")
+	)
+	(wire
+		(pts
+			(xy 242.57 124.46) (xy 266.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8762a571-65f9-5295-b40c-abe1521644af")
+	)
+	(wire
+		(pts
+			(xy 328.93 142.24) (xy 381 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a67e20-b74b-59e7-b5b7-1b87ad0c7cdb")
+	)
+	(wire
+		(pts
+			(xy 134.62 74.93) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d516819-e420-588d-9ae5-efc989809b26")
+	)
+	(wire
+		(pts
+			(xy 242.57 170.18) (xy 266.7 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db474cd-94d6-5b02-81e7-abb2df99e976")
+	)
+	(wire
+		(pts
+			(xy 43.18 123.19) (xy 53.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1396b43-49b2-550a-9e0f-f84f660132c1")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33a7abb-e266-55b7-adf4-fa080803714a")
+	)
+	(wire
+		(pts
+			(xy 134.62 125.73) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8454b91-59ce-5552-b6a4-7ef55d080c47")
+	)
+	(wire
+		(pts
+			(xy 256.54 57.15) (xy 256.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf02e67-30a7-5474-a093-02fdd3097c37")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 48.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b036cf8c-cdc3-5116-9903-47808a0c7f43")
+	)
+	(wire
+		(pts
+			(xy 53.34 123.19) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4b2487-26ad-5200-8e8e-5304fa1f4d83")
+	)
+	(wire
+		(pts
+			(xy 242.57 116.84) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca320962-6a2e-5ead-abe7-df2f3183ea16")
+	)
+	(wire
+		(pts
+			(xy 43.18 130.81) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d332878b-7d3b-5c62-ac98-99f8eef6ab53")
+	)
+	(wire
+		(pts
+			(xy 328.93 124.46) (xy 381 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edeb23e0-a278-56b1-96d3-3a7626a3f091")
+	)
+	(wire
+		(pts
+			(xy 242.57 147.32) (xy 266.7 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b524eb-8f05-59db-b84a-ae308aa21a78")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3245c68-236d-5ffa-8618-474125b728ad")
+	)
+	(wire
+		(pts
+			(xy 381 132.08) (xy 368.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77c4643-254b-5082-803b-cef4937d5c6f")
+	)
+	(wire
+		(pts
+			(xy 328.93 137.16) (xy 381 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa655224-1cc2-5fbe-ad1a-872e4a65f5d6")
+	)
+	(wire
+		(pts
+			(xy 381 134.62) (xy 358.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feac6c3b-78ce-5c2d-a3d4-48dcb23026eb")
+	)
+	(label "MOTOR_VM"
+		(at 190.5 57.15 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeac2d91-96b8-57d6-a29a-ca95646d488e")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 358.14 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08b2f40e-a5ac-5210-ac89-0cd8762b7e1c")
+		(property "Reference" "#PWR05"
+			(at 358.14 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 351.79 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "202037d2-6371-4d1c-a36a-a04785c66019")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e10fe4f-e998-5a7d-baab-1f03ccba1a08")
+		(property "Reference" "#PWR02"
+			(at 158.75 71.247 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 158.75 74.295 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6554e9ce-15b3-49bf-ade4-90067d759075")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RotorGecko:G125-MS10605L3R")
+		(at 33.02 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dd80045-4393-5c41-a7c9-a07cb64af105")
+		(property "Reference" "J201"
+			(at 33.02 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "G125-MS10605L3R"
+			(at 33.02 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "RotorGecko:G125-MS10605L3R"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.harwin.com/products/G125-MS10605L3R"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "G125-MS10605L3R"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e879011c-87d9-493d-acfb-b9363653575e")
+		)
+		(pin "2"
+			(uuid "c3493664-63c8-4376-a809-3d716ee7eec1")
+		)
+		(pin "3"
+			(uuid "a5e1f9da-bb34-437a-81a1-c6657105acc5")
+		)
+		(pin "4"
+			(uuid "0a98e343-aaeb-4590-b37c-94343b7fa272")
+		)
+		(pin "5"
+			(uuid "eb7d50f9-e28f-4579-bab1-8b99525fc315")
+		)
+		(pin "6"
+			(uuid "abbc116c-fbe0-4553-9ce9-a28d7de4789f")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89b7e42c-2143-5705-a0a8-4cf9720777de")
+		(property "Reference" "#PWR04"
+			(at 368.3 132.08 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 132.08 270)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4ddd280-f5f6-45c3-b48e-66b993f8ccf7")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d484e4f5-9910-55c5-ae92-4ea65da5b124")
+		(property "Reference" "#PWR03"
+			(at 50.8 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82351b8a-4430-4d29-a4d3-14bcfd52243f")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MotorParts:Motor_Ribbon_8")
+		(at 384.81 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7b2945f-1c28-5bdb-a607-d8bd1bd62404")
+		(property "Reference" "J301"
+			(at 384.81 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "Motor ribbon"
+			(at 384.81 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" "MotorParts:Faulhaber_2610_Ribbon_1x08_P1.00mm"
+			(at 384.81 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df81ca61-dbec-49c4-9461-7412f1e6eec2")
+		)
+		(pin "2"
+			(uuid "a4a8467a-bf91-48e5-8800-ea656b7ad5a8")
+		)
+		(pin "3"
+			(uuid "520b4bd0-68c1-4f6f-9034-78b15213c47b")
+		)
+		(pin "4"
+			(uuid "a381c81d-be21-4fca-a6b0-47b2d2641bc5")
+		)
+		(pin "5"
+			(uuid "6923c80e-2659-4f6f-80e0-a41e5b3ba729")
+		)
+		(pin "6"
+			(uuid "d06d9f8a-78eb-4fb2-a98a-2935eaf65052")
+		)
+		(pin "7"
+			(uuid "98258805-49b2-4f17-bf61-6783a8a6c679")
+		)
+		(pin "8"
+			(uuid "cd86fef3-d8c9-4ccf-b8d6-b185bbe08c39")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "J301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 148.59 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edef4651-dbe2-5e23-b2c3-ba6b5015540f")
+		(property "Reference" "#PWR01"
+			(at 148.59 61.087 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 148.59 64.135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3090e103-f7d9-4b68-acad-7c7fe73c1b90")
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 109.22)
+		(size 60.96 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 62 125 128 1)
+		)
+		(fill
+			(color 237 247 244 0.35)
+		)
+		(uuid "0054cda5-a3ad-4ed2-928f-bad0cadf799f")
+		(property "Sheetname" "CAN and housekeeping"
+			(at 73.66 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bus.kicad_sch"
+			(at 73.66 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 73.66 130.81 180)
+			(uuid "c6cd8027-767e-5821-9c73-5969b9d6c8e9")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 73.66 133.35 180)
+			(uuid "a26e4d9e-4a72-52de-9ff4-bbd9ec434ff4")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 134.62 121.92 0)
+			(uuid "b71dfc04-8a46-5928-9f40-da0665e8d635")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 134.62 125.73 0)
+			(uuid "1944b0cf-af37-5761-8d53-e63f3d460e65")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMP_SCL" input
+			(at 134.62 133.35 0)
+			(uuid "63407b0a-984d-5b36-890a-0e48207b0a24")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMP_SDA" bidirectional
+			(at 134.62 137.16 0)
+			(uuid "63129c83-35a7-5c43-be2a-fb050fc46063")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "WDI" input
+			(at 134.62 144.78 0)
+			(uuid "e67eddec-bbd4-5111-8734-c4129bb5698b")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "RUN_N" output
+			(at 134.62 148.59 0)
+			(uuid "bb5722d7-a239-576e-a73c-6233336d79f8")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 102.87)
+		(size 62.23 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 62 125 128 1)
+		)
+		(fill
+			(color 237 247 244 0.35)
+		)
+		(uuid "11975f7e-8044-433c-80d0-84315ce8be1b")
+		(property "Sheetname" "Three-phase bridge"
+			(at 266.7 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor.kicad_sch"
+			(at 266.7 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "DRV_CS_N" input
+			(at 266.7 113.03 180)
+			(uuid "59c6b063-3e9f-5851-9772-4d649dc3d534")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_SCLK" input
+			(at 266.7 116.84 180)
+			(uuid "8c059c82-d6b3-5ccb-aa1a-a147dce91aa5")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_SDI" input
+			(at 266.7 120.65 180)
+			(uuid "0a67b8c6-853e-596a-a08e-ec1afde90442")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_SDO" output
+			(at 266.7 124.46 180)
+			(uuid "eb1257fc-7c3e-55f5-8518-6769d461cff8")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_WAKE" input
+			(at 266.7 132.08 180)
+			(uuid "c961521c-76df-5e8e-b042-faed073c4d36")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_SYNC" input
+			(at 266.7 135.89 180)
+			(uuid "6cca718e-5e61-5c18-bd1c-98b91f6fec66")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_FAULT_N" output
+			(at 266.7 139.7 180)
+			(uuid "4f7638af-eeb3-5925-a7a0-9bd045939686")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISENSE_A" output
+			(at 266.7 147.32 180)
+			(uuid "749b1355-bf7e-597d-9d50-1cd56458af35")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISENSE_B" output
+			(at 266.7 151.13 180)
+			(uuid "f1fea31a-8dbe-54d4-a322-5ceecaf9ceff")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISENSE_C" output
+			(at 266.7 154.94 180)
+			(uuid "2ed7f62a-36b2-5726-913d-ccebdf2eca25")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_A" output
+			(at 266.7 162.56 180)
+			(uuid "c8665eb7-07ea-579f-91ec-0627d9529d16")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_B" output
+			(at 266.7 166.37 180)
+			(uuid "53b1fa7d-e616-5f3a-aea4-2c84f0beccf2")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_C" output
+			(at 266.7 170.18 180)
+			(uuid "51f3feb2-c20e-5ce1-ade8-c2c9b33ba77d")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_VM" input
+			(at 266.7 107.95 180)
+			(uuid "ad31d632-a0a5-5abe-9019-ad564089c4e2")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHASE_C" output
+			(at 328.93 124.46 0)
+			(uuid "1b6cfc36-dac7-5f0d-8a35-9e27aa3edcd5")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHASE_B" output
+			(at 328.93 127 0)
+			(uuid "00a7bc6e-cefd-57d6-9c2e-1b43f56491dd")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHASE_A" output
+			(at 328.93 129.54 0)
+			(uuid "f70882d7-1c77-52d9-834c-c93110705e8c")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_RAW_C" input
+			(at 328.93 137.16 0)
+			(uuid "2442cf6d-ab43-5071-8130-bf0f946963b4")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_RAW_B" input
+			(at 328.93 139.7 0)
+			(uuid "c0afeadb-8a21-5e56-8ad6-fe0aaa402f8c")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_RAW_A" input
+			(at 328.93 142.24 0)
+			(uuid "a90f40dd-e7e7-58af-af2f-8b4bf50ffb41")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 66.04)
+		(size 60.96 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 62 125 128 1)
+		)
+		(fill
+			(color 237 247 244 0.35)
+		)
+		(uuid "5725698a-1dcb-4959-a772-b0c3251a74fa")
+		(property "Sheetname" "Logic and Hall supplies"
+			(at 73.66 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 73.66 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "MOTOR_VM" input
+			(at 73.66 77.47 180)
+			(uuid "108b812d-2f3f-5ded-acd4-373b0c37c6f2")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOGIC_3V3" output
+			(at 134.62 74.93 0)
+			(uuid "96c8a039-82cf-541e-bd6e-74fda0d657d9")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_5V" output
+			(at 134.62 85.09 0)
+			(uuid "569e8be0-d978-5e4f-9e44-6ac595cb4116")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 102.87)
+		(size 76.2 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 62 125 128 1)
+		)
+		(fill
+			(color 237 247 244 0.35)
+		)
+		(uuid "c3db3bf2-110a-4f83-bced-bcb1b506ee70")
+		(property "Sheetname" "Motor control"
+			(at 166.37 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2 2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 166.37 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 166.37 121.92 180)
+			(uuid "9c980cd8-fd0b-5110-8a78-75ce95719f4a")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 166.37 125.73 180)
+			(uuid "2b35dc47-b649-5c85-8f91-505b68e2a08a")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMP_SCL" output
+			(at 166.37 133.35 180)
+			(uuid "01333ff3-62cb-55ec-a86d-ef53fab74210")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMP_SDA" bidirectional
+			(at 166.37 137.16 180)
+			(uuid "acf247ce-c740-58d1-9aba-787204cf0d2a")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "WDI" output
+			(at 166.37 144.78 180)
+			(uuid "9be2eed4-3418-54b8-9c6f-369107853ebf")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN_N" input
+			(at 166.37 148.59 180)
+			(uuid "b500ced2-51dd-5a22-a970-5ac3366ba57b")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_CS_N" output
+			(at 242.57 113.03 0)
+			(uuid "29bae7c1-c602-57e8-a922-4545272abf9e")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_SCLK" output
+			(at 242.57 116.84 0)
+			(uuid "eed331df-cb43-5d6d-9106-dd47b32743a5")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_SDI" output
+			(at 242.57 120.65 0)
+			(uuid "55ff696b-3ea0-5586-8456-9b246552e892")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_SDO" input
+			(at 242.57 124.46 0)
+			(uuid "76384580-84f7-518d-897f-2d06629973b1")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_WAKE" output
+			(at 242.57 132.08 0)
+			(uuid "9b8dadc8-73eb-5c62-87f7-0119e1d48e4b")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_SYNC" output
+			(at 242.57 135.89 0)
+			(uuid "05b6c0c7-3ddf-5ee5-9d26-b8ef12c20b9c")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_FAULT_N" input
+			(at 242.57 139.7 0)
+			(uuid "8ce26fb4-48d6-5c4b-a430-fa3b1e914074")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISENSE_A" input
+			(at 242.57 147.32 0)
+			(uuid "6c08829f-24d4-57ce-9fb3-632821fa75ef")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISENSE_B" input
+			(at 242.57 151.13 0)
+			(uuid "c2523a71-777f-5945-b332-c0d706fad431")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISENSE_C" input
+			(at 242.57 154.94 0)
+			(uuid "4dee5bc4-78e8-5495-8fa3-f2104309916f")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_A" input
+			(at 242.57 162.56 0)
+			(uuid "3a31671d-8d7a-5411-b080-3bc43006ea23")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_B" input
+			(at 242.57 166.37 0)
+			(uuid "ba83255c-b4fa-5245-bf58-7cc5d3f404e0")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_C" input
+			(at 242.57 170.18 0)
+			(uuid "d2dda9f7-5f8e-5f00-94a9-8457188ca397")
+			(effects
+				(font
+					(size 1.18 1.18)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Rotor"
+				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

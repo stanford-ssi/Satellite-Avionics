@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MotorParts")(type "KiCad")(uri "${KIPRJMOD}/MotorParts.pretty")(options "")(descr ""))
+  (lib (name "RotorBus")(type "KiCad")(uri "${KIPRJMOD}/RotorBus.pretty")(options "")(descr ""))
+  (lib (name "RotorMCU")(type "KiCad")(uri "${KIPRJMOD}/RotorMCU.pretty")(options "")(descr ""))
+  (lib (name "RotorGecko")(type "KiCad")(uri "${KIPRJMOD}/RotorGecko.pretty")(options "")(descr ""))
+  (lib (name "RotorMechanical")(type "KiCad")(uri "${KIPRJMOD}/RotorMechanical.pretty")(options "")(descr ""))
+  (lib (name "RotorPackages")(type "KiCad")(uri "${KIPRJMOD}/RotorPackages.pretty")(options "")(descr "KiCad land patterns with local component models"))
+)

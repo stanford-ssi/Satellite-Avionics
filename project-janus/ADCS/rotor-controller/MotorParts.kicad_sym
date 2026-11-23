@@ -1,0 +1,753 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "DRV8311PQRRWRQ1"
+		(pin_names
+			(offset 0.9)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "DRV8311PQRRWRQ1"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_RRW0024A_WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8311-q1.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Description" "Three-phase motor driver with tSPI duty registers and three low-side current-sense outputs"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(symbol "DRV8311PQRRWRQ1_1_1"
+			(rectangle
+				(start -30.48 31.75)
+				(end 30.48 -31.75)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin open_collector line
+				(at 34.29 13.97 180)
+				(length 3.81)
+				(name "~{FAULT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 21.59 35.56 270)
+				(length 3.81)
+				(name "CSAREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 -25.4 180)
+				(length 3.81)
+				(name "SOC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 -20.32 180)
+				(length 3.81)
+				(name "SOB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 -15.24 180)
+				(length 3.81)
+				(name "SOA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 35.56 270)
+				(length 3.81)
+				(name "CP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 35.56 270)
+				(length 3.81)
+				(name "VIN_AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 35.56 270)
+				(length 3.81)
+				(name "VM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -20.32 -35.56 90)
+				(length 3.81)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 5.08 180)
+				(length 3.81)
+				(name "OUTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 0 180)
+				(length 3.81)
+				(name "OUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 -5.08 180)
+				(length 3.81)
+				(name "OUTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -34.29 -21.59 0)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 21.59 -35.56 90)
+				(length 3.81)
+				(name "AD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -35.56 90)
+				(length 3.81)
+				(name "AD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -35.56 90)
+				(length 3.81)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 34.29 25.4 180)
+				(length 3.81)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -34.29 -26.67 0)
+				(length 3.81)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 -3.81 0)
+				(length 3.81)
+				(name "PWM_SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 6.35 0)
+				(length 3.81)
+				(name "~{SCS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -34.29 11.43 0)
+				(length 3.81)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 16.51 0)
+				(length 3.81)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 21.59 0)
+				(length 3.81)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -34.29 -11.43 0)
+				(length 3.81)
+				(name "~{SLEEP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -35.56 90)
+				(length 3.81)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Motor_Ribbon_8"
+		(pin_names
+			(offset 0.9)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "Motor_Ribbon_8"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "MotorParts:Faulhaber_2610_Ribbon_1x08_P1.00mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://eshop.faulhaber.com/media/0a/d7/d4/1775629787/EN_2610_B_DFF.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Description" "Tinned 2610T012B ribbon, cable conductor numbers, component side"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(symbol "Motor_Ribbon_8_1_1"
+			(rectangle
+				(start 0 2.54)
+				(end 12.7 -20.32)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 3.81)
+				(name "Phase_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 3.81)
+				(name "Phase_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "Phase_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "Hall_+5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "Hall_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "Hall_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "Hall_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.15 1.15)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

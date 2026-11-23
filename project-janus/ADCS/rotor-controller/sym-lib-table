@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MotorParts")(type "KiCad")(uri "${KIPRJMOD}/MotorParts.kicad_sym")(options "")(descr ""))
+  (lib (name "RotorBus")(type "KiCad")(uri "${KIPRJMOD}/RotorBus.kicad_sym")(options "")(descr ""))
+  (lib (name "RotorMCU")(type "KiCad")(uri "${KIPRJMOD}/RotorMCU.kicad_sym")(options "")(descr ""))
+  (lib (name "RotorGecko")(type "KiCad")(uri "${KIPRJMOD}/RotorGecko.kicad_sym")(options "")(descr ""))
+)

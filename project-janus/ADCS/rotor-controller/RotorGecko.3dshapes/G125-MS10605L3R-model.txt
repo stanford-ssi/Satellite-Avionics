@@ -1,0 +1,12 @@
+G125-MS10605L3R STEP model
+
+This project-generated assembly clearance model uses Harwin's published
+component dimensions. Its nominal bounding box is 7.70 x 5.80 x 6.88 mm.
+The origin is at the contact-array center on the PCB surface. The housing,
+contacts and latches are simplified. The removable pick-and-place cap and
+mated cable assembly are omitted. Check cable bend and latch release access
+against the actual harness assembly.
+
+Harwin product dimensions, drawing G125-MS1XX05L3R sheet 4 revision 10,
+and component specification C12515 appendix A1.2 are linked on the product page.
+https://www.harwin.com/products/G125-MS10605L3R

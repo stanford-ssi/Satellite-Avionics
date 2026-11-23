@@ -1,0 +1,130 @@
+{
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.13,
+        "min_track_width": 0.13,
+        "min_copper_edge_clearance": 0.25,
+        "min_via_diameter": 0.45,
+        "min_through_hole_diameter": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_hole_to_hole": 0.25,
+        "min_silk_clearance": 0.11,
+        "min_text_height": 0.65,
+        "min_text_thickness": 0.1
+      },
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      }
+    }
+  },
+  "boards": [],
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Rotor.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "meta": {
+      "version": 4
+    },
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Motor power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.23,
+        "tuning_profile": "",
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
+        "wire_width": 6
+      }
+    ],
+    "netclass_patterns": [
+      {
+        "netclass": "Motor power",
+        "pattern": "*MOTOR_VM"
+      },
+      {
+        "netclass": "Motor power",
+        "pattern": "*PHASE_?"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "*VCORE"
+      }
+    ]
+  },
+  "pcbnew": {
+    "page_layout_descr_file": ""
+  },
+  "sheets": [],
+  "text_variables": {},
+  "schematic": {
+    "drawing": {
+      "intersheets_ref_show": true
+    },
+    "meta": {
+      "version": 1
+    }
+  }
+}
