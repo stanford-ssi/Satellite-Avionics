@@ -417,7 +417,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "Janus sun sensor dev Board",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -429,13 +429,29 @@
         "uuid": "c2be1971-d3f7-49ec-8d2b-cda572a2b973"
       }
     ],
-    "used_designators": "#PWR1-3",
+    "used_designators": "R1,#PWR1-5,C1-3,#FLG1-3,TP1-3,U1",
     "variants": []
   },
   "sheets": [
     [
       "c2be1971-d3f7-49ec-8d2b-cda572a2b973",
       "Root"
+    ],
+    [
+      "189721fb-422f-4b3e-b452-cc34bd49161b",
+      "Power"
+    ],
+    [
+      "77b72bdd-fe93-4c82-8dc6-c78f3b74c8d2",
+      "Front End"
+    ],
+    [
+      "148d87b9-fe51-47ad-b283-76c269c78be2",
+      "ADC"
+    ],
+    [
+      "19e6f789-c1f9-4425-9739-fcd0ec6994e2",
+      "Connectors"
     ]
   ],
   "text_variables": {

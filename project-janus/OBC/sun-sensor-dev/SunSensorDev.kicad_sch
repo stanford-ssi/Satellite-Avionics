@@ -5,11 +5,209 @@
 	(uuid "c2be1971-d3f7-49ec-8d2b-cda572a2b973")
 	(paper "A4")
 	(title_block
+		(title "Janus sun sensor dev board")
+		(date "2026-11-23")
 		(rev "0.1")
 		(company "SSI")
-		(comment 1 "Marlon Moenius")
+		(comment 1 "Designer: Marlon Moenius")
+		(comment 2 "Reviewer: TBD")
+		(comment 3 "Design Master: ${DM_URL}")
 	)
 	(lib_symbols)
+	(sheet
+		(at 139.7 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "148d87b9-fe51-47ad-b283-76c269c78be2")
+		(property "Sheetname" "ADC"
+			(at 139.7 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 139.7 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SunSensorDev"
+				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "189721fb-422f-4b3e-b452-cc34bd49161b")
+		(property "Sheetname" "Power"
+			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25.4 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 63.5 38.1 0)
+			(uuid "7a0327a4-91c9-4923-86f5-9bcd8fb246d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SunSensorDev"
+				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 26.67)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19e6f789-c1f9-4425-9739-fcd0ec6994e2")
+		(property "Sheetname" "Connectors"
+			(at 203.2 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 203.2 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SunSensorDev"
+				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77b72bdd-fe93-4c82-8dc6-c78f3b74c8d2")
+		(property "Sheetname" "Front End"
+			(at 76.2 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend.kicad_sch"
+			(at 76.2 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SunSensorDev"
+				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
