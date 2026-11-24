@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T23:27:02",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/12a80452-9eea-4508-8d20-b8b251d13472",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'ssi_IC'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [MCT8316ZR-Q1]",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 53.34
+                            },
+                            "uuid": "74cd3472-5631-4522-9987-784983e2ce70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "reactionwheel_review.kicad_sch"
+}

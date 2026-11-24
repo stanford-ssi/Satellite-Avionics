@@ -1,0 +1,27 @@
+J2.1 = U1.9 = U1.10 = U1.11 : /VM RW
+J2.2 = J1.4 = U1.2 = U1.4 = U1.12 = U1.15 = U1.18 = U1.26 = U1.41 : GND
+J2.3 = J1.5 = C7.1 : /HALL_5V
+J2.4 = U1.35 : /RW SPI SCK
+J2.5 = U1.34 : /RW SPI MOSI
+J2.6 = U1.33 : /RW SPI MISO
+J2.7 = U1.36 : /RW1 CS N
+J2.8 = U1.39 : /RW1 PWM
+J2.9 = U1.38 : /RW1 BRAKE
+J2.10 = U1.23 : /RW1 SLEEP N
+J2.11 = U1.21 : /RW1 DRVOFF
+J2.12 = U1.40 : /RW1 FG
+J2.13 = U1.22 : /RW1 FAULT N
+J1.1 = U1.19 = U1.20 : /RW1 PHASE C
+J1.2 = U1.16 = U1.17 : /RW1 PHASE B
+J1.3 = U1.13 = U1.14 : /RW1 PHASE A
+J1.6 = U1.31 : /RW1 HALL C
+J1.7 = U1.29 : /RW1 HALL B
+J1.8 = U1.27 : /RW1 HALL A
+U1.5 = R1.1 : /RW1 BK SW
+U1.3 = R1.2 = C6.1 : /RW1 BK OUT
+U1.37 = R9.2 = R10.1 : /RW1 ILIM
+U1.25 = R9.1 = R2.1 = R3.1 = R4.1 = R5.1 = R6.1 : /AVDD
+J2.2 = R10.2 = C6.2 = C7.2 = R7.2 = R8.2 = R11.2 : GND
+VM, AVDD, HALL_5V and GND are distinct nets
+Original schematic unchanged
+All original symbol positions and rotations preserved
