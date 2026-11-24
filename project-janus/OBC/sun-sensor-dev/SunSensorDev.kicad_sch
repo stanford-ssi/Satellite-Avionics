@@ -200,6 +200,86 @@
 				(justify left top)
 			)
 		)
+		(pin "NTC" output
+			(at 127 38.1 0)
+			(uuid "11f5f644-c890-4403-bdd3-c0ccf52e8d78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PED" input
+			(at 127 41.91 0)
+			(uuid "a2f9889f-b80b-4a73-848c-b365e5fd5078")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIA0" output
+			(at 127 45.72 0)
+			(uuid "96a928a4-eb06-405a-87c6-c6ef5b1c9fd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIA1" output
+			(at 127 49.53 0)
+			(uuid "4eecde7a-8949-481a-974a-2316a11145eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIA2" output
+			(at 127 53.34 0)
+			(uuid "ebcb847b-d901-4c62-bd3f-b93a5bfea72b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIA3" output
+			(at 127 57.15 0)
+			(uuid "2222354a-7ad3-4fb7-b206-9d47fbae98ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIA4" output
+			(at 127 60.96 0)
+			(uuid "6d5080d4-eed8-4052-8b3d-9aa80b5b91d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIA5" output
+			(at 127 64.77 0)
+			(uuid "95cb5891-0145-4f0d-bcf6-8687ff9307b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SunSensorDev"
 				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973"

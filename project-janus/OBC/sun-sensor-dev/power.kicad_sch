@@ -1225,6 +1225,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 111.76) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046fa00e-e019-422a-8ee1-103c5a28fecc")
+	)
+	(wire
+		(pts
 			(xy 91.44 95.25) (xy 92.71 95.25)
 		)
 		(stroke
@@ -1232,6 +1242,16 @@
 			(type default)
 		)
 		(uuid "15548917-25e0-4ea5-bc86-9abf878ec0d2")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ab3a87-765d-4304-91e3-5dbf384db966")
 	)
 	(wire
 		(pts
@@ -1255,7 +1275,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 95.25) (xy 134.62 95.25)
+			(xy 73.66 87.63) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522d8f23-7186-46dd-be0b-71c66235a4d9")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542c228d-93ed-4d68-b271-0e4db4f1dd32")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 130.81 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1265,13 +1305,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 72.39 90.17)
+			(xy 129.54 95.25) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ea4ce1f-e8b0-41a6-ac8a-edd5a9bc863c")
+		(uuid "5cf71214-08a8-4108-ad62-4227eadc5c1a")
 	)
 	(wire
 		(pts
@@ -1325,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 134.62 95.25)
+			(xy 130.81 87.63) (xy 130.81 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +1583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25530405-88f8-4174-b50b-bf9b0e0d709e")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 123.444 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1645,7 @@
 		(instances
 			(project "SunSensorDev"
 				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973/189721fb-422f-4b3e-b452-cc34bd49161b"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1734,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 72.39 90.17 0)
+		(at 73.66 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1704,7 +1744,7 @@
 		(dnp no)
 		(uuid "431d24fe-7796-42f8-91fe-641f57b0df8d")
 		(property "Reference" "#PWR01"
-			(at 72.39 93.98 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1715,7 +1755,7 @@
 			)
 		)
 		(property "Value" "+5V_IN"
-			(at 69.596 85.852 0)
+			(at 70.866 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1725,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 90.17 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1736,7 +1776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 90.17 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1747,7 +1787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 90.17 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +1970,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 134.62 88.9 0)
+		(at 130.81 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1940,8 +1980,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71080f46-e357-4856-8de0-e6e403541c67")
-		(property "Reference" "#PWR02"
-			(at 134.62 92.71 0)
+		(property "Reference" "#PWR05"
+			(at 130.81 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,7 +1992,7 @@
 			)
 		)
 		(property "Value" "VA"
-			(at 134.62 83.82 0)
+			(at 130.81 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1962,7 +2002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 88.9 0)
+			(at 130.81 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +2013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 88.9 0)
+			(at 130.81 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1984,7 +2024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 88.9 0)
+			(at 130.81 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,7 +2040,7 @@
 		(instances
 			(project "SunSensorDev"
 				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973/189721fb-422f-4b3e-b452-cc34bd49161b"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2177,7 +2217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e244623a-7fa9-440c-9311-989dfef42f22")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 74.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2237,7 +2277,7 @@
 		(instances
 			(project "SunSensorDev"
 				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973/189721fb-422f-4b3e-b452-cc34bd49161b"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 107.95 0)
+		(at 100.33 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2256,7 +2296,7 @@
 		(fields_autoplaced yes)
 		(uuid "e60dfa70-3c42-4732-8d78-f7fc8d79f148")
 		(property "Reference" "#PWR03"
-			(at 100.33 114.3 0)
+			(at 100.33 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +2307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 113.03 0)
+			(at 100.33 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2277,7 +2317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 107.95 0)
+			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 107.95 0)
+			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 107.95 0)
+			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2333,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea723226-b810-4555-8ca7-3caf06070b5d")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 98.425 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2394,7 +2434,7 @@
 		(instances
 			(project "SunSensorDev"
 				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973/189721fb-422f-4b3e-b452-cc34bd49161b"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f68448fe-45d7-4287-9141-83435d2a8e73")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 103.378 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2513,7 @@
 		(instances
 			(project "SunSensorDev"
 				(path "/c2be1971-d3f7-49ec-8d2b-cda572a2b973/189721fb-422f-4b3e-b452-cc34bd49161b"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
