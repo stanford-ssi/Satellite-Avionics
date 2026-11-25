@@ -2112,6 +2112,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Yapling_Passives:CRCW04020000Z0ED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.25 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.85 0.85)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products?keywords=CRCW04020000Z0ED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "Jumper"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "CRCW04020000Z0ED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(symbol "CRCW04020000Z0ED_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW04020000Z0ED_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Yapling_Passives:CRCW040227R0FKED"
 			(pin_numbers
 				(hide yes)
@@ -4372,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 144.78 57.15)
+			(xy 113.03 57.15) (xy 123.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9749,6 +9912,138 @@
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/74bb9c08-6648-4179-a2b1-839933f4b8f5"
 					(page "9")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 130.81 57.15) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91de5c43-4ef2-448f-86ad-179ade40eeb8")
+	)
+	(symbol
+		(lib_id "Yapling_Passives:CRCW04020000Z0ED")
+		(at 127 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb931fbc-b072-4d1b-b2ff-436f13493cf7")
+		(property "Reference" "R209"
+			(at 127 55.118 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 127 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.88 0.88)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW04020000Z0ED"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "Jumper"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products?keywords=CRCW04020000Z0ED"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d284e68-08c0-4b8a-87d5-324623def88f")
+		)
+		(pin "2"
+			(uuid "4ff7b3f6-7807-4f77-960b-92809ad6c50b")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/74bb9c08-6648-4179-a2b1-839933f4b8f5"
+					(reference "R209")
+					(unit 1)
 				)
 			)
 		)
