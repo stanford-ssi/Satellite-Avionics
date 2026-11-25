@@ -913,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 142.24) (xy 130.175 142.24)
+			(xy 110.49 142.24) (xy 129.54 142.24)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 129.54) (xy 130.175 129.54)
+			(xy 110.49 129.54) (xy 129.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 116.84) (xy 130.175 116.84)
+			(xy 110.49 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 130.175 123.19)
+			(xy 110.49 123.19) (xy 129.54 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 130.175 110.49)
+			(xy 110.49 110.49) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 135.89) (xy 130.175 135.89)
+			(xy 110.49 135.89) (xy 129.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 130.175 104.14)
+			(xy 110.49 104.14) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a67cd8a-d7b7-45d8-9f31-85828fac1585")
-		(property "Reference" "#PWR12502"
+		(property "Reference" "#PWR12582"
 			(at 101.6 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1812,7 +1812,7 @@
 		(instances
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb"
-					(reference "#PWR12502")
+					(reference "#PWR12582")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cccbdb3a-f2c9-4108-8176-b5bccfce8c7e")
-		(property "Reference" "#PWR12501"
+		(property "Reference" "#PWR12581"
 			(at 101.6 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -1887,7 +1887,7 @@
 		(instances
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb"
-					(reference "#PWR12501")
+					(reference "#PWR12581")
 					(unit 1)
 				)
 			)
@@ -2484,8 +2484,8 @@
 		)
 	)
 	(sheet
-		(at 130.175 97.79)
-		(size 71.755 59.69)
+		(at 129.54 97.79)
+		(size 72.39 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2512,7 +2512,7 @@
 			)
 		)
 		(property "Sheetfile" "Housekeeping.kicad_sch"
-			(at 130.175 158.75 0)
+			(at 129.54 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,7 +2524,7 @@
 			)
 		)
 		(pin "UHF_SCK" output
-			(at 130.175 104.14 180)
+			(at 129.54 104.14 180)
 			(uuid "ecf2a20a-5f98-42f5-8cc1-82b3be585900")
 			(effects
 				(font
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(pin "UHF_MOSI" output
-			(at 130.175 110.49 180)
+			(at 129.54 110.49 180)
 			(uuid "84b10e17-46c0-41df-a2e7-21db6ea6c824")
 			(effects
 				(font
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(pin "UHF_MISO" input
-			(at 130.175 116.84 180)
+			(at 129.54 116.84 180)
 			(uuid "b61c6713-e3f4-44c1-bc0c-fbe6f248eae1")
 			(effects
 				(font
@@ -2554,7 +2554,7 @@
 			)
 		)
 		(pin "UHF_CS_N" output
-			(at 130.175 123.19 180)
+			(at 129.54 123.19 180)
 			(uuid "c8f09a66-215f-48e9-a396-bc70daeaf068")
 			(effects
 				(font
@@ -2564,7 +2564,7 @@
 			)
 		)
 		(pin "UHF_RESET_N" output
-			(at 130.175 129.54 180)
+			(at 129.54 129.54 180)
 			(uuid "e7bd35ee-2b1f-4abd-bcc1-aa9c20d3ac2d")
 			(effects
 				(font
@@ -2574,7 +2574,7 @@
 			)
 		)
 		(pin "UHF_BUSY" input
-			(at 130.175 135.89 180)
+			(at 129.54 135.89 180)
 			(uuid "bc4ce301-0c15-49df-a7dd-ad2b324a53fd")
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(pin "UHF_IRQ" input
-			(at 130.175 142.24 180)
+			(at 129.54 142.24 180)
 			(uuid "d9fdb546-da95-4e54-b85a-13b0991cddcd")
 			(effects
 				(font

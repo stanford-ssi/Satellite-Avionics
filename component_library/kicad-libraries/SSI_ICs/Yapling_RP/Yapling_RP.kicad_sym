@@ -736,7 +736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.everspin.com/getdatasheet/MR25H40"
+		(property "Datasheet" "https://www.everspin.com/sites/default/files/EST00459_MR2xH40_Datasheet_Rev12.6_08092020.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

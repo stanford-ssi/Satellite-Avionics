@@ -11,7 +11,7 @@
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
-		(symbol "Device:D_Zener"
+		(symbol "Yapling_Power:SMBJ9.0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Zener"
+			(property "Value" "SMBJ9.0A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -44,7 +44,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Yapling_Packages:D_SMB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -55,7 +55,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/smbj.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -66,7 +66,51 @@
 					)
 				)
 			)
-			(property "Description" "Zener diode"
+			(property "Description" "Unidirectional 9 V TVS diode in an SMB package."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SMBJ9.0A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9 V standoff; 15.4 V max at 39 A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/bourns-inc/SMBJ9-0A/2254598"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,7 +132,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "D_SMB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -99,7 +143,7 @@
 					)
 				)
 			)
-			(symbol "D_Zener_0_1"
+			(symbol "SMBJ9.0A_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
@@ -137,7 +181,7 @@
 					)
 				)
 			)
-			(symbol "D_Zener_1_1"
+			(symbol "SMBJ9.0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3416,7 +3460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Yapling_Power:SMBJ9.0A")
 		(at 109.22 63.5 270)
 		(unit 1)
 		(body_style 1)

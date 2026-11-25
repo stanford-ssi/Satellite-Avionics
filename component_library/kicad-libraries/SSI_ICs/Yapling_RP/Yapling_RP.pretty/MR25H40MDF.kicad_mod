@@ -65,26 +65,6 @@
 		(uuid "7694f702-8dc7-4135-9344-40f9424230d2")
 	)
 	(fp_line
-		(start -3 2.5)
-		(end -3 -2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "df01ca66-cc36-4d1b-9008-f3531403fc99")
-	)
-	(fp_line
-		(start 3 -2.5)
-		(end 3 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ecc0617a-71c4-4444-a469-f0209d7255d2")
-	)
-	(fp_line
 		(start 3 2.5)
 		(end -3 2.5)
 		(stroke
@@ -112,7 +92,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "b019655c-0714-49b9-bf4c-28a7581b0e2b")
 	)
 	(fp_line
@@ -122,7 +102,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "4f1d41fe-62c5-40b5-834c-47714cfe742f")
 	)
 	(fp_line
@@ -132,7 +112,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "4f7258a2-b8b9-4308-9afb-2529135b2618")
 	)
 	(fp_line
@@ -142,7 +122,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(layer "Dwgs.User")
+		(layer "F.CrtYd")
 		(uuid "504934d7-1cd0-4629-bf72-647b88349eb2")
 	)
 	(pad "1" smd rect

@@ -11,6 +11,195 @@
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
+		(symbol "Yapling_Passives:C2012X7S1E106K125AE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.65 1.45 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 2.65 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7S1E106K125AE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7S1E106K125AE/10413498"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "25 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "C2012X7S1E106K125AE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Voltage" "25 V"
+				(at 2.65 -1.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.82 0.82)
+						(color 13 111 120 1)
+					)
+					(justify left)
+				)
+			)
+			(symbol "C2012X7S1E106K125AE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C2012X7S1E106K125AE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1507,195 +1696,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Yapling_Passives:GRM155R60J475ME47D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.65 1.45 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.9 0.9)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4.7µ"
-				(at 2.65 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.9 0.9)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R60J475ME47D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J475ME47D/3719860"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Rating" "6.3 V X5R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "MPN" "GRM155R60J475ME47D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Voltage" "6.3 V"
-				(at 2.65 -1.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.82 0.82)
-						(color 13 111 120 1)
-					)
-					(justify left)
-				)
-			)
-			(symbol "GRM155R60J475ME47D_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM155R60J475ME47D_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Yapling_Passives:PTS636_SK25_SMTR_LFS"
 			(pin_numbers
 				(hide yes)
@@ -1992,7 +1992,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2155,7 +2155,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2318,7 +2318,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3093,7 +3093,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.everspin.com/getdatasheet/MR25H40"
+			(property "Datasheet" "https://www.everspin.com/sites/default/files/EST00459_MR2xH40_Datasheet_Rev12.6_08092020.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5525,6 +5525,28 @@
 			(justify left)
 		)
 		(uuid "6c0204d4-5223-430f-8964-592689b6d06f")
+	)
+	(text "C106 input   8.88 µF typical at 3.3 V (4.7 µF minimum)"
+		(exclude_from_sim no)
+		(at 307.34 150.50 0)
+		(effects
+			(font
+				(size 1.01 1.01)
+			)
+			(justify left)
+		)
+		(uuid "2f45d30a-34ec-4982-aa9d-c3765d342b64")
+	)
+	(text "C108 output   4.7 µF ±20% required at 1.1 V"
+		(exclude_from_sim no)
+		(at 307.34 154.31 0)
+		(effects
+			(font
+				(size 1.01 1.01)
+			)
+			(justify left)
+		)
+		(uuid "0f5e09b1-670b-4e46-a65d-113ea3b393f5")
 	)
 	(text "TEMP"
 		(exclude_from_sim no)
@@ -9619,7 +9641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 85.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10247,7 +10269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 284.48 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10370,7 +10392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10493,7 +10515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 293.37 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11068,7 +11090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Yapling_Passives:GRM155R60J475ME47D")
+		(lib_id "Yapling_Passives:C2012X7R1H475K125AC")
 		(at 274.32 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -11100,7 +11122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
+		(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11111,7 +11133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R60J475ME47D"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H475K125AC"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11132,7 +11154,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME47D"
+		(property "MPN" "C2012X7R1H475K125AC"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11143,7 +11165,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TDK"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11154,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Rating" "6.3 V X5R"
+		(property "Rating" "50 V"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11165,7 +11187,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J475ME47D/3719860"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/C2012X7R1H475K125AC/10413507"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11176,7 +11198,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3 V"
+		(property "Voltage" "50 V"
 			(at 276.97 150.0701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11875,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 278.13 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12376,7 +12398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Yapling_Passives:GRM155R60J475ME47D")
+		(lib_id "Yapling_Passives:C2012X7S1E106K125AE")
 		(at 194.31 208.28 0)
 		(unit 1)
 		(body_style 1)
@@ -12397,7 +12419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µ"
+		(property "Value" "10u"
 			(at 187.706 208.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12408,7 +12430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
+		(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
 			(at 194.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12419,7 +12441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R60J475ME47D"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7S1E106K125AE"
 			(at 194.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12440,7 +12462,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME47D"
+		(property "MPN" "C2012X7S1E106K125AE"
 			(at 194.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12451,7 +12473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TDK"
 			(at 194.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12462,7 +12484,7 @@
 				)
 			)
 		)
-		(property "Rating" "6.3 V X5R"
+		(property "Rating" "25 V"
 			(at 194.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12473,7 +12495,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J475ME47D/3719860"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7S1E106K125AE/10413498"
 			(at 194.31 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12484,7 +12506,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3 V"
+		(property "Voltage" "25 V"
 			(at 187.706 209.6861 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12512,7 +12534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
+		(lib_id "Yapling_Passives:C2012X7R1H475K125AC")
 		(at 92.71 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -12533,7 +12555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "4.7µ"
 			(at 95.36 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12544,7 +12566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
+		(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
 			(at 92.71 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12555,7 +12577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H475K125AC"
 			(at 92.71 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12576,7 +12598,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71H104KE02D"
+		(property "MPN" "C2012X7R1H475K125AC"
 			(at 92.71 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12587,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TDK"
 			(at 92.71 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12609,7 +12631,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/C2012X7R1H475K125AC/10413507"
 			(at 92.71 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -13474,7 +13496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 83.82 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -13944,7 +13966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Yapling_Passives:GRM155R60J475ME47D")
+		(lib_id "Yapling_Passives:C2012X7R1H475K125AC")
 		(at 292.1 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -13976,7 +13998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
+		(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
 			(at 292.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13987,7 +14009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GRM155R60J475ME47D"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H475K125AC"
 			(at 292.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14008,7 +14030,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R60J475ME47D"
+		(property "MPN" "C2012X7R1H475K125AC"
 			(at 292.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14019,7 +14041,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "TDK"
 			(at 292.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14030,7 +14052,7 @@
 				)
 			)
 		)
-		(property "Rating" "6.3 V X5R"
+		(property "Rating" "50 V"
 			(at 292.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14041,7 +14063,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J475ME47D/3719860"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk/C2012X7R1H475K125AC/10413507"
 			(at 292.1 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14052,7 +14074,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3 V"
+		(property "Voltage" "50 V"
 			(at 294.75 166.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14349,7 +14371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 280.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14985,7 +15007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 86.36 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -15744,7 +15766,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.everspin.com/getdatasheet/MR25H40"
+		(property "Datasheet" "https://www.everspin.com/sites/default/files/EST00459_MR2xH40_Datasheet_Rev12.6_08092020.pdf"
 			(at 320.04 36.83 0)
 			(hide yes)
 			(show_name no)

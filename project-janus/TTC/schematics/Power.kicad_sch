@@ -134,7 +134,174 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
+		(symbol "Yapling_Power:Keystone_5019"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5019"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Miniature surface-mount probe clip."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "5019"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Keystone Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "Miniature SMT silver-plated test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TestPoint_Keystone_5019_Miniature"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Keystone_5019_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Keystone_5019_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Yapling_Power:LTST-C190KGKT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -157,7 +324,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "Green"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -167,7 +334,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Yapling_Packages:LED_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -178,7 +345,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C190KGKT.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -189,7 +356,51 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Green 0603 rail indicator LED."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LTST-C190KGKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Lite-On"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "2.1 V typ at 20 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KGKT/386815"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -222,7 +433,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_fp_filters" "LED_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -233,7 +444,7 @@
 					)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LTST-C190KGKT_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -295,7 +506,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LTST-C190KGKT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -379,7 +590,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1207,7 +1418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 68.58 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -1293,9 +1504,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0a403922-8c91-4852-8745-7b41551ba663")
 		(property "Reference" "TP3"
@@ -1321,7 +1532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
+		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
 			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -1332,7 +1543,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
+		(property "Datasheet" ""
 			(at 41.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -1343,57 +1554,13 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bare copper test pad"
 			(at 41.91 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5019"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 41.91 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
 				)
 			)
 		)
@@ -1410,7 +1577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Yapling_Power:LTST-C190KGKT")
 		(at 93.98 168.91 90)
 		(unit 1)
 		(body_style 1)
@@ -1540,9 +1707,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "305f19b9-f7d5-405d-ac7d-6dd469e2f7c3")
 		(property "Reference" "TP5"
@@ -1568,7 +1735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
+		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
 			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -1579,7 +1746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
+		(property "Datasheet" ""
 			(at 68.58 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -1590,57 +1757,13 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bare copper test pad"
 			(at 68.58 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5019"
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
 				)
 			)
 		)
@@ -1731,7 +1854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Yapling_Power:LTST-C190KGKT")
 		(at 68.58 168.91 90)
 		(unit 1)
 		(body_style 1)
@@ -2004,7 +2127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Yapling_Power:Keystone_5019")
 		(at 115.57 162.56 0)
 		(unit 1)
 		(body_style 1)
@@ -2131,9 +2254,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bb136470-6487-4bc8-b269-5b8a004572ff")
 		(property "Reference" "TP1"
@@ -2159,7 +2282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
+		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
 			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2170,7 +2293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
+		(property "Datasheet" ""
 			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2181,57 +2304,13 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bare copper test pad"
 			(at 58.42 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5019"
-			(at 58.42 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 58.42 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 58.42 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 58.42 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
 				)
 			)
 		)
@@ -2253,9 +2332,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bb9a8694-139b-4d4e-b0a1-39d83b4f0f70")
 		(property "Reference" "TP6"
@@ -2281,7 +2360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:TestPoint_Keystone_5019_Miniature"
+		(property "Footprint" "Yapling_Packages:TestPoint_Pad_D1.0mm"
 			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2292,7 +2371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product.cfm/Miniature/5019/product_id/1357"
+		(property "Datasheet" ""
 			(at 93.98 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2303,57 +2382,13 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bare copper test pad"
 			(at 93.98 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "5019"
-			(at 93.98 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 93.98 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "Rating" "Miniature SMT silver-plated test point"
-			(at 93.98 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 93.98 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
 				)
 			)
 		)
@@ -2518,7 +2553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Yapling_Power:LTST-C190KGKT")
 		(at 41.91 168.91 90)
 		(unit 1)
 		(body_style 1)
@@ -2685,7 +2720,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 41.91 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2808,7 +2843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 93.98 158.75 0)
 			(hide yes)
 			(show_name no)

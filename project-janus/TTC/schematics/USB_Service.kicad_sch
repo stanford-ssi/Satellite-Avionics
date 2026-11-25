@@ -473,7 +473,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -636,7 +636,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -799,7 +799,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3885,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 82.55 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4471,7 +4471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 185.42 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +4593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 81.28 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4864,7 +4864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 82.55 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4988,7 +4988,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 180.34 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 182.88 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5306,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 81.28 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5819,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 110.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6017,7 +6017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 110.49 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6213,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 182.88 53.34 0)
 			(hide yes)
 			(show_name no)

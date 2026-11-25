@@ -1126,7 +1126,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND24"
+		(symbol "CH390D:ABM8-25.000MHZ-12-D1X-T"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1147,7 +1147,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND24"
+			(property "Value" "25 MHz"
 				(at 3.175 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1158,7 +1158,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CH390D:ABM8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1169,7 +1169,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://abracon.com/Resonators/abm8.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1180,7 +1180,51 @@
 					)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(property "Description" "25 MHz crystal with 12 pF load capacitance. Case ground on pads 2 and 4."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ABM8-25.000MHZ-12-D1X-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Abracon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "25 MHz, 12 pF, ±10 ppm initial, ±20 ppm stability"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ABM8-25-000MHZ-12-D1X-T/9997885"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1224,7 +1268,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Crystal*"
+			(property "ki_fp_filters" "ABM8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1235,7 +1279,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_0_1"
+			(symbol "ABM8-25.000MHZ-12-D1X-T_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
@@ -1332,7 +1376,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_1_1"
+			(symbol "ABM8-25.000MHZ-12-D1X-T_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2209,7 +2253,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3425,7 +3469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
+		(lib_id "CH390D:ABM8-25.000MHZ-12-D1X-T")
 		(at 62.23 120.65 270)
 		(unit 1)
 		(body_style 1)
@@ -3595,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 187.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3854,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
 			(at 179.07 116.84 0)
 			(hide yes)
 			(show_name no)
