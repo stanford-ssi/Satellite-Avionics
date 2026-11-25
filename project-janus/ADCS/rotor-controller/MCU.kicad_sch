@@ -7130,7 +7130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RotorMCU:C_0402_RP2350_VREG"
 			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10269,7 +10269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RotorMCU:C_0402_RP2350_VREG"
 			(at 271.78 157.48 0)
 			(hide yes)
 			(show_name no)

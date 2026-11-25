@@ -16,7 +16,7 @@
 
 (rule "Reserve L4 for power distribution"
     (layer "In3.Cu")
-    (condition "A.Type == 'Track' && A.NetName != '+3V3' && A.NetName != '/MOTOR_VM' && A.NetName != '/Motor control/VCORE' && A.NetName != 'Net-(U1-VREG_AVDD)'")
+    (condition "A.Type == 'Track' && A.NetName != '+3V3' && A.NetName != '/MOTOR_VM' && A.NetName != '/Motor control/VCORE'")
     (constraint disallow track))
 
 (rule "Set component-side ground pour back from CAN traces"
@@ -32,3 +32,7 @@
     (layer "F.Cu")
     (condition "A.NetName == '/CAN and housekeeping/CAN_H' || A.NetName == '/CAN and housekeeping/CAN_L'")
     (constraint track_width (min 0.115mm) (opt 0.115mm) (max 0.115mm)))
+
+(rule "Keep RP2350 switch node and filtered analog supply on top"
+    (condition "(A.NetName == 'Net-(U1-VREG_AVDD)' || A.NetName == 'Net-(U1-VREG_LX)') && (A.Type == 'Via' || (A.Type == 'Track' && A.Layer != 'F.Cu'))")
+    (constraint disallow track via))
