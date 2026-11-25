@@ -1,0 +1,52 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-24T20:37:20",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9f0db85e-0421-488c-a01b-9a143a5d11eb",
+            "violations": []
+        },
+        {
+            "path": "/CAN and housekeeping/",
+            "uuid_path": "/9f0db85e-0421-488c-a01b-9a143a5d11eb/0054cda5-a3ad-4ed2-928f-bad0cadf799f",
+            "violations": []
+        },
+        {
+            "path": "/Motor control/",
+            "uuid_path": "/9f0db85e-0421-488c-a01b-9a143a5d11eb/c3db3bf2-110a-4f83-bced-bcb1b506ee70",
+            "violations": []
+        },
+        {
+            "path": "/Three-phase bridge/",
+            "uuid_path": "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b",
+            "violations": []
+        }
+    ],
+    "source": "Rotor.kicad_sch"
+}

@@ -2,13 +2,15 @@
 
 Finertia Mk 1.0 is the reaction wheel controller for the Bleps spacecraft. Its name combines the Anableps fish’s fin with the spinning rotor’s inertia. This KiCad 10 board fits the shaft face of one Faulhaber 2610T012B. Its internal rotor provides the angular momentum. Open [Rotor.kicad_pro](Rotor.kicad_pro) and follow the sheets from the spacecraft harness through CAN, control, and the three-phase bridge to the motor ribbon.
 
-**Placement revision.** KiCad reports 140 open connections and three unstitched inner-plane warnings. Complete routing and rerun the full board DRC before ordering the bare PCB.
+**Routed revision.** KiCad 10 found zero physical violations, zero unconnected items and zero schematic-parity issues after refilling the copper. The project also checks that track endpoints land at via centers. [Routing overview](review/Finertia-routing.png) · [Kelvin close-ups](review/Finertia-Kelvin-routing.png) · [Filled power and ground planes](review/Finertia-planes.png)
 
 [Schematic PDF](review/Reaction-Wheel-Controller-schematic.pdf) · [Assembly STEP](review/Reaction-Wheel-Controller-assembly.step) · [Mounted assembly](review/Reaction-Wheel-Controller-assembly.png) · [Mounting profile](review/Reaction-Wheel-Controller-mounting-profile.png) · [Shaft-facing PCB](review/Reaction-Wheel-Controller-shaft-face.png) · [Motor-facing PCB](review/Reaction-Wheel-Controller-motor-face.png)
 
+The Mk 1.0 fabrication archive includes the rear artwork and separate plated and nonplated Excellon files. [Gerbers and drill](fabrication/Finertia-Mk1.0-Gerbers-and-drill.zip) · [Decorated-board DRC](fabrication/decorated.drc.json) · [Schematic ERC](fabrication/schematic.erc.json)
+
 The working board carries the name and service markings. At final artwork release, import the original 1,300 × 1,300 pixel *Waterline Eclipse* image onto a copy of the board. A lossless quarter-turn in the rear view brings the open water to the bottom. The import keeps the original pixels, converts the artwork to one legend ink, and clears the board openings, spacer seats, pads and lettering. The smallest engraving strokes are finer than JLCPCB’s 0.15 mm standard legend specification. Check the plotted proof with the fabricator before ordering. [Rear artwork proof](review/Finertia-rear-art-proof.png) · [Original PNG](review/art-concepts/Anableps-Waterline-Eclipse.png) · [JLCPCB legend limits](https://jlcpcb.com/capabilities/pcb-capabilities)
 
-From the board directory, run the following with KiCad 10’s Python, Pillow, NumPy and ContourPy. Copy the schematic, project settings and libraries to a release directory and leave its Rotor.kicad_pcb path empty for the importer. Finish routing and review DRC on the working file, then run DRC and inspect the bottom legend Gerber on the decorated copy.
+From the board directory, run the following with KiCad 10’s Python, Pillow, NumPy and ContourPy. Copy the schematic, project settings and libraries to a release directory and leave its Rotor.kicad_pcb path empty for the importer. Refill and check the working board, then run DRC and inspect the bottom legend Gerber on the decorated copy.
 
 ```sh
 python3 artwork/apply_rear_art.py Rotor.kicad_pcb /path/to/release-copy/Rotor.kicad_pcb
@@ -33,56 +35,62 @@ OreSat’s released v5.3 solar-module PCB names TCAN330GDCNT at U1. The mission 
 
 ## PCB construction and assembly
 
-All 67 populated components mount on the shaft-facing side, including both INA241A3-Q1 amplifiers (U8 and U9), the two 0.100 Ω shunts and their bypass capacitors. The motor-facing side has bare pogo contacts and the watchdog service jumper. The four Kelvin pickup spans measure 1.56–2.32 mm between shunt and amplifier pad centers. The two precision ADC filter capacitors are 1.27 and 1.76 mm from the corresponding RP2350A pins. A filled VBATT region covers the local bridge supply pads. The PCB has six copper layers and a nominal thickness of 1.60 mm. L2 provides a ground reference, L5 distributes 3.3 V, and a dedicated VBATT pour supplies the motor bridge. The harness input retains a 22 µF capacitor on each supply, C23 on logic and C24 at the motor bridge. U1 retains its local core regulator, inductor and bypass capacitors.
+All 67 populated components mount on the shaft-facing side. The motor-facing side carries the bare Tag-Connect pogo contacts and watchdog service jumper. J2 supplies 2S VBATT and 3.3 V. C24 provides 22 µF nominal on the bridge supply and C23 provides 22 µF nominal on the logic input. The motor bridge keeps its local VM ceramic and the RP2350A keeps its core regulator, inductor and bypass capacitors.
 
-Board Setup contains JLCPCB’s JLC06161H-3313 six-layer, 1.6 mm FR-4 stack with ENIG. From L1 to L6, the five dielectric thicknesses are 0.0994 / 0.5500 / 0.1088 / 0.5500 / 0.0994 mm. The outer copper is 35 µm and inner copper is 15.2 µm. The placement revision has no trace segments or vias. The filled power and ground zones establish plane intent for routing. Internal planes still require connections. [JLCPCB stackups](https://jlcpcb.com/impedance) · [JLCPCB manufacturing capabilities](https://jlcpcb.com/capabilities/pcb-capabilities/)
+The project uses the 1.6 mm JLC06161H-2116A build with ENIG, 35 µm nominal outer copper and 15.2 µm inner copper. From L1 down, the dielectrics are 0.1164, 0.1300, 0.9328, 0.1300 and 0.1164 mm. The central dielectric consists of 0.1164 mm of 2116 prepreg, a 0.7000 mm core and a second 0.1164 mm prepreg. Select this exact stackup when ordering. [JLCPCB stackups](https://jlcpcb.com/impedance)
+
+| Layer | Function |
+| --- | --- |
+| L1 / F.Cu | Components, motor bridge, Kelvin pickups, CAN pair and local ground copper |
+| L2 / In1.Cu | Ground reference for L1 and L3 |
+| L3 / In2.Cu | Signals, including filtered phase-current feedback |
+| L4 / In3.Cu | VBATT and 3.3 V pours, plus local RP2350A core and filtered-regulator feeds |
+| L5 / In4.Cu | Ground reference for L6 |
+| L6 / B.Cu | Motor and digital routes, ground copper and programming contacts |
+
+Both primary ground planes form single connected copper regions. Signal tracks are restricted to L1, L3 and L6. The L2 void follows the RP2350A LX switch land and track between U1 and L1. This keeps switching-node capacitance local and leaves a continuous motor-side ground reference on L5. [RP2350 datasheet, §6.3.8.1](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
+
+In a geometric width check on the refilled L4 copper with drill holes subtracted, a continuous 1.11 mm corridor reaches the motor bridge from J2, and 1.22 mm reaches the bulk capacitor C24. The 3.3 V path from J2.4 to the MCU feed at (90.76, 103.24) mm admits 0.57 mm. These are bottleneck widths around antipads in the actual pours. The two 0.40 mm links at J2.4 take the spacecraft’s 3.3 V supply directly into a pair of through-vias. All four high-gain shunt inputs stay on L1. The filtered ADC lines on L3 reference the same L2 ground as their L1 launches. The nearest ground-via distances at the ADC and filter ends are 0.59/0.62 mm on channel A and 0.60/1.09 mm on channel B, center to center. [Filled power and ground planes](review/Finertia-planes.png) · [Current-signal returns](review/Finertia-current-returns.png)
+
+The default signal via uses a 0.20 mm hole in a 0.45 mm land. The motor-power preset uses 0.30 / 0.60 mm. The sizes are through-drilled, tented on both faces. JLCPCB’s multilayer table lists a surcharge for 0.10 or 0.15 mm holes, and for 0.20 or 0.25 mm holes with lands below 0.45 mm. The selected sizes clear those thresholds. A 0.30 mm hole in a 0.50 mm land also meets the board’s 0.10 mm annular-ring rule. [JLCPCB capabilities](https://jlcpcb.com/capabilities/Capabilities?type=1) · [JLCPCB via pricing options](https://cart.jlcpcb.com/quote?stencilLayer=6)
 
 For the LumenPnP, the smallest passives are 0402 imperial and the new transceiver has 0.65 mm lead pitch. TI supplies TCAN330GDCNT on 8 mm tape at 4 mm pocket pitch. Opulo lists 0402 and 0.40 mm minimum lead pitch for v3 and v4. Pick the two R1/R2 pull-ups from the same 10 kΩ 0402 feeder as R5. Set the pickup nozzle and bottom-vision profile on a sample from the actual reel, and verify pin 1 against the assembly view. This dense individual board has no optical fiducials. For machine placement, add three widely spaced 1 mm copper fiducials with 2 mm mask openings on the assembly panel rails, or use a registered fixture with verified board registration. [Opulo assembly guidance](https://docs.opulo.io/guides/design-for-lumenpnp/) · [TI device and tape drawing](https://www.ti.com/lit/ds/symlink/tcan330g.pdf)
 
-From the board directory, this exports the 67 top-side placements in KiCad’s ASCII .pos format for OpenPnP. Generate the file again from the eventual routed revision for assembly.
+From the board directory, this exports the 67 top-side placements in KiCad’s ASCII .pos format for OpenPnP. Generate the file from the same revision used for the fabrication drawings.
 
 ```sh
 kicad-cli pcb export pos --side front --smd-only --exclude-dnp --units mm --format ascii -o Finertia-top.pos Rotor.kicad_pcb
 ```
 
-The rear Tag-Connect pattern and compact hand-bridge share the lower open-water area. The three guide holes maintain at least 0.277 mm nominal clearance to front copper. Each of the two watchdog lands measures 0.55 × 0.75 mm, with a 0.25 mm gap. The WD legend is condensed to keep the board’s nominal 1.0 mm text height. Program and remove the temporary solder bridge before mounting the controller.
+The rear legend clears the Tag-Connect pattern, the watchdog jumper and its WD label. The three guide holes maintain at least 0.277 mm nominal clearance to front copper. Each of the two watchdog lands measures 0.55 × 0.75 mm, with a 0.25 mm gap. The WD legend is condensed to keep the board’s nominal 1.0 mm text height. Program and remove the temporary solder bridge before mounting the controller.
 
 Install the KiCad 10 standard 3D model libraries for the native viewer. The project includes additional models for the Faulhaber motor, spacers, Gecko and custom packages. The Gecko model represents the unmated connector envelope. The standalone assembly STEP includes the populated PCB, spacers and motor.
 
-## Placement review
+## Copper and placement
 
-U7 is the motor driver, U8 and U9 are the phase-current amplifiers, J1 is the SWD contact pattern, J2 is the spacecraft connector and J3 is the motor ribbon. References now run from 1 within each part prefix across the whole board. [Reference conversion table](review/Finertia-reference-map.csv)
+U7 is the DRV8311P-Q1 bridge. U8 and U9 are the INA241A3-Q1 phase-current amplifiers. J1 is SWD, J2 is the harness and J3 is the motor ribbon. The reference numbers run from 1 within each part prefix. [Reference conversion table](review/Finertia-reference-map.csv) · [Component-side placement](review/Finertia-placement.png)
 
-Immediately left of U7, C29/C26/R18 share X = 104.16 mm. R12 and C27 share Y = 102.40 mm. R17 and C26 extend the Y = 103.85 mm row, and R18 extends the Y = 104.89 mm row. C27 reaches CP and VM on the component side in 1.30 and 1.07 mm. C29 reaches U7.2 in 1.71 mm. [Driver placement before and after](review/Finertia-driver-placement.png)
+The two-terminal 0.100 Ω WSL0603 shunts each have separate motor-current and sense paths. Motor current enters and leaves on the wide copper. Each 0.15 mm sense lead contacts an inside corner of its own termination and continues on L1 to its INA241 input. R20 sits directly over U8. Moving it there reduced each phase-A sense lead from 2.396 to 1.856 mm and increased the U7-to-shunt force path from 9.17 to 13.04 copper squares. The A− lead clears the annulus of the separate motor-current via by 0.195 mm. The dimensions below are nominal CAD centerlines. The exposed length excludes the portions under the shunt and amplifier lands. [Kelvin detail](review/Finertia-Kelvin-routing.png) · [TI INA241 layout](https://www.ti.com/lit/ds/symlink/ina241a-q1.pdf) · [Vishay WSL shunts](https://www.vishay.com/docs/30100/wsl.pdf)
 
-Seven bypass capacitors share Y = 105.200 mm. C12, C19, C30 and C31 share X = 87.740 mm. R14/R11 and R1/C21 form a 1.95 × 1.04 mm rectangular grid. The watchdog/CAN support column shares X = 108.320 mm. R19 now sits on the MCU side of the shaft. Route the phase-C monitor around the aperture and keep it away from the crystal circuit. The shared RUN_N pull-up at R2 sits beside the reset supervisor U3. [Component-side placement](review/Finertia-placement.png)
+| Channel | IN+ | IN− | Each pickup to input-pad center | Exposed length difference |
+| --- | --- | --- | ---: | ---: |
+| Phase A | R20.1 → U8.8 | R20.2 → U8.1 | 1.856 mm | 0.000 mm |
+| Phase B | R21.1 → U9.8 | R21.2 → U9.1 | 1.908 mm | <0.001 mm |
 
-The pin numbers above the MCU sheet’s capacitor banks identify the intended local bypass. These distances run between pad centers on the placed PCB. C18 now uses the same 4.7 µF 0402 part as C6. Raspberry Pi recommends a second 4.7 µF capacitor at DVDD pin 23 on the QFN-60. [RP2350 datasheet §§6.1.3 and 6.3.8.1](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
+The OUTA route leaves U7 at 0.30 mm, narrows to 0.19 mm between neighboring lands and returns to 0.30 mm at R20. The OUTB escape widens from 0.18 to 0.30 mm. C25.1 reaches its VM via through a straight 0.70 mm long, 0.42 mm wide connection. The charge-pump capacitor C27 and VM bypass C25 stay on the component side beside U7. For the two precision channels, GP26 and GP27 each have a local ADC filter capacitor. The integrated phase-C monitor also connects to GP28. Offset, PWM settling and current-sampling accuracy still require bench measurement. [TI DRV8311-Q1 layout guidance](https://www.ti.com/lit/ds/symlink/drv8311-q1.pdf)
 
-| RP2350A supply | Pin → bypass capacitor (center spacing) |
+The CAN bus pair runs from J2.3/J2.6 to U4.7/U4.6 entirely on L1 over L2 ground. The coupled portion uses 0.115 mm conductors with a 0.395 mm edge gap and a 0.40 mm setback to the L1 ground pour. The connector contacts set the wider spacing at the harness end. A 2-D quasi-static model predicts about 119 Ω for the uniform section, using the 2116 prepreg thickness, εr = 4.16 and JLCPCB’s published etch and soldermask assumptions. Pads, tolerance and the contact breakouts affect the assembled path. Use a 120 Ω twisted-pair harness with termination at the two physical bus ends. [Reproduce the cross-section estimate](review/can_impedance.py) · [JLCPCB calculator parameters](https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator) · [TI TCAN330G](https://www.ti.com/lit/ds/symlink/tcan330g.pdf)
+
+TraceMaker 0.12.1 routed the local U4 CAN-TX pull-up and U6 watchdog-enable pull-up branches. Together these use eight component-side segments and zero vias. The CAN-TX route goes from U4.1 to R5.2. The watchdog route goes from U6.6 to R8.2. For repeat trials, all other copper was locked, and the plane layers were excluded. On the four longer housekeeping nets, the selected-net trials left all six requested connections open. The committed longer routes use fixed pin escapes and grid-based search, followed by KiCad geometry and connectivity checks. [CAN and watchdog close-up](review/Finertia-CAN-watchdog.png) · [TraceMaker routing implementation](https://dingooz.github.io/TraceMaker/dev/05-routing/)
+
+The pin numbers above the MCU sheet’s capacitor banks identify the intended bypass. All twelve assigned supply capacitors connect locally to U1. C11 and C12 share a ground via between the two parts. C18 uses the same 4.7 µF 0402 part as C6. [RP2350 hardware design guide](https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf)
+
+| RP2350A supply | Pin → bypass capacitor, center spacing |
 | --- | --- |
-| IOVDD | 1 → C8 (1.81 mm), 11 → C9 (2.14 mm), 20 → C10 (1.37 mm) |
-| IOVDD | 30 → C11 (2.73 mm), 38 → C12 (2.78 mm), 45 → C13 (3.18 mm) |
-| ADC, OTP and QSPI | 44 → C14 (4.05 mm), 53 → C15 (2.14 mm), 54 → C16 (3.33 mm) |
-| DVDD | 6 → C17 (1.63 mm), 23 → C18 (1.50 mm), 39 → C19 (1.36 mm) |
-
-Temporary F.Cu routes on a copy of the placement demonstrated simultaneous paths to all 12 assigned capacitors. The six IOVDD paths measured 1.47–3.82 mm. All three DVDD paths measured 1.47–1.85 mm. The longest was ADC_AVDD at 5.34 mm. The precision phase A/B filter-capacitor paths to the ADC were 1.23 and 3.09 mm. The filtered sides of R17 and R18 still cross a larger part of the board. Route them over continuous ground, away from phase copper and the crystal. The buck LX path used a 0.13 mm neck between C5’s lands with 0.23 mm copper on either side. Keep that geometry and review the C6 ground return when routing.
-
-Moving U4 to the connector side of the shaft keeps the differential pair in the top annulus. Both pads of C20 face their corresponding U4 pins. VCC and ground spans are **1.32 mm and 1.38 mm**. On a temporary board, both CAN paths fit together on F.Cu at 0.20 mm trace width. The CANH/CANL paths from the Gecko to U4 measured 5.46 and 8.61 mm. The six-way connector retains its mating position. [Earlier CAN placement comparison, using previous IDs](review/Finertia-CAN-placement.png)
-
-A second scratch check fit both OUTA/OUTB shunt feeds and both sides of the C25 VM/PGND bypass on F.Cu at the same time. OUTA and OUTB measured 2.28 and 2.62 mm with 0.18 mm pin escapes widening to 0.30 mm. C25's supply and return were 1.76 and 1.31 mm. For final layout, keep those high-current paths separate from the shunt sense pickups. Reserve a layer transition for phase C and the phase B load-side path at the motor-ribbon pin order. Place nearby ground vias for the RP2350A bypasses and current amplifiers. Verify the complete routed board, including the buck switch-node fanout and the crystal, before fabrication.
-
-The optional routing trial connects the three phase outputs to the ribbon, both Kelvin pairs, the charge pump, local bypass and ground returns, the CAN pair, four MRAM interface signals and the three current-monitor channels in the same KiCad layout. In a disposable checkout of this revision, run the following command from the repository root. Open the project in KiCad and refill the zones. The trial has 71 open connections and zero other DRC or schematic-parity findings. [Critical route drawing](review/Finertia-critical-routes.png)
-
-```sh
-gzip -dc project-janus/ADCS/rotor-controller/review/Finertia-routing-trial.patch.gz | git apply -
-```
-
-### Routing priorities
-
-1. Route the bridge VM/PGND ceramic loop and charge-pump capacitor locally, and connect the exposed pad to ground with a short thermal/return path. Apply the 0.30 mm motor class to the OUTA/OUTB shunt feeds. A local package escape can neck down to 0.18 mm. Take a separate sense trace from the inner portion of each shunt land to its INA241 input and keep the two traces together. Keep motor current out of the Kelvin branches. Four F.Cu sense branches measured 1.40–2.66 mm in a temporary layout with the two power feeds in place. The two-terminal 0.100 Ω WSL0603 shunts allow this pickup geometry. At 100 mA phase peak each drops 10 mV and dissipates 1 mW instantaneously. [TI bridge layout](https://www.ti.com/lit/ds/symlink/drv8311-q1.pdf) · [TI INA241 layout](https://www.ti.com/lit/ds/symlink/ina241a-q1.pdf) · [Vishay WSL](https://www.vishay.com/docs/30100/wsl.pdf)
-2. Take CANH/CANL together from J2.3/.6 to U4.7/.6 over the L2 ground plane, following the upper side of the shaft. Maintain similar via count and separation, keep the harness stub short, and keep the pair clear of phase copper and LX. Use a 120 Ω twisted-pair backbone with termination at the two physical ends. Determine whether this wheel is an endpoint from the vehicle harness. C20 needs a direct VCC connection and a short return to U4 ground. [TCAN330G §§7.2.1.1, 7.4–7.5](https://www.ti.com/lit/ds/symlink/tcan330g.pdf)
-3. Give the RP2350 core regulator and crystal their short, dedicated paths early. Keep the LX area compact and its plane clearance intact. Route the crystal and load capacitors clear of motor and digital switching. Route the filtered A/B sense signals over continuous ground, with their 22 pF capacitors at GP26/GP27. The placement trial fits 23 local ground contacts. C19 has a 0.52 mm return, and C30 and C31 share a via through separate 0.50 and 0.52 mm leads. Final copper, via stitching and measurements establish loop performance. [RP2350 hardware design guide](https://datasheets.raspberrypi.com/rp2350/hardware-design-with-rp2350.pdf)
+| IOVDD | 1 → C8 (2.20 mm), 11 → C9 (2.56 mm), 20 → C10 (1.64 mm) |
+| IOVDD | 30 → C11 (2.46 mm), 38 → C12 (3.13 mm), 45 → C13 (3.62 mm) |
+| ADC, OTP and QSPI | 44 → C14 (4.46 mm), 53 → C15 (2.55 mm), 54 → C16 (3.47 mm) |
+| DVDD | 6 → C17 (1.99 mm), 23 → C18 (1.88 mm), 39 → C19 (1.65 mm) |
 
 ## Bench bring-up
 
@@ -105,7 +113,7 @@ Faulhaber defines catalog BLDC current as DC-equivalent. For sinusoidal commutat
 
 The supplied 8.2 V simulation estimates 61 ms to acquire 2°/s and about 3.04 mA to sustain the rotor at 2,094 rpm against drag. Interpreted as catalog DC-equivalent current, the latter corresponds to about 3.34 mA sinusoidal phase peak and a 16.7 mV peak signal at the current amplifier. Validate both operating points on the bench.
 
-The two inline INA241A3-Q1 channels use 0.100 Ω shunts and gain of 50 V/V, giving 5 mV/mA about midrail. Route a dedicated Kelvin pair from each shunt’s terminals. The amplifier’s maximum 10 µV input offset at 25 °C under specified conditions is equivalent to 0.10 mA. At 3.3 V, the ideal 12-bit ADC step is 0.806 mV or 0.161 mA. Sweep known currents in both directions, including the 3 mA region, and log both sequential ADC samples, PWM timing, Hall angle, estimated q-axis current, speed and temperature. Check warm offset, noise and ripple at the chosen loop bandwidth during acquisition, steady rotation and reversal. Compare measured error to the allocated pointing and jitter budget. A provisional 10% budget at 3 mA DC-equivalent is about 5.3 µN·m. [TI INA241A-Q1](https://www.ti.com/product/INA241A-Q1) · [RP2350 ADC](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
+The two inline INA241A3-Q1 channels use 0.100 Ω shunts and gain of 50 V/V, giving 5 mV/mA about midrail. Each amplifier reads its shunt over a dedicated Kelvin pair. The amplifier’s maximum 10 µV input offset at 25 °C under specified conditions is equivalent to 0.10 mA. At 3.3 V, the ideal 12-bit ADC step is 0.806 mV or 0.161 mA. Sweep known currents in both directions, including the 3 mA region, and log both sequential ADC samples, PWM timing, Hall angle, estimated q-axis current, speed and temperature. Check warm offset, noise and ripple at the chosen loop bandwidth during acquisition, steady rotation and reversal. Compare measured error to the allocated pointing and jitter budget. A provisional 10% budget at 3 mA DC-equivalent is about 5.3 µN·m. [TI INA241A-Q1](https://www.ti.com/product/INA241A-Q1) · [RP2350 ADC](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf)
 
 ## Motor winding choice
 

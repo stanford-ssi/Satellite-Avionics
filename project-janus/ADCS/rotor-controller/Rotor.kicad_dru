@@ -9,3 +9,26 @@
     (layer "B.Cu")
     (condition "A.intersectsArea('Tag-Connect contact keepout')")
     (constraint disallow track via))
+
+(rule "Keep L2 and L5 clear for ground returns"
+    (condition "A.Type == 'Track' && (A.Layer == 'In1.Cu' || A.Layer == 'In4.Cu')")
+    (constraint disallow track))
+
+(rule "Reserve L4 for power distribution"
+    (layer "In3.Cu")
+    (condition "A.Type == 'Track' && A.NetName != '+3V3' && A.NetName != '/MOTOR_VM' && A.NetName != '/Motor control/VCORE' && A.NetName != 'Net-(U1-VREG_AVDD)'")
+    (constraint disallow track))
+
+(rule "Set component-side ground pour back from CAN traces"
+    (layer "F.Cu")
+    (condition "A.Type == 'Zone' && A.NetName == 'GND' && B.Type == 'Track' && (B.NetName == '/CAN and housekeeping/CAN_H' || B.NetName == '/CAN and housekeeping/CAN_L')")
+    (constraint clearance (min 0.40mm)))
+
+(rule "Keep ordinary routing at 0.13 mm minimum"
+    (condition "A.Type == 'Track' && A.NetName != '/CAN and housekeeping/CAN_H' && A.NetName != '/CAN and housekeeping/CAN_L'")
+    (constraint track_width (min 0.13mm)))
+
+(rule "CAN differential geometry on L1"
+    (layer "F.Cu")
+    (condition "A.NetName == '/CAN and housekeeping/CAN_H' || A.NetName == '/CAN and housekeeping/CAN_L'")
+    (constraint track_width (min 0.115mm) (opt 0.115mm) (max 0.115mm)))
