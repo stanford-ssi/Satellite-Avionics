@@ -1,0 +1,51 @@
+Net,Previous segments,Revised segments,Previous planar track total mm,Revised planar track total mm,Previous vias,Revised vias,Previous longest projected reference gap mm,Revised longest projected reference gap mm,Previous parallel to switching copper mm,Revised parallel to switching copper mm
++3V3,130,127,77.091,76.08,32,32,,,,
+/CAN and housekeeping/CAN_H,6,4,6.974,5.662,0,0,0,0,0,0
+/CAN and housekeeping/CAN_L,5,5,7.622,7.622,0,0,0,0,0,0
+/CAN and housekeeping/CAN_RX,14,14,25.126,25.126,4,4,0,0,0,0
+/CAN and housekeeping/CAN_TX,17,17,28.921,28.921,3,3,0,0,0,0
+/CAN and housekeeping/TMP_SCL,31,29,29.098,28.971,6,6,0,0,0,0
+/CAN and housekeeping/TMP_SDA,31,31,46.41,46.619,5,5,0,0,0,0
+/CAN and housekeeping/WDI,18,15,22.496,22.496,3,3,0,0,0,0
+/CAN and housekeeping/WD_EN,10,10,10.348,10.348,1,1,0,0,0,0
+/MOTOR_VM,14,14,9.175,9.15,5,5,,,,
+/Motor control/DRV_CS_N,15,14,27.623,27.648,4,4,0,0,0,0
+/Motor control/DRV_FAULT_N,20,19,37.835,37.835,5,5,0,0,0,0
+/Motor control/DRV_SCLK,19,17,23.692,23.692,3,3,0,0,0,0
+/Motor control/DRV_SDI,21,18,34.233,34.192,4,4,0.209,0.209,0,0
+/Motor control/DRV_SDO,20,20,24.638,24.638,5,5,0.075,0.075,0,0
+/Motor control/DRV_SYNC,10,10,33.705,33.705,2,2,0.056,0.056,0,0
+/Motor control/DRV_WAKE,32,27,35.561,35.57,7,7,0,0,0,0
+/Motor control/HALL_A,7,7,7.665,7.665,2,2,0,0,0,0
+/Motor control/HALL_B,4,4,1.926,1.926,0,0,0,0,0,0
+/Motor control/HALL_C,10,13,21.951,21.997,2,2,0,0,0,0
+/Motor control/ISENSE_A,12,10,17.596,16.193,2,2,0,0,0,0
+/Motor control/ISENSE_B,17,17,24.577,24.573,2,2,0,0,0,0
+/Motor control/ISENSE_C,11,12,16.151,16.191,3,3,0,0,0,0
+/Motor control/RUN_N,51,43,54.301,54.242,6,6,0,0,0,0
+/Motor control/SWCLK,11,11,19.596,19.596,1,1,0,0,0,0
+/Motor control/SWDIO,16,15,18.552,18.389,3,3,0,0,0,0
+/Motor control/VCORE,41,38,33.224,31.784,4,4,0,0,0.25,0.25
+/Three-phase bridge/CSA_C,9,9,12.252,12.252,2,2,0,0,0,0
+/Three-phase bridge/DRV_AVDD,3,3,1.353,1.353,0,0,0,0,0,0
+/Three-phase bridge/DRV_CP,3,3,1.299,1.299,0,0,0,0,0,0
+/Three-phase bridge/HALL_RAW_A,12,9,12.604,13.021,3,3,0,0,0,0
+/Three-phase bridge/HALL_RAW_B,21,19,26.696,26.671,4,4,0,0,0.027,0
+/Three-phase bridge/HALL_RAW_C,14,16,13.116,16.702,2,3,0,0,1.345,0
+/Three-phase bridge/PHASE_A,14,13,9.292,8.836,2,2,0,0,2.947,2.417
+/Three-phase bridge/PHASE_A_SW,10,10,4.731,4.731,0,0,0,0,0.51,0.51
+/Three-phase bridge/PHASE_B,16,16,11.955,11.955,2,2,0,0,5.122,2.192
+/Three-phase bridge/PHASE_B_SW,7,7,4.532,4.532,0,0,0,0,1.181,1.181
+/Three-phase bridge/PHASE_C,16,12,16.958,16.977,2,2,0,0,3.282,0.882
+GND,105,108,65.321,65.344,75,75,,,,
+Net-(C4-Pad1),5,5,6.698,6.166,0,0,0,0,0,0
+Net-(U1-QSPI_SCLK),10,10,12.082,12.082,2,2,0,0,0,0
+Net-(U1-QSPI_SD0),4,4,11.64,11.64,2,2,0,0,0,0
+Net-(U1-QSPI_SD1),6,6,10.304,10.304,2,2,0,0,0,0
+Net-(U1-VREG_AVDD),7,7,3.87,3.87,0,0,0,0,0,0
+Net-(U1-VREG_LX),8,8,4.173,4.173,0,0,4.173,4.173,0,0
+Net-(U1-XIN),7,7,6.906,6.906,0,0,0,0,0,0
+Net-(U1-XOUT),3,3,1.724,1.724,0,0,0,0,0,0
+Net-(U1-~{QSPI_SS}),11,10,12.393,12.342,3,3,0,0,0,0
+Net-(U8-OUT),8,8,6.966,6.966,2,2,0,0,0,0
+Net-(U9-OUT),6,6,6.871,6.871,2,2,0,0,0,0
