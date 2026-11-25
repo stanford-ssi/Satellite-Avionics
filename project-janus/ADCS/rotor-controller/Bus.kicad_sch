@@ -1539,7 +1539,7 @@
 	)
 	(text "Classical CAN transceiver"
 		(exclude_from_sim no)
-		(at 139.7 39.37 0)
+		(at 177.292 48.514 0)
 		(effects
 			(font
 				(size 2.6 2.6)
@@ -1583,17 +1583,6 @@
 		)
 		(uuid "b4a3f687-bd92-5ca5-b945-4c9ba9ef7128")
 	)
-	(text "Connect to a CAN stub. Terminate the two bus ends."
-		(exclude_from_sim no)
-		(at 139.7 45.72 0)
-		(effects
-			(font
-				(size 1.3 1.3)
-			)
-			(justify left)
-		)
-		(uuid "c64d400d-3b7e-55ea-a228-236e627873b5")
-	)
 	(text "Watchdog and reset"
 		(exclude_from_sim no)
 		(at 222.25 134.62 0)
@@ -1618,10 +1607,10 @@
 		(uuid "fb89d5a5-70e9-554d-834d-58a15f381cbb")
 	)
 	(junction
-		(at 308.61 187.96)
+		(at 149.86 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b076027-4c38-571a-bf74-cf4158f22195")
+		(uuid "116de608-aedb-4bf9-8212-9ce5e06fec31")
 	)
 	(junction
 		(at 261.62 191.77)
@@ -1636,16 +1625,16 @@
 		(uuid "3460767b-232b-5e37-9640-59fee58e7980")
 	)
 	(junction
-		(at 166.37 162.56)
+		(at 299.72 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "392c1d6b-ae29-5b8d-8dc1-32a708d16528")
+		(uuid "4bae4d18-04fe-4b1e-a7e2-66dd23d06433")
 	)
 	(junction
-		(at 170.18 87.63)
+		(at 153.67 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3bf72a86-4e27-5f2e-98d8-25bed4c24c80")
+		(uuid "5166abdb-0b8d-4e12-a651-81775b2783a0")
 	)
 	(junction
 		(at 262.89 203.2)
@@ -1654,22 +1643,16 @@
 		(uuid "54f322f7-40d6-528b-a371-5ed8fe9adb21")
 	)
 	(junction
-		(at 171.45 184.15)
+		(at 144.78 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "651c836c-a274-5fa5-9798-0b38b984d30a")
+		(uuid "7ed1880f-889e-4c80-8f23-797bc2965d99")
 	)
 	(junction
 		(at 102.87 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a120a77c-4432-5f8c-9b80-adc4e90f61d9")
-	)
-	(junction
-		(at 156.21 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a23628ae-0350-59aa-b278-9d5148184310")
 	)
 	(junction
 		(at 104.14 177.8)
@@ -1695,6 +1678,12 @@
 		(color 0 0 0 0)
 		(uuid "ed7d0732-d0dc-5406-b9cb-82b07994ffc3")
 	)
+	(junction
+		(at 182.88 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee577575-a207-4bee-b192-a447a0c7868e")
+	)
 	(wire
 		(pts
 			(xy 113.03 186.69) (xy 102.87 186.69)
@@ -1717,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 63.5) (xy 201.93 63.5)
+			(xy 182.88 63.5) (xy 201.93 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1727,23 +1716,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 162.56) (xy 166.37 162.56)
+			(xy 144.78 162.56) (xy 149.86 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0553f85b-e6f3-5051-820f-1b7d309e7aa9")
-	)
-	(wire
-		(pts
-			(xy 171.45 173.99) (xy 171.45 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a51b6a7-97e0-5f8b-8f2c-95ce9b14986b")
 	)
 	(wire
 		(pts
@@ -1767,13 +1746,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 170.18 87.63)
+			(xy 177.8 87.63) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "14fdbdb2-5b5d-5200-b215-fe0e5516b007")
+	)
+	(wire
+		(pts
+			(xy 144.78 180.34) (xy 158.75 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d49eb2-6749-4f7e-bad1-83478004f1e6")
 	)
 	(wire
 		(pts
@@ -1797,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 184.15) (xy 171.45 184.15)
+			(xy 140.97 184.15) (xy 153.67 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 187.96) (xy 335.28 187.96)
+			(xy 318.77 187.96) (xy 320.04 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1847,23 +1836,13 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 195.58) (xy 322.58 195.58)
+			(xy 294.64 195.58) (xy 307.34 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f8dc2c3-fcec-583b-9c27-399b84cf57c3")
-	)
-	(wire
-		(pts
-			(xy 170.18 87.63) (xy 185.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fcf53f9-cfa2-5af7-8ddb-eae08098c536")
 	)
 	(wire
 		(pts
@@ -1887,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 203.2) (xy 322.58 203.2)
+			(xy 294.64 203.2) (xy 307.34 203.2)
 		)
 		(stroke
 			(width 0)
@@ -1914,16 +1893,6 @@
 			(type default)
 		)
 		(uuid "46f13f3d-e113-557f-a64d-06561d0be1ed")
-	)
-	(wire
-		(pts
-			(xy 218.44 87.63) (xy 236.22 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c54474-69f2-5258-8cbb-3c17ae5d5041")
 	)
 	(wire
 		(pts
@@ -1997,13 +1966,33 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 173.99) (xy 308.61 170.18)
+			(xy 182.88 87.63) (xy 185.42 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7be9f4cc-85ed-5cf1-9882-ceb0841ed2d9")
+		(uuid "7615997e-8a47-412b-94e7-a10b50249f7c")
+	)
+	(wire
+		(pts
+			(xy 153.67 173.99) (xy 153.67 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77de3d38-fb91-4812-8322-6b155ad15480")
+	)
+	(wire
+		(pts
+			(xy 218.44 93.98) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb42a7a-1307-4daf-9fc5-559d11b8f03a")
 	)
 	(wire
 		(pts
@@ -2037,7 +2026,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 76.2) (xy 170.18 87.63)
+			(xy 144.78 173.99) (xy 144.78 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fb05b7-dc3d-4983-bc35-08a6ea423901")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 166.37) (xy 156.21 162.56)
+			(xy 144.78 166.37) (xy 144.78 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2086,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 170.18 63.5)
+			(xy 153.67 184.15) (xy 158.75 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dae2cb-77b2-492f-8c04-f268f52e80f3")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 182.88 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2097,43 +2106,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 162.56) (xy 171.45 162.56)
+			(xy 299.72 170.18) (xy 299.72 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59b73b1-946a-4fa6-93b3-24452878208e")
+	)
+	(wire
+		(pts
+			(xy 149.86 162.56) (xy 153.67 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6c4af18-cb21-5bee-babc-7fc321ea7edd")
-	)
-	(wire
-		(pts
-			(xy 171.45 184.15) (xy 187.96 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f040ca-3917-525b-927a-bee5d6467705")
-	)
-	(wire
-		(pts
-			(xy 156.21 173.99) (xy 156.21 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1837290-6db7-5e47-98bf-cf9610ccc59d")
-	)
-	(wire
-		(pts
-			(xy 156.21 180.34) (xy 187.96 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60bfc1e-23e8-584e-9891-50dd960c1b3d")
 	)
 	(wire
 		(pts
@@ -2147,7 +2136,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 160.02) (xy 166.37 162.56)
+			(xy 149.86 161.29) (xy 149.86 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2167,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 93.98) (xy 185.42 93.98)
+			(xy 177.8 93.98) (xy 185.42 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2196,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 187.96) (xy 308.61 187.96)
+			(xy 294.64 187.96) (xy 299.72 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2227,13 +2216,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 93.98) (xy 236.22 93.98)
+			(xy 218.44 87.63) (xy 223.52 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e51463cc-5556-56bd-84a5-36b5aa5a5541")
+		(uuid "e752e7ca-a282-4449-8897-c61d3c5fc2d9")
 	)
 	(wire
 		(pts
@@ -2267,17 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 187.96) (xy 320.04 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4343062-94f3-59d8-85dd-c156491f6285")
-	)
-	(wire
-		(pts
-			(xy 308.61 181.61) (xy 308.61 187.96)
+			(xy 299.72 181.61) (xy 299.72 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 180.34) (xy 156.21 180.34)
+			(xy 140.97 180.34) (xy 144.78 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 162.56) (xy 171.45 166.37)
+			(xy 153.67 162.56) (xy 153.67 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2305,8 +2284,18 @@
 		)
 		(uuid "f63f7f6e-fa44-5f8a-be53-09bbc7f718bb")
 	)
+	(wire
+		(pts
+			(xy 299.72 187.96) (xy 308.61 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8aedb1a-3e89-4e7e-b0f0-0b08f1496597")
+	)
 	(label "WD_EN"
-		(at 308.61 187.96 0)
+		(at 302.26 187.96 0)
 		(effects
 			(font
 				(size 1.06 1.06)
@@ -2317,7 +2306,7 @@
 	)
 	(hierarchical_label "RUN_N"
 		(shape output)
-		(at 322.58 203.2 0)
+		(at 307.34 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2328,7 +2317,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 236.22 87.63 0)
+		(at 223.52 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2339,7 +2328,7 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 236.22 93.98 0)
+		(at 223.52 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2350,7 +2339,7 @@
 	)
 	(hierarchical_label "TMP_SDA"
 		(shape bidirectional)
-		(at 187.96 180.34 0)
+		(at 158.75 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2361,7 +2350,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 153.67 87.63 180)
+		(at 177.8 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2372,7 +2361,7 @@
 	)
 	(hierarchical_label "TMP_SCL"
 		(shape input)
-		(at 187.96 184.15 0)
+		(at 158.75 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2383,7 +2372,7 @@
 	)
 	(hierarchical_label "WDI"
 		(shape input)
-		(at 322.58 195.58 0)
+		(at 307.34 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2394,7 +2383,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 153.67 93.98 180)
+		(at 177.8 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2405,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 170.18 0)
+		(at 153.67 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2415,7 +2404,7 @@
 		(dnp no)
 		(uuid "0c57f26c-dc54-5792-8d1d-c7077fab5331")
 		(property "Reference" "R7"
-			(at 173.99 170.18 0)
+			(at 156.21 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2426,7 +2415,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 171.45 170.18 90)
+			(at 153.67 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2436,7 +2425,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 170.18 0)
+			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 171.45 170.18 0)
+			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,7 +2447,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 170.18 0)
+			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2469,7 +2458,7 @@
 			)
 		)
 		(property "MPN" "CRCW04024K70FKED"
-			(at 171.45 170.18 0)
+			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,7 +2469,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 171.45 170.18 0)
+			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +3193,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 308.61 170.18 0)
+		(at 299.72 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3214,7 +3203,7 @@
 		(dnp no)
 		(uuid "5fc004eb-3926-5224-b50d-1a908de38274")
 		(property "Reference" "#PWR2211"
-			(at 308.61 170.18 0)
+			(at 299.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3225,7 +3214,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 308.61 166.37 0)
+			(at 299.72 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3235,7 +3224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 170.18 0)
+			(at 299.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 170.18 0)
+			(at 299.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,7 +3246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 308.61 170.18 0)
+			(at 299.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +3347,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 166.37 160.02 0)
+		(at 149.86 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3368,7 +3357,7 @@
 		(dnp no)
 		(uuid "7529f352-2a1e-5a99-8330-059e1a8514e0")
 		(property "Reference" "#PWR2207"
-			(at 166.37 160.02 0)
+			(at 149.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3368,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 166.37 156.21 0)
+			(at 149.86 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3389,7 +3378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 160.02 0)
+			(at 149.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,7 +3389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 160.02 0)
+			(at 149.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3411,7 +3400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 166.37 160.02 0)
+			(at 149.86 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +3424,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 308.61 177.8 0)
+		(at 299.72 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3445,7 +3434,7 @@
 		(dnp no)
 		(uuid "79076d08-6853-59ff-a5ac-e8ae9a5fa803")
 		(property "Reference" "R8"
-			(at 311.15 177.8 0)
+			(at 302.26 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3456,7 +3445,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 308.61 177.8 90)
+			(at 299.72 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3466,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 308.61 177.8 0)
+			(at 299.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,7 +3466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 308.61 177.8 0)
+			(at 299.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +3477,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 308.61 177.8 0)
+			(at 299.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3488,7 @@
 			)
 		)
 		(property "MPN" "CRCW040210K0FKED"
-			(at 308.61 177.8 0)
+			(at 299.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +3499,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 308.61 177.8 0)
+			(at 299.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,7 +3680,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 325.12 187.96 0)
+		(at 313.69 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3701,7 +3690,7 @@
 		(dnp no)
 		(uuid "cc2e01fa-d8f0-56e5-9deb-c9cd312ee639")
 		(property "Reference" "JP1"
-			(at 325.12 181.61 0)
+			(at 313.69 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3711,7 +3700,7 @@
 			)
 		)
 		(property "Value" "WD inhibit"
-			(at 325.12 184.15 0)
+			(at 313.69 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3721,7 +3710,7 @@
 			)
 		)
 		(property "Footprint" "RotorPackages:WD-Bridge_1.35x0.75mm"
-			(at 325.12 187.96 0)
+			(at 313.69 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 187.96 0)
+			(at 313.69 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +3732,7 @@
 			)
 		)
 		(property "Description" "Normally open service jumper to inhibit the watchdog during SWD programming"
-			(at 325.12 187.96 0)
+			(at 313.69 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3847,7 +3836,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 72.39 0)
+		(at 182.88 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3857,7 +3846,7 @@
 		(dnp no)
 		(uuid "d05d6921-c29b-5605-86f5-551a73509c8a")
 		(property "Reference" "R5"
-			(at 172.72 72.39 0)
+			(at 185.42 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3868,7 +3857,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 170.18 72.39 90)
+			(at 182.88 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3878,7 +3867,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.18 72.39 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3889,7 +3878,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 170.18 72.39 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3900,7 +3889,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 72.39 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3911,7 +3900,7 @@
 			)
 		)
 		(property "MPN" "CRCW040210K0FKED"
-			(at 170.18 72.39 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3922,7 +3911,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 170.18 72.39 0)
+			(at 182.88 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 335.28 187.96 0)
+		(at 320.04 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4036,7 +4025,7 @@
 		(dnp no)
 		(uuid "d4f44e12-6f4c-5e5f-bc42-314b4cfe9e30")
 		(property "Reference" "#PWR2212"
-			(at 335.28 187.96 0)
+			(at 320.04 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,7 +4036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 191.77 0)
+			(at 320.04 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4057,7 +4046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 187.96 0)
+			(at 320.04 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 187.96 0)
+			(at 320.04 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,7 +4068,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 187.96 0)
+			(at 320.04 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,7 +4404,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 170.18 0)
+		(at 144.78 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4425,7 +4414,7 @@
 		(dnp no)
 		(uuid "f8bcf073-7714-52a6-87ac-f97beb157fcc")
 		(property "Reference" "R6"
-			(at 158.75 170.18 0)
+			(at 147.32 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4436,7 +4425,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 156.21 170.18 90)
+			(at 144.78 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4446,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.21 170.18 0)
+			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 156.21 170.18 0)
+			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,7 +4457,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 170.18 0)
+			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +4468,7 @@
 			)
 		)
 		(property "MPN" "CRCW04024K70FKED"
-			(at 156.21 170.18 0)
+			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,7 +4479,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 156.21 170.18 0)
+			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
