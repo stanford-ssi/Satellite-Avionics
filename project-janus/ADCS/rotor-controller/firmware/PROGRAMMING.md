@@ -15,9 +15,9 @@ This produces `build/bleps_wheel.bin`, `build/bleps_wheel.elf` and `build/mram_p
 
 ## First programming and recovery
 
-1. Leave J201.1 motor VBATT disconnected. Supply regulated 3.3 V to J201.4 with return to J201.2 or J201.5. With logic power off and the motor detached, solder-bridge the normally open rear JP201 (marked WD) to inhibit the external watchdog. Seat a TC2030-CTX-NL cable on J101 on the rear of the bare board. Use the normal Cortex orientation from the cable drawing. The fixture contacts are numbered as follows. [Tag-Connect cable drawing](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf)
+1. Leave J2.1 motor VBATT disconnected. Supply regulated 3.3 V to J2.4 with return to J2.2 or J2.5. With logic power off and the motor detached, solder-bridge the normally open rear JP1 (marked WD) to inhibit the external watchdog. Seat a TC2030-CTX-NL cable on J1 on the rear of the bare board. Use the normal Cortex orientation from the cable drawing. The fixture contacts are numbered as follows. [Tag-Connect cable drawing](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf)
 
-   | J101 pin | Signal |
+   | J1 pin | Signal |
    | --- | --- |
    | 1 | 3.3 V target reference |
    | 2 | SWDIO |
@@ -26,7 +26,7 @@ This produces `build/bleps_wheel.bin`, `build/bleps_wheel.elf` and `build/mram_p
    | 5 | GND |
    | 6 | Unconnected |
 
-   For a Raspberry Pi Debug Probe, use an adapter from its three-wire debug port to SWCLK, GND and SWDIO on the cable. With a probe that exposes VTref, use J101.1 for the reference. The board’s separate supply provides target power.
+   For a Raspberry Pi Debug Probe, use an adapter from its three-wire debug port to SWCLK, GND and SWDIO on the cable. With a probe that exposes VTref, use J1.1 for the reference. The board’s separate supply provides target power.
 2. Start OpenOCD for Arm core 0. This example uses the Raspberry Pi Debug Probe (CMSIS-DAP). Adjust the interface file for your probe. Supply `-s /path/to/openocd/scripts` if your installation requires a script path.
 
        openocd -f interface/cmsis-dap.cfg -c 'transport select swd' \
@@ -39,6 +39,6 @@ This produces `build/bleps_wheel.bin`, `build/bleps_wheel.elf` and `build/mram_p
          --image build/bleps_wheel.bin --readback build/wheel-readback.bin
 
    The script works with blank MRAM. It resets and halts the core, loads the programmer into SRAM, and uses `06h`/`05h`/`02h`/`04h`/`03h` to enable, check, write, disable and read back. It invalidates the old boot search window, verifies the new image body and header, then writes the new IMAGE_DEF start marker as the final write. It compares a separate readback to the entire image and prints the SHA-256. Keep 3.3 V on until verification succeeds. If interrupted, rerun from step 3. A status of 2 means the memory did not report WEL set with block protection clear. A status of 3 means the reported address failed the immediate byte comparison. Resolve wiring, supply, or protection before retrying. The tool leaves protection bits and OTP untouched. Use this programmer for MRAM rather than the OpenOCD NOR programming flow.
-4. Stop OpenOCD, remove the probe, disconnect logic power, clear the solder bridge from JP201, and verify the jumper is open. Power-cycle logic and verify watchdog operation before installing the motor. Confirm autonomous cold boot with VBATT still disconnected before starting powered commissioning. For a failed cold boot, check RUN_N at J101.3, logic at U101, and MRAM CS/SCK. The MRAM needs at least 400 µs after its rail reaches 3.0 V before selection. The fitted supervisor provides a nominal 200 ms delay. Verify it on the actual rail, and check reset and startup with both rail orders before energizing the bridge.
+4. Stop OpenOCD, remove the probe, disconnect logic power, clear the solder bridge from JP1, and verify the jumper is open. Power-cycle logic and verify watchdog operation before installing the motor. Confirm autonomous cold boot with VBATT still disconnected before starting powered commissioning. For a failed cold boot, check RUN_N at J1.3, logic at U2, and MRAM CS/SCK. The MRAM needs at least 400 µs after its rail reaches 3.0 V before selection. The fitted supervisor provides a nominal 200 ms delay. Verify it on the actual rail, and check reset and startup with both rail orders before energizing the bridge.
 
 [RP2350 boot and QMI documentation](https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf) · [Everspin MR25H40 command and timing tables](https://www.everspin.com/sites/default/files/EST00459_MR2xH40_Datasheet_Rev12.6_08092020.pdf)

@@ -1539,7 +1539,7 @@
 		)
 		(uuid "336e5c73-f2db-52a1-94be-b28d89b858f4")
 	)
-	(text "C302 to pin 8, C303 to pin 7."
+	(text "C25 to pin 8, C26 to pin 7."
 		(exclude_from_sim no)
 		(at 116.84 60.96 0)
 		(effects
@@ -1614,6 +1614,12 @@
 		(uuid "103ab44f-e419-54b3-862d-1b60237a8715")
 	)
 	(junction
+		(at 379.73 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d11fb47-1e56-4877-aec6-296ef3562880")
+	)
+	(junction
 		(at 328.93 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1648,12 +1654,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c898e9e-7855-5b55-9b48-1c75a90ea52d")
-	)
-	(junction
-		(at 392.43 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e419573-c3d5-5846-9fb1-45f813462d53")
 	)
 	(junction
 		(at 189.23 68.58)
@@ -1813,26 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 88.9) (xy 201.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d68b74-d40b-5eab-97d1-6ef74ccb96be")
-	)
-	(wire
-		(pts
-			(xy 383.54 102.87) (xy 392.43 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04938e08-9734-5210-9195-75cacd80331d")
-	)
-	(wire
-		(pts
 			(xy 363.22 72.39) (xy 375.92 72.39)
 		)
 		(stroke
@@ -1840,6 +1820,16 @@
 			(type default)
 		)
 		(uuid "04a29881-1d98-5a62-8d4f-63eaa4ea782b")
+	)
+	(wire
+		(pts
+			(xy 375.92 102.87) (xy 379.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052559f5-e9c0-4013-90f9-63e7aceccc91")
 	)
 	(wire
 		(pts
@@ -1913,16 +1903,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 182.88) (xy 314.96 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a31f1b0-9325-53ff-b014-ea57d551ae86")
-	)
-	(wire
-		(pts
 			(xy 345.44 146.05) (xy 350.52 146.05)
 		)
 		(stroke
@@ -1983,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 194.31) (xy 314.96 196.85)
+			(xy 328.93 193.04) (xy 328.93 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2093,16 +2073,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 184.15) (xy 262.89 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cf429bb-555d-5cf8-bb68-7f2e872bdbd7")
-	)
-	(wire
-		(pts
 			(xy 120.65 68.58) (xy 120.65 74.93)
 		)
 		(stroke
@@ -2140,16 +2110,6 @@
 			(type default)
 		)
 		(uuid "4282f13a-7895-5433-92ad-4f5dfd37a6c9")
-	)
-	(wire
-		(pts
-			(xy 328.93 109.22) (xy 314.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a86607-a41a-56b4-a9ed-36cf87f5c43d")
 	)
 	(wire
 		(pts
@@ -2203,7 +2163,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 182.88) (xy 314.96 186.69)
+			(xy 328.93 179.07) (xy 328.93 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 102.87) (xy 398.78 102.87)
+			(xy 379.73 102.87) (xy 386.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 83.82) (xy 201.93 88.9)
+			(xy 201.93 83.82) (xy 201.93 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 184.15) (xy 255.27 184.15)
+			(xy 242.57 184.15) (xy 262.89 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 120.65) (xy 314.96 123.19)
+			(xy 328.93 116.84) (xy 328.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 102.87) (xy 392.43 106.68)
+			(xy 379.73 102.87) (xy 379.73 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2853,16 +2813,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 109.22) (xy 314.96 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b632b8d1-9a13-5694-853b-92bd78b44382")
-	)
-	(wire
-		(pts
 			(xy 354.33 115.57) (xy 358.14 115.57)
 		)
 		(stroke
@@ -2890,16 +2840,6 @@
 			(type default)
 		)
 		(uuid "b93d5732-92f0-58a1-a11a-8b261a2bf2a2")
-	)
-	(wire
-		(pts
-			(xy 328.93 179.07) (xy 328.93 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc2d1d10-6906-51b3-8676-3c5ffa9d9f25")
 	)
 	(wire
 		(pts
@@ -2963,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 102.87) (xy 375.92 102.87)
+			(xy 364.49 102.87) (xy 368.3 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3003,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 104.14) (xy 243.84 104.14)
+			(xy 236.22 104.14) (xy 260.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 114.3) (xy 392.43 116.84)
+			(xy 379.73 114.3) (xy 379.73 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3150,16 +3090,6 @@
 			(type default)
 		)
 		(uuid "f33cbc7d-e527-5258-84b4-5dded34150c7")
-	)
-	(wire
-		(pts
-			(xy 243.84 104.14) (xy 260.35 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b9edcd-3920-5cb5-8aa9-ba35dd598c13")
 	)
 	(wire
 		(pts
@@ -3372,7 +3302,7 @@
 	)
 	(hierarchical_label "ISENSE_A"
 		(shape output)
-		(at 398.78 102.87 0)
+		(at 386.08 102.87 0)
 		(effects
 			(font
 				(size 1.25 1.25)
@@ -3578,7 +3508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d86c8a0-2af4-52ad-8b7a-8b23fb2827cd")
-		(property "Reference" "R304"
+		(property "Reference" "R12"
 			(at 181.61 221.615 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3591,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R304")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3745,7 +3675,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 314.96 190.5 0)
+		(at 328.93 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3754,8 +3684,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f17bf9a-7082-5ea5-bb8b-aab05da2963a")
-		(property "Reference" "C311"
-			(at 317.881 188.849 0)
+		(property "Reference" "C34"
+			(at 331.851 187.579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3766,7 +3696,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 317.881 191.8335 0)
+			(at 331.851 190.5635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3777,7 +3707,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 314.96 190.5 0)
+			(at 328.93 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +3718,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 314.96 190.5 0)
+			(at 328.93 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3799,7 +3729,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 190.5 0)
+			(at 328.93 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3809,7 +3739,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 314.96 190.5 0)
+			(at 328.93 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3750,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 314.96 190.5 0)
+			(at 328.93 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,7 +3761,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 317.881 193.683 0)
+			(at 331.851 192.413 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3851,7 +3781,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C311")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3859,7 +3789,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 392.43 110.49 0)
+		(at 379.73 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3868,8 +3798,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31c3f7c5-2e93-59bb-bb29-d7b5b4ce32e2")
-		(property "Reference" "C307"
-			(at 395.351 108.839 0)
+		(property "Reference" "C30"
+			(at 382.651 108.839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +3810,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 395.351 111.8235 0)
+			(at 382.651 111.8235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3891,7 +3821,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 392.43 110.49 0)
+			(at 379.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3902,7 +3832,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM1555C1H220JA16D"
-			(at 392.43 110.49 0)
+			(at 379.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +3843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 110.49 0)
+			(at 379.73 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3923,7 +3853,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H220JA16D"
-			(at 392.43 110.49 0)
+			(at 379.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +3864,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 392.43 110.49 0)
+			(at 379.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +3875,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 395.351 113.674 0)
+			(at 382.651 113.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3965,7 +3895,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C307")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4049,7 +3979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 196.85 0)
+		(at 328.93 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4059,7 +3989,7 @@
 		(dnp no)
 		(uuid "44db488b-43d1-5b17-b2f0-fc1009871bdc")
 		(property "Reference" "#PWR0345"
-			(at 314.96 196.85 0)
+			(at 328.93 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4070,7 +4000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 201.168 0)
+			(at 328.93 199.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4080,7 +4010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 196.85 0)
+			(at 328.93 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4091,7 +4021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 196.85 0)
+			(at 328.93 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4032,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 196.85 0)
+			(at 328.93 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4125,7 +4055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 392.43 116.84 0)
+		(at 379.73 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4135,7 +4065,7 @@
 		(dnp no)
 		(uuid "512e6dc7-afb2-526d-ae36-93c15f3f70fc")
 		(property "Reference" "#PWR0319"
-			(at 392.43 116.84 0)
+			(at 379.73 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 392.43 121.158 0)
+			(at 379.73 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4156,7 +4086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 392.43 116.84 0)
+			(at 379.73 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 392.43 116.84 0)
+			(at 379.73 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4178,7 +4108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 392.43 116.84 0)
+			(at 379.73 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4210,7 +4140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b4c4b6-fe6d-54f7-bc02-b2553e8ef1ab")
-		(property "Reference" "C304"
+		(property "Reference" "C27"
 			(at 204.851 78.359 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +4237,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C304")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5932ee5b-e39a-5559-9eb5-591faab73566")
-		(property "Reference" "R305"
+		(property "Reference" "R13"
 			(at 181.61 236.855 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4483,7 +4413,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R305")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4500,7 +4430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65fbc470-255e-50eb-8c3a-58029f3f20c8")
-		(property "Reference" "R307"
+		(property "Reference" "R15"
 			(at 215.9 227.965 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4513,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R307")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4600,7 +4530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "662c1c7f-9de9-5644-9d1a-63b8149bca02")
-		(property "Reference" "R312"
+		(property "Reference" "R20"
 			(at 354.33 69.215 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,7 +4636,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R312")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4799,7 +4729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ce524ab-6cc2-59e2-ae15-a57163c8a1af")
-		(property "Reference" "C301"
+		(property "Reference" "C24"
 			(at 123.571 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
+		(property "Footprint" "RotorPackages:KEMET_T521_3528_B_DensityC"
 			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4896,7 +4826,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C301")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70a4d8e3-9da4-52bd-a260-2a542e93d60d")
-		(property "Reference" "R301"
+		(property "Reference" "R9"
 			(at 150.114 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4997,7 +4927,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R301")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5014,7 +4944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a68cc70-81cb-5e81-a061-968d86781637")
-		(property "Reference" "R303"
+		(property "Reference" "R11"
 			(at 181.61 206.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5097,7 +5027,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R303")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5114,7 +5044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e2eef02-34f2-5382-aace-696b714080ac")
-		(property "Reference" "U302"
+		(property "Reference" "U8"
 			(at 363.22 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5229,7 +5159,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "U302")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5246,7 +5176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "847ed383-78c8-5bf4-8e0d-c33aaf76609a")
-		(property "Reference" "R302"
+		(property "Reference" "R10"
 			(at 274.574 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,7 +5260,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R302")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5338,7 +5268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 123.19 0)
+		(at 328.93 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5348,7 +5278,7 @@
 		(dnp no)
 		(uuid "84dff05e-820d-51a5-af23-edff3d3907fe")
 		(property "Reference" "#PWR0341"
-			(at 314.96 123.19 0)
+			(at 328.93 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +5289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 127.508 0)
+			(at 328.93 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5369,7 +5299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 123.19 0)
+			(at 328.93 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5380,7 +5310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 123.19 0)
+			(at 328.93 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5391,7 +5321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 123.19 0)
+			(at 328.93 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5423,7 +5353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "853d2bb3-b072-5d07-bca5-8100a2308287")
-		(property "Reference" "C302"
+		(property "Reference" "C25"
 			(at 142.621 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +5450,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C302")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88324dab-2b7b-5d46-adec-64d209e320a7")
-		(property "Reference" "R310"
+		(property "Reference" "R18"
 			(at 379.73 173.355 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5620,7 +5550,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R310")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5637,7 +5567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2d0e5c-2366-508a-9ca8-ae8cdda4898d")
-		(property "Reference" "C303"
+		(property "Reference" "C26"
 			(at 161.671 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5664,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C303")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a685b6b8-5bc2-596c-b4d1-315dff96f371")
-		(property "Reference" "C308"
+		(property "Reference" "C31"
 			(at 395.351 182.499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6000,7 +5930,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C308")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -6017,7 +5947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8843714-879d-52d8-989e-c72782352e66")
-		(property "Reference" "R308"
+		(property "Reference" "R16"
 			(at 215.9 243.205 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6100,7 +6030,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R308")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6108,7 +6038,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 314.96 116.84 0)
+		(at 328.93 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6117,8 +6047,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae7eebfb-a3da-509b-9c28-0f999261ff82")
-		(property "Reference" "C310"
-			(at 317.881 115.189 0)
+		(property "Reference" "C33"
+			(at 331.851 111.379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6129,7 +6059,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 317.881 118.1735 0)
+			(at 331.851 114.3635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6140,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 314.96 116.84 0)
+			(at 328.93 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,7 +6081,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 314.96 116.84 0)
+			(at 328.93 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,7 +6092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 116.84 0)
+			(at 328.93 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6172,7 +6102,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 314.96 116.84 0)
+			(at 328.93 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +6113,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 314.96 116.84 0)
+			(at 328.93 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6124,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 317.881 120.023 0)
+			(at 331.851 116.213 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6214,7 +6144,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C310")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2a19e39-1109-5055-93e2-f66c8d17623d")
-		(property "Reference" "C306"
+		(property "Reference" "C29"
 			(at 244.221 77.089 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,7 +6410,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C306")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6497,7 +6427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4c189c8-0507-5cea-965d-ae3fb51c77cb")
-		(property "Reference" "R311"
+		(property "Reference" "R19"
 			(at 266.7 180.975 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,7 +6510,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R311")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6673,7 +6603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b89354e5-d1b5-57a0-9adb-673abeb014b2")
-		(property "Reference" "C305"
+		(property "Reference" "C28"
 			(at 297.561 94.869 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6770,7 +6700,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C305")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6939,7 +6869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce2ef006-3d4c-546d-b7eb-b1e74d5b0121")
-		(property "Reference" "R313"
+		(property "Reference" "R21"
 			(at 354.33 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +6975,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R313")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7062,7 +6992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4c73edd-01e0-5f94-ab01-fda7fb68ece5")
-		(property "Reference" "U303"
+		(property "Reference" "U9"
 			(at 363.22 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7177,7 +7107,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "U303")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7191,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 379.73 102.87 90)
+		(at 372.11 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7270,8 +7200,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddb1d15e-7847-5e41-bac0-3f2a2bd4e850")
-		(property "Reference" "R309"
-			(at 379.73 99.695 90)
+		(property "Reference" "R17"
+			(at 372.11 99.695 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7281,7 +7211,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 379.73 102.87 90)
+			(at 372.11 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7291,7 +7221,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 379.73 102.87 0)
+			(at 372.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7302,7 +7232,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 379.73 102.87 0)
+			(at 372.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7313,7 +7243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 102.87 0)
+			(at 372.11 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7323,7 +7253,7 @@
 			)
 		)
 		(property "MPN" "CRCW0402330RFKED"
-			(at 379.73 102.87 0)
+			(at 372.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,7 +7264,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 379.73 102.87 0)
+			(at 372.11 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7353,7 +7283,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R309")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7370,7 +7300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de723d6a-7bb5-5458-acd7-2fcd200c0d59")
-		(property "Reference" "U301"
+		(property "Reference" "U7"
 			(at 233.68 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +7454,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "U301")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7541,7 +7471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dedc5545-cd05-508f-9597-bb23fa86bc84")
-		(property "Reference" "C309"
+		(property "Reference" "C32"
 			(at 287.401 190.119 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7638,7 +7568,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "C309")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7807,7 +7737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa5237e6-c0cd-57f2-9498-cd0cfbfcbb8f")
-		(property "Reference" "R306"
+		(property "Reference" "R14"
 			(at 215.9 212.725 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +7820,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb/11975f7e-8044-433c-80d0-84315ce8be1b"
-					(reference "R306")
+					(reference "R14")
 					(unit 1)
 				)
 			)

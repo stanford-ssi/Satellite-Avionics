@@ -42,9 +42,9 @@ def printable_area(board, area):
     for footprint in board.GetFootprints():
         courtyard = footprint.GetCourtyard(pcb.B_CrtYd)
         # M1 has separate rear spacer-seat circles even though the footprint is on F.Cu.
-        # J101 is an unpopulated pogo landing. Its temporary cable body occupies the
+        # J1 is an unpopulated pogo landing. Its temporary cable body occupies the
         # courtyard only during programming. Mask each pad, guide hole and pin-1 mark.
-        if footprint.GetReference() != "J101" and courtyard.OutlineCount():
+        if footprint.GetReference() != "J1" and courtyard.OutlineCount():
             space = pcb.SHAPE_POLY_SET(courtyard)
             space.Inflate(CLEARANCE, corner_style, TOLERANCE)
             keepout.BooleanAdd(space)

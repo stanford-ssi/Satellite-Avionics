@@ -523,24 +523,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.15 1.15)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.05 1.05)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 10.16 -3.81 180)
 					(length 2.54)
@@ -559,17 +541,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 10.16 -6.35 180)
+				(pin power_out line
+					(at 10.16 1.27 180)
 					(length 2.54)
-					(name "CAN_L"
+					(name "+3V3"
 						(effects
 							(font
 								(size 1.15 1.15)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.05 1.05)
@@ -588,6 +570,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.05 1.05)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.15 1.15)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.05 1.05)
@@ -1534,7 +1534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49ae1883-db25-5035-9359-90da6c2d5817")
-		(property "Reference" "C212"
+		(property "Reference" "C23"
 			(at 82.55 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1556,7 +1556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "RotorPackages:Murata_GRM21_2012_Reflow"
 			(at 80.01 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1632,7 +1632,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
-					(reference "C212")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -1649,7 +1649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dd80045-4393-5c41-a7c9-a07cb64af105")
-		(property "Reference" "J201"
+		(property "Reference" "J2"
 			(at 33.02 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1744,7 +1744,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
-					(reference "J201")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7b2945f-1c28-5bdb-a607-d8bd1bd62404")
-		(property "Reference" "J301"
+		(property "Reference" "J3"
 			(at 384.81 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2064,7 @@
 		(instances
 			(project "Rotor"
 				(path "/9f0db85e-0421-488c-a01b-9a143a5d11eb"
-					(reference "J301")
+					(reference "J3")
 					(unit 1)
 				)
 			)
