@@ -3069,6 +3069,16 @@
 				(justify left top)
 			)
 		)
+		(pin "3V3_PGOOD" output
+			(at 156.21 66.04 270)
+			(uuid "c3bc2f59-b218-4c14-8028-208e8675a253")
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/7012b14c-1234-46c7-93ca-a32cabe861df"
@@ -3076,5 +3086,36 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cec6c6-6376-43bf-a714-d27b5d936b6f")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154d8c6f-71bc-40e3-a787-e41c324c3cf6")
+	)
+	(hierarchical_label "3V3_PGOOD"
+		(shape output)
+		(at 152.4 69.85 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "94487122-e96d-4a28-805f-f649b5baa6a9")
 	)
 )

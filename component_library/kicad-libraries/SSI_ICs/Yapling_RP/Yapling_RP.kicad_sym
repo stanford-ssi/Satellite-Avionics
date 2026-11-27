@@ -1156,7 +1156,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 3.81 270)
+				(at -10.16 3.81 270)
 				(length 3.81)
 				(name "GPIO6"
 					(effects
@@ -1174,7 +1174,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 3.81 270)
+				(at -7.62 3.81 270)
 				(length 3.81)
 				(name "GPIO7"
 					(effects
@@ -1300,7 +1300,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 3.81 270)
+				(at -29.21 -104.14 0)
 				(length 3.81)
 				(name "GPIO12"
 					(effects
@@ -1318,7 +1318,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 3.81 270)
+				(at -29.21 -107.95 0)
 				(length 3.81)
 				(name "GPIO13"
 					(effects
@@ -1336,7 +1336,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 3.81 270)
+				(at -29.21 -111.76 0)
 				(length 3.81)
 				(name "GPIO14"
 					(effects
@@ -1354,7 +1354,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 3.81 270)
+				(at -29.21 -115.57 0)
 				(length 3.81)
 				(name "GPIO15"
 					(effects
@@ -1481,7 +1481,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -1.27 3.81 270)
+				(at -29.21 -119.38 0)
 				(length 3.81)
 				(name "GPIO21"
 					(effects
@@ -1517,7 +1517,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 3.81 270)
+				(at -5.08 3.81 270)
 				(length 3.81)
 				(name "GPIO23"
 					(effects
@@ -1554,7 +1554,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 3.81 270)
+				(at -2.54 3.81 270)
 				(length 3.81)
 				(name "GPIO24"
 					(effects
@@ -1572,7 +1572,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 3.81 270)
+				(at 0 3.81 270)
 				(length 3.81)
 				(name "GPIO25"
 					(effects
@@ -1754,7 +1754,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 3.81 270)
+				(at 2.54 3.81 270)
 				(length 3.81)
 				(name "GPIO28"
 					(effects
@@ -1772,7 +1772,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 3.81 270)
+				(at 5.08 3.81 270)
 				(length 3.81)
 				(name "GPIO29"
 					(effects
@@ -1790,7 +1790,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 3.81 270)
+				(at 7.62 3.81 270)
 				(length 3.81)
 				(name "GPIO30"
 					(effects
@@ -1808,7 +1808,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 3.81 270)
+				(at 10.16 3.81 270)
 				(length 3.81)
 				(name "GPIO31"
 					(effects

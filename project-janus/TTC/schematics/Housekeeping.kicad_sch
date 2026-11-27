@@ -11,195 +11,6 @@
 		(company "Stanford Student Space Initiative")
 	)
 	(lib_symbols
-		(symbol "Yapling_Passives:C2012X7S1E106K125AE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.65 1.45 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.9 0.9)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10u"
-				(at 2.65 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.9 0.9)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7S1E106K125AE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7S1E106K125AE/10413498"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Rating" "25 V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "MPN" "C2012X7S1E106K125AE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Voltage" "25 V"
-				(at 2.65 -1.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.82 0.82)
-						(color 13 111 120 1)
-					)
-					(justify left)
-				)
-			)
-			(symbol "C2012X7S1E106K125AE_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C2012X7S1E106K125AE_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1155,6 +966,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Yapling_Passives:C2012X7S1E106K125AE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.65 1.45 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 2.65 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:C_0805_2012Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7S1E106K125AE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X7S1E106K125AE/10413498"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "25 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "C2012X7S1E106K125AE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Voltage" "25 V"
+				(at 2.65 -1.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.82 0.82)
+						(color 13 111 120 1)
+					)
+					(justify left)
+				)
+			)
+			(symbol "C2012X7S1E106K125AE_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C2012X7S1E106K125AE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Yapling_Passives:CRCW040227R0FKED"
 			(pin_numbers
 				(hide yes)
@@ -1931,6 +1931,169 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Yapling_Passives:TNPW040210K0BEED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.25 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10K"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.85 0.85)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW040210K0BEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "TNPW040210K0BEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(symbol "TNPW040210K0BEED_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TNPW040210K0BEED_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3513,7 +3676,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 3.81 270)
+					(at -10.16 3.81 270)
 					(length 3.81)
 					(name "GPIO6"
 						(effects
@@ -3531,7 +3694,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -13.97 3.81 270)
+					(at -7.62 3.81 270)
 					(length 3.81)
 					(name "GPIO7"
 						(effects
@@ -3657,7 +3820,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -11.43 3.81 270)
+					(at -29.21 -104.14 0)
 					(length 3.81)
 					(name "GPIO12"
 						(effects
@@ -3675,7 +3838,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -8.89 3.81 270)
+					(at -29.21 -107.95 0)
 					(length 3.81)
 					(name "GPIO13"
 						(effects
@@ -3693,7 +3856,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -6.35 3.81 270)
+					(at -29.21 -111.76 0)
 					(length 3.81)
 					(name "GPIO14"
 						(effects
@@ -3711,7 +3874,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -3.81 3.81 270)
+					(at -29.21 -115.57 0)
 					(length 3.81)
 					(name "GPIO15"
 						(effects
@@ -3838,7 +4001,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -1.27 3.81 270)
+					(at -29.21 -119.38 0)
 					(length 3.81)
 					(name "GPIO21"
 						(effects
@@ -3874,7 +4037,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 1.27 3.81 270)
+					(at -5.08 3.81 270)
 					(length 3.81)
 					(name "GPIO23"
 						(effects
@@ -3911,7 +4074,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 3.81 3.81 270)
+					(at -2.54 3.81 270)
 					(length 3.81)
 					(name "GPIO24"
 						(effects
@@ -3929,7 +4092,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 6.35 3.81 270)
+					(at 0 3.81 270)
 					(length 3.81)
 					(name "GPIO25"
 						(effects
@@ -4111,7 +4274,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 8.89 3.81 270)
+					(at 2.54 3.81 270)
 					(length 3.81)
 					(name "GPIO28"
 						(effects
@@ -4129,7 +4292,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 11.43 3.81 270)
+					(at 5.08 3.81 270)
 					(length 3.81)
 					(name "GPIO29"
 						(effects
@@ -4147,7 +4310,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 13.97 3.81 270)
+					(at 7.62 3.81 270)
 					(length 3.81)
 					(name "GPIO30"
 						(effects
@@ -4165,7 +4328,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 16.51 3.81 270)
+					(at 10.16 3.81 270)
 					(length 3.81)
 					(name "GPIO31"
 						(effects
@@ -5481,7 +5644,7 @@
 		)
 		(uuid "0781ae28-f595-404c-bcfd-563869168ada")
 	)
-	(text "1.6 s timeout · bridge JP100 to disable"
+	(text "1.6 s timeout · bridge JP100 to disable · 3V3_PGOOD holds reset until 3V3 is in regulation"
 		(exclude_from_sim no)
 		(at 24.13 235.839 0)
 		(effects
@@ -6083,12 +6246,6 @@
 		(uuid "a57670ca-66d9-48d2-8194-44aa353f7b08")
 	)
 	(junction
-		(at 41.91 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adac4d1e-016b-48e8-8ee6-d0f64d097723")
-	)
-	(junction
 		(at 41.91 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6219,80 +6376,28 @@
 		(uuid "03a01d5c-bd66-4e55-894f-47b16ad815f0")
 	)
 	(no_connect
-		(at 246.38 29.21)
-		(uuid "09476bef-f4a0-498b-8a90-f97e4a3a1289")
-	)
-	(no_connect
 		(at 236.22 233.68)
 		(uuid "184a7efd-8557-4592-a12d-dd0aa5e61a1d")
-	)
-	(no_connect
-		(at 226.06 29.21)
-		(uuid "1d5028a0-7999-4bb5-b17e-87abb576b1ac")
 	)
 	(no_connect
 		(at 223.52 233.68)
 		(uuid "2bf9aecf-963b-454b-89ad-ae401b3a676d")
 	)
 	(no_connect
-		(at 243.84 29.21)
-		(uuid "2d936d9a-c27c-405d-894c-2ee4a6565649")
-	)
-	(no_connect
 		(at 231.14 233.68)
 		(uuid "328697af-784a-4519-97e5-c2b6f1fa0f17")
-	)
-	(no_connect
-		(at 248.92 29.21)
-		(uuid "345942cf-345c-44ec-bd46-3c2ad537c0ef")
-	)
-	(no_connect
-		(at 238.76 29.21)
-		(uuid "46dda267-6ea5-4d68-a40a-95b04cd72d2a")
-	)
-	(no_connect
-		(at 233.68 29.21)
-		(uuid "5b29d66e-1429-4d88-a204-bd85da0bd090")
 	)
 	(no_connect
 		(at 251.46 233.68)
 		(uuid "5b348d4f-f697-4b94-8dea-39f598198321")
 	)
 	(no_connect
-		(at 236.22 29.21)
-		(uuid "5c4e8e65-4a75-4f8c-8195-37683815d5bc")
-	)
-	(no_connect
 		(at 246.38 233.68)
 		(uuid "68717af0-8f77-4239-b908-52c4c317b077")
 	)
 	(no_connect
-		(at 228.6 29.21)
-		(uuid "78e6da81-9af5-4a9c-a19a-e8ec6f01dbb6")
-	)
-	(no_connect
 		(at 233.68 233.68)
 		(uuid "7ad94693-0a33-4e46-87bf-6a5299aa0280")
-	)
-	(no_connect
-		(at 254 29.21)
-		(uuid "7b7af8b8-10f1-453c-aeca-b21c2d776c00")
-	)
-	(no_connect
-		(at 251.46 29.21)
-		(uuid "7c661547-1dc9-4fe0-9c6f-0745d2f74ca6")
-	)
-	(no_connect
-		(at 256.54 29.21)
-		(uuid "89305734-15d3-4c4a-9a21-88cfeee66842")
-	)
-	(no_connect
-		(at 223.52 29.21)
-		(uuid "8ecdbe44-03e5-4355-b491-47e31a6bcf3c")
-	)
-	(no_connect
-		(at 231.14 29.21)
-		(uuid "92e4abc6-f1a9-44a1-a6a6-11645cac63e7")
 	)
 	(no_connect
 		(at 238.76 233.68)
@@ -6313,10 +6418,6 @@
 	(no_connect
 		(at 241.3 233.68)
 		(uuid "d9a5d97b-5adf-45d1-9874-595d2d4548c6")
-	)
-	(no_connect
-		(at 241.3 29.21)
-		(uuid "de883720-80c2-46a3-b622-6d5fd18437ad")
 	)
 	(no_connect
 		(at 254 233.68)
@@ -6778,16 +6879,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 217.17) (xy 49.53 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f4cbaa-f0c1-4115-ab73-bda278564548")
-	)
-	(wire
-		(pts
 			(xy 104.14 224.79) (xy 110.49 224.79)
 		)
 		(stroke
@@ -7168,16 +7259,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 217.17) (xy 31.75 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aabf9c5-8eb9-40cc-8445-a36aec1f0392")
-	)
-	(wire
-		(pts
 			(xy 85.09 45.72) (xy 85.09 46.99)
 		)
 		(stroke
@@ -7215,16 +7296,6 @@
 			(type default)
 		)
 		(uuid "7f45876a-5543-4756-af31-43718ec64ff2")
-	)
-	(wire
-		(pts
-			(xy 41.91 213.36) (xy 41.91 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81513202-deca-4106-b330-876269e178b1")
 	)
 	(wire
 		(pts
@@ -7595,16 +7666,6 @@
 			(type default)
 		)
 		(uuid "bbdfe7e0-27a6-4580-8f06-0c2ede54833a")
-	)
-	(wire
-		(pts
-			(xy 31.75 209.55) (xy 41.91 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe40de0-4142-410e-8cd3-d3550a54cb92")
 	)
 	(wire
 		(pts
@@ -10008,7 +10069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 219.71 0)
+		(at 24.13 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10018,7 +10079,7 @@
 		(dnp no)
 		(uuid "2dea03b9-bae3-4730-ac1b-890fe0927674")
 		(property "Reference" "#PWR11809"
-			(at 31.75 219.71 0)
+			(at 24.13 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,7 +10090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 223.52 0)
+			(at 24.13 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10039,7 +10100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 219.71 0)
+			(at 24.13 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10049,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 219.71 0)
+			(at 24.13 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10059,7 +10120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 219.71 0)
+			(at 24.13 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11375,7 +11436,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 31.75 213.36 0)
+		(at 24.13 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11385,7 +11446,7 @@
 		(dnp no)
 		(uuid "4ea68183-9040-4ac7-8dd6-952e2b0cb758")
 		(property "Reference" "C105"
-			(at 34.4 211.91 0)
+			(at 26.78 211.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11396,7 +11457,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 34.4 213.36 0)
+			(at 26.78 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11407,7 +11468,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11418,7 +11479,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11429,7 +11490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11439,7 +11500,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11450,7 +11511,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11461,7 +11522,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +11533,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 31.75 213.36 0)
+			(at 24.13 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11483,7 +11544,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 34.4 214.8401 0)
+			(at 26.78 214.8401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17166,5 +17227,332 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 229.87 29.21)
+		(uuid "7d214b0c-17dc-43f1-8122-18d9b7f8a90c")
+	)
+	(no_connect
+		(at 232.41 29.21)
+		(uuid "e8497c15-4be6-4cbc-a253-5a81ddf0a61b")
+	)
+	(no_connect
+		(at 234.95 29.21)
+		(uuid "6875f02e-7a0b-46cb-9e02-20f8251a65b1")
+	)
+	(no_connect
+		(at 237.49 29.21)
+		(uuid "8151bd27-fa76-48cb-81be-538cfa578919")
+	)
+	(no_connect
+		(at 240.03 29.21)
+		(uuid "744c8781-0e23-4d8d-b2fe-145cf8a8e427")
+	)
+	(no_connect
+		(at 242.57 29.21)
+		(uuid "5d87a11a-fd37-40a4-b79d-3582093f6554")
+	)
+	(no_connect
+		(at 245.11 29.21)
+		(uuid "3fc771f1-71f8-47bf-b569-5be9bd4e1f12")
+	)
+	(no_connect
+		(at 247.65 29.21)
+		(uuid "70148af3-0fb4-4cd2-8e85-05e72b32a8ab")
+	)
+	(no_connect
+		(at 250.19 29.21)
+		(uuid "2bb28478-7b9c-4754-a06c-14b581c71d7d")
+	)
+	(wire
+		(pts
+			(xy 209.55 137.16) (xy 210.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab24fbae-8d76-4572-a1a5-39c364354b0c")
+	)
+	(hierarchical_label "ESP_RXD"
+		(shape output)
+		(at 209.55 137.16 180)
+		(effects
+			(font
+				(size 1.12 1.12)
+			)
+			(justify right)
+		)
+		(uuid "237ae82b-8f23-442c-a520-2b6710fbd338")
+	)
+	(wire
+		(pts
+			(xy 209.55 140.97) (xy 210.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748afded-0027-44e2-bd33-a76b23be0b96")
+	)
+	(hierarchical_label "ESP_TXD"
+		(shape input)
+		(at 209.55 140.97 180)
+		(effects
+			(font
+				(size 1.12 1.12)
+			)
+			(justify right)
+		)
+		(uuid "d505325e-7379-4f71-a934-65fe5689c5aa")
+	)
+	(wire
+		(pts
+			(xy 209.55 144.78) (xy 210.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de09c50-c566-4533-931b-7b39d21e7e47")
+	)
+	(hierarchical_label "ESP_RST_N"
+		(shape output)
+		(at 209.55 144.78 180)
+		(effects
+			(font
+				(size 1.12 1.12)
+			)
+			(justify right)
+		)
+		(uuid "68f8556b-5870-494c-a406-231e219352d0")
+	)
+	(wire
+		(pts
+			(xy 209.55 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069ec55c-b6e5-4ed4-bb3a-4c42d8350610")
+	)
+	(hierarchical_label "ESP_BOOT"
+		(shape output)
+		(at 209.55 148.59 180)
+		(effects
+			(font
+				(size 1.12 1.12)
+			)
+			(justify right)
+		)
+		(uuid "068f5882-5130-423e-885f-4c6d74457fbe")
+	)
+	(wire
+		(pts
+			(xy 209.55 152.4) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e506c4-532a-47e7-9365-0ea5f203f2fd")
+	)
+	(hierarchical_label "ESP_WD_EN"
+		(shape output)
+		(at 209.55 152.4 180)
+		(effects
+			(font
+				(size 1.12 1.12)
+			)
+			(justify right)
+		)
+		(uuid "11652f3c-32be-4558-a4f3-5c09ae3f59b4")
+	)
+	(wire
+		(pts
+			(xy 24.13 217.17) (xy 24.13 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54413669-03b6-493f-89f5-878019ef7ebf")
+	)
+	(wire
+		(pts
+			(xy 24.13 209.55) (xy 41.91 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805a5b58-000c-4ba6-9456-18e33975da54")
+	)
+	(wire
+		(pts
+			(xy 49.53 217.17) (xy 34.29 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb2cbe8-a11d-4239-8ff0-c2218b10ef95")
+	)
+	(wire
+		(pts
+			(xy 34.29 217.17) (xy 34.29 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e1359c-bc0e-423b-957b-3c10bc80b2ef")
+	)
+	(hierarchical_label "3V3_PGOOD"
+		(shape input)
+		(at 34.29 231.14 180)
+		(effects
+			(font
+				(size 1.12 1.12)
+			)
+			(justify right)
+		)
+		(uuid "b9513354-7e13-4c45-9656-5d6c5bf06ebf")
+	)
+	(symbol
+		(lib_id "Yapling_Passives:TNPW040210K0BEED")
+		(at 34.29 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "469113fd-fe5c-4e9f-ac18-17ae174e3819")
+		(property "Reference" "R114"
+			(at 36.54 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 34.29 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.88 0.88)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+			(at 34.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 34.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TNPW040210K0BEED"
+			(at 34.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 34.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V"
+			(at 34.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW040210K0BEED"
+			(at 34.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab710d07-c587-4eaa-89f8-e91dd359bf65")
+		)
+		(pin "2"
+			(uuid "bcaa1aa8-b95b-4a57-85a9-9c8f91249052")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/a747e2ce-a50c-4882-b7b6-9e2c1098eef5"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 34.29 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ffe30b0-c37c-487a-8253-1f2c714a506d")
+	)
+	(junction
+		(at 34.29 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434b6649-e534-448b-a255-e1eb5d0828d9")
 	)
 )
