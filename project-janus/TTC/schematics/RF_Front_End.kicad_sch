@@ -1745,6 +1745,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Yapling_Passives:TNPW0402110RBEED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.25 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "110R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.85 0.85)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW0402110RBEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "TNPW0402110RBEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(symbol "TNPW0402110RBEED_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TNPW0402110RBEED_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Yapling_Passives:TNPW0402137RBEED"
 			(pin_numbers
 				(hide yes)
@@ -2684,169 +2847,6 @@
 				)
 			)
 			(symbol "TNPW04026K80BEED_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Yapling_Passives:TNPW040271R5BEED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.25 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.9 0.9)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "71R5"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 0.85 0.85)
-					)
-				)
-			)
-			(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW040271R5BEED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Rating" "50 V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(property "MPN" "TNPW040271R5BEED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.1 1.1)
-					)
-				)
-			)
-			(symbol "TNPW040271R5BEED_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TNPW040271R5BEED_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -9054,7 +9054,7 @@
 		(uuid "b84fedbf-9fa4-4e07-ae94-662481dce60e")
 	)
 	(symbol
-		(lib_id "Yapling_Passives:TNPW040271R5BEED")
+		(lib_id "Yapling_Passives:TNPW0402110RBEED")
 		(at 58.42 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -9075,7 +9075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "71.5"
+		(property "Value" "110"
 			(at 58.42 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9117,7 +9117,7 @@
 				)
 			)
 		)
-		(property "MPN" "TNPW040271R5BEED"
+		(property "MPN" "TNPW0402110RBEED"
 			(at 58.42 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9150,7 +9150,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW040271R5BEED"
+		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW0402110RBEED"
 			(at 58.42 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9618,9 +9618,9 @@
 		)
 		(uuid "eca9c08d-f2e1-444c-82aa-290ae8b778b5")
 	)
-	(text "+21 dBm drive → +6 dBm at PA input"
+	(text "+21 dBm → +6 dBm at PA · R410∥R402 = 71 Ω"
 		(exclude_from_sim no)
-		(at 21.59 104.14 0)
+		(at 21.59 100.33 0)
 		(effects
 			(font
 				(size 1.1 1.1)
