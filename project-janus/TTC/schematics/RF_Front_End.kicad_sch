@@ -9620,7 +9620,7 @@
 	)
 	(text "+21 dBm → +6 dBm at PA · R410∥R402 = 71 Ω"
 		(exclude_from_sim no)
-		(at 21.59 100.33 0)
+		(at 21.59 101.6 0)
 		(effects
 			(font
 				(size 1.1 1.1)
