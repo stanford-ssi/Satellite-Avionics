@@ -833,7 +833,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 157.48) (xy 179.07 195.58)
+			(xy 179.07 172.72) (xy 179.07 195.58)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +843,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 157.48) (xy 237.49 195.58)
+			(xy 243.84 172.72) (xy 243.84 195.58)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 157.48) (xy 273.05 208.28)
+			(xy 273.05 172.72) (xy 273.05 208.28)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 157.48) (xy 168.91 201.93)
+			(xy 168.91 172.72) (xy 168.91 201.93)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 149.86 208.28)
+			(xy 149.86 172.72) (xy 149.86 208.28)
 		)
 		(stroke
 			(width 0)
@@ -1203,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 195.58) (xy 233.68 195.58)
+			(xy 243.84 195.58) (xy 233.68 195.58)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 157.48) (xy 255.27 201.93)
+			(xy 255.27 172.72) (xy 255.27 201.93)
 		)
 		(stroke
 			(width 0)
@@ -2297,6 +2297,16 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_PGOOD" output
+			(at 142.24 80.01 270)
+			(uuid "ad1abdaf-e74d-4c69-9d03-767e3a9bc534")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Yapling"
 				(path "/c775ed50-52c9-4685-9401-a60985a1efcb"
@@ -2307,7 +2317,7 @@
 	)
 	(sheet
 		(at 227.33 97.79)
-		(size 58.42 59.69)
+		(size 58.42 74.93)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2334,7 +2344,7 @@
 			)
 		)
 		(property "Sheetfile" "Downlink.kicad_sch"
-			(at 227.33 158.75 0)
+			(at 227.33 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2446,7 +2456,7 @@
 			)
 		)
 		(pin "ESP_USB_DP" bidirectional
-			(at 237.49 157.48 270)
+			(at 243.84 172.72 270)
 			(uuid "53189083-35a2-4a43-9441-5ad01545cfbe")
 			(effects
 				(font
@@ -2456,7 +2466,7 @@
 			)
 		)
 		(pin "ESP_USB_DM" bidirectional
-			(at 255.27 157.48 270)
+			(at 255.27 172.72 270)
 			(uuid "e7e52439-44c4-4162-bb1a-9593fb17ab8a")
 			(effects
 				(font
@@ -2466,8 +2476,58 @@
 			)
 		)
 		(pin "ESP_VBUS_VALID" input
-			(at 273.05 157.48 270)
+			(at 273.05 172.72 270)
 			(uuid "4f317a6e-5754-42a6-8f2c-2b1fd5df5e53")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_RXD" input
+			(at 227.33 142.24 180)
+			(uuid "566f430a-2566-4d0a-9d6e-e94740d63131")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_TXD" output
+			(at 227.33 148.59 180)
+			(uuid "58d8e9fa-dbdd-4bbc-a22e-a17a2f6015de")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_RST_N" input
+			(at 227.33 154.94 180)
+			(uuid "000a373b-4349-40aa-bb6a-4a1a21f748e9")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_BOOT" input
+			(at 227.33 161.29 180)
+			(uuid "131ed525-6af9-4d52-a3c0-b79226368d6f")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_WD_EN" input
+			(at 227.33 167.64 180)
+			(uuid "288ab6e9-b004-4e72-9c2c-db7a98e9fa31")
 			(effects
 				(font
 					(size 1.16 1.16)
@@ -2485,7 +2545,7 @@
 	)
 	(sheet
 		(at 129.54 97.79)
-		(size 72.39 59.69)
+		(size 72.39 74.93)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2512,7 +2572,7 @@
 			)
 		)
 		(property "Sheetfile" "Housekeeping.kicad_sch"
-			(at 129.54 158.75 0)
+			(at 129.54 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2674,7 +2734,7 @@
 			)
 		)
 		(pin "RP_VBUS_VALID_N" input
-			(at 149.86 157.48 270)
+			(at 149.86 172.72 270)
 			(uuid "84c1319f-be65-45ed-ac2a-93e58cf272f4")
 			(effects
 				(font
@@ -2684,7 +2744,7 @@
 			)
 		)
 		(pin "USB_RP_DM" bidirectional
-			(at 168.91 157.48 270)
+			(at 168.91 172.72 270)
 			(uuid "0f3c2f05-77e7-424e-ae9f-dd0d7b671270")
 			(effects
 				(font
@@ -2694,13 +2754,73 @@
 			)
 		)
 		(pin "USB_RP_DP" bidirectional
-			(at 179.07 157.48 270)
+			(at 179.07 172.72 270)
 			(uuid "0b1b752c-2008-481c-bfc8-c4de60722db1")
 			(effects
 				(font
 					(size 1.16 1.16)
 				)
 				(justify left)
+			)
+		)
+		(pin "ESP_RXD" output
+			(at 201.93 142.24 0)
+			(uuid "ab4e0646-1185-4266-aaff-1802eb5142ac")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_TXD" input
+			(at 201.93 148.59 0)
+			(uuid "40260943-f23b-4c10-8c5f-3c918211e528")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_RST_N" output
+			(at 201.93 154.94 0)
+			(uuid "7d6547ff-73b5-4da4-9495-6b995685fde2")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_BOOT" output
+			(at 201.93 161.29 0)
+			(uuid "7fcb5cad-220a-4a8b-ad67-6ae5804315be")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_WD_EN" output
+			(at 201.93 167.64 0)
+			(uuid "da689a8f-63e3-4d4b-88fb-3fb0575c0dc6")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_PGOOD" input
+			(at 142.24 97.79 90)
+			(uuid "020242b6-0b52-43f5-9c1c-84927e6407d0")
+			(effects
+				(font
+					(size 1.16 1.16)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2825,4 +2945,64 @@
 		)
 	)
 	(embedded_fonts no)
+	(wire
+		(pts
+			(xy 201.93 142.24) (xy 227.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d19ba6-d450-4349-8d36-2eadd81a64f8")
+	)
+	(wire
+		(pts
+			(xy 201.93 148.59) (xy 227.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb9e488-d68c-42e6-b9a8-4a0899c24b66")
+	)
+	(wire
+		(pts
+			(xy 201.93 154.94) (xy 227.33 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cc8ceb-2bd4-4a51-a95d-03016d1bc79d")
+	)
+	(wire
+		(pts
+			(xy 201.93 161.29) (xy 227.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6479affb-48dd-4d58-9410-ffba0519c1b5")
+	)
+	(wire
+		(pts
+			(xy 201.93 167.64) (xy 227.33 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522023cc-1df1-4a47-817c-eeab2c7695fe")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bb11d7-306b-47e9-b120-bb6885affaf1")
+	)
 )

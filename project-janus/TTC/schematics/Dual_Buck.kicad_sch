@@ -2778,10 +2778,6 @@
 		(uuid "f8e3eee5-3844-4181-a705-a3d5c8c0cc14")
 	)
 	(no_connect
-		(at 87.63 105.41)
-		(uuid "76e040d4-d0f5-478a-a09c-1f7ac82da399")
-	)
-	(no_connect
 		(at 87.63 110.49)
 		(uuid "820e10de-7d36-4feb-9ffa-b4c5c871bcf1")
 	)
@@ -7339,5 +7335,26 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 83.82 105.41) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce364b8-6a3a-4558-a3a3-332d4cba3a5d")
+	)
+	(hierarchical_label "3V3_PGOOD"
+		(shape output)
+		(at 83.82 105.41 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "118a7671-2a06-4b25-bb2e-d24187960447")
 	)
 )

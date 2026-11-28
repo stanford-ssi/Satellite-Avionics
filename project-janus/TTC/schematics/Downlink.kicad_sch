@@ -3257,6 +3257,332 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Yapling_Passives:TNPW0402499RBEED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.25 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "499R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.85 0.85)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW0402499RBEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "TNPW0402499RBEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(symbol "TNPW0402499RBEED_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TNPW0402499RBEED_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Yapling_Passives:TNPW04024K70BEED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.25 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4K7"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.85 0.85)
+					)
+				)
+			)
+			(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW04024K70BEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Rating" "50 V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(property "MPN" "TNPW04024K70BEED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.1 1.1)
+					)
+				)
+			)
+			(symbol "TNPW04024K70BEED_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TNPW04024K70BEED_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Yapling_Passives:TNPW060310K0BEEA"
 			(pin_numbers
 				(hide yes)
@@ -3713,7 +4039,7 @@
 		)
 		(uuid "0a456019-48d0-41eb-9769-029063f129d5")
 	)
-	(text "1.6 s timeout · bridge JP200 to disable"
+	(text "1.6 s timeout · JP200 or ESP_WD_EN low disables · RP resets via ESP_RST_N"
 		(exclude_from_sim no)
 		(at 22.86 194.31 0)
 		(effects
@@ -3844,12 +4170,6 @@
 		(uuid "a5adc688-816c-4337-8d7e-62d3cdeb3b5c")
 	)
 	(junction
-		(at 40.64 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0ba0fc0-49d8-4032-a2a5-ad7c7edd5e0e")
-	)
-	(junction
 		(at 218.44 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3940,16 +4260,8 @@
 		(uuid "7bf998d0-ef3c-4e6a-986c-6d468588696f")
 	)
 	(no_connect
-		(at 144.78 140.97)
-		(uuid "903deeb1-61a6-4f7b-bd4e-4f8afe3c5242")
-	)
-	(no_connect
 		(at 165.1 165.1)
 		(uuid "971ec285-8ad1-4ef1-b2b1-c1295bb7bf9a")
-	)
-	(no_connect
-		(at 144.78 146.05)
-		(uuid "977c6a77-779b-4832-921e-45885f488ad9")
 	)
 	(no_connect
 		(at 149.86 165.1)
@@ -4355,16 +4667,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 168.91) (xy 40.64 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4ed6eb-29be-4ef5-8001-d4aa7d44a5e2")
-	)
-	(wire
-		(pts
 			(xy 133.35 125.73) (xy 133.35 124.46)
 		)
 		(stroke
@@ -4745,16 +5047,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 172.72) (xy 30.48 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2cfaadd-a26c-44e3-861e-da14fd68484e")
-	)
-	(wire
-		(pts
 			(xy 140.97 92.71) (xy 144.78 92.71)
 		)
 		(stroke
@@ -4915,16 +5207,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 172.72) (xy 48.26 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b8424d-466a-4a56-954e-d400c64ced56")
-	)
-	(wire
-		(pts
 			(xy 140.97 107.95) (xy 144.78 107.95)
 		)
 		(stroke
@@ -5032,16 +5314,6 @@
 			(type default)
 		)
 		(uuid "fc375105-cdaf-4f03-96d6-87725d21c775")
-	)
-	(wire
-		(pts
-			(xy 30.48 165.1) (xy 40.64 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc76653e-cf0c-4bf5-9169-5a9ff6c24ce2")
 	)
 	(wire
 		(pts
@@ -5642,7 +5914,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
+		(lib_id "Yapling_Passives:TNPW04024K70BEED")
 		(at 82.55 157.48 0)
 		(unit 1)
 		(body_style 1)
@@ -5663,7 +5935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 82.55 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +5945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
+		(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
 			(at 82.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5705,7 +5977,7 @@
 				)
 			)
 		)
-		(property "MPN" "TNPW060310K0BEEA"
+		(property "MPN" "TNPW04024K70BEED"
 			(at 82.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5999,7 @@
 				)
 			)
 		)
-		(property "Rating" "75 V"
+		(property "Rating" "50 V"
 			(at 82.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +6010,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
+		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW04024K70BEED"
 			(at 82.55 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6581,7 +6853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 175.26 0)
+		(at 22.86 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6591,7 +6863,7 @@
 		(dnp no)
 		(uuid "436b994e-c5fa-4c1f-aa90-d60cc1f797c9")
 		(property "Reference" "#PWR60505"
-			(at 30.48 175.26 0)
+			(at 22.86 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +6874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 180.34 0)
+			(at 22.86 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6612,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 175.26 0)
+			(at 22.86 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6622,7 +6894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 175.26 0)
+			(at 22.86 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6632,7 +6904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 175.26 0)
+			(at 22.86 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8002,7 +8274,7 @@
 	)
 	(symbol
 		(lib_id "Yapling_Passives:GCM155R71H104KE02D")
-		(at 30.48 168.91 0)
+		(at 22.86 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8012,7 +8284,7 @@
 		(dnp no)
 		(uuid "a300ff05-aba0-4f86-8f1b-9383b68e22e6")
 		(property "Reference" "C212"
-			(at 33.13 167.46 0)
+			(at 25.51 167.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8023,7 +8295,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 33.13 168.91 0)
+			(at 25.51 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8034,7 +8306,7 @@
 			)
 		)
 		(property "Footprint" "Yapling_Packages:C_0402_1005Metric"
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8317,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-us/pim/details/?partNum=GCM155R71H104KE02D"
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8066,7 +8338,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +8349,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8088,7 +8360,7 @@
 			)
 		)
 		(property "Rating" "50 V"
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8099,7 +8371,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H104KE02D/4903704"
-			(at 30.48 168.91 0)
+			(at 22.86 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8110,7 +8382,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 33.13 170.3901 0)
+			(at 25.51 170.3901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9649,7 +9921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Yapling_Passives:TNPW060310K0BEEA")
+		(lib_id "Yapling_Passives:TNPW04024K70BEED")
 		(at 228.6 128.27 90)
 		(unit 1)
 		(body_style 1)
@@ -9669,7 +9941,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 228.6 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +9951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yapling_Packages:R_0603_1608Metric"
+		(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
 			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9711,7 +9983,7 @@
 				)
 			)
 		)
-		(property "MPN" "TNPW060310K0BEEA"
+		(property "MPN" "TNPW04024K70BEED"
 			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9733,7 +10005,7 @@
 				)
 			)
 		)
-		(property "Rating" "75 V"
+		(property "Rating" "50 V"
 			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9744,7 +10016,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/vishay-dale/TNPW060310K0BEEA/1606881"
+		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW04024K70BEED"
 			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -10047,5 +10319,419 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Yapling_Passives:TNPW0402499RBEED")
+		(at 138.43 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dbecaec-e448-4bfe-92d0-b3f6e587cdca")
+		(property "Reference" "R210"
+			(at 138.43 139.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+			)
+		)
+		(property "Value" "499"
+			(at 138.43 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.88 0.88)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TNPW0402499RBEED"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW0402499RBEED"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa183686-3e05-4e26-a88c-56672f95d29b")
+		)
+		(pin "2"
+			(uuid "4349bf49-0a6f-4e23-96d1-728dd09726c0")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/74bb9c08-6648-4179-a2b1-839933f4b8f5"
+					(reference "R210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 140.97) (xy 144.78 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9daa87-dbfc-4ef9-8bfc-19dc4e61f32b")
+	)
+	(wire
+		(pts
+			(xy 133.35 140.97) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6f95e1-8ca3-4e3a-8a35-a6c63ebc33cc")
+	)
+	(hierarchical_label "ESP_TXD"
+		(shape output)
+		(at 133.35 140.97 180)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify right)
+		)
+		(uuid "067874b1-7d48-4602-8897-1c76e74ed07c")
+	)
+	(wire
+		(pts
+			(xy 133.35 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3cd13a-eed8-43db-a1ab-f8fedc46dda2")
+	)
+	(hierarchical_label "ESP_RXD"
+		(shape input)
+		(at 133.35 146.05 180)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify right)
+		)
+		(uuid "b1f5d7e4-527a-4d7c-8fc0-68a4eb08e9fd")
+	)
+	(junction
+		(at 222.25 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c529f586-46be-4a04-be03-cd496c1ac544")
+	)
+	(wire
+		(pts
+			(xy 222.25 128.27) (xy 222.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070a2c9d-dacd-40f4-b99b-a3d52f56f39e")
+	)
+	(hierarchical_label "ESP_BOOT"
+		(shape input)
+		(at 222.25 132.08 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left)
+		)
+		(uuid "2473e938-eded-424c-b1ad-bc2e60c9cfab")
+	)
+	(wire
+		(pts
+			(xy 22.86 172.72) (xy 22.86 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2269b85-ffd1-4537-8289-8358efa581ca")
+	)
+	(wire
+		(pts
+			(xy 22.86 165.1) (xy 40.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7a7612-e1b3-4fc0-8bf6-67b490ea980d")
+	)
+	(symbol
+		(lib_id "Yapling_Passives:TNPW04024K70BEED")
+		(at 33.02 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09f057ac-7b2b-4052-b9fb-8fff0d00b529")
+		(property "Reference" "R211"
+			(at 35.27 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 33.02 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.88 0.88)
+				)
+			)
+		)
+		(property "Footprint" "Yapling_Packages:R_0402_1005Metric"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TNPW04024K70BEED"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "Rating" "50 V"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/result?keywords=TNPW04024K70BEED"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.1 1.1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7d43f44-40f7-456b-80cc-2857940ce048")
+		)
+		(pin "2"
+			(uuid "cb7ae6dd-201d-4298-814c-14cf3808cb59")
+		)
+		(instances
+			(project "Yapling"
+				(path "/c775ed50-52c9-4685-9401-a60985a1efcb/74bb9c08-6648-4179-a2b1-839933f4b8f5"
+					(reference "R211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 33.02 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd0fcbb-3aec-4c29-9bc3-b35dbe383201")
+	)
+	(wire
+		(pts
+			(xy 48.26 172.72) (xy 33.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac22ab09-bf1e-40d5-9d33-b2e30112eb00")
+	)
+	(wire
+		(pts
+			(xy 33.02 172.72) (xy 33.02 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c578565-b4ec-47a6-8201-c77b84716f89")
+	)
+	(junction
+		(at 33.02 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89215560-a0ab-47df-bdc4-a799ad1d42f7")
+	)
+	(hierarchical_label "ESP_RST_N"
+		(shape input)
+		(at 33.02 187.96 180)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify right)
+		)
+		(uuid "af93155b-a340-450c-b8a9-9ef5a14335c1")
+	)
+	(junction
+		(at 76.2 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5e84f52-7c51-485a-8898-462f1afa1c2d")
+	)
+	(wire
+		(pts
+			(xy 76.2 165.1) (xy 76.2 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e1f777-fbba-4e5d-b886-6aa6156aac9d")
+	)
+	(hierarchical_label "ESP_WD_EN"
+		(shape input)
+		(at 76.2 158.75 90)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left)
+		)
+		(uuid "9e9d38a7-66b0-4f5c-91de-261f1d3604e5")
 	)
 )
